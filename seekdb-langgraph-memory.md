@@ -450,6 +450,3 @@ const memories = await memory.recall('我叫什么名字？', {
 
 **完整代码**: https://github.com/kejun/seekdb-agent-memory
 
----
-
-*SeekDB + OpenRouter：让每一行代码都直接服务于产品价值。*
