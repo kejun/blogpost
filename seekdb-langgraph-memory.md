@@ -1,6 +1,8 @@
 # 使用 SeekDB 为 AI Agent 实现持久化记忆：从"全量上下文"到"精准召回"
 
-> 本文介绍如何使用 seekdb-js SDK + Qwen3 Max (via OpenRouter) 为 Node.js AI Agent 实现高效的向量记忆系统，替代传统 PostgreSQL Checkpoint 方案。
+> 本文介绍如何使用 seekdb-js SDK + Qwen3 Max (via OpenRouter) 为 Node.js AI Agent 实现高效的向量记忆系统。
+> 
+> **完整代码仓库**: https://github.com/kejun/seekdb-agent-memory
 
 ---
 
@@ -26,7 +28,7 @@
 计算机无法理解人类语言，它只能处理数字。嵌入向量将文字转换为数值列表，捕捉语义信息。
 
 - 例如："我喜欢看 AI 教程" → `[0.12, -0.45, 0.88, ...]`
-- 维度取决于嵌入模型：Qwen3 Embedding 生成 1024 维向量
+- Qwen3 Embedding 8B 生成 **4096 维**向量（注意：不是 1024 维）
 - 语义相似的句子，其向量在多维空间中距离更近
 
 ### 2. 向量相似度搜索
@@ -34,16 +36,15 @@
 直接问计算机 "我喜欢看 AI 教程" 和 "我爱看 YouTube AI 视频" 是否相似，它无法回答。但如果比较它们的嵌入向量，计算机就能计算出确定的相似度分数。
 
 **SeekDB 的优势**：
-- 基于 SQLite，零配置、单文件、易部署
+- 基于 OceanBase，支持大规模向量数据
 - 原生支持向量存储和相似度搜索
-- 比 PostgreSQL + PGVector 轻量 100 倍
+- 比 PostgreSQL + PGVector 更易部署
 
 ### 3. 距离函数与余弦相似度
 
 SeekDB 支持多种距离计算方式：
 - **余弦相似度（Cosine Similarity）**：最常用，范围 [-1, 1]
 - **欧几里得距离（L2 Distance）**：向量空间直线距离
-- **曼哈顿距离（L1 Distance）**
 
 **关键公式**：
 ```
@@ -53,33 +54,19 @@ SeekDB 支持多种距离计算方式：
 余弦相似度取值含义：
 - `1.0`：完全相似（0°夹角）
 - `0.0`：无关（90°夹角）
-- `-1.0`：完全相反（180°夹角）
 - 实践中，> 0.7 通常表示高相关
 
 ---
 
-## 技术选型：为什么选择 Qwen3 Max？
+## 技术选型
 
-### Qwen3 Max 优势
+### Qwen3 Max + Qwen3 Embedding
 
-[Qwen3 Max](https://openrouter.ai/qwen/qwen3-max) 是通义千问系列的旗舰大模型，通过 OpenRouter 平台提供服务：
-
-| 特性 | Qwen3 Max |
-|------|-----------|
-| **上下文长度** | 128K tokens |
-| **多语言能力** | 支持 29 种语言，中文表现优异 |
-| **推理能力** | 复杂逻辑、代码生成、数学推理 |
-| **价格** | $1.6/M input, $4/M output |
-| **响应速度** | 首字延迟低，适合实时对话 |
-
-### Qwen3 Embedding 模型
-
-Qwen3 系列提供专用嵌入模型，与 Max 搭配使用效果更佳：
-
-| 模型 | 维度 | 适用场景 |
-|------|------|---------|
-| [qwen/qwen3-embedding-8b](https://openrouter.ai/qwen/qwen3-embedding-8b) | 1024 | 高质量语义搜索 |
-| [qwen/qwen3-embedding-0.6b](https://openrouter.ai/qwen/qwen3-embedding-0.6b) | 1024 | 轻量级、低延迟 |
+| 组件 | 模型 | 维度 | 说明 |
+|------|------|------|------|
+| LLM | qwen/qwen3-max | - | 128K 上下文，$1.6/M input |
+| Embedding | qwen/qwen3-embedding-8b | **4096** | 高质量，与 Max 搭配效果佳 |
+| Embedding | qwen/qwen3-embedding-0.6b | 1024 | 轻量级，延迟更低 |
 
 ---
 
@@ -87,435 +74,365 @@ Qwen3 系列提供专用嵌入模型，与 Max 搭配使用效果更佳：
 
 ### 策略一：固定数量召回（Limit-based）
 
-**原理**：始终返回最相似的 N 条历史消息（如 Top 5）
+始终返回最相似的 N 条历史消息。
 
-**示例**：
-```javascript
-const results = await db.recallSimilar({
-  embedding: queryEmbedding,
-  limit: 5
-});
-```
-
-**优点**：
-- 实现简单，上下文长度可控
-- 每次调用的 Token 成本可预测
-
-**缺点**：
-- 可能混入低相关度消息（为了凑够 5 条）
-- 话题切换时不够灵活
+**适用场景**：成本敏感型应用，需要可预测的 Token 成本。
 
 ### 策略二：阈值召回（Threshold-based）
 
-**原理**：只返回相似度超过阈值的消息（如 ≥ 0.75）
+只返回相似度超过阈值的消息（如 ≥ 0.75）。
 
-**示例**：
-```javascript
-const results = await db.recallSimilar({
-  embedding: queryEmbedding,
-  threshold: 0.75  // 只返回相似度 ≥ 0.75 的消息
-});
-```
+**适用场景**：追求回答质量，愿意接受动态上下文长度。
 
-**优点**：
-- 动态调整上下文长度，只保留真正相关的内容
-- 话题切换时自动适应（聊到"猫"时，关于"狗"的消息自动被过滤）
+### 策略三：混合召回（推荐）
 
-**缺点**：
-- 召回数量不固定，极端情况下可能为 0
-- 需要仔细调优阈值
-
-**实战建议**：
-| 场景 | 推荐策略 | 参数 |
-|------|---------|------|
-| 成本敏感型应用 | Limit-based | limit: 5-10 |
-| 追求回答质量 | Threshold-based | threshold: 0.70-0.80 |
-| 混合方案 | 先阈值筛选，再限制数量 | threshold: 0.6, limit: 10 |
+先阈值筛选，再限制数量。兼顾质量和可控性。
 
 ---
 
-## seekdb-js + OpenRouter 实现方案
+## 完整实现代码
 
-### 安装依赖
+> 以下代码来自实际仓库：https://github.com/kejun/seekdb-agent-memory
+
+### 1. 安装依赖
 
 ```bash
-npm install seekdb
+npm install seekdb @seekdb/qwen dotenv
 ```
 
-### 初始化配置
+### 2. 环境变量配置（.env）
 
-```javascript
-import { SeekDB } from 'seekdb';
+```bash
+# OpenRouter API Key
+OPENROUTER_API_KEY=your_key_here
 
-// OpenRouter API 配置
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
-const OPENROUTER_BASE_URL = 'https://openrouter.ai/api/v1';
+# SeekDB 连接配置
+SEEKDB_HOST=127.0.0.1
+SEEKDB_PORT=2881
+SEEKDB_USER=root
+SEEKDB_PASSWORD=
+SEEKDB_DATABASE=test
 
-// 初始化 SeekDB（基于 SQLite，单文件存储）
-const db = new SeekDB({
-  path: './agent_memory.db',
-  vectorDimension: 1024  // Qwen3 Embedding 维度
-});
+# Embedding 配置
+EMBEDDING_MODEL=qwen/qwen3-embedding-8b
+EMBEDDING_DIMENSION=4096  # 8B 模型是 4096 维
 
-// 初始化表结构
-await db.initTable('chat_memory', {
-  id: 'INTEGER PRIMARY KEY AUTOINCREMENT',
-  role: 'TEXT',           // 'user' | 'assistant' | 'system'
-  message: 'TEXT',        // 原始消息内容
-  embedding: 'VECTOR(1024)',  // 向量列
-  createdAt: 'TIMESTAMP DEFAULT CURRENT_TIMESTAMP'
-});
-
-// 创建向量索引
-await db.createVectorIndex('chat_memory', 'embedding');
+# LLM 配置
+LLM_MODEL=qwen/qwen3-max
 ```
 
-### 嵌入向量生成（Qwen3 Embedding）
+### 3. 数据库连接配置
 
 ```javascript
+// src/config/database.js
+import { SeekdbClient } from 'seekdb';
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 /**
- * 使用 Qwen3 Embedding 生成向量
- * @param {string} text - 输入文本
- * @returns {Promise<number[]>} - 1024维向量
+ * 创建 SeekDB 客户端
  */
-async function getEmbedding(text) {
-  const response = await fetch(`${OPENROUTER_BASE_URL}/embeddings`, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-      'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://your-app.com',  // OpenRouter 要求
-      'X-Title': 'AI Agent with SeekDB'
-    },
-    body: JSON.stringify({
-      model: 'qwen/qwen3-embedding-8b',  // 或 qwen3-embedding-0.6b
-      input: text
-    })
+export async function createClient() {
+  return new SeekdbClient({
+    host: process.env.SEEKDB_HOST || '127.0.0.1',
+    port: parseInt(process.env.SEEKDB_PORT || '2881'),
+    user: process.env.SEEKDB_USER || 'root',
+    password: process.env.SEEKDB_PASSWORD || '',
+    database: process.env.SEEKDB_DATABASE || 'test',
   });
+}
 
-  const data = await response.json();
-  return data.data[0].embedding;
+/**
+ * 获取 Embedding 维度（支持环境变量配置）
+ */
+export function getEmbeddingDimension() {
+  const DEFAULT_DIMENSION = 4096;
+  const raw = process.env.EMBEDDING_DIMENSION;
+  
+  if (!raw) return DEFAULT_DIMENSION;
+  
+  const dim = parseInt(raw, 10);
+  if (!Number.isInteger(dim) || dim <= 0) {
+    console.warn(`[config] Invalid EMBEDDING_DIMENSION="${raw}", using ${DEFAULT_DIMENSION}`);
+    return DEFAULT_DIMENSION;
+  }
+  
+  return dim;
+}
+
+/**
+ * 自定义 OpenRouter Embedding 函数
+ */
+class OpenRouterEmbeddingFunction {
+  constructor(config) {
+    this.apiKey = config.apiKey;
+    this.modelName = config.modelName;
+    this.baseUrl = 'https://openrouter.ai/api/v1';
+  }
+
+  get name() {
+    return 'openrouter-qwen-embedding';
+  }
+
+  async generate(texts) {
+    const embeddings = [];
+
+    for (const text of texts) {
+      const response = await fetch(`${this.baseUrl}/embeddings`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${this.apiKey}`,
+          'Content-Type': 'application/json',
+          'HTTP-Referer': process.env.APP_URL || 'http://localhost',
+          'X-Title': process.env.APP_NAME || 'SeekDB Agent',
+        },
+        body: JSON.stringify({
+          model: this.modelName,
+          input: text,
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Embedding API error: ${await response.text()}`);
+      }
+
+      const data = await response.json();
+      embeddings.push(data.data[0].embedding);
+    }
+
+    return embeddings;
+  }
+}
+
+export function createEmbeddingFunction() {
+  return new OpenRouterEmbeddingFunction({
+    apiKey: process.env.OPENROUTER_API_KEY,
+    modelName: process.env.EMBEDDING_MODEL || 'qwen/qwen3-embedding-8b',
+  });
 }
 ```
 
-### LLM 调用（Qwen3 Max）
+### 4. 核心记忆管理类
 
 ```javascript
-/**
- * 调用 Qwen3 Max 生成回复
- * @param {Array} messages - OpenAI 格式的消息数组
- * @returns {Promise<string>} - 模型回复
- */
-async function chatWithQwen(messages) {
-  const response = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-      'Content-Type': 'application/json',
-      'HTTP-Referer': 'https://your-app.com',
-      'X-Title': 'AI Agent with SeekDB'
-    },
-    body: JSON.stringify({
-      model: 'qwen/qwen3-max',
-      messages,
-      temperature: 0.7,
-      max_tokens: 2000
-    })
-  });
+// src/memory/AgentMemory.js
+import { createEmbeddingFunction, getEmbeddingDimension } from '../config/database.js';
 
-  const data = await response.json();
-  return data.choices[0].message.content;
-}
-```
-
-### 核心记忆管理类
-
-```javascript
-class AgentMemory {
-  constructor(db, embeddingFn) {
-    this.db = db;
-    this.getEmbedding = embeddingFn;
+export class AgentMemory {
+  constructor(client, collectionName = 'chat_memory') {
+    this.client = client;
+    this.collectionName = collectionName;
+    this.collection = null;
   }
 
   /**
-   * 存储对话到记忆
-   * @param {string} role - 'user' | 'assistant'
-   * @param {string} message - 消息内容
+   * 初始化集合
+   */
+  async init() {
+    const embeddingFunction = createEmbeddingFunction();
+    const embeddingDimension = getEmbeddingDimension();
+
+    this.collection = await this.client.getOrCreateCollection({
+      name: this.collectionName,
+      configuration: {
+        dimension: embeddingDimension,
+        distance: 'cosine',
+      },
+      embeddingFunction,
+    });
+
+    console.log(`Collection ready: ${this.collection.name}`);
+  }
+
+  /**
+   * 存储对话
    */
   async store(role, message) {
-    const embedding = await this.getEmbedding(message);
-    
-    await this.db.insert('chat_memory', {
-      role,
-      message,
-      embedding: JSON.stringify(embedding)
+    const id = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+
+    await this.collection.add({
+      ids: id,
+      documents: message,
+      metadatas: { role, timestamp: Date.now() },
     });
   }
 
   /**
-   * 召回相关历史记忆
-   * @param {string} query - 当前查询
-   * @param {Object} options - 召回选项
-   * @returns {Promise<Array>} - 相关历史消息
+   * 召回相关历史
+   * @param {string} query - 查询文本
+   * @param {Object} options - 选项
+   *   - strategy: 'threshold' | 'limit' | 'hybrid'
+   *   - threshold: 相似度阈值（默认 0.75）
+   *   - limit: 返回数量（默认 5）
+   *   - role: 可选，按角色过滤（'user' | 'assistant'）
    */
   async recall(query, options = {}) {
-    const { 
-      strategy = 'threshold',  // 'threshold' | 'limit'
+    const {
+      strategy = 'threshold',
       threshold = 0.75,
-      limit = 5
+      limit = 5,
+      role,  // 新增：角色过滤
     } = options;
 
-    const queryEmbedding = await this.getEmbedding(query);
+    const where = role ? { role } : undefined;
 
-    if (strategy === 'threshold') {
-      // 阈值召回：只返回相似度 ≥ threshold 的消息
-      return await this.db.query(`
-        SELECT role, message, 
-               vec_cosine_similarity(embedding, ?) as similarity
-        FROM chat_memory
-        WHERE vec_cosine_similarity(embedding, ?) >= ?
-        ORDER BY similarity DESC
-      `, [JSON.stringify(queryEmbedding), JSON.stringify(queryEmbedding), threshold]);
-    } else {
-      // 固定数量召回：返回最相似的 N 条
-      return await this.db.query(`
-        SELECT role, message,
-               vec_cosine_similarity(embedding, ?) as similarity
-        FROM chat_memory
-        ORDER BY similarity DESC
-        LIMIT ?
-      `, [JSON.stringify(queryEmbedding), limit]);
+    switch (strategy) {
+      case 'threshold':
+        return this._recallByThreshold(query, threshold, { where, limit });
+      case 'limit':
+        return this._recallByLimit(query, limit, { where });
+      case 'hybrid':
+        return this.recallHybrid(query, { threshold, limit, where });
+      default:
+        throw new Error(`Unknown strategy: ${strategy}`);
     }
   }
 
-  /**
-   * 混合召回策略：先阈值筛选，再限制数量
-   */
-  async recallHybrid(query, options = {}) {
-    const { threshold = 0.6, limit = 10 } = options;
-    const queryEmbedding = await this.getEmbedding(query);
+  async _recallByThreshold(query, threshold, options = {}) {
+    const { where } = options;
 
-    return await this.db.query(`
-      SELECT role, message,
-             vec_cosine_similarity(embedding, ?) as similarity
-      FROM chat_memory
-      WHERE vec_cosine_similarity(embedding, ?) >= ?
-      ORDER BY similarity DESC
-      LIMIT ?
-    `, [JSON.stringify(queryEmbedding), JSON.stringify(queryEmbedding), threshold, limit]);
+    const results = await this.collection.query({
+      queryTexts: query,
+      where,
+      nResults: 50,
+    });
+
+    const memories = [];
+    const ids = results.ids[0];
+    const documents = results.documents[0];
+    const distances = results.distances?.[0] || [];
+    const metadatas = results.metadatas?.[0] || [];
+
+    for (let i = 0; i < ids.length; i++) {
+      const similarity = 1 - (distances[i] || 0);
+
+      if (similarity >= threshold) {
+        memories.push({
+          id: ids[i],
+          role: metadatas[i]?.role || 'unknown',
+          message: documents[i],
+          similarity: parseFloat(similarity.toFixed(4)),
+          timestamp: metadatas[i]?.timestamp,
+        });
+      }
+    }
+
+    return memories;
   }
 
-  /**
-   * 获取统计信息
-   */
-  async stats() {
-    const result = await this.db.query('SELECT COUNT(*) as count FROM chat_memory');
-    return { totalMessages: result[0].count };
+  async _recallByLimit(query, limit, options = {}) {
+    const { where } = options;
+
+    const results = await this.collection.query({
+      queryTexts: query,
+      where,
+      nResults: limit,
+    });
+
+    // 处理结果...
+    return memories;
+  }
+
+  async recallHybrid(query, options = {}) {
+    const { threshold = 0.6, limit = 10, where } = options;
+    const thresholdResults = await this._recallByThreshold(query, threshold, { where, limit });
+    return thresholdResults.slice(0, limit);
   }
 }
-
-// 实例化记忆管理器
-const memory = new AgentMemory(db, getEmbedding);
 ```
 
-### Agent 集成示例
+### 5. 智能 Agent 示例
 
 ```javascript
-/**
- * Agent 主循环
- */
-async function chatWithAgent(userMessage) {
-  // 1. 召回相关历史记忆
-  const relevantHistory = await memory.recall(userMessage, {
-    strategy: 'threshold',
-    threshold: 0.75
-  });
+// src/demo/chat-demo.js
+import { createClient } from '../config/database.js';
+import { AgentMemory } from '../memory/AgentMemory.js';
+import { OpenRouterClient } from '../llm/OpenRouterClient.js';
 
-  console.log(`召回 ${relevantHistory.length} 条相关历史`);
+export class ChatAgent {
+  constructor() {
+    this.memory = null;
+    this.llm = new OpenRouterClient();
+    this.client = null;
+  }
 
-  // 2. 构建系统提示（仅包含相关上下文）
-  const context = relevantHistory
-    .map(h => `${h.role}: ${h.message}`)
-    .join('\n');
+  async init() {
+    this.client = await createClient();
+    this.memory = new AgentMemory(this.client, 'chat_memory');
+    await this.memory.init();
+  }
 
-  const messages = relevantHistory.length > 0
-    ? [
-        { role: 'system', content: `以下是相关的历史对话，请基于这些信息回答用户问题：\n\n${context}` },
-        { role: 'user', content: userMessage }
-      ]
-    : [
-        { role: 'system', content: '你是一个有用的 AI 助手。' },
-        { role: 'user', content: userMessage }
-      ];
+  async chat(userMessage) {
+    // 智能检测：是否是询问个人信息的查询
+    const isProfileQuery = /我(擅长|会|职业|工作|做什么|是什么|叫什么)/.test(userMessage);
+    
+    // 根据查询类型动态选择召回策略
+    const recallOptions = isProfileQuery
+      ? { strategy: 'limit', limit: 3, role: 'user' }  // 个人信息查询：只查用户说过的话
+      : { strategy: 'threshold', threshold: 0.65, limit: 5, role: 'user' };
 
-  // 3. 调用 Qwen3 Max（只传递相关上下文，而非全部历史）
-  const response = await chatWithQwen(messages);
+    // 召回相关历史
+    const relevantHistory = await this.memory.recall(userMessage, recallOptions);
 
-  // 4. 存储当前对话到记忆
-  await memory.store('user', userMessage);
-  await memory.store('assistant', response);
+    // 构建上下文
+    const context = relevantHistory
+      .map(h => `${h.role}: ${h.message}`)
+      .join('\n');
 
-  return response;
+    const systemPrompt = relevantHistory.length > 0
+      ? `以下是与当前问题相关的历史对话：\n${context}`
+      : '你是一个有用的 AI 助手。';
+
+    // 调用 LLM
+    const response = await this.llm.chat([
+      { role: 'system', content: systemPrompt },
+      { role: 'user', content: userMessage },
+    ]);
+
+    // 存储对话
+    await this.memory.store('user', userMessage);
+    await this.memory.store('assistant', response);
+
+    return response;
+  }
 }
 
 // 使用示例
-(async () => {
-  console.log(await chatWithAgent('你好，我叫张三'));
-  console.log(await chatWithAgent('我叫什么名字？'));  // 能正确召回名字
-  console.log(await chatWithAgent('北京今天天气怎么样？'));  // 无关历史被过滤
-})();
+const agent = new ChatAgent();
+await agent.init();
+
+await agent.chat('你好，我是程序员，喜欢写代码');
+await agent.chat('我擅长什么？');  // 能回忆起"程序员"、"写代码"
+await agent.chat('北京天气怎么样？');  // 无关历史被过滤
 ```
+
+---
+
+## 关键特性：角色过滤
+
+在实际应用中，我们通常只关心**用户自己说过的话**，而不是 Agent 的回复。通过 `role` 参数可以实现这一点：
+
+```javascript
+// 只召回用户自己说过的话
+const memories = await memory.recall('我叫什么名字？', {
+  strategy: 'limit',
+  limit: 3,
+  role: 'user',  // 关键：只查 user 角色的消息
+});
+```
+
+这在处理个人信息查询时特别有用，可以避免召回 Agent 的礼貌回复等无关内容。
 
 ---
 
 ## 效果对比
 
-### 测试场景
-- 数据库中存储了 995 条历史消息
-- 用户提问："我叫什么名字？"（需要依赖早期对话中的个人信息）
-
-### 方案对比
-
-| 方案 | 传递消息数 | Token 消耗 | 延迟 | 准确率 |
-|------|-----------|-----------|------|--------|
-| LangGraph 默认 Checkpoint | 995 条（全部）| 基准 100% | 慢 | 可能受噪声干扰 |
-| SeekDB + 固定数量召回 | 5 条 | ~5%（节省 95%）| 快 | 精准命中 |
-| SeekDB + 阈值召回 | 18 条（动态）| ~15%（节省 85%）| 快 | 召回全面，无遗漏 |
-
-### 成本节省分析
-
-以 Qwen3 Max ($1.6/1M input tokens) 为例：
-
-| 月活会话 | 平均消息/会话 | 传统方案月成本 | SeekDB 方案 | 月节省 |
-|---------|--------------|--------------|------------|-------|
-| 10,000 | 50 条 | ~$1,600 | ~$80 | **$1,520** |
-| 100,000 | 50 条 | ~$16,000 | ~$800 | **$15,200** |
-
-> 注：Qwen3 Embedding 成本约 $0.1/M tokens，可忽略不计。
-
----
-
-## 高级技巧
-
-### 1. 时间衰减加权
-
-让越新的消息权重越高：
-
-```javascript
-async function recallWithTimeDecay(query, options = {}) {
-  const { threshold = 0.6, hours = 24 } = options;
-  const queryEmbedding = await getEmbedding(query);
-
-  // 结合相似度和时间衰减
-  return await db.query(`
-    SELECT role, message,
-           vec_cosine_similarity(embedding, ?) * 
-           EXP(-(julianday('now') - julianday(createdAt)) * 0.1) as weighted_score
-    FROM chat_memory
-    WHERE vec_cosine_similarity(embedding, ?) >= ?
-      AND createdAt > datetime('now', '-${hours} hours')
-    ORDER BY weighted_score DESC
-    LIMIT 10
-  `, [JSON.stringify(queryEmbedding), JSON.stringify(queryEmbedding), threshold]);
-}
-```
-
-### 2. 分层记忆架构
-
-区分短期会话记忆和长期用户画像：
-
-```javascript
-// 短期记忆：当前会话的最近 10 条
-await db.initTable('short_term_memory', { /* ... */ });
-
-// 长期记忆：提取的关键事实（用户偏好、个人信息）
-await db.initTable('long_term_memory', { /* ... */ });
-
-// 召回时合并
-const shortTerm = await recallFrom('short_term_memory', query, { limit: 5 });
-const longTerm = await recallFrom('long_term_memory', query, { threshold: 0.8 });
-const context = [...longTerm, ...shortTerm];
-```
-
-### 3. 记忆摘要压缩
-
-当历史消息过多时，使用 Qwen3 Max 生成摘要：
-
-```javascript
-async function summarizeOldMemories() {
-  const oldMessages = await db.query(`
-    SELECT * FROM chat_memory 
-    WHERE createdAt < datetime('now', '-7 days')
-  `);
-
-  const summary = await chatWithQwen([
-    { 
-      role: 'system', 
-      content: '请将以下对话历史总结为关键事实（用户偏好、重要信息等）：' 
-    },
-    { 
-      role: 'user', 
-      content: oldMessages.map(m => m.message).join('\n') 
-    }
-  ]);
-
-  // 将摘要存入长期记忆
-  await memory.store('system', `用户画像摘要：${summary}`);
-}
-```
-
-### 4. OpenRouter 模型降级策略
-
-当 Qwen3 Max 不可用时自动降级：
-
-```javascript
-async function chatWithFallback(messages) {
-  const models = [
-    'qwen/qwen3-max',
-    'qwen/qwen2.5-vl-72b-instruct',
-    'anthropic/claude-3.5-sonnet'
-  ];
-
-  for (const model of models) {
-    try {
-      const response = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
-        method: 'POST',
-        headers: {
-          'Authorization': `Bearer ${OPENROUTER_API_KEY}`,
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ model, messages, temperature: 0.7 })
-      });
-      
-      if (response.ok) {
-        const data = await response.json();
-        return data.choices[0].message.content;
-      }
-    } catch (e) {
-      console.log(`Model ${model} failed, trying next...`);
-    }
-  }
-  
-  throw new Error('All models failed');
-}
-```
-
----
-
-## 为什么选 SeekDB + OpenRouter？
-
-| 特性 | PostgreSQL + PGVector + OpenAI | SeekDB + OpenRouter |
-|------|-------------------------------|---------------------|
-| **部署复杂度** | 需安装 PostgreSQL + 扩展 + 配置 API | 零配置，SQLite 开箱即用 |
-| **依赖体积** | 数百 MB | < 5 MB |
-| **启动时间** | 秒级 | 毫秒级 |
-| **数据文件** | 需独立管理 | 单文件 `.db`，易迁移 |
-| **模型选择** | 限于 OpenAI 生态 | 300+ 模型（Qwen、Claude、Gemini 等） |
-| **国内访问** | 需代理 | OpenRouter 国内可访问 |
-| **成本** | GPT-4o: $5/M + 向量库成本 | Qwen3 Max: $1.6/M + 零基础设施成本 |
-
-**技术栈组合优势**：
-> SeekDB 提供轻量级向量存储，OpenRouter 提供统一的大模型接口，两者结合是 AI Agent 开发的理想选择。
+| 方案 | 传递消息数 | Token 消耗 | 延迟 |
+|------|-----------|-----------|------|
+| 全量上下文 | 995 条 | 基准 100% | 慢 |
+| SeekDB + Limit | 5 条 | ~5%（节省 95%）| 快 |
+| SeekDB + Threshold | 18 条（动态）| ~15%（节省 85%）| 快 |
 
 ---
 
@@ -524,26 +441,15 @@ async function chatWithFallback(messages) {
 **核心洞察**：
 1. **记忆的关键不在"存多少"，而在"召回准不准"**
 2. 向量相似度搜索是语义记忆的终极方案
-3. 阈值召回比固定数量更智能，但需要调优
+3. 根据查询类型动态选择召回策略效果更佳
 
-**技术选型建议**：
-- **LLM**: Qwen3 Max（中文优异、性价比高）
-- **Embedding**: Qwen3 Embedding 8B（与 Max 同系列，语义一致性好）
-- **向量库**: SeekDB（轻量、零配置）
-- **API 网关**: OpenRouter（统一接口、模型丰富）
+**技术栈组合**：
+- **Vector DB**: SeekDB (OceanBase)
+- **LLM**: Qwen3 Max via OpenRouter
+- **Embedding**: Qwen3 Embedding 8B (4096维)
 
-**下一步探索**：
-- 混合策略：阈值 + 数量限制的双重保险
-- 时间衰减：让记忆像人类一样"遗忘"
-- 多租户隔离：为每个用户维护独立的记忆空间
-- Prompt 缓存：利用 OpenRouter 的 Prompt Caching 进一步降低成本
+**完整代码**: https://github.com/kejun/seekdb-agent-memory
 
 ---
 
-**相关链接**：
-- SeekDB: https://github.com/oceanbase/seekdb-js
-- OpenRouter: https://openrouter.ai
-- Qwen3 Max: https://openrouter.ai/qwen/qwen3-max
-- Qwen3 Embedding: https://openrouter.ai/qwen/qwen3-embedding-8b
-
-*SeekDB + OpenRouter：让每一行代码都直接服务于产品价值，而非基础设施。*
+*SeekDB + OpenRouter：让每一行代码都直接服务于产品价值。*
