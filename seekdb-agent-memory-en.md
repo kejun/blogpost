@@ -201,4 +201,3 @@ Tested with 995 stored messages:
 
 **Full code**: [https://github.com/kejun/seekdb-agent-memory](https://github.com/kejun/seekdb-agent-memory)
 
-*SeekDB makes every line of code serve product value, not infrastructure.*
