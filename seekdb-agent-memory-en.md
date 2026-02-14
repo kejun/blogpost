@@ -192,12 +192,191 @@ Tested with 995 stored messages:
 * SeekDB approach: \~$80
 * **Savings: $1,520/month (95%)**
 
+# Multi-Session Persistence
+
+For agents that need to maintain memory across sessions, SeekDB's SQLite-based architecture provides excellent persistence with minimal setup.
+
+## Session-Based Memory Management
+
+    class PersistentAgentMemory extends AgentMemory {
+      constructor(collection, sessionId) {
+        super(collection);
+        this.sessionId = sessionId;
+        this.sessionPrefix = `session_${sessionId}_`;
+      }
+    
+      async store(role, message) {
+        // Add session tag to metadata
+        await this.collection.add({
+          ids: `${this.sessionPrefix}${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+          documents: message,
+          metadatas: { 
+            role, 
+            timestamp: Date.now(),
+            sessionId: this.sessionId 
+          },
+        });
+      }
+    
+      async recallFromSession(query, sessionId, options = {}) {
+        // Query within specific session
+        const results = await this.collection.query({
+          queryTexts: query,
+          nResults: options.limit || 10,
+          where: {
+            sessionId: sessionId
+          }
+        });
+        
+        return this.formatResults(results);
+      }
+    
+      async recallCrossSession(query, options = {}) {
+        // Query across all sessions, filter by time
+        const { hoursBack = 72 } = options;
+        const cutoff = Date.now() - (hoursBack * 60 * 60 * 1000);
+        
+        const results = await this.collection.query({
+          queryTexts: query,
+          nResults: 20,
+        });
+        
+        // Filter by recency
+        return this.formatResults(results).filter(m => 
+          m.timestamp > cutoff
+        );
+      }
+    }
+
+## Long-Term vs Short-Term Memory
+
+    // Short-term: Current conversation only
+    const shortTermMemory = new AgentMemory(collection);
+    
+    // Long-term: Persistent across sessions
+    const longTermMemory = new PersistentAgentMemory(collection, 'user_123');
+    
+    // Hybrid approach: Combine both
+    async function hybridRecall(query) {
+      const [shortTerm, longTerm] = await Promise.all([
+        shortTermMemory.recall(query, { limit: 5 }),
+        longTermMemory.recallCrossSession(query, { hoursBack: 168 }) // 7 days
+      ]);
+      
+      // Prioritize recent, then relevant historical
+      return [...shortTerm, ...longTerm].slice(0, 10);
+    }
+
+## Memory Consolidation Strategy
+
+To prevent unbounded growth, implement periodic consolidation:
+
+    async function consolidateMemory(collection, maxEntries = 10000) {
+      // Get entry count
+      const count = await collection.count();
+      
+      if (count <= maxEntries) return;
+      
+      // Delete oldest 20% of entries
+      const oldest = await collection.query({
+        queryTexts: [''], // Query all
+        nResults: Math.floor(maxEntries * 0.2),
+        sortBy: 'timestamp',
+        ascending: true
+      });
+      
+      for (const id of oldest.ids[0]) {
+        await collection.delete(id);
+      }
+    }
+
+# Comparison with Alternative Approaches
+
+## SeekDB vs Mem0
+
+|Metric|SeekDB|Mem0|
+|---|---|---|
+|Storage|SQLite (single file)|Vector DB + Graph DB|
+|Setup|Zero-config|Requires infrastructure|
+|Latency|\<10ms query|>50ms typical|
+|Cost|\~$0.01/1M vectors|\~$0.50/1M vectors|
+|Multi-session|Native|Requires extra layer|
+|Open Source|Fully|Oceanbase org|
+
+**When to choose SeekDB**: Lightweight agents, edge deployment, cost-sensitive applications
+
+**When to choose Mem0**: Complex knowledge graphs, enterprise features, managed service preference
+
+## SeekDB vs LangGraph Memory
+
+|LangGraph Memory|SeekDB|
+|---|---|
+|Built-in Checkpoint API|Custom AgentMemory class|
+|Tied to LangGraph framework|Framework-agnostic|
+|Simple key-value store|Rich vector similarity|
+|Limited query capabilities|Powerful semantic search|
+|Better for workflow state|Better for semantic memory|
+
+**Hybrid approach**: Use LangGraph Checkpoint for workflow state + SeekDB for semantic memory.
+
+    from langgraph.checkpoint.memory import MemorySaver
+    from seekdb import SeekdbClient
+    
+    # LangGraph for workflow state
+    checkpointer = MemorySaver()
+    
+    # SeekDB for semantic memory
+    seekdb = SeekdbClient(...)
+    
+    def agent_node(state):
+        # Get semantic context
+        context = seekdb.recall(state['input'])
+        
+        # Process with workflow
+        result = llm.process(...)
+        
+        # Store both
+        checkpointer.put(...)
+        seekdb.store('assistant', result)
+        
+        return {'output': result}
+
+# Observational Memory: A New Paradigm
+
+A recent trend challenging traditional RAG architectures is **Observational Memory**—a simpler approach gaining traction for its cost efficiency.
+
+## Key Differences
+
+|Aspect|RAG + Vector DB|Observational Memory|SeekDB|
+|---|---|---|---|
+|Architecture|Complex pipeline|Simple text storage|SQLite + Vectors|
+|Cost Factor|10x baseline|1x (10x savings)|~5x baseline|
+|Query Speed|Slow (retrieval)|Fast (direct access|Fast (indexed)|
+|Maintenance|High|Low|Very Low|
+|Accuracy|High (when tuned)|Good|High (semantic)|
+
+## When to Use Which
+
+**Observational Memory** is ideal when:
+- Context windows are large enough (>100K tokens)
+- Simple retrieval patterns dominate
+- Infrastructure complexity must be minimized
+
+**SeekDB** (vector-based) is ideal when:
+- Large memory banks needed (>10K items)
+- Semantic search accuracy is critical
+- Multi-session persistence required
+- Cross-session relevance matters
+
+**Recommendation**: For most agent applications, SeekDB provides the best balance of semantic accuracy, cost efficiency, and simplicity.
+
 # Key Takeaways
 
 1. **Memory isn't about storing everything—it's about retrieving the right things**
 2. Vector similarity > keyword matching for semantic understanding
 3. Threshold-based retrieval is smarter but requires tuning
-4. Qwen3 Max + SeekDB is the optimal stack for cost-effective, high-quality Agent memory
+4. Multi-session persistence requires session tagging and consolidation
+5. SeekDB offers the best cost-performance ratio for agent memory
+6. Consider Observational Memory for very large context windows; SeekDB for production-scale deployments
 
 **Full code**: [https://github.com/kejun/seekdb-agent-memory](https://github.com/kejun/seekdb-agent-memory)
-
