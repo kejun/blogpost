@@ -1,9 +1,9 @@
-# Eywa-js Agent Memory 完整技术方案（MVP -> Full Capability）
+# Eywa-js Agent Memory 完整技术方案
 
-**版本**: v1.0
-**项目名称**: `eywa-js`
-**技术栈约束**: Node.js + TypeScript、自定义 Embedding Function、单机自托管起步、关键路径强一致、100-1k QPS、检索 P95 < 400ms
-**适配目标**: LangGraph + 自研 Agent 双接入
+- **版本**: v1.0
+- **项目名称**: `eywa-js`
+- **技术栈约束**: Node.js + TypeScript、自定义 Embedding Function、单机自托管起步、关键路径强一致、100-1k QPS、检索 P95 < 400ms
+- **适配目标**: LangGraph + 自研 Agent 双接入
 
 ---
 
