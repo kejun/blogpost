@@ -96,7 +96,7 @@ Ryan Carson 在经历了领导100名员工的风投支持的硅谷创业公司�
 
 ## 图片
 
-![Ryan Carson 的工作台设置](./ryancarson_setup.jpg)
+![Ryan Carson 的工作台设置](./assets/ryancarson_setup.jpg)
 
 *Ryan Carson 的当前工作台设置*
 
