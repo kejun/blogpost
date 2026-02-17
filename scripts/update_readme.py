@@ -70,6 +70,8 @@ def categorize_file(filename):
     
     return cats[0] if cats else "其他"
 
+GITHUB_REPO_URL = "https://github.com/kejun/blogpost/blob/main"
+
 def main():
     os.chdir(Path(__file__).parent.parent)
     
@@ -82,6 +84,7 @@ def main():
             category = categorize_file(file)
             articles.append({
                 'file': file,
+                'file_link': f"[{file}]({GITHUB_REPO_URL}/{file})",
                 'title': title,
                 'date': date,
                 'category': category
@@ -122,7 +125,7 @@ def main():
 """
     
     for a in articles:
-        readme += f"| `{a['file']}` | {a['title']} | {a['date']} | {a['category']} |\n"
+        readme += f"| {a['file_link']} | {a['title']} | {a['date']} | {a['category']} |\n"
     
     readme += f"""
 ---
