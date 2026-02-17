@@ -63,7 +63,7 @@ Ryan 构建了 **3个独立的 Markdown 文件**，你可以在 Cursor 或其他
 
 ## AI 模板预览
 
-![Ryan Carson 的 create-prd.md AI 模板预览](./ryan_prd_template.jpg)
+![Ryan Carson 的 create-prd.md AI 模板预览](./assets/ryan_prd_template.jpg)
 
 *上图展示了 Ryan 的 create-prd.md AI 模板，用于生成详细的产品需求文档*
 
