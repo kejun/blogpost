@@ -6,7 +6,7 @@
 
 Claude-Mem 就是来解决这个问题的。它是一个持久化记忆插件，能自动捕获 Agent 工作过程中的所有操作，通过 AI 压缩生成语义摘要，并在后续会话中智能注入相关上下文。
 
-本文基于对 Claude-Mem v10.3.1 的深度调研，剖析其架构设计和核心设计理念。
+本文基于对 Claude-Mem v10.3.1 源码的深度分析，剖析其架构设计、核心实现和设计理念。
 
 ---
 
@@ -45,143 +45,312 @@ Session 3: 35k tokens
 
 ---
 
-## 二、架构：六钩子 + Worker + 数据库
+## 二、架构：Hook 驱动的数据流
 
-Claude-Mem 的架构设计精巧：
+Claude-Mem 的架构设计精巧，核心是 Hook 驱动的数据流。
 
-### 2.1 六个生命周期钩子
+### 2.1 Hook 系统
 
+从 `plugin/hooks/hooks.json` 可以看到完整的 Hook 配置：
+
+```json
+{
+  "hooks": {
+    "Setup": [
+      { "command": "${CLAUDE_PLUGIN_ROOT}/scripts/setup.sh", "timeout": 300 }
+    ],
+    "SessionStart": [
+      { "command": "...smart-install.js", "timeout": 300 },
+      { "command": "...worker-service.cjs start", "timeout": 60 },
+      { "command": "...worker-service.cjs hook claude-code context", "timeout": 60 }
+    ],
+    "UserPromptSubmit": [
+      { "command": "...worker-service.cjs start", "timeout": 60 },
+      { "command": "...worker-service.cjs hook claude-code session-init", "timeout": 60 }
+    ],
+    "PostToolUse": [
+      { "command": "...worker-service.cjs start", "timeout": 60 },
+      { "command": "...worker-service.cjs hook claude-code observation", "timeout": 120 }
+    ],
+    "Stop": [
+      { "command": "...worker-service.cjs hook claude-code summarize", "timeout": 120 },
+      { "command": "...worker-service.cjs hook claude-code session-complete", "timeout": 30 }
+    ]
+  }
+}
 ```
-SessionStart  → context-hook.ts    → 启动 worker，注入上下文
-UserPromptSubmit → new-hook.ts     → 创建 session，保存 prompt
-PostToolUse   → save-hook.ts       → 捕获 tool 执行（最频繁）
-Stop          → summary-hook.ts    → 生成 session 摘要
-SessionEnd    → cleanup-hook.ts    → 标记 session 完成
+
+**关键观察**：
+
+1. **Setup Hook**: 仅在首次安装或更新时运行，设置依赖
+2. **SessionStart**: 触发 smart-install（版本检查），启动 worker，注入上下文
+3. **PostToolUse**: 最频繁的 Hook，每次 tool 调用都会触发
+4. **Stop**: 生成摘要并完成 session
+
+### 2.2 Worker Service 架构
+
+Worker 是一个独立进程，从 `package.json` 可以看到：
+
+```json
+{
+  "scripts": {
+    "worker:start": "bun plugin/scripts/worker-service.cjs start",
+    "worker:stop": "bun plugin/scripts/worker-service.cjs stop",
+    "worker:restart": "bun plugin/scripts/worker-service.cjs restart",
+    "worker:status": "bun plugin/scripts/worker-service.cjs status"
+  }
+}
 ```
 
-其中 `PostToolUse` 是核心——每次 Agent 读文件、执行命令、搜索代码，都会被捕获。
-
-### 2.2 Worker Service
-
-独立进程 (Bun + Express)，监听 localhost:37777：
+Worker 的核心职责：
 - 接收 hooks 发来的原始数据
 - 调用 Claude Agent SDK 进行 AI 压缩
 - 存储到 SQLite
-- 提供 HTTP API 供检索
+- 提供 HTTP API 供检索（端口 37777）
 
 ### 2.3 数据库层
 
-两层存储：
-- **SQLite + FTS5**: 全文搜索，关键词匹配
-- **ChromaDB**: 向量存储，语义搜索
+从 `src/services/sqlite/Database.ts` 可以看到 SQLite 优化配置：
 
-混合检索：先 FTS5 粗筛，再 ChromaDB 精排。
+```typescript
+// SQLite configuration constants
+const SQLITE_MMAP_SIZE_BYTES = 256 * 1024 * 1024; // 256MB
+const SQLITE_CACHE_SIZE_PAGES = 10_000;
 
----
-
-## 三、核心设计：Progressive Disclosure
-
-这是 Claude-Mem 最有价值的设计理念。
-
-### 3.1 传统 RAG 的问题
-
-```
-用户问：之前那个 bug 怎么修的？
-
-传统 RAG:
-┌─────────────────────────────────┐
-│ 检索 20 条相关记录               │
-│ 每条 ~500 tokens                │
-│ 总共 10,000 tokens              │
-│ 用户看了一条就说：哦对就是这个    │
-│ 90% 的 tokens 白费了             │
-└─────────────────────────────────┘
+// Apply optimized SQLite settings
+this.db.run('PRAGMA journal_mode = WAL');
+this.db.run('PRAGMA synchronous = NORMAL');
+this.db.run('PRAGMA foreign_keys = ON');
+this.db.run('PRAGMA temp_store = memory');
+this.db.run(`PRAGMA mmap_size = ${SQLITE_MMAP_SIZE_BYTES}`);
+this.db.run(`PRAGMA cache_size = ${SQLITE_CACHE_SIZE_PAGES}`);
 ```
 
-### 3.2 渐进式披露
+**关键优化**：
+- **WAL 模式**: 写入不阻塞读取
+- **内存临时存储**: 减少磁盘 I/O
+- **256MB mmap**: 大幅提升读取性能
+- **外键约束**: 数据完整性保证
 
-**核心原则**: 先显示索引和检索成本，让 Agent 自主决定获取什么。
-
+数据库服务模块结构（从 API 返回）：
 ```
-Claude-Mem 方案:
-┌─────────────────────────────────┐
-│ Step 1: search() 返回索引        │
-│ | ID | Time | Type | Title |    │
-│ | #123 | 10:30 | 🔴 | Hook timeout |
-│ | #124 | 10:35 | 🟡 | Fix npm cache |
-│ ~50 tokens per result           │
-│                                  │
-│ Step 2: Agent 看到 #123 相关     │
-│ get_observations([123])         │
-│ 获取完整内容 ~500 tokens         │
-│                                  │
-│ 总消耗: ~550 tokens              │
-│ 相关性: 100%                     │
-└─────────────────────────────────┘
-```
-
-**效果**: 从 10,000 tokens → 550 tokens，节省 95%。
-
-### 3.3 三层工作流
-
-```
-Layer 1: search(query) → 索引 + ID (~50-100 tokens/result)
-Layer 2: timeline(anchor=ID) → 时间线上下文
-Layer 3: get_observations([IDs]) → 完整详情 (~500-1000 tokens/result)
-```
-
-这个设计的关键洞察是：**不要一开始就获取完整内容，先看索引，再按需获取。**
-
----
-
-## 四、Observation 分类系统
-
-Claude-Mem 会对每条记录自动分类：
-
-| 图标 | 类型 | 含义 |
-|------|------|------|
-| 🎯 | session-request | 用户的原始目标 |
-| 🔴 | gotcha | 关键边界情况/陷阱 |
-| 🟡 | problem-solution | Bug 修复/解决方案 |
-| 🔵 | how-it-works | 技术解释 |
-| 🟢 | what-changed | 代码/架构变更 |
-| 🟣 | discovery | 学习/洞察 |
-| 🟠 | why-it-exists | 设计原理 |
-| 🟤 | decision | 架构决策 |
-| ⚖️ | trade-off | 有意妥协 |
-
-这个分类系统让 Agent 能快速扫描历史：
-```
-看到 🔴 gotcha → "这个坑我踩过，值得注意"
-看到 🟤 decision → "这是当时的架构决策，可能有参考价值"
-看到 🟣 discovery → "这是我学到的，可能有用"
+src/services/sqlite/
+├── Database.ts           # 数据库连接 + 迁移
+├── SessionStore.ts       # 83KB，核心 CRUD 操作
+├── SessionSearch.ts      # 20KB，FTS5 全文搜索
+├── PendingMessageStore.ts # 17KB，消息队列
+├── Observations.ts       # Observation 模型
+├── Prompts.ts            # Prompt 模型
+└── migrations/           # 数据库迁移
 ```
 
 ---
 
-## 五、Endless Mode: 突破上下文限制
+## 三、AI 压缩：SDK Prompts 设计
 
-这是 Beta 功能，但设计思路很有启发性。
+这是 Claude-Mem 最核心的部分。从 `src/sdk/prompts.ts` 可以看到 AI 压缩的 prompt 设计：
 
-### 5.1 问题：O(N²) 复杂度
+### 3.1 Observation Prompt 结构
+
+```typescript
+export function buildObservationPrompt(obs: Observation): string {
+  return `<observed_from_primary_session>
+  <what_happened>${obs.tool_name}</what_happened>
+  <occurred_at>${new Date(obs.created_at_epoch).toISOString()}</occurred_at>
+  <working_directory>${obs.cwd}</working_directory>
+  <parameters>${JSON.stringify(toolInput, null, 2)}</parameters>
+  <outcome>${JSON.stringify(toolOutput, null, 2)}</outcome>
+</observed_from_primary_session>`;
+}
+```
+
+**设计亮点**：
+- XML 结构化格式，便于解析
+- 包含 tool 名称、时间、工作目录、参数、输出
+- 原始数据直接传给 AI 进行压缩
+
+### 3.2 压缩后的 Observation 格式
+
+```xml
+<observation>
+  <type>[ gotcha | problem-solution | how-it-works | ... ]</type>
+  <title>简短描述 (~10 words)</title>
+  <subtitle>补充说明</subtitle>
+  <facts>
+    <fact>关键事实 1</fact>
+    <fact>关键事实 2</fact>
+  </facts>
+  <narrative>完整叙述</narrative>
+  <concepts>
+    <concept>概念标签 1</concept>
+    <concept>概念标签 2</concept>
+  </concepts>
+  <files_read>
+    <file>读取的文件路径</file>
+  </files_read>
+  <files_modified>
+    <file>修改的文件路径</file>
+  </files_modified>
+</observation>
+```
+
+**核心思想**：把原始 tool output（可能几千 tokens）压缩成结构化的 observation（~100 tokens）。
+
+### 3.3 Summary Prompt
+
+```typescript
+export function buildSummaryPrompt(session: SDKSession, mode: ModeConfig): string {
+  return `${mode.prompts.header_summary_checkpoint}
+${mode.prompts.summary_instruction}
+
+${mode.prompts.summary_context_label}
+${lastAssistantMessage}
+
+<summary>
+  <request>用户的原始请求</request>
+  <investigated>调查了什么</investigated>
+  <learned>学到了什么</learned>
+  <completed>完成了什么</completed>
+  <next_steps>下一步</next_steps>
+  <notes>备注</notes>
+</summary>`;
+}
+```
+
+---
+
+## 四、Progressive Disclosure 实现
+
+从 `src/services/sqlite/SessionSearch.ts`（20KB）可以看到 Progressive Disclosure 的实现细节。
+
+### 4.1 FTS5 全文搜索
+
+SQLite FTS5 提供高性能关键词搜索：
+
+```sql
+-- 虚拟表创建（推测）
+CREATE VIRTUAL TABLE observations_fts USING fts5(
+  title, subtitle, narrative, concepts,
+  content='observations',
+  tokenize='porter unicode61'
+);
+
+-- 搜索查询
+SELECT id, title, type, created_at 
+FROM observations_fts 
+WHERE observations_fts MATCH 'timeout npm'
+ORDER BY rank
+LIMIT 20;
+```
+
+### 4.2 三层工作流实现
+
+```typescript
+// Layer 1: search - 返回索引
+search(query: string, limit: number): SearchResult[] {
+  // 返回: { id, title, type, created_at, tokens_estimate }
+  // 每条 ~50 tokens
+}
+
+// Layer 2: timeline - 获取时间线上下文
+timeline(anchorId: number, before: number, after: number): Observation[] {
+  // 返回 anchor 前后的 observations
+  // 提供上下文，但不返回完整内容
+}
+
+// Layer 3: get_observations - 获取完整详情
+get_observations(ids: number[]): Observation[] {
+  // 批量获取完整 observation
+  // 每条 ~500-1000 tokens
+}
+```
+
+**关键设计**：
+- Layer 1 只返回元数据，token 消耗极低
+- Agent 看到索引后自主决定获取哪些详情
+- 批量获取避免多次 API 调用
+
+---
+
+## 五、版本演进：问题与修复
+
+从 CHANGELOG.md 可以看到项目的迭代历程，有很多值得学习的工程实践。
+
+### 5.1 v10.3.1 - 防止僵尸进程
+
+```
+Three root causes of chroma-mcp timeouts identified and fixed:
+
+1. PID-based daemon guard
+   Exit immediately if PID file points to a live process
+
+2. Port-based daemon guard
+   Exit if port 37777 is already bound
+
+3. Guaranteed process.exit() after HTTP shutdown
+   Zombie workers stayed alive after shutdown, reconnected to chroma-mcp
+```
+
+**教训**：进程管理是复杂系统最容易出问题的地方。
+
+### 5.2 v10.3.0 - ChromaMcpManager
+
+```
+Replace WASM Embeddings with Persistent chroma-mcp MCP Connection
+
+- New: ChromaMcpManager — Singleton stdio MCP client
+- Eliminates native binary issues
+- Graceful subprocess lifecycle
+- Connection backoff (10-second)
+```
+
+**教训**：原生二进制/WASM 在跨平台场景下是噩梦，MCP 协议是更好的选择。
+
+### 5.3 v10.2.6 - Observer 僵尸进程
+
+```
+Observer Claude CLI subprocesses were accumulating as zombies
+
+Root cause: SDKAgent only covered the happy path; sessions terminated
+through SessionRoutes or worker-service bypassed process cleanup
+
+Fix — dual-layer approach:
+1. Immediate cleanup: finally blocks in all exit paths
+2. Periodic reaping: background scan for orphan processes
+```
+
+**教训**：异常路径的清理工作和正常路径一样重要。
+
+### 5.4 v10.1.0 - SessionStart 优化
+
+```
+- SessionStart `systemMessage` support — Hooks can display ANSI-colored
+  messages directly in the CLI
+- Truly parallel context fetching — Promise.all for markdown + timeline
+- Cleaner defaults — Hide token columns by default
+```
+
+**教训**：用户体验的细节很重要，首次安装的默认配置影响巨大。
+
+---
+
+## 六、Endless Mode: 突破上下文限制
+
+这是 Beta 功能，设计思路很有启发性。
+
+### 6.1 问题：O(N²) 复杂度
 
 LLM 的 attention 机制是二次复杂度：每个 token 都要和所有其他 token 计算关系。
 
 ```
 Tool 调用 1: +2k tokens
 Tool 调用 2: +3k tokens  
-Tool 调用 3: +1k tokens
-...
 Tool 调用 50: 上下文已 100k+ tokens
 
 每次响应都要重新处理所有历史 → 越来越慢
 ```
 
-### 5.2 仿生记忆架构
-
-人类怎么处理这个问题？我们有工作记忆和长期记忆。
-
-Claude-Mem 的 Endless Mode 模仿这个设计：
+### 6.2 仿生记忆架构
 
 ```
 Working Memory (上下文窗口):
@@ -193,7 +362,7 @@ Archive Memory (磁盘文件):
   → 完美召回，可搜索
 ```
 
-### 5.3 实时压缩
+### 6.3 实时压缩
 
 关键创新：每次 tool 调用后，**阻塞等待** worker 生成压缩 observation，然后替换原始 output。
 
@@ -207,7 +376,7 @@ Archive Memory (磁盘文件):
 
 ---
 
-## 六、OpenClaw 集成
+## 七、OpenClaw 集成
 
 Claude-Mem 原生支持 OpenClaw：
 
@@ -234,46 +403,50 @@ OpenClaw Gateway
 
 ### 实时推送
 
-支持将新 observations 推送到 Telegram/Discord/Slack 等渠道，实时监控 Agent 的学习过程。
+支持将新 observations 推送到 Telegram/Discord/Slack 等渠道：
 
----
-
-## 七、工程细节
-
-### 7.1 智能安装缓存
-
-早期版本每次 SessionStart 都跑 `npm install`（2-5秒）。v5.0.3 引入版本标记：
-
-```javascript
-const currentVersion = getPackageVersion();
-const installedVersion = readFileSync('.install-version');
-
-if (currentVersion !== installedVersion) {
-  await runNpmInstall();
-  writeFileSync('.install-version', currentVersion);
+```json
+{
+  "observationFeed": {
+    "enabled": true,
+    "channel": "telegram",
+    "to": "123456789"
+  }
 }
 ```
 
-**效果**: 2-5s → 10ms，99.5% 提升。
+---
 
-### 7.2 僵尸进程防护
+## 八、技术栈分析
 
-v10.2.6 解决了 observer 子进程累积问题：
-- 双重清理：finally block + 后台 reap
-- 定期扫描孤儿进程并杀死
+从 `package.json` 可以看到完整的技术栈：
 
-### 7.3 ChromaDB 连接
+```json
+{
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.76",
+    "@modelcontextprotocol/sdk": "^1.25.1",
+    "express": "^4.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "bun": ">=1.0.0"
+  }
+}
+```
 
-v10.3.0 用 `chroma-mcp` MCP 连接替代 WASM embeddings：
-- 解决原生二进制问题
-- 解决跨平台安装问题
-- 优雅的子进程生命周期
+**关键选择**：
+- **Bun**: 比 Node.js 更快的启动和执行
+- **MCP SDK**: 标准化的工具协议
+- **Claude Agent SDK**: 官方 SDK，最稳定的 AI 调用方式
 
 ---
 
-## 八、对 Agent 系统设计的启示
+## 九、对 Agent 系统设计的启示
 
-### 8.1 Context Engineering vs Prompt Engineering
+### 9.1 Context Engineering vs Prompt Engineering
 
 Claude-Mem 体现了 **Context Engineering** 的核心思想：
 
@@ -286,32 +459,41 @@ Context Engineering 管理：
 - 消息历史
 - 运行时检索
 
-### 8.2 关键原则
+### 9.2 关键原则
 
 1. **Context is finite**: 把上下文当成有限资源
 2. **Make costs visible**: 显示每条记录的 token 成本
 3. **Design for autonomy**: 让 Agent 自主决定获取什么
 4. **Start simple**: 先做最简单的，按需添加
 
-### 8.3 可复用的模式
+### 9.3 可复用的模式
 
 | 模式 | 适用场景 |
 |------|---------|
 | Progressive Disclosure | 大量历史数据检索 |
-| 分类标签系统 | 快速扫描定位 |
-| 混合检索 (关键词+语义) | 提高检索准确率 |
+| Hook 驱动架构 | 生命周期事件捕获 |
+| AI 压缩 | 原始数据 → 结构化摘要 |
+| 混合检索 (FTS5 + 向量) | 提高检索准确率 |
 | 实时压缩 | 长会话场景 |
 
 ---
 
-## 九、总结
+## 十、总结
 
-Claude-Mem 是目前最成熟的 Claude Code 记忆插件，解决了 Agent 记忆的核心问题：
+Claude-Mem 是目前最成熟的 Claude Code 记忆插件，其核心价值在于：
 
 1. **持久化**: 跨会话保存上下文
 2. **渐进式披露**: 大幅节省 tokens
 3. **自动化**: 无需手动干预
 4. **可观测**: Web UI 实时查看记忆流
+
+从源码分析中，我们学到：
+
+- **Hook 架构**: 通过生命周期钩子捕获所有 Agent 操作
+- **AI 压缩**: 用 Claude Agent SDK 将原始数据压缩成结构化 observation
+- **Progressive Disclosure**: 三层工作流，先索引后详情
+- **SQLite 优化**: WAL + mmap + 内存临时存储
+- **进程管理**: 多重防护避免僵尸进程
 
 对于正在设计 Agent 记忆系统的开发者，这是必读的参考实现。
 
@@ -326,4 +508,4 @@ Claude-Mem 是目前最成熟的 Claude Code 记忆插件，解决了 Agent 记�
 
 ---
 
-*本文基于 Claude-Mem v10.3.1 源码和文档调研*
+*本文基于 Claude-Mem v10.3.1 源码深度分析*
