@@ -478,7 +478,230 @@ Context Engineering 管理：
 
 ---
 
-## 十、总结
+## 十、对比：Claude-Mem vs 其他方案
+
+### 10.1 主流方案概览
+
+| 方案 | 类型 | 目标用户 | 核心特点 |
+|------|------|---------|---------|
+| **Claude-Mem** | Claude Code 插件 | Claude Code 用户 | 渐进式披露、Hook 驱动、Web UI |
+| **Mem0** | 通用记忆层 | Agent 开发者 | 26% 准确率提升、90% token 节省、图记忆 |
+| **Letta (原 MemGPT)** | Agent 框架 | AI Agent 开发者 | 状态化 Agent、层级记忆、Letta Code |
+| **OpenAI Memory** | 原生功能 | OpenAI 用户 | 简单集成、但准确率较低 |
+
+### 10.2 Mem0: 通用记忆层
+
+**技术特色**:
+- **图记忆 (Mem0ᵍ)**: 图结构存储，捕获复杂关系
+- **LOCOMO benchmark**: 26% 准确率提升（vs OpenAI Memory）
+- **性能优化**: 91% 低延迟、90% token 节省
+- **Apache 2.0**: 开源协议
+
+**适用场景**:
+- 客服聊天机器人
+- 个性化 AI 助手
+- 多会话对话系统
+
+**对比 Claude-Mem**:
+| 维度 | Mem0 | Claude-Mem |
+|------|------|-----------|
+| 目标 | 通用 Agent 记忆 | Claude Code 专用 |
+| 检索方式 | 向量 + 图搜索 | Progressive Disclosure + FTS5 |
+| 上下文注入 | 每次请求检索 | SessionStart 时索引 |
+| 定制化 | 高 | 中（Claude Code 上下文） |
+| 开源协议 | Apache 2.0 | AGPL-3.0 |
+
+**技术亮点**:
+```python
+# Mem0 API
+memory = Memory()
+relevant_memories = memory.search(query=message, user_id=user_id, limit=3)
+memory.add(messages, user_id=user_id)
+```
+
+### 10.3 Letta (原 MemGPT): Agent 框架
+
+**技术特色**:
+- **状态化 Agent**: 同一 Agent 跨会话持久化
+- **层级记忆**: User/Session/Agent 分层管理
+- **Letta Code**: 终端记忆优先的编码 Agent
+- **多模型支持**: OpenAI、Anthropic、Gemini、本地模型
+
+**适用场景**:
+- 长期运行的 Agent 系统
+- 多用户 Agent 平台
+- 自托管 Agent 服务
+
+**对比 Claude-Mem**:
+| 维度 | Letta | Claude-Mem |
+|------|-------|-----------|
+| 架构 | Agent 框架 | Claude Code 插件 |
+| 持久化 | Agent 级别 | Session 级别 |
+| 检索 | 向量搜索 | Progressive Disclosure |
+| 集成难度 | 中 | 低（插件式） |
+| 开源协议 | 未明确 | AGPL-3.0 |
+
+**哲学差异**:
+```
+Claude-Mem: 上下文注入 + 按需检索
+Letta: Agent 持久化 + 层级记忆
+```
+
+### 10.4 OpenAI Memory: 原生方案
+
+**技术特色**:
+- **简单集成**: `client.chat.completions.create(memory={...})`
+- **自动管理**: OpenAI 自动处理记忆检索
+- **免费**: 无额外成本
+
+**对比 Claude-Mem**:
+| 维度 | OpenAI Memory | Claude-Mem |
+|------|--------------|-----------|
+| 准确率 | 基准（低） | 26% 提升 |
+| 定制化 | 低 | 高 |
+| 隐私 | 数据存储在 OpenAI | 本地存储 |
+| 成本 | 免费 | Token 成本 |
+
+**Mem0 论文结论**: Mem0 在 LOCOMO benchmark 上比 OpenAI Memory 高 26%。
+
+### 10.5 技术特色对比
+
+#### 检索策略
+
+| 方案 | 检索方式 | 复杂度 |
+|------|---------|--------|
+| **Claude-Mem** | Progressive Disclosure (索引→时间线→详情) | 低 → 中 |
+| **Mem0** | 向量搜索 + 图搜索 | 中 |
+| **Letta** | 向量搜索 | 中 |
+| **OpenAI** | 黑盒向量检索 | 不可见 |
+
+#### 压缩方式
+
+| 方案 | 压缩方式 | 模型 |
+|------|---------|------|
+| **Claude-Mem** | Claude Agent SDK 迭代压缩 | Claude |
+| **Mem0** | 上下文压缩 + 图结构生成 | GPT-4 |
+| **Letta** | 层级摘要 | 可配置 |
+
+#### 存储引擎
+
+| 方案 | 关键词搜索 | 向量搜索 | 图存储 |
+|------|----------|---------|--------|
+| **Claude-Mem** | SQLite FTS5 ✅ | ChromaDB ✅ | ❌ |
+| **Mem0** | ❌ | ✅ | ✅ |
+| **Letta** | ❌ | ✅ | ❌ |
+| **OpenAI** | ❌ | ✅ | ❌ |
+
+---
+
+## 十一、Claude-Mem 的独特技术特色
+
+### 11.1 Progressive Disclosure 的工程价值
+
+**核心思想**: 先显示索引和检索成本，让 Agent 自主决定获取什么。
+
+**实现**:
+```typescript
+// Layer 1: search() 返回索引（~50 tokens/result）
+search(query: string, limit: number): SearchResult[] {
+  // 返回: { id, title, type, created_at, tokens_estimate }
+}
+
+// Layer 2: timeline() 获取时间线上下文
+timeline(anchorId: number): Observation[] {
+  // 提供上下文，但不返回完整内容
+}
+
+// Layer 3: get_observations() 获取完整详情
+get_observations(ids: number[]): Observation[] {
+  // 每条 ~500-1000 tokens
+}
+```
+
+**效果**:
+- 从 10,000 tokens → 550 tokens（节省 95%）
+- Agent 自主决策，避免无关内容
+
+### 11.2 Hook 驱动的架构
+
+**核心优势**:
+1. **无侵入**: 不需要修改 Agent 代码
+2. **自动化**: 自动捕获所有 tool 调用
+3. **可观测**: 实时监控记忆流
+
+**Hook 配置**:
+```json
+{
+  "PostToolUse": [
+    {
+      "matcher": "*",
+      "hooks": [
+        { "command": "...hook claude-code observation", "timeout": 120 }
+      ]
+    }
+  ]
+}
+```
+
+### 11.3 SQLite + ChromaDB 混合检索
+
+**FTS5 全文搜索**:
+```sql
+CREATE VIRTUAL TABLE observations_fts USING fts5(
+  title, subtitle, narrative, concepts,
+  content='observations',
+  tokenize='porter unicode61'
+);
+```
+
+**ChromaDB 向量搜索**:
+```typescript
+// v10.3.0: chroma-mcp MCP 连接
+const chroma = new ChromaMcpManager();
+await chroma.search('hook timeout');
+```
+
+**优势**:
+- FTS5: 关键词匹配，零依赖
+- ChromaDB: 语义理解，智能召回
+- 优雅降级: Chroma 不可用时仅用 FTS5
+
+### 11.4 AI 压缩的 Prompt 设计
+
+**Observation Prompt**:
+```xml
+<observation>
+  <type>[ gotcha | problem-solution | how-it-works ]</type>
+  <title>Hook timeout issue: 60s default too short</title>
+  <facts>
+    <fact>Tool read file took 65s</fact>
+  </facts>
+  <narrative>npm install hook timeout, increased to 120s</narrative>
+</observation>
+```
+
+**压缩率**: 原始 5000 tokens → Observation 100 tokens（50:1）
+
+### 11.5 OpenClaw 原生集成
+
+**一键安装**:
+```bash
+curl -fsSL https://install.cmem.ai/openclaw.sh | bash
+```
+
+**事件桥接**:
+```
+OpenClaw Gateway
+  ├── before_agent_start → 同步 MEMORY.md
+  ├── tool_result_persist → 记录 observation
+  └── agent_end → 生成摘要
+```
+
+**优势**: 无需手动配置，开箱即用
+
+---
+
+## 十二、总结
 
 Claude-Mem 是目前最成熟的 Claude Code 记忆插件，其核心价值在于：
 
@@ -487,24 +710,52 @@ Claude-Mem 是目前最成熟的 Claude Code 记忆插件，其核心价值在�
 3. **自动化**: 无需手动干预
 4. **可观测**: Web UI 实时查看记忆流
 
-从源码分析中，我们学到：
+### 与 Mem0 对比
 
-- **Hook 架构**: 通过生命周期钩子捕获所有 Agent 操作
-- **AI 压缩**: 用 Claude Agent SDK 将原始数据压缩成结构化 observation
-- **Progressive Disclosure**: 三层工作流，先索引后详情
-- **SQLite 优化**: WAL + mmap + 内存临时存储
-- **进程管理**: 多重防护避免僵尸进程
+| 维度 | Claude-Mem | Mem0 |
+|------|-----------|------|
+| 定位 | Claude Code 专用插件 | 通用记忆层 |
+| 检索 | Progressive Disclosure | 向量 + 图 |
+| 准确率 | 未基准化 | 26% > OpenAI Memory |
+| Token 节省 | ~95% | ~90% |
+| 开源协议 | AGPL-3.0 | Apache 2.0 |
 
-对于正在设计 Agent 记忆系统的开发者，这是必读的参考实现。
+### 与 Letta 对比
+
+| 维度 | Claude-Mem | Letta |
+|------|-----------|-------|
+| 架构 | Claude Code 插件 | Agent 框架 |
+| 持久化 | Session 级别 | Agent 级别 |
+| 检索 | Progressive Disclosure | 向量搜索 |
+| 集成难度 | 低 | 中 |
+
+### 技术特色
+
+1. **Progressive Disclosure**: 先索引后详情，Agent 自主决策
+2. **Hook 驱动**: 无侵入自动捕获
+3. **混合检索**: FTS5 + ChromaDB
+4. **AI 压缩**: Claude Agent SDK 迭代压缩
+5. **OpenClaw 集成**: 一键安装，完美集成
+
+### 适用场景
+
+- **Claude-Mem**: Claude Code 用户，需要持久化上下文
+- **Mem0**: 通用 Agent 开发者，需要高性能记忆
+- **Letta**: 长期运行的 Agent 系统，需要状态化 Agent
+
+对于正在设计 Agent 记忆系统的开发者，Claude-Mem 是必读的参考实现，其 Progressive Disclosure 设计尤其值得借鉴。
 
 ---
 
 ## 参考链接
 
-- GitHub: https://github.com/thedotmack/claude-mem
+- Claude-Mem: https://github.com/thedotmack/claude-mem
+- Mem0: https://github.com/mem0ai/mem0
+- Letta (原 MemGPT): https://github.com/letta-ai/letta-code
 - 官网: https://claude-mem.ai/
 - 文档: https://docs.claude-mem.ai/
 - OpenClaw 集成: https://docs.claude-mem.ai/openclaw-integration
+- Mem0 论文: https://arxiv.org/abs/2504.19413
 
 ---
 
