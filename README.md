@@ -6,6 +6,7 @@
 
 | 文件名 | 标题 | 日期 |
 |--------|------|------|
+| 2026-02-21-mcp-gateway-agent-memory-architecture.md | MCP Gateway 与 Agent 记忆系统架构：解决 N×M 集成问题的生产级方案 | 2026-02-21 |
 | 2026-02-20-harness-engineering-agent-development.md | Harness Engineering：LLM 时代 Agent 开发的新范式 | 2026-02-20 |
 | 2026-02-19-claude-mem-agent-memory-system.md | Claude-Mem: AI Agent 记忆系统的参考实现 | 2026-02-19 |
 | 2026-02-19-llm-era-programming-paradigm.md | LLM 时代的编程范式重构：从确定性到概率性软件工程 | 2026-02-19 |
