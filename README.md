@@ -6,6 +6,7 @@
 
 | 文件名 | 标题 | 日期 |
 |--------|------|------|
+| 2026-02-23-agent-memory-mcp-protocol-deep-dive.md | Agent 记忆系统的 MCP 协议深度实践：从 Moltbook 现象到标准化架构 | 2026-02-23 |
 | 2026-02-22-agent-memory-mcp-production-architecture.md | Agent 记忆系统在 MCP 架构中的生产级实现：从 Moltbook 现象到企业级方案 | 2026-02-22 |
 | 2026-02-21-mcp-gateway-agent-memory-architecture.md | MCP Gateway 与 Agent 记忆系统架构：解决 N×M 集成问题的生产级方案 | 2026-02-21 |
 | 2026-02-20-harness-engineering-agent-development.md | Harness Engineering：LLM 时代 Agent 开发的新范式 | 2026-02-20 |
