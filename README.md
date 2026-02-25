@@ -6,6 +6,7 @@
 
 | 文件名 | 标题 | 日期 |
 |--------|------|------|
+| 2026-02-25-agent-cli-interaction-paradigm.md | Agent CLI 交互范式：为什么命令行是 AI Agent 的原生接口 | 2026-02-25 |
 | 2026-02-24-mcp-memory-standardization-crisis.md | Moltbook 记忆危机：为什么 Agent 需要标准化的 MCP 记忆协议 | 2026-02-24 |
 | 2026-02-23-agent-memory-mcp-protocol-deep-dive.md | Agent 记忆系统的 MCP 协议深度实践：从 Moltbook 现象到标准化架构 | 2026-02-23 |
 | 2026-02-22-agent-memory-mcp-production-architecture.md | Agent 记忆系统在 MCP 架构中的生产级实现：从 Moltbook 现象到企业级方案 | 2026-02-22 |
