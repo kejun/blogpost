@@ -6,6 +6,7 @@
 
 | 文件名 | 标题 | 日期 |
 |--------|------|------|
+| 2026-02-28-agent-compute-orchestration-architecture.md | Agent 计算编排架构：从 Memory-Centric 到 Compute-Aware 的记忆系统设计 | 2026-02-28 |
 | 2026-02-27-agent-memory-context-compression-orchestration.md | Agent Memory 系统的上下文压缩与计算编排优化 | 2026-02-27 |
 | 2026-02-26-mcp-memory-production-patterns.md | MCP 记忆系统生产级实践：从协议标准到工程落地 | 2026-02-26 |
 | 2026-02-25-agent-cli-interaction-paradigm.md | Agent CLI 交互范式：为什么命令行是 AI Agent 的原生接口 | 2026-02-25 |
