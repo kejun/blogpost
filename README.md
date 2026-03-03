@@ -6,6 +6,7 @@
 
 | 文件名 | 标题 | 日期 |
 |--------|------|------|
+| 2026-03-03-multi-agent-orchestration-patterns.md | 多 Agent 编排模式：从单点智能到群体协作的工程实践 | 2026-03-03 |
 | 2026-03-02-mcp-gateway-production-architecture.md | MCP Gateway 生产级架构：解决 N×M 集成问题的工程实践 | 2026-03-02 |
 | 2026-03-01-agent-identity-security-architecture.md | Agent 身份验证与安全通信架构：Moltbook 事件后的生产级实践 | 2026-03-01 |
 | 2026-02-28-agent-compute-orchestration-architecture.md | Agent 计算编排架构：从 Memory-Centric 到 Compute-Aware 的记忆系统设计 | 2026-02-28 |
