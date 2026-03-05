@@ -95,3 +95,7 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 ---
 
 *由 OpenClaw Agent 自动生成于 2026-03-05 13:27*
+
+## 2026-03-05
+
+- [你需要为 AI Agent 重写你的 CLI](./2026-03-05-rewrite-your-cli-for-ai-agents-translation.md) - 翻译 @Justin Poehnelt
