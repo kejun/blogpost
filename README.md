@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 48 篇
-- **最后更新**: 2026-03-07 11:00
+- **总文章数**: 49 篇
+- **最后更新**: 2026-03-08 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-08-ai-agent-observability-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-08-ai-agent-observability-architecture.md) | AI Agent 可观测性架构：从黑盒调试到生产级监控的工程实践 | 2026-03-08 | AI 技术 |
 | [2026-03-07-ai-agent-identity-trust-governance.md](https://github.com/kejun/blogpost/blob/main/2026-03-07-ai-agent-identity-trust-governance.md) | AI Agent 身份与信任体系：从 Moltbook 宗教事件看生产级 Agent 治理架构 | 2026-03-07 | AI 技术 |
 | [2026-03-06-ai-agent-tool-use-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-06-ai-agent-tool-use-patterns.md) | AI Agent 工具使用模式：从基础调用到生产级 Tool Orchestration 的工程实践 | 2026-03-06 | AI 技术 |
 | [2026-03-05-agentops-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-05-agentops-production-architecture.md) | AgentOps 生产级架构：为什么 40% 的 AI 代理项目会失败，以及如何避免 | 2026-03-05 | AI技术 |
