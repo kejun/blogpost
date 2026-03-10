@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 49 篇
-- **最后更新**: 2026-03-08 11:00
+- **总文章数**: 52 篇
+- **最后更新**: 2026-03-10 11:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 19 篇 |
-| AI技术 | 14 篇 |
+| AI技术 | 18 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,10 +24,13 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-03-08-ai-agent-observability-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-08-ai-agent-observability-architecture.md) | AI Agent 可观测性架构：从黑盒调试到生产级监控的工程实践 | 2026-03-08 | AI 技术 |
-| [2026-03-07-ai-agent-identity-trust-governance.md](https://github.com/kejun/blogpost/blob/main/2026-03-07-ai-agent-identity-trust-governance.md) | AI Agent 身份与信任体系：从 Moltbook 宗教事件看生产级 Agent 治理架构 | 2026-03-07 | AI 技术 |
-| [2026-03-06-ai-agent-tool-use-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-06-ai-agent-tool-use-patterns.md) | AI Agent 工具使用模式：从基础调用到生产级 Tool Orchestration 的工程实践 | 2026-03-06 | AI 技术 |
+| [2026-03-10-hybrid-rag-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-10-hybrid-rag-production-architecture.md) | Hybrid RAG 生产级架构：从单一检索到混合智能的工程实践 | 2026-03-10 | 其他 |
+| [2026-03-09-ai-agent-social-protocol-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-09-ai-agent-social-protocol-architecture.md) | AI Agent 社交协议与跨平台身份系统：从 Moltbook 现象看 Agent 互操作性架构 | 2026-03-09 | AI技术 |
+| [2026-03-08-ai-agent-observability-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-08-ai-agent-observability-architecture.md) | AI Agent 可观测性架构：从黑盒调试到生产级监控的工程实践 | 2026-03-08 | AI技术 |
+| [2026-03-07-ai-agent-identity-trust-governance.md](https://github.com/kejun/blogpost/blob/main/2026-03-07-ai-agent-identity-trust-governance.md) | AI Agent 身份与信任体系：从 Moltbook 宗教事件看生产级 Agent 治理架构 | 2026-03-07 | AI技术 |
+| [2026-03-06-ai-agent-tool-use-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-06-ai-agent-tool-use-patterns.md) | AI Agent Tool使用模式：从基础调用到生产级 Tool Orchestration ... | 2026-03-06 | AI技术 |
 | [2026-03-05-agentops-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-05-agentops-production-architecture.md) | AgentOps 生产级架构：为什么 40% 的 AI 代理项目会失败，以及如何避免 | 2026-03-05 | AI技术 |
+| [2026-03-05-rewrite-your-cli-for-ai-agents-translation.md](https://github.com/kejun/blogpost/blob/main/2026-03-05-rewrite-your-cli-for-ai-agents-translation.md) | 你需要为 AI Agent 重写你的 CLI | 2026-03-05 | AI技术 |
 | [2026-03-04-ai-agent-evaluation-framework-production.md](https://github.com/kejun/blogpost/blob/main/2026-03-04-ai-agent-evaluation-framework-production.md) | AI Agent 评估体系：从实验室指标到生产级监控的工程实践 | 2026-03-04 | AI技术 |
 | [2026-03-04-pint-sized-macintosh-pico-micro-mac-translation.md](https://github.com/kejun/blogpost/blob/main/2026-03-04-pint-sized-macintosh-pico-micro-mac-translation.md) | 迷你 Macintosh：用 Raspberry Pi Pico 打造的微型电脑 | 2026-03-04 | 其他 |
 | [2026-03-03-multi-agent-orchestration-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-03-multi-agent-orchestration-patterns.md) | 多 Agent 编排模式：从单点智能到群体协作的工程实践 | 2026-03-03 | AI技术 |
@@ -97,8 +100,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-05 13:27*
-
-## 2026-03-05
-
-- [你需要为 AI Agent 重写你的 CLI](./2026-03-05-rewrite-your-cli-for-ai-agents-translation.md) - 翻译 @Justin Poehnelt
+*由 OpenClaw Agent 自动生成于 2026-03-10 11:03*
