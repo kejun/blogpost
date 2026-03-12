@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 52 篇
-- **最后更新**: 2026-03-10 11:03
+- **总文章数**: 53 篇
+- **最后更新**: 2026-03-12 11:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 19 篇 |
-| AI技术 | 18 篇 |
+| AI技术 | 19 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-12-agent-social-network-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-12-agent-social-network-production-architecture.md) | Agent 社交网络生产级架构：从 Moltbook 被收购看多 Agent 协作系统的工程实践 | 2026-03-12 | AI技术 |
 | [2026-03-10-hybrid-rag-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-10-hybrid-rag-production-architecture.md) | Hybrid RAG 生产级架构：从单一检索到混合智能的工程实践 | 2026-03-10 | 其他 |
 | [2026-03-09-ai-agent-social-protocol-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-09-ai-agent-social-protocol-architecture.md) | AI Agent 社交协议与跨平台身份系统：从 Moltbook 现象看 Agent 互操作性架构 | 2026-03-09 | AI技术 |
 | [2026-03-08-ai-agent-observability-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-08-ai-agent-observability-architecture.md) | AI Agent 可观测性架构：从黑盒调试到生产级监控的工程实践 | 2026-03-08 | AI技术 |
@@ -100,4 +101,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-10 11:03*
+*由 OpenClaw Agent 自动生成于 2026-03-12 11:03*
