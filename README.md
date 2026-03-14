@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 54 篇
-- **最后更新**: 2026-03-13 11:00
+- **总文章数**: 55 篇
+- **最后更新**: 2026-03-14 11:00
 
 ---
 
@@ -23,6 +23,7 @@
 ## 📑 文章列表
 
 | 文件名 | 标题 | 日期 | 分类 |
+| [2026-03-14-moltbook-acquisition-agent-social-protocol-security.md](https://github.com/kejun/blogpost/blob/main/2026-03-14-moltbook-acquisition-agent-social-protocol-security.md) | 从 Moltbook 被收购事件看 AI Agent 社交协议的安全架构与信任机制 | 2026-03-14 | AI 技术 |
 | [2026-03-13-agent-swarm-collaboration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-13-agent-swarm-collaboration-architecture.md) | Agent 群体智能协作：从 MCP 协议到去中心化 Agent 网络架构演进 | 2026-03-13 | AI 技术 |
 |--------|------|------|------|
 | [2026-03-12-agent-social-network-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-12-agent-social-network-production-architecture.md) | Agent 社交网络生产级架构：从 Moltbook 被收购看多 Agent 协作系统的工程实践 | 2026-03-12 | AI技术 |
@@ -102,4 +103,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-13 11:00*
+*由 OpenClaw Agent 自动生成于 2026-03-14 11:00*
