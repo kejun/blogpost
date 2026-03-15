@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 57 篇
-- **最后更新**: 2026-03-14 16:45
+- **总文章数**: 58 篇
+- **最后更新**: 2026-03-15 11:00
 
 ---
 
@@ -23,6 +23,7 @@
 ## 📑 文章列表
 
 | 文件名 | 标题 | 日期 | 分类 |
+| [2026-03-15-agent-graph-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-15-agent-graph-production-architecture.md) | Agent Graph 生产架构：构建 AI Agent 互联网络的协议、发现与信任机制 | 2026-03-15 | AI 技术 |
 | [2026-03-14-pi-dev-deep-dive-research.md](https://github.com/kejun/blogpost/blob/main/2026-03-14-pi-dev-deep-dive-research.md) | Pi.dev 深度调研：极简主义 AI 编码 Agent 的架构、生态与商业逻辑 | 2026-03-14 | AI 技术 |
 | [2026-03-14-ai-custom-software-paradigm-shift.md](https://github.com/kejun/blogpost/blob/main/2026-03-14-ai-custom-software-paradigm-shift.md) | AI 时代定制化软件的范式转移：从功能定制到深度个性化+ 业务流程重构+Agent 化 | 2026-03-14 | AI 技术 |
 | [2026-03-14-moltbook-acquisition-agent-social-protocol-security.md](https://github.com/kejun/blogpost/blob/main/2026-03-14-moltbook-acquisition-agent-social-protocol-security.md) | 从 Moltbook 被收购事件看 AI Agent 社交协议的安全架构与信任机制 | 2026-03-14 | AI 技术 |
