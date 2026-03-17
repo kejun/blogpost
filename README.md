@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 59 篇
-- **最后更新**: 2026-03-16 11:08
+- **总文章数**: 60 篇
+- **最后更新**: 2026-03-17 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-17-ai-native-frontend-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-17-ai-native-frontend-architecture.md) | AI-Native 前端架构：当 Agent 成为第一用户时的界面范式转移 | 2026-03-17 | AI技术 |
 | [2026-03-16-ai-security-agent-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-16-ai-security-agent-production-architecture.md) | AI 安全 Agent 生产级架构：从 OpenAI Codex Security 看智能漏洞... | 2026-03-16 | AI技术 |
 | [2026-03-15-agent-graph-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-15-agent-graph-production-architecture.md) | Agent Graph 生产架构：构建 AI Agent 互联网络的协议、发现与信任机制 | 2026-03-15 | AI技术 |
 | [2026-03-14-ai-custom-software-paradigm-shift.md](https://github.com/kejun/blogpost/blob/main/2026-03-14-ai-custom-software-paradigm-shift.md) | AI 时代定制化软件的范式转移：从功能定制到深度个性化 | 2026-03-14 | AI技术 |
