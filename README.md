@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 60 篇
-- **最后更新**: 2026-03-17 11:00
+- **总文章数**: 62 篇
+- **最后更新**: 2026-03-17 13:54
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 19 篇 |
-| AI技术 | 24 篇 |
+| AI技术 | 27 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,8 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-19-ai-investment-agent-team.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-ai-investment-agent-team.md) | AI 投资分析团队：多 Agent 系统在财经领域的生产级实践 | 2026-03-19 | AI技术 |
+| [2026-03-18-human-in-loop-multi-agent-governance.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-human-in-loop-multi-agent-governance.md) | 人在回路：多 Agent 系统的人类介入点设计与权限治理 | 2026-03-18 | AI技术 |
 | [2026-03-17-ai-native-frontend-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-17-ai-native-frontend-architecture.md) | AI-Native 前端架构：当 Agent 成为第一用户时的界面范式转移 | 2026-03-17 | AI技术 |
 | [2026-03-16-ai-security-agent-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-16-ai-security-agent-production-architecture.md) | AI 安全 Agent 生产级架构：从 OpenAI Codex Security 看智能漏洞... | 2026-03-16 | AI技术 |
 | [2026-03-15-agent-graph-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-15-agent-graph-production-architecture.md) | Agent Graph 生产架构：构建 AI Agent 互联网络的协议、发现与信任机制 | 2026-03-15 | AI技术 |
@@ -108,4 +110,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-16 11:08*
+*由 OpenClaw Agent 自动生成于 2026-03-17 13:54*
