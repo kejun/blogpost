@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 68 篇
-- **最后更新**: 2026-03-19 03:06
+- **总文章数**: 69 篇
+- **最后更新**: 2026-03-19 11:04
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 20 篇 |
-| AI技术 | 28 篇 |
+| AI技术 | 29 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,31 +24,9 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-19-agent-self-diagnosis-healing-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-agent-self-diagnosis-healing-architecture.md) | AI Agent 自诊断与自愈系统：从 Microsoft AgentRx 看生产级错误恢复架构 | 2026-03-19 | AI技术 |
 | [2026-03-19-ai-investment-agent-team.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-ai-investment-agent-team.md) | AI 投资分析团队：多 Agent 系统在财经领域的生产级实践 | 2026-03-19 | AI技术 |
-| [2026-03-19-random-labs-slate-swarm-native-coding-agent.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-random-labs-slate-swarm-native-coding-agent.md) | Slate：超越 ReAct 与 RLM | 2026-03-19 | AI技术 |
-| [2026年Agent记忆系统架构演进.md](https://github.com/kejun/blogpost/blob/main/2026年Agent记忆系统架构演进.md) | 2026年Agent记忆系统架构演进：Mastra、OpenClaw与混合检索的融合 | 2026-03-19 | 记忆系统 |
-| [NEW-REPOS-CREATED.md](https://github.com/kejun/blogpost/blob/main/NEW-REPOS-CREATED.md) | 🎉 新仓库创建完成 - MCP Memory Server & MiniClaw | 2026-03-19 | 其他 |
-| [NEW-REPOS-SUMMARY.md](https://github.com/kejun/blogpost/blob/main/NEW-REPOS-SUMMARY.md) | 🎉 新仓库创建完成总结 | 2026-03-19 | 其他 |
-| [PROMOTION-PACKAGE.md](https://github.com/kejun/blogpost/blob/main/PROMOTION-PACKAGE.md) | 📢 文章推广文案包 | 2026-03-19 | 其他 |
-| [REPO-SETUP-GUIDE.md](https://github.com/kejun/blogpost/blob/main/REPO-SETUP-GUIDE.md) | 🚀 Repository Setup Guide | 2026-03-19 | 其他 |
-| [SaaS的熊市论点是否成立？与MongoDB CEO CJ Desai的对话.md](https://github.com/kejun/blogpost/blob/main/SaaS的熊市论点是否成立？与MongoDB CEO CJ Desai的对话.md) | SaaS的熊市论点是否成立？与MongoDB CEO CJ Desai的对话 | 2026-03-19 | AI技术 |
-| [agent-memory-evolution-2026.md](https://github.com/kejun/blogpost/blob/main/agent-memory-evolution-2026.md) | Agent Memory 技术演进：从检索到记忆的本质 | 2026-03-19 | 记忆系统 |
-| [agent-memory-systems-comparison.md](https://github.com/kejun/blogpost/blob/main/agent-memory-systems-comparison.md) | Agent 记忆系统技术调研报告 | 2026-03-19 | 记忆系统 |
-| [eywa-js-quickstart.md](https://github.com/kejun/blogpost/blob/main/eywa-js-quickstart.md) | eywa-js 快速接入（10 分钟） | 2026-03-19 | 数据库 |
-| [finnhub-integration-complete.md](https://github.com/kejun/blogpost/blob/main/finnhub-integration-complete.md) | ✅ Finnhub API 集成完成 - 真实市场数据上线 | 2026-03-19 | 其他 |
-| [isl-8090-b2b-analysis.md](https://github.com/kejun/blogpost/blob/main/isl-8090-b2b-analysis.md) | 深度分析：ISL 与 8090 产品在 B2B 领域的快速起量 | 2026-03-19 | 其他 |
-| [mongodb-agent-memory-guide.md](https://github.com/kejun/blogpost/blob/main/mongodb-agent-memory-guide.md) | 什么是 Agent Memory？增强 AI 学习与记忆的完整指南 | 2026-03-19 | 记忆系统 |
-| [observational-memory-rag-comparison.md](https://github.com/kejun/blogpost/blob/main/observational-memory-rag-comparison.md) | Observational Memory 正在颠覆 RAG 架构 | 2026-03-19 | 记忆系统 |
-| [peter-steinberger-openclaw-interview.md](https://github.com/kejun/blogpost/blob/main/peter-steinberger-openclaw-interview.md) | Peter Steinberger: OpenClaw, AI Agents & The Fu... | 2026-03-19 | AI技术 |
-| [ryan-carson-3file-system-v2.md](https://github.com/kejun/blogpost/blob/main/ryan-carson-3file-system-v2.md) | Ryan Carson：3文件系统 —— 用AI轻松编写生产级应用 | 2026-03-19 | AI技术 |
-| [seekdb-agent-memory-en.md](https://github.com/kejun/blogpost/blob/main/seekdb-agent-memory-en.md) | Building Efficient Agent Memory with SeekDB: Fr... | 2026-03-19 | 记忆系统 |
-| [seekdb-js-agent-memory-technical-solution.md](https://github.com/kejun/blogpost/blob/main/seekdb-js-agent-memory-technical-solution.md) | Eywa-js Agent Memory 完整技术方案 | 2026-03-19 | 记忆系统 |
-| [seekdb-langgraph-memory.md](https://github.com/kejun/blogpost/blob/main/seekdb-langgraph-memory.md) | 使用 SeekDB 为 AI Agent 实现持久化记忆：从"全量上下文"到"精准召回" | 2026-03-19 | 记忆系统 |
-| [translated-ryancarson-3file-system.md](https://github.com/kejun/blogpost/blob/main/translated-ryancarson-3file-system.md) | Ryan Carson: 经过验证的3文件系统 —— 用AI轻松编写生产级应用 | 2026-03-19 | AI技术 |
-| [zvec-deep-dive.md](https://github.com/kejun/blogpost/blob/main/zvec-deep-dive.md) | Zvec 技术解析 | 2026-03-19 | 数据库 |
-| [记忆系统核心模块详细实现方案.md](https://github.com/kejun/blogpost/blob/main/记忆系统核心模块详细实现方案.md) | 记忆系统核心模块详细实现方案 | 2026-03-19 | 记忆系统 |
-| [记忆系统进阶模块详细实现方案.md](https://github.com/kejun/blogpost/blob/main/记忆系统进阶模块详细实现方案.md) | 记忆系统进阶模块详细实现方案 | 2026-03-19 | 记忆系统 |
-| [超越Agent记忆系统的技术路径.md](https://github.com/kejun/blogpost/blob/main/超越Agent记忆系统的技术路径.md) | Agent 记忆系统超越路径分析 | 2026-03-19 | 记忆系统 |
+| [2026-03-19-random-labs-slate-swarm-native-coding-agent.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-random-labs-slate-swarm-native-coding-agent.md) | Random Labs 推出 Slate V1：业界首个"群体原生"编码 Agent | 2026-03-19 | AI技术 |
 | [2026-03-18-adk-skill-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-adk-skill-patterns.md) | 每个 ADK 开发者都应了解的 5 个 Agent Skill 设计模式 | 2026-03-18 | 其他 |
 | [2026-03-18-agent-identity-continuity-memory-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-agent-identity-continuity-memory-architecture.md) | AI Agent 身份连续性危机：从 Moltbook 现象看会话间记忆系统的生产级架构 | 2026-03-18 | 记忆系统 |
 | [2026-03-18-claude-code-skills-guide.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-claude-code-skills-guide.md) | 构建 Claude Code 的经验：我们如何使用 Skills | 2026-03-18 | 其他 |
@@ -116,4 +94,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-19 03:06*
+*由 OpenClaw Agent 自动生成于 2026-03-19 11:04*
