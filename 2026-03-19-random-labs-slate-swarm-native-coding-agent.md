@@ -257,169 +257,118 @@ Claude unnecessarily defines persistent roles for the subagents, but this is bec
 
 We think single threaded agents have not been solved fully. As an industry, we do not need to move on to teams just yet.
 
-Agent Architecture Taxonomy
+<figure>
+          <p class="figure-title">Agent Architecture Taxonomy</p>
+          <table style="width:100%;border-collapse:collapse;font-family:'JetBrains Mono',monospace;font-size:10px;">
+            <thead>
+              <tr>
+                <th style="text-align:left;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">aspect</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">ReAct</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">Markdown Plan</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">Task Trees</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">RLM</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">Devin / Manus / Altera</th>
+                <th style="text-align:center;padding:6px 7px;background:#1a1a1a;color:#F1F2F2;font-weight:600;border:1px solid #333;">Claude Code / Codex</th>
+                <th style="text-align:center;padding:6px 7px;background:#70808D;color:#F1F2F2;font-weight:600;border:1px solid #333;">Slate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="background:#F8F8F8;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">planning</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">implicit</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">file</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">explicit</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">REPL</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">planning agent</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">plan mode</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">implicit</td>
+              </tr>
+              <tr style="background:#fff;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">decomposition</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">none</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">none</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">direct tree</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">REPL functions</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">task based</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">subagent delegation</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">implicit</td>
+              </tr>
+              <tr style="background:#F8F8F8;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">synchronization</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">single thread</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">single thread</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">gated steps</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">REPL return</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">reduce &amp; return</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">message passing</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">episodes</td>
+              </tr>
+              <tr style="background:#fff;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">intermediate feedback</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">per step</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">per step</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">on task failure</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">on execution</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">after compress</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">message passing</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">per episode</td>
+              </tr>
+              <tr style="background:#F8F8F8;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">context isolation</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">per subtask</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">per subcall</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">subagent</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">subagent</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">per thread</td>
+              </tr>
+              <tr style="background:#fff;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">context compaction</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Task based</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">REPL Slicing</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Subagent compress</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Compaction</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">Episode compress</td>
+              </tr>
+              <tr style="background:#F8F8F8;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">parallel execution</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">N/A</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">In REPL</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Altera only</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Native</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">Native</td>
+              </tr>
+              <tr style="background:#fff;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">expressivity</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">high</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">high</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">low</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">high</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">medium</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">medium</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">high</td>
+              </tr>
+              <tr style="background:#F8F8F8;">
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;color:#1a1a1a;font-weight:500;">adaptability</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Yes</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Yes if plan updated</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">No</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Yes</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Yes</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;">Limited by message passing</td>
+                <td style="padding:5px 7px;border:1px solid #e0e0e0;text-align:center;color:#70808D;font-weight:500;">Yes</td>
+              </tr>
+            </tbody>
+          </table>
+          <figcaption>Agent architecture comparison across key system properties. Slate has both the expressivity and reactivity of ReAct alongside the context isolation, parallelism, and compaction that other systems have.</figcaption>
+        </figure>
 
-aspect
 
-ReAct
-
-Markdown Plan
-
-Task Trees
-
-RLM
-
-Devin / Manus / Altera
-
-Claude Code / Codex
-
-Slate
-
-planning
-
-implicit
-
-file
-
-explicit
-
-REPL
-
-planning agent
-
-plan mode
-
-implicit
-
-decomposition
-
-none
-
-none
-
-direct tree
-
-REPL functions
-
-task based
-
-subagent delegation
-
-implicit
-
-synchronization
-
-single thread
-
-single thread
-
-gated steps
-
-REPL return
-
-reduce & return
-
-message passing
-
-episodes
-
-intermediate feedback
-
-per step
-
-per step
-
-on task failure
-
-on execution
-
-after compress
-
-message passing
-
-per episode
-
-context isolation
-
-N/A
-
-N/A
-
-per subtask
-
-per subcall
-
-subagent
-
-subagent
-
-per thread
-
-context compaction
-
-N/A
-
-N/A
-
-Task based
-
-REPL Slicing
-
-Subagent compress
-
-Compaction
-
-Episode compress
-
-parallel execution
-
-N/A
-
-N/A
-
-N/A
-
-In REPL
-
-Altera only
-
-Native
-
-Native
-
-expressivity
-
-high
-
-high
-
-low
-
-high
-
-medium
-
-medium
-
-high
-
-adaptability
-
-Yes
-
-Yes if plan updated
-
-No
-
-Yes
-
-Yes
-
-Limited by message passing
-
-Yes
-
-Agent architecture comparison across key system properties. Slate has both the expressivity and reactivity of ReAct alongside the context isolation, parallelism, and compaction that other systems have.
 
 [#](#section-13) Slate's Approach: Thread Weaving and Episodes
 --------------------------------------------------------------
