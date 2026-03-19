@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 63 篇
-- **最后更新**: 2026-03-18 12:33
+- **总文章数**: 69 篇
+- **最后更新**: 2026-03-19 11:04
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 20 篇 |
-| AI技术 | 27 篇 |
+| AI技术 | 29 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,8 +24,14 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-19-agent-self-diagnosis-healing-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-agent-self-diagnosis-healing-architecture.md) | AI Agent 自诊断与自愈系统：从 Microsoft AgentRx 看生产级错误恢复架构 | 2026-03-19 | AI技术 |
 | [2026-03-19-ai-investment-agent-team.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-ai-investment-agent-team.md) | AI 投资分析团队：多 Agent 系统在财经领域的生产级实践 | 2026-03-19 | AI技术 |
+| [2026-03-19-random-labs-slate-swarm-native-coding-agent.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-random-labs-slate-swarm-native-coding-agent.md) | Random Labs 推出 Slate V1：业界首个"群体原生"编码 Agent | 2026-03-19 | AI技术 |
+| [2026-03-18-adk-skill-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-adk-skill-patterns.md) | 每个 ADK 开发者都应了解的 5 个 Agent Skill 设计模式 | 2026-03-18 | 其他 |
 | [2026-03-18-agent-identity-continuity-memory-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-agent-identity-continuity-memory-architecture.md) | AI Agent 身份连续性危机：从 Moltbook 现象看会话间记忆系统的生产级架构 | 2026-03-18 | 记忆系统 |
+| [2026-03-18-claude-code-skills-guide.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-claude-code-skills-guide.md) | 构建 Claude Code 的经验：我们如何使用 Skills | 2026-03-18 | 其他 |
+| [2026-03-18-claude-code-skills-interpreter.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-claude-code-skills-interpreter.md) | Claude Code Skills 实战指南：从理解到应用 | 2026-03-18 | 其他 |
+| [2026-03-18-clawteam-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-clawteam-deep-dive.md) | ClawTeam 深度调研：Agent 群体智能的极简实现 | 2026-03-18 | 其他 |
 | [2026-03-18-human-in-loop-multi-agent-governance.md](https://github.com/kejun/blogpost/blob/main/2026-03-18-human-in-loop-multi-agent-governance.md) | 人在回路：多 Agent 系统的人类介入点设计与权限治理 | 2026-03-18 | AI技术 |
 | [2026-03-17-ai-native-frontend-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-17-ai-native-frontend-architecture.md) | AI-Native 前端架构：当 Agent 成为第一用户时的界面范式转移 | 2026-03-17 | AI技术 |
 | [2026-03-16-ai-security-agent-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-16-ai-security-agent-production-architecture.md) | AI 安全 Agent 生产级架构：从 OpenAI Codex Security 看智能漏洞... | 2026-03-16 | AI技术 |
@@ -111,4 +117,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-18 12:33*
+*由 OpenClaw Agent 自动生成于 2026-03-19 11:04*
