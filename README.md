@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 72 篇
-- **最后更新**: 2026-03-21 11:00
+- **总文章数**: 74 篇
+- **最后更新**: 2026-03-22 11:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 20 篇 |
-| AI技术 | 30 篇 |
+| AI技术 | 32 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,7 +24,9 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-03-21-multi-agent-communication-architecture-evolution.md](https://github.com/kejun/blogpost/blob/main/2026-03-21-multi-agent-communication-architecture-evolution.md) | 多 Agent 通信架构演进：从同步 RPC 到事件驱动 + 共享记忆空间的混合模式 | 2026-03-21 | AI 技术 |
+| [2026-03-22-agent-tool-security-governance-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-22-agent-tool-security-governance-architecture.md) | AI Agent Tool 安全架构：生产环境中的权限治理与风险控制 | 2026-03-22 | AI技术 |
+| [2026-03-21-multi-agent-communication-architecture-evolution.md](https://github.com/kejun/blogpost/blob/main/2026-03-21-multi-agent-communication-architecture-evolution.md) | 多 Agent 通信架构演进：从同步 RPC 到事件驱动 + 共享记忆空间的混合模式 | 2026-03-21 | AI技术 |
+| [2026-03-20-db9-ai-product-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-db9-ai-product-analysis.md) | DB9.ai 产品设计与架构深度分析报告 | 2026-03-20 | AI技术 |
 | [2026-03-20-mcp-protocol-standardization-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-mcp-protocol-standardization-interoperability.md) | MCP 协议标准化战争：从 Anthropic 标准到多协议共存的 Agent 互操作性架构 | 2026-03-20 | 其他 |
 | [2026-03-19-agent-self-diagnosis-healing-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-agent-self-diagnosis-healing-architecture.md) | AI Agent 自诊断与自愈系统：从 Microsoft AgentRx 看生产级错误恢复架构 | 2026-03-19 | AI技术 |
 | [2026-03-19-ai-investment-agent-team.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-ai-investment-agent-team.md) | AI 投资分析团队：多 Agent 系统在财经领域的生产级实践 | 2026-03-19 | AI技术 |
@@ -120,4 +122,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-20 11:02*
+*由 OpenClaw Agent 自动生成于 2026-03-22 11:02*
