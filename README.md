@@ -5,7 +5,8 @@
 ## 📊 统计
 
 - **总文章数**: 81 篇
-- **最后更新**: 2026-03-22 09:50
+<<<<<<< HEAD
+- **最后更新**: 2026-03-23 11:02
 
 ---
 
@@ -24,6 +25,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-23-ai-agent-verification-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-23-ai-agent-verification-production-architecture.md) | AI Agent 验证系统生产级架构：从 Verification-Centric Reaso... | 2026-03-23 | AI技术 |
 | [2026-03-22-agent-tool-security-governance-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-22-agent-tool-security-governance-architecture.md) | AI Agent Tool 安全架构：生产环境中的权限治理与风险控制 | 2026-03-22 | AI技术 |
 | [2026年Agent记忆系统架构演进.md](https://github.com/kejun/blogpost/blob/main/2026年Agent记忆系统架构演进.md) | 2026年Agent记忆系统架构演进：Mastra、OpenClaw与混合检索的融合 | 2026-03-22 | 记忆系统 |
 | [NEW-REPOS-CREATED.md](https://github.com/kejun/blogpost/blob/main/NEW-REPOS-CREATED.md) | 🎉 新仓库创建完成 - MCP Memory Server & MiniClaw | 2026-03-22 | 其他 |
@@ -56,6 +58,12 @@
 | [记忆系统进阶模块详细实现方案.md](https://github.com/kejun/blogpost/blob/main/记忆系统进阶模块详细实现方案.md) | 记忆系统进阶模块详细实现方案 | 2026-03-22 | 记忆系统 |
 | [超越Agent记忆系统的技术路径.md](https://github.com/kejun/blogpost/blob/main/超越Agent记忆系统的技术路径.md) | Agent 记忆系统超越路径分析 | 2026-03-22 | 记忆系统 |
 | [2026-03-21-multi-agent-communication-architecture-evolution.md](https://github.com/kejun/blogpost/blob/main/2026-03-21-multi-agent-communication-architecture-evolution.md) | 多 Agent 通信架构演进：从同步 RPC 到事件驱动 + 共享记忆空间的混合模式 | 2026-03-21 | AI技术 |
+| [andy-intro-keynote-manual.md](https://github.com/kejun/blogpost/blob/main/andy-intro-keynote-manual.md) | Andy 自我介绍 Keynote 幻灯片 - 手动创建指南 | 2026-03-21 | 其他 |
+| [andy-intro-slides.md](https://github.com/kejun/blogpost/blob/main/andy-intro-slides.md) | Andy 自我介绍 Keynote 幻灯片 | 2026-03-21 | 其他 |
+| [automation-tools-comparison.md](https://github.com/kejun/blogpost/blob/main/automation-tools-comparison.md) | 自动化工具完整对比与选型指南 | 2026-03-21 | 其他 |
+| [no_priors_andre_karpathy_dialogue_zh_full_transcript.md](https://github.com/kejun/blogpost/blob/main/no_priors_andre_karpathy_dialogue_zh_full_transcript.md) | 两人对话脚本（中文完整保留版） | 2026-03-21 | 其他 |
+| [playwright-ecosystem-guide.md](https://github.com/kejun/blogpost/blob/main/playwright-ecosystem-guide.md) | Playwright 完整用法与生态工具指南 | 2026-03-21 | 其他 |
+| [pyautogui-ecosystem-guide.md](https://github.com/kejun/blogpost/blob/main/pyautogui-ecosystem-guide.md) | PyAutoGUI 完整用法与生态工具指南 | 2026-03-21 | 其他 |
 | [2026-03-20-db9-ai-product-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-db9-ai-product-analysis.md) | DB9.ai 产品设计与架构深度分析报告 | 2026-03-20 | AI技术 |
 | [2026-03-20-mcp-protocol-standardization-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-mcp-protocol-standardization-interoperability.md) | MCP 协议标准化战争：从 Anthropic 标准到多协议共存的 Agent 互操作性架构 | 2026-03-20 | 其他 |
 | [2026-03-19-agent-self-diagnosis-healing-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-agent-self-diagnosis-healing-architecture.md) | AI Agent 自诊断与自愈系统：从 Microsoft AgentRx 看生产级错误恢复架构 | 2026-03-19 | AI技术 |
@@ -129,4 +137,8 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
+<<<<<<< HEAD
 *由 OpenClaw Agent 自动生成于 2026-03-22 09:50*
+=======
+*由 OpenClaw Agent 自动生成于 2026-03-23 11:02*
+>>>>>>> f52450e (New: AI Agent 验证系统生产级架构 (2026-03-23))
