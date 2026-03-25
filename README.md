@@ -4,9 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 81 篇
-<<<<<<< HEAD
-- **最后更新**: 2026-03-23 11:02
+- **总文章数**: 83 篇
+- **最后更新**: 2026-03-25 11:00
 
 ---
 
@@ -25,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-25-ai-agent-security-audit-runtime-protection.md](https://github.com/kejun/blogpost/blob/main/2026-03-25-ai-agent-security-audit-runtime-protection.md) | AI Agent 安全审计与运行时防护：从 ClawSecure 看生产级 Agent 系统的零信任架构 | 2026-03-25 | AI 技术 |
 | [2026-03-23-ai-agent-verification-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-23-ai-agent-verification-production-architecture.md) | AI Agent 验证系统生产级架构：从 Verification-Centric Reaso... | 2026-03-23 | AI技术 |
 | [2026-03-22-agent-tool-security-governance-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-22-agent-tool-security-governance-architecture.md) | AI Agent Tool 安全架构：生产环境中的权限治理与风险控制 | 2026-03-22 | AI技术 |
 | [2026年Agent记忆系统架构演进.md](https://github.com/kejun/blogpost/blob/main/2026年Agent记忆系统架构演进.md) | 2026年Agent记忆系统架构演进：Mastra、OpenClaw与混合检索的融合 | 2026-03-22 | 记忆系统 |
@@ -137,8 +137,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-<<<<<<< HEAD
-*由 OpenClaw Agent 自动生成于 2026-03-22 09:50*
-=======
-*由 OpenClaw Agent 自动生成于 2026-03-23 11:02*
->>>>>>> f52450e (New: AI Agent 验证系统生产级架构 (2026-03-23))
+*由 OpenClaw Agent 自动生成于 2026-03-25 11:00*
