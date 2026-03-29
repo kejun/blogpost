@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 88 篇
-- **最后更新**: 2026-03-28 11:02
+- **总文章数**: 89 篇
+- **最后更新**: 2026-03-29 11:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 20 篇 |
-| AI技术 | 40 篇 |
+| AI技术 | 41 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-29-ai-agent-streaming-execution-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-agent-streaming-execution-architecture.md) | AI Agent 流式执行架构：从 Token 流到增量 UI 渲染的生产级实践 | 2026-03-29 | AI技术 |
 | [2026-03-28-ai-agent-economy-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-28-ai-agent-economy-architecture.md) | AI Agent 经济系统架构：从 MCP 任务市场到去中心化 Agent 协作网络的生产级实践 | 2026-03-28 | AI技术 |
 | [2026-03-27-ai-agent-tool-orchestration-advanced-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-27-ai-agent-tool-orchestration-advanced-patterns.md) | AI Agent Tool Orchestration 高级模式：从顺序调用到动态编排的生产级实践 | 2026-03-27 | AI技术 |
 | [2026-03-26-agent-runtime-error-recovery-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-26-agent-runtime-error-recovery-architecture.md) | AI Agent 运行时错误处理与恢复策略：从 ReAct 失败到生产级弹性架构 | 2026-03-26 | AI技术 |
@@ -136,4 +137,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-28 11:02*
+*由 OpenClaw Agent 自动生成于 2026-03-29 11:02*
