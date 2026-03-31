@@ -6,7 +6,7 @@
 
 ---
 
-![封面图片](./cover.jpg)
+![封面图片](./article_cover.jpg)
 
 我阅读了 Claude Code 的内存源代码。
 
@@ -20,7 +20,8 @@
 
 工程师们立即开始研究有趣的部分：提示词、工具定义、计费逻辑。
 
-![Claude Code 内存目录](./img4.jpg)
+![Claude Code 内存目录](./article_img4.jpg)
+*Claude Code 内存目录*
 
 我直接查看了 `src/memdir/`。
 
@@ -28,7 +29,8 @@
 
 ## 内存系统实际工作原理
 
-![Claude Code 内存架构](./img2.png)
+![Claude Code memory](./article_img2.png)
+*Claude Code memory*
 
 Claude Code 将内存存储为磁盘上的纯 Markdown 文件。
 
@@ -134,7 +136,8 @@ mem0 插件在 Claude Code 和 Cowork 中都有效。两条命令安装：
 
 当你达到上限时，这正是你替换它的方式。
 
-![完整内存架构](./img1.jpg)
+![Full Memory Architecture](./article_img1.jpg)
+*Full Memory Architecture*
 
 ## mem0 的不同之处
 
@@ -150,7 +153,11 @@ Anthropic 提供的默认系统设计良好的 v1 版本。它对大多数开发
 
 但当你达到上限时，插件系统正是你修复这个限制的方式。
 
-![mem0 插件](./img3.jpg)
+![Claude Code Memory Architecture](./article_img5.jpg)
+*Claude Code Memory Architecture（原文拼写为 Architetcure）*
+
+![My personal memory in Claude](./article_img3.jpg)
+*My personal memory in Claude*
 
 你可以：
 
