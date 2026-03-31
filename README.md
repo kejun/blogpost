@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 91 篇
-- **最后更新**: 2026-03-30 11:00
+- **总文章数**: 92 篇
+- **最后更新**: 2026-03-31 11:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 20 篇 |
-| AI技术 | 41 篇 |
+| AI技术 | 42 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-03-31-cross-platform-agent-integration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-31-cross-platform-agent-integration-architecture.md) | AI Agent 跨平台竞合策略与集成架构：从 OpenAI 入驻 Claude Code 看生态博弈 | 2026-03-31 | AI 技术 |
 | [2026-03-30-a2a-protocol-agent-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-30-a2a-protocol-agent-interoperability.md) | A2A 协议详解：AI Agent 互操作性的生产级架构 | 2026-03-30 | AI 技术 |
 | [2026-03-29-ai-harness-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-harness-engineering.md) | AI Harness Engineering 的崛起（翻译） | 2026-03-29 | AI技术 |
 | [2026-03-29-ai-agent-streaming-execution-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-agent-streaming-execution-architecture.md) | AI Agent 流式执行架构：从 Token 流到增量 UI 渲染的生产级实践 | 2026-03-29 | AI技术 |
