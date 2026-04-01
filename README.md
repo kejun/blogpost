@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 92 篇
-- **最后更新**: 2026-03-31 11:00
+- **总文章数**: 93 篇
+- **最后更新**: 2026-04-01 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-01-ai-agent-production-debugging-observability.md](https://github.com/kejun/blogpost/blob/main/2026-04-01-ai-agent-production-debugging-observability.md) | AI Agent 生产环境调试：从黑盒到可观测的工程实践 | 2026-04-01 | AI 技术 |
 | [2026-03-31-cross-platform-agent-integration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-31-cross-platform-agent-integration-architecture.md) | AI Agent 跨平台竞合策略与集成架构：从 OpenAI 入驻 Claude Code 看生态博弈 | 2026-03-31 | AI 技术 |
 | [2026-03-30-a2a-protocol-agent-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-30-a2a-protocol-agent-interoperability.md) | A2A 协议详解：AI Agent 互操作性的生产级架构 | 2026-03-30 | AI 技术 |
 | [2026-03-29-ai-harness-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-harness-engineering.md) | AI Harness Engineering 的崛起（翻译） | 2026-03-29 | AI技术 |
