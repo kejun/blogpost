@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 96 篇
-- **最后更新**: 2026-04-04 11:00
+- **总文章数**: 97 篇
+- **最后更新**: 2026-04-05 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-05-ai-agent-group-intelligence-communication-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-05-ai-agent-group-intelligence-communication-architecture.md) | AI Agent 群体智能的通信协议与协调架构：从 Moltbook 现象到生产级多 Agent 系统 | 2026-04-05 | AI 技术 |
 | [2026-04-04-ai-agent-evaluation-production-system.md](https://github.com/kejun/blogpost/blob/main/2026-04-04-ai-agent-evaluation-production-system.md) | AI Agent 评估体系生产级实践：从实验室指标到持续质量保障 | 2026-04-04 | AI 技术 |
 | [2026-04-03-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-03-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态配置到运行时自适应调度 | 2026-04-03 | AI 技术 |
 | [2026-04-02-agent-memory-compute-aware-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-02-agent-memory-compute-aware-orchestration.md) | AI Agent 记忆系统的计算感知编排架构：从存储到智能调度 | 2026-04-02 | AI 技术 |
