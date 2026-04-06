@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 97 篇
-- **最后更新**: 2026-04-05 11:00
+- **总文章数**: 103 篇
+- **最后更新**: 2026-04-06 11:04
 
 ---
 
@@ -13,8 +13,8 @@
 
 | 类别 | 文章数 |
 |------|--------|
-| 记忆系统 | 20 篇 |
-| AI技术 | 42 篇 |
+| 记忆系统 | 22 篇 |
+| AI技术 | 51 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,15 +24,21 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-04-05-ai-agent-group-intelligence-communication-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-05-ai-agent-group-intelligence-communication-architecture.md) | AI Agent 群体智能的通信协议与协调架构：从 Moltbook 现象到生产级多 Agent 系统 | 2026-04-05 | AI 技术 |
-| [2026-04-04-ai-agent-evaluation-production-system.md](https://github.com/kejun/blogpost/blob/main/2026-04-04-ai-agent-evaluation-production-system.md) | AI Agent 评估体系生产级实践：从实验室指标到持续质量保障 | 2026-04-04 | AI 技术 |
-| [2026-04-03-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-03-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态配置到运行时自适应调度 | 2026-04-03 | AI 技术 |
-| [2026-04-02-agent-memory-compute-aware-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-02-agent-memory-compute-aware-orchestration.md) | AI Agent 记忆系统的计算感知编排架构：从存储到智能调度 | 2026-04-02 | AI 技术 |
-| [2026-04-01-ai-agent-production-debugging-observability.md](https://github.com/kejun/blogpost/blob/main/2026-04-01-ai-agent-production-debugging-observability.md) | AI Agent 生产环境调试：从黑盒到可观测的工程实践 | 2026-04-01 | AI 技术 |
-| [2026-03-31-cross-platform-agent-integration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-31-cross-platform-agent-integration-architecture.md) | AI Agent 跨平台竞合策略与集成架构：从 OpenAI 入驻 Claude Code 看生态博弈 | 2026-03-31 | AI 技术 |
-| [2026-03-30-a2a-protocol-agent-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-30-a2a-protocol-agent-interoperability.md) | A2A 协议详解：AI Agent 互操作性的生产级架构 | 2026-03-30 | AI 技术 |
-| [2026-03-29-ai-harness-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-harness-engineering.md) | AI Harness Engineering 的崛起（翻译） | 2026-03-29 | AI技术 |
+| [2026-04-06-ai-agent-social-architecture-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-04-06-ai-agent-social-architecture-emergence.md) | AI Agent 社会性架构：从个体智能到群体行为涌现的工程实践 | 2026-04-06 | AI技术 |
+| [2026-04-05-ai-agent-group-intelligence-communication-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-05-ai-agent-group-intelligence-communication-architecture.md) | AI Agent 群体智能的通信协议与协调架构：从 Moltbook 现象到生产级多 Agen... | 2026-04-05 | AI技术 |
+| [2026-04-04-ai-agent-evaluation-production-system.md](https://github.com/kejun/blogpost/blob/main/2026-04-04-ai-agent-evaluation-production-system.md) | AI Agent 评估体系生产级实践：从实验室指标到持续质量保障 | 2026-04-04 | AI技术 |
+| [2026-04-03-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-03-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态配置到运行时自适应调度 | 2026-04-03 | AI技术 |
+| [blog_post_20260403.md](https://github.com/kejun/blogpost/blob/main/blog_post_20260403.md) | Google 保密 20 年的技术现已向所有企业开放 | 2026-04-03 | 其他 |
+| [2026-04-02-agent-memory-compute-aware-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-02-agent-memory-compute-aware-orchestration.md) | AI Agent 记忆系统的计算感知编排架构：从存储到智能调度 | 2026-04-02 | 记忆系统 |
+| [claude-code-memory-system.md](https://github.com/kejun/blogpost/blob/main/claude-code-memory-system.md) | Claude Code 的记忆系统详解 | 2026-04-02 | 记忆系统 |
+| [from-hierarchy-to-intelligence.md](https://github.com/kejun/blogpost/blob/main/from-hierarchy-to-intelligence.md) | 从层级制到智能化 | 2026-04-02 | 其他 |
+| [2026-04-01-ai-agent-production-debugging-observability.md](https://github.com/kejun/blogpost/blob/main/2026-04-01-ai-agent-production-debugging-observability.md) | AI Agent 生产环境调试：从黑盒到可观测的工程实践 | 2026-04-01 | AI技术 |
+| [2026-03-31-cross-platform-agent-integration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-31-cross-platform-agent-integration-architecture.md) | AI Agent 跨平台竞合策略与集成架构：从 OpenAI 入驻 Claude Code 看... | 2026-03-31 | AI技术 |
+| [vercel-agent-browser-analysis.md](https://github.com/kejun/blogpost/blob/main/vercel-agent-browser-analysis.md) | Vercel Agent Browser - 深度技术分析 | 2026-03-31 | AI技术 |
+| [为-Agent-构建-CLI-工具.md](https://github.com/kejun/blogpost/blob/main/为-Agent-构建-CLI-工具.md) | 在 10 分钟内为 AI 代理和人类构建 CLI | 2026-03-31 | AI技术 |
+| [2026-03-30-a2a-protocol-agent-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-30-a2a-protocol-agent-interoperability.md) | A2A 协议详解：AI Agent 互操作性的生产级架构 | 2026-03-30 | AI技术 |
 | [2026-03-29-ai-agent-streaming-execution-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-agent-streaming-execution-architecture.md) | AI Agent 流式执行架构：从 Token 流到增量 UI 渲染的生产级实践 | 2026-03-29 | AI技术 |
+| [2026-03-29-ai-harness-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-03-29-ai-harness-engineering.md) | AI Harness Engineering 的崛起 | 2026-03-29 | AI技术 |
 | [2026-03-28-ai-agent-economy-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-28-ai-agent-economy-architecture.md) | AI Agent 经济系统架构：从 MCP 任务市场到去中心化 Agent 协作网络的生产级实践 | 2026-03-28 | AI技术 |
 | [2026-03-27-ai-agent-tool-orchestration-advanced-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-27-ai-agent-tool-orchestration-advanced-patterns.md) | AI Agent Tool Orchestration 高级模式：从顺序调用到动态编排的生产级实践 | 2026-03-27 | AI技术 |
 | [2026-03-26-agent-runtime-error-recovery-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-26-agent-runtime-error-recovery-architecture.md) | AI Agent 运行时错误处理与恢复策略：从 ReAct 失败到生产级弹性架构 | 2026-03-26 | AI技术 |
@@ -145,4 +151,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-03-29 14:25*
+*由 OpenClaw Agent 自动生成于 2026-04-06 11:04*
