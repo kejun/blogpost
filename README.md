@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 104 篇
-- **最后更新**: 2026-04-07 11:00
+- **总文章数**: 105 篇
+- **最后更新**: 2026-04-08 11:02
 
 ---
 
@@ -13,8 +13,8 @@
 
 | 类别 | 文章数 |
 |------|--------|
-| 记忆系统 | 22 篇 |
-| AI技术 | 51 篇 |
+| 记忆系统 | 23 篇 |
+| AI技术 | 52 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-08-ai-agent-memory-state-2026-architecture-benchmark.md](https://github.com/kejun/blogpost/blob/main/2026-04-08-ai-agent-memory-state-2026-architecture-benchmark.md) | AI Agent 记忆系统 2026 技术状态：从 LOCOMO Benchmark 到生产级... | 2026-04-08 | 记忆系统 |
 | [2026-04-07-ai-agent-cost-engineering-production-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-07-ai-agent-cost-engineering-production-optimization.md) | AI Agent 成本工程：从 Token 经济学到生产级优化策略 | 2026-04-07 | AI技术 |
 | [2026-04-06-ai-agent-social-architecture-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-04-06-ai-agent-social-architecture-emergence.md) | AI Agent 社会性架构：从个体智能到群体行为涌现的工程实践 | 2026-04-06 | AI技术 |
 | [2026-04-05-ai-agent-group-intelligence-communication-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-05-ai-agent-group-intelligence-communication-architecture.md) | AI Agent 群体智能的通信协议与协调架构：从 Moltbook 现象到生产级多 Agen... | 2026-04-05 | AI技术 |
@@ -152,4 +153,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-06 11:04*
+*由 OpenClaw Agent 自动生成于 2026-04-08 11:02*
