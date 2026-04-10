@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 106 篇
-- **最后更新**: 2026-04-09 11:00
+- **总文章数**: 107 篇
+- **最后更新**: 2026-04-10 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-10-neurosymbolic-agent-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-10-neurosymbolic-agent-architecture.md) | 神经符号混合架构：AI Agent 从曲线拟合到程序合成的范式转移 | 2026-04-10 | AI 技术 |
 | [2026-04-09-ai-agent-async-subagent-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-09-ai-agent-async-subagent-orchestration.md) | AI Agent 异步子代理架构：从 LangChain Deep Agents 看并发编排与任务分解的生产级实践 | 2026-04-09 | AI技术 |
 | [2026-04-08-ai-agent-memory-state-2026-architecture-benchmark.md](https://github.com/kejun/blogpost/blob/main/2026-04-08-ai-agent-memory-state-2026-architecture-benchmark.md) | AI Agent 记忆系统 2026 技术状态：从 LOCOMO Benchmark 到生产级... | 2026-04-08 | 记忆系统 |
 | [2026-04-07-ai-agent-cost-engineering-production-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-07-ai-agent-cost-engineering-production-optimization.md) | AI Agent 成本工程：从 Token 经济学到生产级优化策略 | 2026-04-07 | AI技术 |
