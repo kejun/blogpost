@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 114 篇
-- **最后更新**: 2026-04-17 11:00
+- **总文章数**: 115 篇
+- **最后更新**: 2026-04-18 11:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-18-multimodal-agent-architecture-vision-language-action.md](https://github.com/kejun/blogpost/blob/main/2026-04-18-multimodal-agent-architecture-vision-language-action.md) | 多模态 Agent 架构：从视觉 - 语言 - 动作（VLA）模型到生产级具身智能 | 2026-04-18 | AI 技术 |
 | [2026-04-17-ai-agent-cost-performance-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-17-ai-agent-cost-performance-optimization.md) | AI Agent 成本工程与性能优化：2026 年生产环境的实战方法论 | 2026-04-17 | AI 技术 |
 | [2026-04-16-ai-agent-developer-experience-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-04-16-ai-agent-developer-experience-revolution.md) | AI Agent 开发者体验革命：从调试工具到智能开发环境的范式转移 | 2026-04-16 | AI 技术 |
 | [2026-04-15-ai-agent-protocol-stack-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-15-ai-agent-protocol-stack-fusion-architecture.md) | AI Agent 协议栈融合架构：MCP、A2A 与可移植 Agent 的企业级实践 | 2026-04-15 | AI 技术 |
