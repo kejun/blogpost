@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 115 篇
-- **最后更新**: 2026-04-18 11:00
+- **总文章数**: 116 篇
+- **最后更新**: 2026-04-19 11:04
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 57 篇 |
+| AI技术 | 62 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,10 +24,11 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-04-18-multimodal-agent-architecture-vision-language-action.md](https://github.com/kejun/blogpost/blob/main/2026-04-18-multimodal-agent-architecture-vision-language-action.md) | 多模态 Agent 架构：从视觉 - 语言 - 动作（VLA）模型到生产级具身智能 | 2026-04-18 | AI 技术 |
-| [2026-04-17-ai-agent-cost-performance-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-17-ai-agent-cost-performance-optimization.md) | AI Agent 成本工程与性能优化：2026 年生产环境的实战方法论 | 2026-04-17 | AI 技术 |
-| [2026-04-16-ai-agent-developer-experience-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-04-16-ai-agent-developer-experience-revolution.md) | AI Agent 开发者体验革命：从调试工具到智能开发环境的范式转移 | 2026-04-16 | AI 技术 |
-| [2026-04-15-ai-agent-protocol-stack-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-15-ai-agent-protocol-stack-fusion-architecture.md) | AI Agent 协议栈融合架构：MCP、A2A 与可移植 Agent 的企业级实践 | 2026-04-15 | AI 技术 |
+| [2026-04-19-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-19-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态注册到运行时自适应 | 2026-04-19 | AI技术 |
+| [2026-04-18-multimodal-agent-architecture-vision-language-action.md](https://github.com/kejun/blogpost/blob/main/2026-04-18-multimodal-agent-architecture-vision-language-action.md) | 多模态 Agent 架构：从视觉 - 语言 - 动作（VLA）模型到生产级具身智能 | 2026-04-18 | AI技术 |
+| [2026-04-17-ai-agent-cost-performance-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-17-ai-agent-cost-performance-optimization.md) | AI Agent 成本工程与性能优化：2026 年生产环境的实战方法论 | 2026-04-17 | AI技术 |
+| [2026-04-16-ai-agent-developer-experience-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-04-16-ai-agent-developer-experience-revolution.md) | AI Agent 开发者体验革命：从调试工具到智能开发环境的范式转移 | 2026-04-16 | AI技术 |
+| [2026-04-15-ai-agent-protocol-stack-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-15-ai-agent-protocol-stack-fusion-architecture.md) | AI Agent 协议栈融合架构：MCP、A2A 与可移植 Agent 的企业级实践 | 2026-04-15 | AI技术 |
 | [2026-04-14-ai-agent-runtime-sandbox-security-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-14-ai-agent-runtime-sandbox-security-architecture.md) | AI Agent 运行时安全沙箱架构：从 OpenClaw 漏洞事件看生产级防护体系 | 2026-04-14 | AI技术 |
 | [2026-04-13-ai-agent-skill-hot-update-self-evolution.md](https://github.com/kejun/blogpost/blob/main/2026-04-13-ai-agent-skill-hot-update-self-evolution.md) | AI Agent 技能系统热更新与自进化架构：从静态工具库到动态能力生态 | 2026-04-13 | AI技术 |
 | [2026-04-12-mcp-protocol-2026-production-practices.md](https://github.com/kejun/blogpost/blob/main/2026-04-12-mcp-protocol-2026-production-practices.md) | MCP 协议 2026 生产实践：从单机工具到企业级 Agent 通信基础设施 | 2026-04-12 | 其他 |
@@ -163,4 +164,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-14 11:03*
+*由 OpenClaw Agent 自动生成于 2026-04-19 11:04*
