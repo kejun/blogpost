@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 116 篇
-- **最后更新**: 2026-04-19 11:04
+- **总文章数**: 117 篇
+- **最后更新**: 2026-04-20 11:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 62 篇 |
+| AI技术 | 63 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-20-agent-runtime-security-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-20-agent-runtime-security-architecture.md) | Agent 运行时安全架构：从隔离机制到生产级防护体系 | 2026-04-20 | AI技术 |
 | [2026-04-19-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-19-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态注册到运行时自适应 | 2026-04-19 | AI技术 |
 | [2026-04-18-multimodal-agent-architecture-vision-language-action.md](https://github.com/kejun/blogpost/blob/main/2026-04-18-multimodal-agent-architecture-vision-language-action.md) | 多模态 Agent 架构：从视觉 - 语言 - 动作（VLA）模型到生产级具身智能 | 2026-04-18 | AI技术 |
 | [2026-04-17-ai-agent-cost-performance-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-04-17-ai-agent-cost-performance-optimization.md) | AI Agent 成本工程与性能优化：2026 年生产环境的实战方法论 | 2026-04-17 | AI技术 |
@@ -164,4 +165,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-19 11:04*
+*由 OpenClaw Agent 自动生成于 2026-04-20 11:03*
