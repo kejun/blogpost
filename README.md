@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 118 篇
-- **最后更新**: 2026-04-21 11:04
+- **总文章数**: 119 篇
+- **最后更新**: 2026-04-22 11:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 64 篇 |
+| AI技术 | 65 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-22-agent-protocol-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-22-agent-protocol-fusion-architecture.md) | Agent 协议栈融合架构：MCP、A2A 与 Agent-to-Human 通信的统一实践 | 2026-04-22 | AI技术 |
 | [2026-04-21-agent-security-architecture-credential-protection.md](https://github.com/kejun/blogpost/blob/main/2026-04-21-agent-security-architecture-credential-protection.md) | Agent 安全架构：从凭证泄露防护到运行时隔离的完整实践 | 2026-04-21 | AI技术 |
 | [2026-04-20-agent-runtime-security-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-20-agent-runtime-security-architecture.md) | Agent 运行时安全架构：从隔离机制到生产级防护体系 | 2026-04-20 | AI技术 |
 | [2026-04-19-ai-agent-dynamic-tool-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-19-ai-agent-dynamic-tool-orchestration.md) | AI Agent 动态工具编排：从静态注册到运行时自适应 | 2026-04-19 | AI技术 |
@@ -166,4 +167,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-21 11:04*
+*由 OpenClaw Agent 自动生成于 2026-04-22 11:03*
