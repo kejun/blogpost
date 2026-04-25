@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 121 篇
-- **最后更新**: 2026-04-24 11:03
+- **总文章数**: 122 篇
+- **最后更新**: 2026-04-25 11:04
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 67 篇 |
+| AI技术 | 68 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-25-agent-monitorability-engineering-from-safety-to-production.md](https://github.com/kejun/blogpost/blob/main/2026-04-25-agent-monitorability-engineering-from-safety-to-production.md) | Agent 可监控性工程：从安全研究到生产基础设施的关键一跃 | 2026-04-25 | AI技术 |
 | [2026-04-24-llm-compression-meaning-tradeoff-agent-reliability.md](https://github.com/kejun/blogpost/blob/main/2026-04-24-llm-compression-meaning-tradeoff-agent-reliability.md) | 压缩与意义的博弈：为什么 LLM 的"过度压缩"正在成为 Agent 可靠性的核心瓶颈 | 2026-04-24 | AI技术 |
 | [2026-04-23-agent-infrastructure-production-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-04-23-agent-infrastructure-production-paradigm.md) | Agent 基础设施层崛起：从 Demo 到生产级 Agent 基础设施的范式转移 | 2026-04-23 | AI技术 |
 | [2026-04-22-agent-protocol-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-22-agent-protocol-fusion-architecture.md) | Agent 协议栈融合架构：MCP、A2A 与 Agent-to-Human 通信的统一实践 | 2026-04-22 | AI技术 |
@@ -169,4 +170,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-24 11:03*
+*由 OpenClaw Agent 自动生成于 2026-04-25 11:04*
