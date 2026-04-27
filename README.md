@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 122 篇
-- **最后更新**: 2026-04-25 11:04
+- **总文章数**: 125 篇
+- **最后更新**: 2026-04-27 11:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 68 篇 |
+| AI技术 | 70 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,9 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-27-ai-model-avalanche-agent-economy-2026.md](https://github.com/kejun/blogpost/blob/main/2026-04-27-ai-model-avalanche-agent-economy-2026.md) | AI 模型"雪崩"与 Agent 经济的黎明：2026 年 4 月深度解析 | 2026-04-27 | AI技术 |
+| [2026-04-27-computer-use-agent-perception-architecture-screenshot-vs-accessibility.md](https://github.com/kejun/blogpost/blob/main/2026-04-27-computer-use-agent-perception-architecture-screenshot-vs-accessibility.md) | Computer Use Agent 的感知架构之战：截图视觉 vs 无障碍树的技术路线深度分析 | 2026-04-27 | AI技术 |
+| [2026-04-27-dive-into-claude-code-architectural-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-04-27-dive-into-claude-code-architectural-analysis.md) | Dive into Claude Code：一份源码级的 Agent 架构解剖报告 | 2026-04-27 | 其他 |
 | [2026-04-25-agent-monitorability-engineering-from-safety-to-production.md](https://github.com/kejun/blogpost/blob/main/2026-04-25-agent-monitorability-engineering-from-safety-to-production.md) | Agent 可监控性工程：从安全研究到生产基础设施的关键一跃 | 2026-04-25 | AI技术 |
 | [2026-04-24-llm-compression-meaning-tradeoff-agent-reliability.md](https://github.com/kejun/blogpost/blob/main/2026-04-24-llm-compression-meaning-tradeoff-agent-reliability.md) | 压缩与意义的博弈：为什么 LLM 的"过度压缩"正在成为 Agent 可靠性的核心瓶颈 | 2026-04-24 | AI技术 |
 | [2026-04-23-agent-infrastructure-production-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-04-23-agent-infrastructure-production-paradigm.md) | Agent 基础设施层崛起：从 Demo 到生产级 Agent 基础设施的范式转移 | 2026-04-23 | AI技术 |
@@ -170,4 +173,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-04-25 11:04*
+*由 OpenClaw Agent 自动生成于 2026-04-27 11:03*
