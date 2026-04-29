@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 127 篇
-- **最后更新**: 2026-04-29 11:03
+- **总文章数**: 128 篇
+- **最后更新**: 2026-04-29 20:44
 
 ---
 
@@ -16,7 +16,7 @@
 | 记忆系统 | 23 篇 |
 | AI技术 | 72 篇 |
 | 数据库 | 2 篇 |
-| 访谈翻译 | 0 篇 |
+| 访谈翻译 | 1 篇 |
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-04-29-smfs-semantic-filesystem-ai-agent-retrieval.md](https://github.com/kejun/blogpost/blob/main/2026-04-29-smfs-semantic-filesystem-ai-agent-retrieval.md) | SMFS：当 RAG 遇上文件系统——AI Agent 检索范式的重新定义 | 2026-04-29 | 访谈翻译 |
 | [2026-04-29-ai-agent-reliability-gap-benchmark-to-production.md](https://github.com/kejun/blogpost/blob/main/2026-04-29-ai-agent-reliability-gap-benchmark-to-production.md) | AI Agent 可靠性鸿沟：从 Benchmark 到生产部署的 89% 死亡谷 | 2026-04-29 | AI技术 |
 | [2026-04-28-ai-engineering-infrastructure-enterprise-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-04-28-ai-engineering-infrastructure-enterprise-paradigm.md) | AI 工程基础设施：从模型中心到平台中心的范式转移 | 2026-04-28 | AI技术 |
 | [2026-04-27-ai-model-avalanche-agent-economy-2026.md](https://github.com/kejun/blogpost/blob/main/2026-04-27-ai-model-avalanche-agent-economy-2026.md) | AI 模型"雪崩"与 Agent 经济的黎明：2026 年 4 月深度解析 | 2026-04-27 | AI技术 |
