@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 131 篇
-- **最后更新**: 2026-05-03 08:00
+- **总文章数**: 132 篇
+- **最后更新**: 2026-05-04 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 75 篇 |
+| AI技术 | 76 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-04-ai-eval-compute-cost-crisis-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-05-04-ai-eval-compute-cost-crisis-agent-era.md) | AI 评测的计算成本危机：当评估比训练更贵，Agent 时代谁来为真相买单？ | 2026-05-04 | AI技术 |
 | [2026-05-03-agent-harness-sandbox-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-03-agent-harness-sandbox-architecture.md) | Agent Harness 架构抉择：沙箱内 vs 沙箱外 | 2026-05-03 | AI技术 |
 | [2026-05-02-agent-skills-paradigm-shift-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-02-agent-skills-paradigm-shift-engineering.md) | Agent Skills 范式转移：从"工具注册"到"可组合能力"的工程革命 | 2026-05-02 | AI技术 |
 | [2026-04-30-deepseek-v4-agent-native-llm-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-30-deepseek-v4-agent-native-llm-architecture.md) | DeepSeek-V4：为 Agent 而生的大模型——百万级上下文窗口的架构革命 | 2026-04-30 | AI技术 |
@@ -179,4 +180,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-03 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-04 08:00*
