@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 135 篇
-- **最后更新**: 2026-05-07 08:00
+- **总文章数**: 136 篇
+- **最后更新**: 2026-05-08 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 79 篇 |
+| AI技术 | 80 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md) | VAKRA Benchmark 揭示的 Agent 评估危机：为什么模型在 8000+ 真实 API 面前集体崩溃？ | 2026-05-08 | AI技术 |
 | [2026-05-07-vllm-inference-correctness-crisis-rl-training.md](https://github.com/kejun/blogpost/blob/main/2026-05-07-vllm-inference-correctness-crisis-rl-training.md) | vLLM 推理正确性危机：当推理引擎升级摧毁了你的 RL 训练 | 2026-05-07 | AI技术 |
 | [2026-05-06-agent-context-window-crisis-optimization-ecosystem.md](https://github.com/kejun/blogpost/blob/main/2026-05-06-agent-context-window-crisis-optimization-ecosystem.md) | AI Agent 上下文窗口危机：当 Context 成为第一瓶颈的 2026 | 2026-05-06 | AI技术 |
 | [2026-05-05-openai-voice-webrtc-infrastructure-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-05-05-openai-voice-webrtc-infrastructure-deep-dive.md) | OpenAI 低延迟语音 AI 架构深度解析：WebRTC 如何支撑 9 亿周活的实时对话 | 2026-05-05 | AI技术 |
