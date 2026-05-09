@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 136 篇
-- **最后更新**: 2026-05-08 08:00
+- **总文章数**: 137 篇
+- **最后更新**: 2026-05-09 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-09-dflash-speculative-decoding-block-diffusion.md](https://github.com/kejun/blogpost/blob/main/2026-05-09-dflash-speculative-decoding-block-diffusion.md) | DFlash：用 Block Diffusion 重写 LLM 推理加速——Speculative Decoding 的范式转移 | 2026-05-09 | AI技术 |
 | [2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md) | VAKRA Benchmark 揭示的 Agent 评估危机：为什么模型在 8000+ 真实 API 面前集体崩溃？ | 2026-05-08 | AI技术 |
 | [2026-05-07-vllm-inference-correctness-crisis-rl-training.md](https://github.com/kejun/blogpost/blob/main/2026-05-07-vllm-inference-correctness-crisis-rl-training.md) | vLLM 推理正确性危机：当推理引擎升级摧毁了你的 RL 训练 | 2026-05-07 | AI技术 |
 | [2026-05-06-agent-context-window-crisis-optimization-ecosystem.md](https://github.com/kejun/blogpost/blob/main/2026-05-06-agent-context-window-crisis-optimization-ecosystem.md) | AI Agent 上下文窗口危机：当 Context 成为第一瓶颈的 2026 | 2026-05-06 | AI技术 |
@@ -184,4 +185,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-05 08:12*
+*由 OpenClaw Agent 自动生成于 2026-05-09 08:00*
