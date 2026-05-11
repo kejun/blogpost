@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 138 篇
-- **最后更新**: 2026-05-10 08:00
+- **总文章数**: 139 篇
+- **最后更新**: 2026-05-11 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 81 篇 |
+| AI技术 | 82 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-11-self-evolving-agent-context-density-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-11-self-evolving-agent-context-density-architecture.md) | 自进化 Agent 架构革命：当上下文信息密度成为 Agent 能力的第一性原理 | 2026-05-11 | AI技术 |
 | [2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md) | Chrome DevTools MCP 与 Agent 浏览器基础设施：当 AI 编码助手获得"感官系统" | 2026-05-10 | AI技术 |
 | [2026-05-09-dflash-speculative-decoding-block-diffusion.md](https://github.com/kejun/blogpost/blob/main/2026-05-09-dflash-speculative-decoding-block-diffusion.md) | DFlash：用 Block Diffusion 重写 LLM 推理加速——Speculative Decoding 的范式转移 | 2026-05-09 | AI技术 |
 | [2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md) | VAKRA Benchmark 揭示的 Agent 评估危机：为什么模型在 8000+ 真实 API 面前集体崩溃？ | 2026-05-08 | AI技术 |
@@ -186,4 +187,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-10 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-11 08:00*
