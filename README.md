@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 140 篇
-- **最后更新**: 2026-05-12 08:00
+- **总文章数**: 141 篇
+- **最后更新**: 2026-05-13 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 83 篇 |
+| AI技术 | 84 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md](https://github.com/kejun/blogpost/blob/main/2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md) | 超越语义相似度：当 grep 打败向量搜索——Agent 时代的检索范式革命 | 2026-05-13 | AI技术 |
 | [2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md) | EMO 革命：当 MoE 模型的"模块化"从数据中自然涌现 | 2026-05-12 | AI技术 |
 | [2026-05-11-self-evolving-agent-context-density-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-11-self-evolving-agent-context-density-architecture.md) | 自进化 Agent 架构革命：当上下文信息密度成为 Agent 能力的第一性原理 | 2026-05-11 | AI技术 |
 | [2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md) | Chrome DevTools MCP 与 Agent 浏览器基础设施：当 AI 编码助手获得"感官系统" | 2026-05-10 | AI技术 |
@@ -188,4 +189,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-11 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-13 08:00*
