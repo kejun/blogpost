@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 143 篇
-- **最后更新**: 2026-05-15 08:00
+- **总文章数**: 144 篇
+- **最后更新**: 2026-05-16 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 86 篇 |
+| AI技术 | 87 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-16-agent-skills-composition-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-16-agent-skills-composition-engineering.md) | Agent Skills 组合工程：当 84,000+ 星的 Skills 仓库告诉你——组合比创建更难 | 2026-05-16 | AI技术 |
 | [2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md) | Spec-Driven Development 革命：当 AI Agent 工程从"Prompt 驱动"走向"规格驱动" | 2026-05-15 | AI技术 |
 | [2026-05-14-agent-human-alignment-layer-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-14-agent-human-alignment-layer-engineering.md) | Agent 时代的"对齐层"工程：为什么 2026 年最火的 AI 项目都不是关于"模型能力"的 | 2026-05-14 | AI技术 |
 | [2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md](https://github.com/kejun/blogpost/blob/main/2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md) | 超越语义相似度：当 grep 打败向量搜索——Agent 时代的检索范式革命 | 2026-05-13 | AI技术 |
