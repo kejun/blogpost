@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 144 篇
-- **最后更新**: 2026-05-16 08:00
+- **总文章数**: 145 篇
+- **最后更新**: 2026-05-17 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 87 篇 |
+| AI技术 | 88 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md](https://github.com/kejun/blogpost/blob/main/2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md) | LLM Steering Vectors：当"脑内手术"不再是理论——DeepSeek-V4-Flash 如何激活了 Steering 时代 | 2026-05-17 | AI技术 |
 | [2026-05-16-agent-skills-composition-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-16-agent-skills-composition-engineering.md) | Agent Skills 组合工程：当 84,000+ 星的 Skills 仓库告诉你——组合比创建更难 | 2026-05-16 | AI技术 |
 | [2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md) | Spec-Driven Development 革命：当 AI Agent 工程从"Prompt 驱动"走向"规格驱动" | 2026-05-15 | AI技术 |
 | [2026-05-14-agent-human-alignment-layer-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-14-agent-human-alignment-layer-engineering.md) | Agent 时代的"对齐层"工程：为什么 2026 年最火的 AI 项目都不是关于"模型能力"的 | 2026-05-14 | AI技术 |
@@ -192,4 +193,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-15 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-17 08:00*
