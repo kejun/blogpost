@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 147 篇
-- **最后更新**: 2026-05-19 08:00
+- **总文章数**: 148 篇
+- **最后更新**: 2026-05-21 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md) | 代码知识图谱革命：当 AI 编码 Agent 不再"盲搜"文件 | 2026-05-21 | AI技术 |
 | [2026-05-19-agora-1-multi-agent-world-model-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-19-agora-1-multi-agent-world-model-architecture.md) | Agora-1：多智能体世界模型——当"Learned Game Engine"遇见共享模拟 | 2026-05-19 | AI技术 |
 | [2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md) | LLM 推理的"隐形浪费"：异步连续批处理如何释放 24% 的 GPU 算力 | 2026-05-18 | AI技术 |
 | [2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md](https://github.com/kejun/blogpost/blob/main/2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md) | LLM Steering Vectors：当"脑内手术"不再是理论——DeepSeek-V4-Flash 如何激活了 Steering 时代 | 2026-05-17 | AI技术 |
@@ -195,4 +196,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-19 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-21 08:00*
