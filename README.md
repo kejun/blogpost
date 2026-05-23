@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 149 篇
-- **最后更新**: 2026-05-22 08:00
+- **总文章数**: 150 篇
+- **最后更新**: 2026-05-23 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 91 篇 |
+| AI技术 | 92 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md](https://github.com/kejun/blogpost/blob/main/2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md) | Project Glasswing 与 AI 漏洞发现拐点：当漏洞找到比漏洞修补快了 10 倍 | 2026-05-23 | AI技术 |
 | [2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md) | Multi-Stream LLMs：当 LLM 不再是"单线程"——Agent 推理架构的范式转移 | 2026-05-22 | AI技术 |
 | [2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md) | 代码知识图谱革命：当 AI 编码 Agent 不再"盲搜"文件 | 2026-05-21 | AI技术 |
 | [2026-05-19-agora-1-multi-agent-world-model-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-19-agora-1-multi-agent-world-model-architecture.md) | Agora-1：多智能体世界模型——当"Learned Game Engine"遇见共享模拟 | 2026-05-19 | AI技术 |
