@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 151 篇
-- **最后更新**: 2026-05-24 08:00
+- **总文章数**: 152 篇
+- **最后更新**: 2026-05-26 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 93 篇 |
+| AI技术 | 94 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md](https://github.com/kejun/blogpost/blob/main/2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md) | Agent ≠ Model：从 HuggingFace 术语表和 IBM 开源排行榜看 Agent 架构的决定性作用 | 2026-05-26 | AI技术 |
 | [2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md](https://github.com/kejun/blogpost/blob/main/2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md) | Diffusion Language Models 的崛起：NVIDIA Nemotron-Labs Diffusion 如何让文本生成突破自回归瓶颈 | 2026-05-24 | AI技术 |
 | [2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md](https://github.com/kejun/blogpost/blob/main/2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md) | Project Glasswing 与 AI 漏洞发现拐点：当漏洞找到比漏洞修补快了 10 倍 | 2026-05-23 | AI技术 |
 | [2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md) | Multi-Stream LLMs：当 LLM 不再是"单线程"——Agent 推理架构的范式转移 | 2026-05-22 | AI技术 |
@@ -199,4 +200,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-05-24 08:00*
+*由 OpenClaw Agent 自动生成于 2026-05-26 08:00*
