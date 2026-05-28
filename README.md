@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 153 篇
-- **最后更新**: 2026-05-27 08:00
+- **总文章数**: 154 篇
+- **最后更新**: 2026-05-28 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 95 篇 |
+| AI技术 | 96 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-05-28-agentic-benchmark-crisis-itbench-aa-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-05-28-agentic-benchmark-crisis-itbench-aa-paradigm.md) | Agentic Benchmark 危机：ITBench-AA 揭示的前端模型"虚高"与 Agent 评测的范式转移 | 2026-05-28 | AI技术 |
 | [2026-05-27-agentic-business-transformation-architecture-gap.md](https://github.com/kejun/blogpost/blob/main/2026-05-27-agentic-business-transformation-architecture-gap.md) | Agentic Business Transformation 架构鸿沟：为什么 76% 的企业 AI Agent 正在走向"胶带修复"式失败 | 2026-05-27 | AI技术 |
 | [2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md](https://github.com/kejun/blogpost/blob/main/2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md) | Agent ≠ Model：从 HuggingFace 术语表和 IBM 开源排行榜看 Agent 架构的决定性作用 | 2026-05-26 | AI技术 |
 | [2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md](https://github.com/kejun/blogpost/blob/main/2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md) | Diffusion Language Models 的崛起：NVIDIA Nemotron-Labs Diffusion 如何让文本生成突破自回归瓶颈 | 2026-05-24 | AI技术 |
