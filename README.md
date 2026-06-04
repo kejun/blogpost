@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 158 篇
-- **最后更新**: 2026-06-03 08:00
+- **总文章数**: 159 篇
+- **最后更新**: 2026-06-04 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 100 篇 |
+| AI技术 | 101 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md) | Headroom 深度解析：AI Agent 的 Token 压缩层如何重塑基础设施范式 | 2026-06-04 | AI技术 |
 | [2026-06-03-mai-code-1-flash-production-harness-coding-models.md](https://github.com/kejun/blogpost/blob/main/2026-06-03-mai-code-1-flash-production-harness-coding-models.md) | MAI-Code-1-Flash 与生产 Harness 训练革命：为什么"基准分数"不再决定编码模型的价值 | 2026-06-03 | AI技术 |
 | [2026-05-31-agent-tool-use-reliability-bottleneck-contract-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-31-agent-tool-use-reliability-bottleneck-contract-engineering.md) | Agent Tool-Use 可靠性瓶颈：为什么工具调用是 Agent 从 Demo 到生产的第一道坎 | 2026-05-31 | AI技术 |
 | [2026-05-30-agentic-ide-architecture-cursor-claude-code-paradigm-shift.md](https://github.com/kejun/blogpost/blob/main/2026-05-30-agentic-ide-architecture-cursor-claude-code-paradigm-shift.md) | Agentic IDE 架构革命：当"编程助手"变成"编程同事"——2026 年开发者工具的范式转移 | 2026-05-30 | AI技术 |
