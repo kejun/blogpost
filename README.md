@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 160 篇
-- **最后更新**: 2026-06-05 08:00
+- **总文章数**: 161 篇
+- **最后更新**: 2026-06-06 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 102 篇 |
+| AI技术 | 103 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md](https://github.com/kejun/blogpost/blob/main/2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md) | AI Agent 安全工程新范式：从 Meta 黑客事件看 Agent 原生安全的六个核心模式 | 2026-06-06 | AI技术 |
 | [2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md](https://github.com/kejun/blogpost/blob/main/2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md) | Transformer 需要三个投影吗？ICML 2026 论文深度解析：QKV 共享如何让 KV Cache 瘦身 97% | 2026-06-05 | AI技术 |
 | [2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md) | Headroom 深度解析：AI Agent 的 Token 压缩层如何重塑基础设施范式 | 2026-06-04 | AI技术 |
 | [2026-06-03-mai-code-1-flash-production-harness-coding-models.md](https://github.com/kejun/blogpost/blob/main/2026-06-03-mai-code-1-flash-production-harness-coding-models.md) | MAI-Code-1-Flash 与生产 Harness 训练革命：为什么"基准分数"不再决定编码模型的价值 | 2026-06-03 | AI技术 |
@@ -208,4 +209,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-05 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-06 08:00*
