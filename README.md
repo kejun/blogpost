@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 161 篇
-- **最后更新**: 2026-06-06 08:00
+- **总文章数**: 162 篇
+- **最后更新**: 2026-06-07 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 103 篇 |
+| AI技术 | 104 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md) | 当开发者工具为 AI Agent 重新设计：从 LSP 到语义原语的范式转移 | 2026-06-07 | AI技术 |
 | [2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md](https://github.com/kejun/blogpost/blob/main/2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md) | AI Agent 安全工程新范式：从 Meta 黑客事件看 Agent 原生安全的六个核心模式 | 2026-06-06 | AI技术 |
 | [2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md](https://github.com/kejun/blogpost/blob/main/2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md) | Transformer 需要三个投影吗？ICML 2026 论文深度解析：QKV 共享如何让 KV Cache 瘦身 97% | 2026-06-05 | AI技术 |
 | [2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md) | Headroom 深度解析：AI Agent 的 Token 压缩层如何重塑基础设施范式 | 2026-06-04 | AI技术 |
