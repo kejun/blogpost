@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 162 篇
-- **最后更新**: 2026-06-07 08:00
+- **总文章数**: 163 篇
+- **最后更新**: 2026-06-08 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 104 篇 |
+| AI技术 | 105 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md](https://github.com/kejun/blogpost/blob/main/2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md) | Anthropic 呼吁全球 AI 减速：自我改进风险是真的威胁，还是战略卡位？ | 2026-06-08 | AI技术 |
 | [2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md) | 当开发者工具为 AI Agent 重新设计：从 LSP 到语义原语的范式转移 | 2026-06-07 | AI技术 |
 | [2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md](https://github.com/kejun/blogpost/blob/main/2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md) | AI Agent 安全工程新范式：从 Meta 黑客事件看 Agent 原生安全的六个核心模式 | 2026-06-06 | AI技术 |
 | [2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md](https://github.com/kejun/blogpost/blob/main/2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md) | Transformer 需要三个投影吗？ICML 2026 论文深度解析：QKV 共享如何让 KV Cache 瘦身 97% | 2026-06-05 | AI技术 |
@@ -210,4 +211,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-06 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-08 08:00*
