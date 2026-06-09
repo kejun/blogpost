@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 163 篇
-- **最后更新**: 2026-06-08 08:00
+- **总文章数**: 164 篇
+- **最后更新**: 2026-06-09 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-09-frontiercode-beyond-correctness-code-quality-merging-benchmark.md](https://github.com/kejun/blogpost/blob/main/2026-06-09-frontiercode-beyond-correctness-code-quality-merging-benchmark.md) | FrontierCode 深度解析：当"能跑"不再是标准——AI 编码模型的质量革命 | 2026-06-09 | AI技术 |
 | [2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md](https://github.com/kejun/blogpost/blob/main/2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md) | Anthropic 呼吁全球 AI 减速：自我改进风险是真的威胁，还是战略卡位？ | 2026-06-08 | AI技术 |
 | [2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md) | 当开发者工具为 AI Agent 重新设计：从 LSP 到语义原语的范式转移 | 2026-06-07 | AI技术 |
 | [2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md](https://github.com/kejun/blogpost/blob/main/2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md) | AI Agent 安全工程新范式：从 Meta 黑客事件看 Agent 原生安全的六个核心模式 | 2026-06-06 | AI技术 |
