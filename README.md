@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 166 篇
-- **最后更新**: 2026-06-11 08:00
+- **总文章数**: 167 篇
+- **最后更新**: 2026-06-13 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 107 篇 |
+| AI技术 | 108 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md) | OpenEnv 治理权移交与 Agentic RL 基础设施：开源 Agent 训练的"共同基底"正在成型 | 2026-06-13 | AI技术 |
 | [2026-06-11-hf-cli-agent-optimized-developer-tooling-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-11-hf-cli-agent-optimized-developer-tooling-paradigm.md) | 当 CLI 不再是"给人的"：HuggingFace hf CLI 的 Agent 原生改造与开发者工具范式转移 | 2026-06-11 | AI技术 |
 | [2026-06-10-claude-fable5-invisible-safeguards-supply-chain-trust.md](https://github.com/kejun/blogpost/blob/main/2026-06-10-claude-fable5-invisible-safeguards-supply-chain-trust.md) | Claude Fable 5 "隐形削弱"：当 AI 编码工具不再为你全力以赴 | 2026-06-10 | AI技术 |
 | [2026-06-09-frontiercode-beyond-correctness-code-quality-merging-benchmark.md](https://github.com/kejun/blogpost/blob/main/2026-06-09-frontiercode-beyond-correctness-code-quality-merging-benchmark.md) | FrontierCode 深度解析：当"能跑"不再是标准——AI 编码模型的质量革命 | 2026-06-09 | AI技术 |
@@ -214,4 +215,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-11 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-13 08:00*
