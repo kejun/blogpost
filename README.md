@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 167 篇
-- **最后更新**: 2026-06-13 08:00
+- **总文章数**: 168 篇
+- **最后更新**: 2026-06-14 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 108 篇 |
+| AI技术 | 109 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-14-ai-agent-skills-supply-chain-security-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-06-14-ai-agent-skills-supply-chain-security-crisis.md) | AI Agent Skills 供应链安全危机：当你的 Agent 在帮黑客打工 | 2026-06-14 | AI技术 |
 | [2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md) | OpenEnv 治理权移交与 Agentic RL 基础设施：开源 Agent 训练的"共同基底"正在成型 | 2026-06-13 | AI技术 |
 | [2026-06-11-hf-cli-agent-optimized-developer-tooling-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-11-hf-cli-agent-optimized-developer-tooling-paradigm.md) | 当 CLI 不再是"给人的"：HuggingFace hf CLI 的 Agent 原生改造与开发者工具范式转移 | 2026-06-11 | AI技术 |
 | [2026-06-10-claude-fable5-invisible-safeguards-supply-chain-trust.md](https://github.com/kejun/blogpost/blob/main/2026-06-10-claude-fable5-invisible-safeguards-supply-chain-trust.md) | Claude Fable 5 "隐形削弱"：当 AI 编码工具不再为你全力以赴 | 2026-06-10 | AI技术 |
@@ -215,4 +216,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-13 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-14 08:00*
