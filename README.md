@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 169 篇
-- **最后更新**: 2026-06-15 08:00
+- **总文章数**: 170 篇
+- **最后更新**: 2026-06-16 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 110 篇 |
+| AI技术 | 111 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-16-computer-use-agent-sandbox-infrastructure-stack.md](https://github.com/kejun/blogpost/blob/main/2026-06-16-computer-use-agent-sandbox-infrastructure-stack.md) | Computer-Use Agent 基础设施栈：当"沙箱"成为 AI Agent 的新护城河 | 2026-06-16 | AI技术 |
 | [2026-06-15-ai-agent-adversarial-attack-surface-prompt-injection-warfare.md](https://github.com/kejun/blogpost/blob/main/2026-06-15-ai-agent-adversarial-attack-surface-prompt-injection-warfare.md) | AI Agent 对抗性攻击面：从"代码安全"到"提示安全"的范式转移 | 2026-06-15 | AI技术 |
 | [2026-06-14-ai-agent-skills-supply-chain-security-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-06-14-ai-agent-skills-supply-chain-security-crisis.md) | AI Agent Skills 供应链安全危机：当你的 Agent 在帮黑客打工 | 2026-06-14 | AI技术 |
 | [2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-06-13-openenv-agentic-rl-protocol-layer-infrastructure.md) | OpenEnv 治理权移交与 Agentic RL 基础设施：开源 Agent 训练的"共同基底"正在成型 | 2026-06-13 | AI技术 |
@@ -217,4 +218,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-15 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-16 08:00*
