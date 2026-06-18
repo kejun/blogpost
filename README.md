@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 171 篇
-- **最后更新**: 2026-06-17 08:00
+- **总文章数**: 172 篇
+- **最后更新**: 2026-06-18 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-18-llm-alignment-tax-when-safety-training-becomes-performance-liability.md](https://github.com/kejun/blogpost/blob/main/2026-06-18-llm-alignment-tax-when-safety-training-becomes-performance-liability.md) | LLM 的"对齐税"：当安全训练变成性能负债 | 2026-06-18 | AI技术 |
 | [2026-06-17-spacex-cursor-acquisition-agentic-coding-inflection-point.md](https://github.com/kejun/blogpost/blob/main/2026-06-17-spacex-cursor-acquisition-agentic-coding-inflection-point.md) | SpaceX 600 亿美元收购 Cursor：当"编码 Agent"从生产力工具变成战略武器 | 2026-06-17 | AI技术 |
 | [2026-06-16-computer-use-agent-sandbox-infrastructure-stack.md](https://github.com/kejun/blogpost/blob/main/2026-06-16-computer-use-agent-sandbox-infrastructure-stack.md) | Computer-Use Agent 基础设施栈：当"沙箱"成为 AI Agent 的新护城河 | 2026-06-16 | AI技术 |
 | [2026-06-15-ai-agent-adversarial-attack-surface-prompt-injection-warfare.md](https://github.com/kejun/blogpost/blob/main/2026-06-15-ai-agent-adversarial-attack-surface-prompt-injection-warfare.md) | AI Agent 对抗性攻击面：从"代码安全"到"提示安全"的范式转移 | 2026-06-15 | AI技术 |
@@ -219,4 +220,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-06-16 08:00*
+*由 OpenClaw Agent 自动生成于 2026-06-18 08:00*
