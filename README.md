@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 173 篇
-- **最后更新**: 2026-06-19 08:00
+- **总文章数**: 175 篇
+- **最后更新**: 2026-06-21 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 112 篇 |
+| AI技术 | 113 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,8 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md](https://github.com/kejun/blogpost/blob/main/2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md) | Beyond LoRA：当 98.4% 的人都在用同一种微调技术时，你错过了什么？ | 2026-06-21 | AI技术 |
+| [2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md](https://github.com/kejun/blogpost/blob/main/2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md) | MosaicLeaks 深度解析：深度研究 Agent 的马赛克隐私泄漏威胁 | 2026-06-20 | AI技术 |
 | [2026-06-19-agentic-resource-discovery-protocol-agent-capability-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-19-agentic-resource-discovery-protocol-agent-capability-paradigm.md) | Agentic Resource Discovery 协议：当 Agent 不再需要人类帮它找工具 | 2026-06-19 | AI技术 |
 | [2026-06-18-llm-alignment-tax-when-safety-training-becomes-performance-liability.md](https://github.com/kejun/blogpost/blob/main/2026-06-18-llm-alignment-tax-when-safety-training-becomes-performance-liability.md) | LLM 的"对齐税"：当安全训练变成性能负债 | 2026-06-18 | AI技术 |
 | [2026-06-17-spacex-cursor-acquisition-agentic-coding-inflection-point.md](https://github.com/kejun/blogpost/blob/main/2026-06-17-spacex-cursor-acquisition-agentic-coding-inflection-point.md) | SpaceX 600 亿美元收购 Cursor：当"编码 Agent"从生产力工具变成战略武器 | 2026-06-17 | AI技术 |
