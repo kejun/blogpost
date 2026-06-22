@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 175 篇
-- **最后更新**: 2026-06-21 08:00
+- **总文章数**: 176 篇
+- **最后更新**: 2026-06-22 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md) | Subquadratic 稀疏注意力突破：终结 Transformer 二次方瓶颈，还是 AI 版 Theranos？ | 2026-06-22 | AI技术 |
 | [2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md](https://github.com/kejun/blogpost/blob/main/2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md) | Beyond LoRA：当 98.4% 的人都在用同一种微调技术时，你错过了什么？ | 2026-06-21 | AI技术 |
 | [2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md](https://github.com/kejun/blogpost/blob/main/2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md) | MosaicLeaks 深度解析：深度研究 Agent 的马赛克隐私泄漏威胁 | 2026-06-20 | AI技术 |
 | [2026-06-19-agentic-resource-discovery-protocol-agent-capability-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-19-agentic-resource-discovery-protocol-agent-capability-paradigm.md) | Agentic Resource Discovery 协议：当 Agent 不再需要人类帮它找工具 | 2026-06-19 | AI技术 |
