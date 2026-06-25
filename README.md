@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 177 篇
-- **最后更新**: 2026-06-23 08:00
+- **总文章数**: 178 篇
+- **最后更新**: 2026-06-25 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 114 篇 |
+| AI技术 | 115 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md) | CUGA 深度解析：当 Agent 框架走向"Harness 时代"——IBM 如何让 24 个 Agentic App 用同一个模式跑通生产 | 2026-06-25 | AI技术 |
 | [2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md](https://github.com/kejun/blogpost/blob/main/2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md) | GLM-5.2 深度解析：开源模型如何挑战闭源霸权——744B MoE、1M 上下文与长程编码的革命 | 2026-06-23 | AI技术 |
 | [2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md) | Subquadratic 稀疏注意力突破：终结 Transformer 二次方瓶颈，还是 AI 版 Theranos？ | 2026-06-22 | AI技术 |
 | [2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md](https://github.com/kejun/blogpost/blob/main/2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md) | Beyond LoRA：当 98.4% 的人都在用同一种微调技术时，你错过了什么？ | 2026-06-21 | AI技术 |
