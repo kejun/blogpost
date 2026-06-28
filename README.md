@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 180 篇
-- **最后更新**: 2026-06-27 08:00
+- **总文章数**: 181 篇
+- **最后更新**: 2026-06-28 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 117 篇 |
+| AI技术 | 118 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md](https://github.com/kejun/blogpost/blob/main/2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md) | Google DESIGN.md 深度解析：当设计系统变成"Agent 可读"——AI 编码时代的视觉规范协议 | 2026-06-28 | AI技术 |
 | [2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md](https://github.com/kejun/blogpost/blob/main/2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md) | gstack 深度解析：当 YC CEO 把 Claude Code 变成 23 人工程团队——AI 时代的"一人公司"如何落地 | 2026-06-27 | AI技术 |
 | [2026-06-26-openmontage-agentic-video-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-06-26-openmontage-agentic-video-production-architecture.md) | OpenMontage 深度解析：当 AI Agent 接管视频生产——从 Vibe Coding 到 Vibe Producing | 2026-06-26 | AI技术 |
 | [2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md) | CUGA 深度解析：当 Agent 框架走向"Harness 时代"——IBM 如何让 24 个 Agentic App 用同一个模式跑通生产 | 2026-06-25 | AI技术 |
