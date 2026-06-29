@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 181 篇
-- **最后更新**: 2026-06-28 08:00
+- **总文章数**: 182 篇
+- **最后更新**: 2026-06-29 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md](https://github.com/kejun/blogpost/blob/main/2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md) | LLM 的"镜子测试"：当思考链暴露了自我模型的边界——从异常检测到"自我意识"的技术深潜 | 2026-06-29 | AI技术 |
 | [2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md](https://github.com/kejun/blogpost/blob/main/2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md) | Google DESIGN.md 深度解析：当设计系统变成"Agent 可读"——AI 编码时代的视觉规范协议 | 2026-06-28 | AI技术 |
 | [2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md](https://github.com/kejun/blogpost/blob/main/2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md) | gstack 深度解析：当 YC CEO 把 Claude Code 变成 23 人工程团队——AI 时代的"一人公司"如何落地 | 2026-06-27 | AI技术 |
 | [2026-06-26-openmontage-agentic-video-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-06-26-openmontage-agentic-video-production-architecture.md) | OpenMontage 深度解析：当 AI Agent 接管视频生产——从 Vibe Coding 到 Vibe Producing | 2026-06-26 | AI技术 |
