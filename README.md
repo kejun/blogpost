@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 184 篇
-- **最后更新**: 2026-07-01 08:14
+- **总文章数**: 185 篇
+- **最后更新**: 2026-07-02 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md](https://github.com/kejun/blogpost/blob/main/2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md) | 当软件必须为 Agent 而设计：从 ScarfBench 到"Is it agentic enough"的范式转移 | 2026-07-02 | AI技术 |
 | [2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md) | Claude Sonnet 5 与"帕累托 Agent"时代：当中端模型逼近 Opus 能力边界 | 2026-07-01 | AI技术 |
 | [2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md](https://github.com/kejun/blogpost/blob/main/2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md) | 本地模型逼近前沿的拐点时刻：从 Qwen 3.6、vLLM 语义路由到 Ornith-1.0 的三重革命 | 2026-06-30 | AI技术 |
 | [2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md](https://github.com/kejun/blogpost/blob/main/2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md) | LLM 的"镜子测试"：当思考链暴露了自我模型的边界——从异常检测到"自我意识"的技术深潜 | 2026-06-29 | AI技术 |
