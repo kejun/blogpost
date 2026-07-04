@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 186 篇
-- **最后更新**: 2026-07-03 08:00
+- **总文章数**: 187 篇
+- **最后更新**: 2026-07-04 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 121 篇 |
+| AI技术 | 122 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | AI技术 |
 | [2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md](https://github.com/kejun/blogpost/blob/main/2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md) | AI 编码的"短绳方法"：当 Vibe Coding 退潮，Agentic Engineering 崛起 | 2026-07-03 | AI技术 |
 | [2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md](https://github.com/kejun/blogpost/blob/main/2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md) | 当软件必须为 Agent 而设计：从 ScarfBench 到"Is it agentic enough"的范式转移 | 2026-07-02 | AI技术 |
 | [2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md) | Claude Sonnet 5 与"帕累托 Agent"时代：当中端模型逼近 Opus 能力边界 | 2026-07-01 | AI技术 |
