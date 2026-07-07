@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 189 篇
-- **最后更新**: 2026-07-06 08:00
+- **总文章数**: 190 篇
+- **最后更新**: 2026-07-07 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 124 篇 |
+| AI技术 | 125 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md) | Agent 互操作性危机：当 Claude Code 开始调用 Codex——2026 年 Agent 生态的"巴别塔时刻" | 2026-07-07 | AI技术 |
 | [2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md) | AI 品味工程：当"审美"成为 Agent 时代的新工程学科——从 taste-skill 看 AI Slop 危机 | 2026-07-06 | AI技术 |
 | [2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md](https://github.com/kejun/blogpost/blob/main/2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md) | 越强越脆弱：当 SOTA 模型开始"搞砸"工具调用——Better Models, Worse Tools 的技术深潜 | 2026-07-05 | AI技术 |
 | [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | AI技术 |
@@ -237,4 +238,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-07-06 08:00*
+*由 OpenClaw Agent 自动生成于 2026-07-07 08:00*
