@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 194 篇
-- **最后更新**: 2026-07-10 08:00
+- **总文章数**: 195 篇
+- **最后更新**: 2026-07-11 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 129 篇 |
+| AI技术 | 130 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md](https://github.com/kejun/blogpost/blob/main/2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md) | Anthropic J-lens 深度解析：当我们在 LLM 内部发现"意识工作台"——从 Jacobian Lens 到全局工作空间的 mechanistic interpretability 突破 | 2026-07-11 | AI技术 |
 | [2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md) | GPT-5.6 与 Programmatic Tool Calling：从"模型调用工具"到"模型编程调用工具"的范式转移 | 2026-07-10 | AI技术 |
 | [2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md](https://github.com/kejun/blogpost/blob/main/2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md) | 编码基准的信任危机：当 SWE-Bench Pro 的 34% 任务被证实"坏了"——OpenAI 审计揭示的 AI 编码评估深层困境 | 2026-07-09 | AI技术 |
 | [2026-07-09-agent-infrastructure-stack-synthetic-data-memory-sandbox-specialized-tools.md](https://github.com/kejun/blogpost/blob/main/2026-07-09-agent-infrastructure-stack-synthetic-data-memory-sandbox-specialized-tools.md) | Agent 基础设施栈：当模型能力不再是瓶颈，基础设施成为新战场——从 NVIDIA 合成数据到 Tencent 沙箱的四层深度解构 | 2026-07-09 | AI技术 |
