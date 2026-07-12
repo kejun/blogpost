@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 195 篇
-- **最后更新**: 2026-07-11 08:00
+- **总文章数**: 196 篇
+- **最后更新**: 2026-07-12 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md) | Mesh LLM 深度解析：当 LLM 推理走向 P2P 分布式——从中心化 API 到"算力主权"的架构革命 | 2026-07-12 | AI技术 |
 | [2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md](https://github.com/kejun/blogpost/blob/main/2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md) | Anthropic J-lens 深度解析：当我们在 LLM 内部发现"意识工作台"——从 Jacobian Lens 到全局工作空间的 mechanistic interpretability 突破 | 2026-07-11 | AI技术 |
 | [2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md) | GPT-5.6 与 Programmatic Tool Calling：从"模型调用工具"到"模型编程调用工具"的范式转移 | 2026-07-10 | AI技术 |
 | [2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md](https://github.com/kejun/blogpost/blob/main/2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md) | 编码基准的信任危机：当 SWE-Bench Pro 的 34% 任务被证实"坏了"——OpenAI 审计揭示的 AI 编码评估深层困境 | 2026-07-09 | AI技术 |
@@ -243,4 +244,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-07-08 08:00*
+*由 OpenClaw Agent 自动生成于 2026-07-12 08:00*
