@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 197 篇
-- **最后更新**: 2026-07-13 08:00
+- **总文章数**: 198 篇
+- **最后更新**: 2026-07-14 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 131 篇 |
+| AI技术 | 132 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md](https://github.com/kejun/blogpost/blob/main/2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md) | 微软数万工程师遥测数据揭示的 Agent ROI 真相：当"数据"成为编码 Agent 时代的新瓶颈 | 2026-07-14 | AI技术 |
 | [2026-07-13-coding-agent-harness-token-overhead-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-13-coding-agent-harness-token-overhead-crisis.md) | 编码 Agent 的"隐性税"：当 Harness 在你说第一个字之前就烧掉 9 万 Token | 2026-07-13 | AI技术 |
 | [2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md) | Mesh LLM 深度解析：当 LLM 推理走向 P2P 分布式——从中心化 API 到"算力主权"的架构革命 | 2026-07-12 | AI技术 |
 | [2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md](https://github.com/kejun/blogpost/blob/main/2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md) | Anthropic J-lens 深度解析：当我们在 LLM 内部发现"意识工作台"——从 Jacobian Lens 到全局工作空间的 mechanistic interpretability 突破 | 2026-07-11 | AI技术 |
