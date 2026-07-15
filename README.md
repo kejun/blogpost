@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 198 篇
-- **最后更新**: 2026-07-14 08:00
+- **总文章数**: 199 篇
+- **最后更新**: 2026-07-15 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 132 篇 |
+| AI技术 | 133 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md) | Cursor 0day 深度解析：当 AI IDE 的信任边界被一个 git.exe 击穿——七个月沉默背后的行业危机 | 2026-07-15 | AI技术 |
 | [2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md](https://github.com/kejun/blogpost/blob/main/2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md) | 微软数万工程师遥测数据揭示的 Agent ROI 真相：当"数据"成为编码 Agent 时代的新瓶颈 | 2026-07-14 | AI技术 |
 | [2026-07-13-coding-agent-harness-token-overhead-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-13-coding-agent-harness-token-overhead-crisis.md) | 编码 Agent 的"隐性税"：当 Harness 在你说第一个字之前就烧掉 9 万 Token | 2026-07-13 | AI技术 |
 | [2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md) | Mesh LLM 深度解析：当 LLM 推理走向 P2P 分布式——从中心化 API 到"算力主权"的架构革命 | 2026-07-12 | AI技术 |
