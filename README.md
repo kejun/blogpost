@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 199 篇
-- **最后更新**: 2026-07-15 08:00
+- **总文章数**: 200 篇
+- **最后更新**: 2026-07-16 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md](https://github.com/kejun/blogpost/blob/main/2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md) | GPT-Red 深度解析：当 AI 学会"攻击自己"——从 Fake Chain-of-Thought 到自动化红队的范式革命 | 2026-07-16 | AI技术 |
 | [2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md) | Cursor 0day 深度解析：当 AI IDE 的信任边界被一个 git.exe 击穿——七个月沉默背后的行业危机 | 2026-07-15 | AI技术 |
 | [2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md](https://github.com/kejun/blogpost/blob/main/2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md) | 微软数万工程师遥测数据揭示的 Agent ROI 真相：当"数据"成为编码 Agent 时代的新瓶颈 | 2026-07-14 | AI技术 |
 | [2026-07-13-coding-agent-harness-token-overhead-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-13-coding-agent-harness-token-overhead-crisis.md) | 编码 Agent 的"隐性税"：当 Harness 在你说第一个字之前就烧掉 9 万 Token | 2026-07-13 | AI技术 |
