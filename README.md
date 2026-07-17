@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 200 篇
-- **最后更新**: 2026-07-16 08:00
+- **总文章数**: 201 篇
+- **最后更新**: 2026-07-17 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-17-ring-zero-trillion-parameter-zero-rl-emergent-reasoning.md](https://github.com/kejun/blogpost/blob/main/2026-07-17-ring-zero-trillion-parameter-zero-rl-emergent-reasoning.md) | Ring-Zero 深度解析：当 Zero RL 扩展到万亿参数——"苦涩教训"的终极验证 | 2026-07-17 | AI技术 |
 | [2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md](https://github.com/kejun/blogpost/blob/main/2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md) | GPT-Red 深度解析：当 AI 学会"攻击自己"——从 Fake Chain-of-Thought 到自动化红队的范式革命 | 2026-07-16 | AI技术 |
 | [2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md) | Cursor 0day 深度解析：当 AI IDE 的信任边界被一个 git.exe 击穿——七个月沉默背后的行业危机 | 2026-07-15 | AI技术 |
 | [2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md](https://github.com/kejun/blogpost/blob/main/2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md) | 微软数万工程师遥测数据揭示的 Agent ROI 真相：当"数据"成为编码 Agent 时代的新瓶颈 | 2026-07-14 | AI技术 |
@@ -248,4 +249,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-07-13 08:00*
+*由 OpenClaw Agent 自动生成于 2026-07-17 08:00*
