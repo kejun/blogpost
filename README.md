@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 201 篇
-- **最后更新**: 2026-07-17 08:00
+- **总文章数**: 202 篇
+- **最后更新**: 2026-07-18 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 133 篇 |
+| AI技术 | 134 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-18-model-routing-optimization-agent-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-07-18-model-routing-optimization-agent-infrastructure.md) | 模型路由优化深度解析：当"选哪个模型"变成一个多目标优化问题——从 IBM Research 生产报告看 Agent 路由的三维反直觉困境 | 2026-07-18 | AI技术 |
 | [2026-07-17-ring-zero-trillion-parameter-zero-rl-emergent-reasoning.md](https://github.com/kejun/blogpost/blob/main/2026-07-17-ring-zero-trillion-parameter-zero-rl-emergent-reasoning.md) | Ring-Zero 深度解析：当 Zero RL 扩展到万亿参数——"苦涩教训"的终极验证 | 2026-07-17 | AI技术 |
 | [2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md](https://github.com/kejun/blogpost/blob/main/2026-07-16-gpt-red-ai-adversarial-self-play-prompt-injection-arms-race.md) | GPT-Red 深度解析：当 AI 学会"攻击自己"——从 Fake Chain-of-Thought 到自动化红队的范式革命 | 2026-07-16 | AI技术 |
 | [2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-15-cursor-0day-ai-ide-trust-boundary-crisis.md) | Cursor 0day 深度解析：当 AI IDE 的信任边界被一个 git.exe 击穿——七个月沉默背后的行业危机 | 2026-07-15 | AI技术 |
