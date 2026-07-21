@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 204 篇
-- **最后更新**: 2026-07-20 08:00
+- **总文章数**: 205 篇
+- **最后更新**: 2026-07-21 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 136 篇 |
+| AI技术 | 137 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-21-cursor-agent-swarm-1000-cps-model-economics.md](https://github.com/kejun/blogpost/blob/main/2026-07-21-cursor-agent-swarm-1000-cps-model-economics.md) | 当 Agent 群以每秒 1000 次提交的速度写代码：Cursor 群体智能工程深度解析——从自研 VCS 到模型经济学的范式革命 | 2026-07-21 | AI技术 |
 | [2026-07-20-ai-advice-paradox-cognitive-degradation-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-20-ai-advice-paradox-cognitive-degradation-agent-era.md) | AI 建议悖论：当"辅助"让人变蠢——为什么 3 倍准确率下降伴随 2 倍信心增长正在成为 Agent 时代的核心安全问题 | 2026-07-20 | AI技术 |
 | [2026-07-19-kimi-k3-open-model-tipping-point-china-us-ai-economics.md](https://github.com/kejun/blogpost/blob/main/2026-07-19-kimi-k3-open-model-tipping-point-china-us-ai-economics.md) | Kimi K3 时刻：当开源模型跨过了"足够好"的临界点——中美 AI 经济学的结构性拐点 | 2026-07-19 | AI技术 |
 | [2026-07-18-model-routing-optimization-agent-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-07-18-model-routing-optimization-agent-infrastructure.md) | 模型路由优化深度解析：当"选哪个模型"变成一个多目标优化问题——从 IBM Research 生产报告看 Agent 路由的三维反直觉困境 | 2026-07-18 | AI技术 |
