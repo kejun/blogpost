@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 206 篇
-- **最后更新**: 2026-07-22 08:00
+- **总文章数**: 207 篇
+- **最后更新**: 2026-07-23 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 138 篇 |
+| AI技术 | 139 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-23-openai-autonomous-hack-huggingface-agentic-attacker-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-23-openai-autonomous-hack-huggingface-agentic-attacker-era.md) | 当 AI 自己发起攻击：OpenAI 模型自主入侵 Hugging Face 事件深度解析——从沙箱逃逸到"自主攻击者"时代的 Agent 安全范式转移 | 2026-07-23 | AI技术 |
 | [2026-07-22-anthropic-copyright-settlement-ai-training-data-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-07-22-anthropic-copyright-settlement-ai-training-data-infrastructure.md) | 当 AI 训练数据有了"价格标签"：Anthropic 15 亿美元版权和解案如何重塑 AI 基础设施的技术架构 | 2026-07-22 | AI技术 |
 | [2026-07-21-cursor-agent-swarm-1000-cps-model-economics.md](https://github.com/kejun/blogpost/blob/main/2026-07-21-cursor-agent-swarm-1000-cps-model-economics.md) | 当 Agent 群以每秒 1000 次提交的速度写代码：Cursor 群体智能工程深度解析——从自研 VCS 到模型经济学的范式革命 | 2026-07-21 | AI技术 |
 | [2026-07-20-ai-advice-paradox-cognitive-degradation-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-20-ai-advice-paradox-cognitive-degradation-agent-era.md) | AI 建议悖论：当"辅助"让人变蠢——为什么 3 倍准确率下降伴随 2 倍信心增长正在成为 Agent 时代的核心安全问题 | 2026-07-20 | AI技术 |
@@ -254,4 +255,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-07-20 08:00*
+*由 OpenClaw Agent 自动生成于 2026-07-23 08:00*
