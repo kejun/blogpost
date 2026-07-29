@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 212 篇
-- **最后更新**: 2026-07-28 08:00
+- **总文章数**: 213 篇
+- **最后更新**: 2026-07-29 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 144 篇 |
+| AI技术 | 145 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md](https://github.com/kejun/blogpost/blob/main/2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md) | AI 防御者的不对称困境：从 Hugging Face 17,600 条攻击日志看安全护栏如何反噬防御者 | 2026-07-29 | AI技术 |
 | [2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md](https://github.com/kejun/blogpost/blob/main/2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md) | 当世界模型学会"实时做梦"：NVIDIA Cosmos-H-Dreams 与生成式仿真的范式跃迁——从 Self-Forcing 蒸馏到 160 FPS 手术机器人闭环仿真 | 2026-07-28 | AI技术 |
 | [2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md](https://github.com/kejun/blogpost/blob/main/2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md) | LLM 驱动的形式化验证：当证明自动化跨越实用化门槛——从 seL4 的 10 倍证明开销到 Adam Langley 的 Lean Zstd 实现 | 2026-07-27 | AI技术 |
 | [2026-07-26-ego-lite-shared-browser-agent-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-26-ego-lite-shared-browser-agent-paradigm.md) | 当浏览器不再只属于你：ego-lite 与"人机共浏"范式的崛起——从"Agent 驱动浏览器"到"人与 Agent 共享浏览器"的基础设施范式转移 | 2026-07-26 | AI技术 |
