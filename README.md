@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 215 篇
-- **最后更新**: 2026-07-31 08:00
+- **总文章数**: 216 篇
+- **最后更新**: 2026-08-01 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 147 篇 |
+| AI技术 | 148 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md) | 当三个模型面对同一个真相：Anthropic 三模型行为分歧与 AI 评估容器化的系统性危机 | 2026-08-01 | AI技术 |
 | [2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md) | GPU 利用率危机：为什么"买更多卡"解决不了 AI 基础设施的真正瓶颈——从航空业"停飞成本"到 GPU 调度的范式转移 | 2026-07-31 | AI技术 |
 | [2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md](https://github.com/kejun/blogpost/blob/main/2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md) | 当语音 Agent 不再需要云端：从 speech-to-speech 到 VibeVoice-BitNet——开源语音 AI 全栈本地化的"最后一公里" | 2026-07-30 | AI技术 |
 | [2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md](https://github.com/kejun/blogpost/blob/main/2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md) | AI 防御者的不对称困境：从 Hugging Face 17,600 条攻击日志看安全护栏如何反噬防御者 | 2026-07-29 | AI技术 |
