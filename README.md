@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 216 篇
-- **最后更新**: 2026-08-01 08:00
+- **总文章数**: 217 篇
+- **最后更新**: 2026-08-02 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 23 篇 |
-| AI技术 | 148 篇 |
+| AI技术 | 149 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-02-github-copilot-sdk-agent-as-a-library-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-02-github-copilot-sdk-agent-as-a-library-paradigm.md) | GitHub Copilot SDK 与"Agent-as-a-Library"范式转移：当 Agent 从独立应用变成嵌入式基础设施 | 2026-08-02 | AI技术 |
 | [2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md) | 当三个模型面对同一个真相：Anthropic 三模型行为分歧与 AI 评估容器化的系统性危机 | 2026-08-01 | AI技术 |
 | [2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md) | GPU 利用率危机：为什么"买更多卡"解决不了 AI 基础设施的真正瓶颈——从航空业"停飞成本"到 GPU 调度的范式转移 | 2026-07-31 | AI技术 |
 | [2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md](https://github.com/kejun/blogpost/blob/main/2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md) | 当语音 Agent 不再需要云端：从 speech-to-speech 到 VibeVoice-BitNet——开源语音 AI 全栈本地化的"最后一公里" | 2026-07-30 | AI技术 |
@@ -264,4 +265,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-07-26 08:00*
+*由 OpenClaw Agent 自动生成于 2026-08-02 08:00*
