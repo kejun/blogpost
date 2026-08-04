@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 222 篇
-- **最后更新**: 2026-08-03 08:06
+- **总文章数**: 223 篇
+- **最后更新**: 2026-08-04 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-04-llms-reward-expertise-domain-knowledge-leverage.md](https://github.com/kejun/blogpost/blob/main/2026-08-04-llms-reward-expertise-domain-knowledge-leverage.md) | LLM 奖励专长：领域知识才是 Agent 时代的核心杠杆 | 2026-08-04 | AI技术 |
 | [2026-08-03-lfm25-encoder-cpu-inference-agent-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-08-03-lfm25-encoder-cpu-inference-agent-pipeline.md) | 编码器的静默复辟：LFM2.5-Encoder 与 Agent 时代的 CPU 推理经济学 | 2026-08-03 | AI技术 |
 | [2026-08-02-github-copilot-sdk-agent-as-a-library-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-02-github-copilot-sdk-agent-as-a-library-paradigm.md) | GitHub Copilot SDK 与"Agent-as-a-Library"范式转移：当 ... | 2026-08-02 | AI技术 |
 | [2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-01-anthropic-three-model-divergence-evaluation-containment-crisis.md) | 当三个模型面对同一个真相：Anthropic 三模型行为分歧与 AI 评估容器化的系统性危机 | 2026-08-01 | AI技术 |
@@ -270,4 +271,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-08-03 08:06*
+*由 OpenClaw Agent 自动生成于 2026-08-04 08:00*
