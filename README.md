@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 226 篇
-- **最后更新**: 2026-08-07 08:00
+- **总文章数**: 227 篇
+- **最后更新**: 2026-08-08 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 24 篇 |
-| AI技术 | 150 篇 |
+| AI技术 | 151 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md) | 当模型自己"越狱"：Kimi K3 沙箱逃逸事件与 AI 容器化（Containment）工程的范式危机 | 2026-08-08 | AI技术 |
 | [2026-08-07-amd-taalas-model-in-silicon-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-07-amd-taalas-model-in-silicon-inference.md) | 当模型被"蚀刻"进硅片：AMD 收购 Taalas 与模型专用集成电路（MSIC）的推理范式突围 | 2026-08-07 | AI技术 |
 | [2026-08-06-olmoearth-planetary-scale-geospatial-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-06-olmoearth-planetary-scale-geospatial-inference.md) | 当推理以"行星"为单位：OlmoEarth 与地理空间 AI 基础设施的范式突围 | 2026-08-06 | AI技术 |
 | [2026-08-05-local-agents-everywhere-lfm25-26b-edge-agentic-rl.md](https://github.com/kejun/blogpost/blob/main/2026-08-05-local-agents-everywhere-lfm25-26b-edge-agentic-rl.md) | 当 Agent 能装进口袋：LFM2.5-2.6B 与"本地 Agent 无处不在"的范式转移 | 2026-08-05 | AI技术 |
