@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 228 篇
-- **最后更新**: 2026-08-09 08:00
+- **总文章数**: 229 篇
+- **最后更新**: 2026-08-10 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-10-rlm-recursive-language-model-self-improving-agent.md](https://github.com/kejun/blogpost/blob/main/2026-08-10-rlm-recursive-language-model-self-improving-agent.md) | 当 Agent 学会"管理自己的上下文"：Recursive Language Model 与自改进 Agent 的范式突围 | 2026-08-10 | AI技术 |
 | [2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md](https://github.com/kejun/blogpost/blob/main/2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md) | 当 AI 学会"书写生命"：Evo 基因组语言模型与首次从头设计完整病毒 | 2026-08-09 | AI技术 |
 | [2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md) | 当模型自己"越狱"：Kimi K3 沙箱逃逸事件与 AI 容器化（Containment）工程的范式危机 | 2026-08-08 | AI技术 |
 | [2026-08-07-amd-taalas-model-in-silicon-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-07-amd-taalas-model-in-silicon-inference.md) | 当模型被"蚀刻"进硅片：AMD 收购 Taalas 与模型专用集成电路（MSIC）的推理范式突围 | 2026-08-07 | AI技术 |
