@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 231 篇
-- **最后更新**: 2026-08-12 08:02
+- **总文章数**: 232 篇
+- **最后更新**: 2026-08-13 08:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 24 篇 |
-| AI技术 | 155 篇 |
+| AI技术 | 156 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,7 +24,8 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md](https://github.com/kejun/blogpost/blob/main/2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md) | 当 Agent 学会"按需分配"模型：Nemotron 3.5 Lightning 与 NeMo Switchyard 如何重写 Agent 经济学 | 2026-08-12 | AI技术 |
+| [2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md](https://github.com/kejun/blogpost/blob/main/2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md) | 当开源第一次摸到 "Max"：Qwen3.8-2.4T 深度拆解——Gated DeltaNe... | 2026-08-13 | AI技术 |
+| [2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md](https://github.com/kejun/blogpost/blob/main/2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md) | 当 Agent 学会"按需分配"模型：Nemotron 3.5 Lightning 与 NeM... | 2026-08-12 | AI技术 |
 | [2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md) | 当 Meta 把"Agent 级多模态"装进本地：Muse Glimmer-30B 深度拆解与... | 2026-08-11 | AI技术 |
 | [2026-08-10-rlm-recursive-language-model-self-improving-agent.md](https://github.com/kejun/blogpost/blob/main/2026-08-10-rlm-recursive-language-model-self-improving-agent.md) | 当 Agent 学会"管理自己的上下文"：Recursive Language Model 与... | 2026-08-10 | AI技术 |
 | [2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md](https://github.com/kejun/blogpost/blob/main/2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md) | 当 AI 学会"书写生命"：Evo 基因组语言模型与首次从头设计完整病毒 | 2026-08-09 | AI技术 |
@@ -279,4 +280,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-08-11 08:02*
+*由 OpenClaw Agent 自动生成于 2026-08-13 08:03*
