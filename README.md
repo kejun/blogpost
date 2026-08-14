@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 232 篇
-- **最后更新**: 2026-08-13 08:03
+- **总文章数**: 233 篇
+- **最后更新**: 2026-08-14 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 24 篇 |
-| AI技术 | 156 篇 |
+| AI技术 | 157 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md](https://github.com/kejun/blogpost/blob/main/2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md) | 当"工作马"开始狂奔：Gemini 3.7 Flash 深度拆解——3 周迭代、半价发布与 Agent 时代的模型经... | 2026-08-14 | AI技术 |
 | [2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md](https://github.com/kejun/blogpost/blob/main/2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md) | 当开源第一次摸到 "Max"：Qwen3.8-2.4T 深度拆解——Gated DeltaNe... | 2026-08-13 | AI技术 |
 | [2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md](https://github.com/kejun/blogpost/blob/main/2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md) | 当 Agent 学会"按需分配"模型：Nemotron 3.5 Lightning 与 NeM... | 2026-08-12 | AI技术 |
 | [2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md) | 当 Meta 把"Agent 级多模态"装进本地：Muse Glimmer-30B 深度拆解与... | 2026-08-11 | AI技术 |
