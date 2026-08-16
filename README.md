@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 234 篇
-- **最后更新**: 2026-08-15 08:00
+- **总文章数**: 235 篇
+- **最后更新**: 2026-08-16 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 24 篇 |
-| AI技术 | 158 篇 |
+| AI技术 | 159 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-16-agentic-paper-reproduction-icml-2026-audit.md](https://github.com/kejun/blogpost/blob/main/2026-08-16-agentic-paper-reproduction-icml-2026-audit.md) | 当 Agent 开始复现整个学术会议：ICML 2026 Open Reproductions 深度拆解——2200 篇论文、23% 证伪率与科学出版的信任基础设施 | 2026-08-16 | AI技术 |
 | [2026-08-15-llm-gpu-kernel-correctness-contract-verifier.md](https://github.com/kejun/blogpost/blob/main/2026-08-15-llm-gpu-kernel-correctness-contract-verifier.md) | 当 Kernel 通过测试却仍然是错的：LLM 生成 GPU Kernel 的正确性幻觉与契约级验证 | 2026-08-15 | AI技术 |
 | [2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md](https://github.com/kejun/blogpost/blob/main/2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md) | 当"工作马"开始狂奔：Gemini 3.7 Flash 深度拆解——3 周迭代、半价发布与 Agent 时代的模型经... | 2026-08-14 | AI技术 |
 | [2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md](https://github.com/kejun/blogpost/blob/main/2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md) | 当开源第一次摸到 "Max"：Qwen3.8-2.4T 深度拆解——Gated DeltaNe... | 2026-08-13 | AI技术 |
