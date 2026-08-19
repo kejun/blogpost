@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 237 篇
-- **最后更新**: 2026-08-18 08:00
+- **总文章数**: 238 篇
+- **最后更新**: 2026-08-19 08:00
 
 ---
 
@@ -13,7 +13,7 @@
 
 | 类别 | 文章数 |
 |------|--------|
-| 记忆系统 | 24 篇 |
+| 记忆系统 | 25 篇 |
 | AI技术 | 161 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-19-agent-memory-dosage-calibration-context-database.md](https://github.com/kejun/blogpost/blob/main/2026-08-19-agent-memory-dosage-calibration-context-database.md) | 记忆是剂量，不是开关：IBM 的 8 模型校准实验与"上下文数据库"范式崛起 | 2026-08-19 | 记忆系统 |
 | [2026-08-18-aidr-reading-agents-faithfulness-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-18-aidr-reading-agents-faithfulness-crisis.md) | 当"没读过"成为默认状态：AI;DR、阅读代理与摘要的忠实性危机 | 2026-08-18 | AI技术 |
 | [2026-08-17-stripe-openrouter-llm-distribution-layer.md](https://github.com/kejun/blogpost/blob/main/2026-08-17-stripe-openrouter-llm-distribution-layer.md) | 当支付巨头买下"模型路由器"：Stripe 70 亿美元收购 OpenRouter，LLM 分销层的支付化时刻 | 2026-08-17 | AI技术 |
 | [2026-08-16-agentic-paper-reproduction-icml-2026-audit.md](https://github.com/kejun/blogpost/blob/main/2026-08-16-agentic-paper-reproduction-icml-2026-audit.md) | 当 Agent 开始复现整个学术会议：ICML 2026 Open Reproductions 深度拆解——2200 篇论文、23% 证伪率与科学出版的信任基础设施 | 2026-08-16 | AI技术 |
