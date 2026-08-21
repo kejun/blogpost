@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 239 篇
-- **最后更新**: 2026-08-20 08:00
+- **总文章数**: 240 篇
+- **最后更新**: 2026-08-21 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 162 篇 |
+| AI技术 | 163 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-21-dspark-draft-model-speculative-decoding.md](https://github.com/kejun/blogpost/blob/main/2026-08-21-dspark-draft-model-speculative-decoding.md) | 当草稿模型成为"一等公民"：LFM2.5-DSpark 深度拆解——从 H100 的 3.2× 加速到 MacBook 上的 Agent | 2026-08-21 | AI技术 |
 | [2026-08-20-shadow-evaluation-open-ended-ai-research.md](https://github.com/kejun/blogpost/blob/main/2026-08-20-shadow-evaluation-open-ended-ai-research.md) | 当 Agent 写完"研究"却被原作者拒稿：Shadow Evaluation 揭示的 AI 研究自动化鸿沟 | 2026-08-20 | AI技术 |
 | [2026-08-19-agent-memory-dosage-calibration-context-database.md](https://github.com/kejun/blogpost/blob/main/2026-08-19-agent-memory-dosage-calibration-context-database.md) | 记忆是剂量，不是开关：IBM 的 8 模型校准实验与"上下文数据库"范式崛起 | 2026-08-19 | 记忆系统 |
 | [2026-08-18-aidr-reading-agents-faithfulness-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-18-aidr-reading-agents-faithfulness-crisis.md) | 当"没读过"成为默认状态：AI;DR、阅读代理与摘要的忠实性危机 | 2026-08-18 | AI技术 |
