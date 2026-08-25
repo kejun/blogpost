@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 243 篇
-- **最后更新**: 2026-08-24 08:00
+- **总文章数**: 244 篇
+- **最后更新**: 2026-08-25 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 165 篇 |
+| AI技术 | 166 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md](https://github.com/kejun/blogpost/blob/main/2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md) | 当"顺序"成为算力：同一集群、同一负载，只改分配顺序就多出 33 个百分点利用率——Dharma-AI 约束感知 GPU 分配器深度拆解 | 2026-08-25 | AI技术 |
 | [2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md](https://github.com/kejun/blogpost/blob/main/2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md) | 当 27B 模型开始"啃"固件：Qwen3.8-27B 的 30 分钟逆向工程与 Agent 的"持久性革命"——从"签名通过但哈希不匹配"看智能如何从智商竞赛转向韧性竞赛 | 2026-08-24 | AI技术 |
 | [2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md) | 当 Agent 开始"跑科研"：Prime Intellect NanoGPT Speedrun Frontier 深度拆解——153 次自主运行、18 个模型与"可测量的自主研究" | 2026-08-23 | AI技术 |
 | [2026-08-22-asr-benchmark-optimization-benchmaxxing.md](https://github.com/kejun/blogpost/blob/main/2026-08-22-asr-benchmark-optimization-benchmaxxing.md) | 当语音模型学会了"贴答案"：ASR 基准优化（Benchmaxxing）实证深潜——11 个开源模型的"基准身份识别"行为 | 2026-08-22 | AI技术 |
