@@ -61,7 +61,7 @@ def categorize_file(filename):
     
     if any(k in f for k in ['memory', '记忆', 'mem']):
         cats.append("记忆系统")
-    if any(k in f for k in ['agent', 'ai', 'carson', 'steinberger']):
+    if any(k in f for k in ['agent', 'ai', 'carson', 'steinberger', 'llm', 'quant', 'model', 'gpu', 'vllm', 'inference', 'speculative', 'qkv', 'mcp']):
         cats.append("AI技术")
     if any(k in f for k in ['seekdb', 'eywa', 'zvec', 'mongodb']):
         cats.append("数据库")

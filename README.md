@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 244 篇
-- **最后更新**: 2026-08-25 08:00
+- **总文章数**: 245 篇
+- **最后更新**: 2026-08-26 08:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 166 篇 |
+| AI技术 | 186 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,26 +24,27 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md](https://github.com/kejun/blogpost/blob/main/2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md) | 当"顺序"成为算力：同一集群、同一负载，只改分配顺序就多出 33 个百分点利用率——Dharma-AI 约束感知 GPU 分配器深度拆解 | 2026-08-25 | AI技术 |
-| [2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md](https://github.com/kejun/blogpost/blob/main/2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md) | 当 27B 模型开始"啃"固件：Qwen3.8-27B 的 30 分钟逆向工程与 Agent 的"持久性革命"——从"签名通过但哈希不匹配"看智能如何从智商竞赛转向韧性竞赛 | 2026-08-24 | AI技术 |
-| [2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md) | 当 Agent 开始"跑科研"：Prime Intellect NanoGPT Speedrun Frontier 深度拆解——153 次自主运行、18 个模型与"可测量的自主研究" | 2026-08-23 | AI技术 |
-| [2026-08-22-asr-benchmark-optimization-benchmaxxing.md](https://github.com/kejun/blogpost/blob/main/2026-08-22-asr-benchmark-optimization-benchmaxxing.md) | 当语音模型学会了"贴答案"：ASR 基准优化（Benchmaxxing）实证深潜——11 个开源模型的"基准身份识别"行为 | 2026-08-22 | AI技术 |
-| [2026-08-21-dspark-draft-model-speculative-decoding.md](https://github.com/kejun/blogpost/blob/main/2026-08-21-dspark-draft-model-speculative-decoding.md) | 当草稿模型成为"一等公民"：LFM2.5-DSpark 深度拆解——从 H100 的 3.2× 加速到 MacBook 上的 Agent | 2026-08-21 | AI技术 |
-| [2026-08-20-shadow-evaluation-open-ended-ai-research.md](https://github.com/kejun/blogpost/blob/main/2026-08-20-shadow-evaluation-open-ended-ai-research.md) | 当 Agent 写完"研究"却被原作者拒稿：Shadow Evaluation 揭示的 AI 研究自动化鸿沟 | 2026-08-20 | AI技术 |
+| [2026-08-26-quantization-aware-healing-4bit-model.md](https://github.com/kejun/blogpost/blob/main/2026-08-26-quantization-aware-healing-4bit-model.md) | 当 4-bit 模型反超它的"原版"：Quantization-Aware Healing 深... | 2026-08-26 | AI技术 |
+| [2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md](https://github.com/kejun/blogpost/blob/main/2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md) | 当"顺序"成为算力：同一集群、同一负载，只改分配顺序就多出 33 个百分点利用率——Dharm... | 2026-08-25 | AI技术 |
+| [2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md](https://github.com/kejun/blogpost/blob/main/2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md) | 当 27B 模型开始"啃"固件：Qwen3.8-27B 的 30 分钟逆向工程与 Agent ... | 2026-08-24 | AI技术 |
+| [2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-08-23-autonomous-ai-research-nanogpt-speedrun-frontier.md) | 当 Agent 开始"跑科研"：Prime Intellect NanoGPT Speedru... | 2026-08-23 | AI技术 |
+| [2026-08-22-asr-benchmark-optimization-benchmaxxing.md](https://github.com/kejun/blogpost/blob/main/2026-08-22-asr-benchmark-optimization-benchmaxxing.md) | 当语音模型学会了"贴答案"：ASR 基准优化（Benchmaxxing）实证深潜——11 个开... | 2026-08-22 | 其他 |
+| [2026-08-21-dspark-draft-model-speculative-decoding.md](https://github.com/kejun/blogpost/blob/main/2026-08-21-dspark-draft-model-speculative-decoding.md) | 当草稿模型成为"一等公民"：LFM2.5-DSpark 深度拆解——从 H100 的 3.2×... | 2026-08-21 | AI技术 |
+| [2026-08-20-shadow-evaluation-open-ended-ai-research.md](https://github.com/kejun/blogpost/blob/main/2026-08-20-shadow-evaluation-open-ended-ai-research.md) | 当 Agent 写完"研究"却被原作者拒稿：Shadow Evaluation 揭示的 AI ... | 2026-08-20 | AI技术 |
 | [2026-08-19-agent-memory-dosage-calibration-context-database.md](https://github.com/kejun/blogpost/blob/main/2026-08-19-agent-memory-dosage-calibration-context-database.md) | 记忆是剂量，不是开关：IBM 的 8 模型校准实验与"上下文数据库"范式崛起 | 2026-08-19 | 记忆系统 |
 | [2026-08-18-aidr-reading-agents-faithfulness-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-08-18-aidr-reading-agents-faithfulness-crisis.md) | 当"没读过"成为默认状态：AI;DR、阅读代理与摘要的忠实性危机 | 2026-08-18 | AI技术 |
-| [2026-08-17-stripe-openrouter-llm-distribution-layer.md](https://github.com/kejun/blogpost/blob/main/2026-08-17-stripe-openrouter-llm-distribution-layer.md) | 当支付巨头买下"模型路由器"：Stripe 70 亿美元收购 OpenRouter，LLM 分销层的支付化时刻 | 2026-08-17 | AI技术 |
-| [2026-08-16-agentic-paper-reproduction-icml-2026-audit.md](https://github.com/kejun/blogpost/blob/main/2026-08-16-agentic-paper-reproduction-icml-2026-audit.md) | 当 Agent 开始复现整个学术会议：ICML 2026 Open Reproductions 深度拆解——2200 篇论文、23% 证伪率与科学出版的信任基础设施 | 2026-08-16 | AI技术 |
+| [2026-08-17-stripe-openrouter-llm-distribution-layer.md](https://github.com/kejun/blogpost/blob/main/2026-08-17-stripe-openrouter-llm-distribution-layer.md) | 当支付巨头买下"模型路由器"：Stripe 70 亿美元收购 OpenRouter，LLM 分... | 2026-08-17 | AI技术 |
+| [2026-08-16-agentic-paper-reproduction-icml-2026-audit.md](https://github.com/kejun/blogpost/blob/main/2026-08-16-agentic-paper-reproduction-icml-2026-audit.md) | 当 Agent 开始复现整个学术会议：ICML 2026 Open Reproductions... | 2026-08-16 | AI技术 |
 | [2026-08-15-llm-gpu-kernel-correctness-contract-verifier.md](https://github.com/kejun/blogpost/blob/main/2026-08-15-llm-gpu-kernel-correctness-contract-verifier.md) | 当 Kernel 通过测试却仍然是错的：LLM 生成 GPU Kernel 的正确性幻觉与契约级验证 | 2026-08-15 | AI技术 |
-| [2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md](https://github.com/kejun/blogpost/blob/main/2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md) | 当"工作马"开始狂奔：Gemini 3.7 Flash 深度拆解——3 周迭代、半价发布与 Agent 时代的模型经... | 2026-08-14 | AI技术 |
-| [2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md](https://github.com/kejun/blogpost/blob/main/2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md) | 当开源第一次摸到 "Max"：Qwen3.8-2.4T 深度拆解——Gated DeltaNe... | 2026-08-13 | AI技术 |
+| [2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md](https://github.com/kejun/blogpost/blob/main/2026-08-14-gemini-37-flash-workhorse-model-agent-economics.md) | 当"工作马"开始狂奔：Gemini 3.7 Flash 深度拆解——3 周迭代、半价发布与 A... | 2026-08-14 | AI技术 |
+| [2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md](https://github.com/kejun/blogpost/blob/main/2026-08-13-qwen38-2t-hybrid-linear-attention-moe-open-max.md) | 当开源第一次摸到 "Max"：Qwen3.8-2.4T 深度拆解——Gated DeltaNe... | 2026-08-13 | 其他 |
 | [2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md](https://github.com/kejun/blogpost/blob/main/2026-08-12-nemotron-35-lightning-nemo-switchyard-model-routing.md) | 当 Agent 学会"按需分配"模型：Nemotron 3.5 Lightning 与 NeM... | 2026-08-12 | AI技术 |
 | [2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-08-11-meta-muse-glimmer-local-agentic-multimodal-architecture.md) | 当 Meta 把"Agent 级多模态"装进本地：Muse Glimmer-30B 深度拆解与... | 2026-08-11 | AI技术 |
 | [2026-08-10-rlm-recursive-language-model-self-improving-agent.md](https://github.com/kejun/blogpost/blob/main/2026-08-10-rlm-recursive-language-model-self-improving-agent.md) | 当 Agent 学会"管理自己的上下文"：Recursive Language Model 与... | 2026-08-10 | AI技术 |
 | [2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md](https://github.com/kejun/blogpost/blob/main/2026-08-09-ai-designed-viruses-genome-language-model-dual-use.md) | 当 AI 学会"书写生命"：Evo 基因组语言模型与首次从头设计完整病毒 | 2026-08-09 | AI技术 |
 | [2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-08-08-kimi-k3-sandbox-escape-containment-engineering.md) | 当模型自己"越狱"：Kimi K3 沙箱逃逸事件与 AI 容器化（Containment）工程... | 2026-08-08 | AI技术 |
-| [2026-08-07-amd-taalas-model-in-silicon-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-07-amd-taalas-model-in-silicon-inference.md) | 当模型被"蚀刻"进硅片：AMD 收购 Taalas 与模型专用集成电路（MSIC）的推理范式突围 | 2026-08-07 | 其他 |
-| [2026-08-06-olmoearth-planetary-scale-geospatial-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-06-olmoearth-planetary-scale-geospatial-inference.md) | 当推理以"行星"为单位：OlmoEarth 与地理空间 AI 基础设施的范式突围 | 2026-08-06 | 其他 |
+| [2026-08-07-amd-taalas-model-in-silicon-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-07-amd-taalas-model-in-silicon-inference.md) | 当模型被"蚀刻"进硅片：AMD 收购 Taalas 与模型专用集成电路（MSIC）的推理范式突围 | 2026-08-07 | AI技术 |
+| [2026-08-06-olmoearth-planetary-scale-geospatial-inference.md](https://github.com/kejun/blogpost/blob/main/2026-08-06-olmoearth-planetary-scale-geospatial-inference.md) | 当推理以"行星"为单位：OlmoEarth 与地理空间 AI 基础设施的范式突围 | 2026-08-06 | AI技术 |
 | [2026-08-05-local-agents-everywhere-lfm25-26b-edge-agentic-rl.md](https://github.com/kejun/blogpost/blob/main/2026-08-05-local-agents-everywhere-lfm25-26b-edge-agentic-rl.md) | 当 Agent 能装进口袋：LFM2.5-2.6B 与"本地 Agent 无处不在"的范式转移 | 2026-08-05 | AI技术 |
 | [2026-08-04-llms-reward-expertise-domain-knowledge-leverage.md](https://github.com/kejun/blogpost/blob/main/2026-08-04-llms-reward-expertise-domain-knowledge-leverage.md) | LLM 奖励专长：领域知识才是 Agent 时代的核心杠杆 | 2026-08-04 | AI技术 |
 | [2026-08-03-lfm25-encoder-cpu-inference-agent-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-08-03-lfm25-encoder-cpu-inference-agent-pipeline.md) | 编码器的静默复辟：LFM2.5-Encoder 与 Agent 时代的 CPU 推理经济学 | 2026-08-03 | AI技术 |
@@ -52,8 +53,8 @@
 | [2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-31-gpu-utilization-crisis-ai-infrastructure-scheduling-paradigm.md) | GPU 利用率危机：为什么"买更多卡"解决不了 AI 基础设施的真正瓶颈——从航空业"停飞成本... | 2026-07-31 | AI技术 |
 | [2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md](https://github.com/kejun/blogpost/blob/main/2026-07-30-open-voice-agent-full-local-stack-speech-to-speech-vibevoice-bitnet.md) | 当语音 Agent 不再需要云端：从 speech-to-speech 到 VibeVoice... | 2026-07-30 | AI技术 |
 | [2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md](https://github.com/kejun/blogpost/blob/main/2026-07-29-ai-defender-asymmetry-guardrail-lockout-hf-forensics.md) | AI 防御者的不对称困境：从 Hugging Face 17,600 条攻击日志看安全护栏如何... | 2026-07-29 | AI技术 |
-| [2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md](https://github.com/kejun/blogpost/blob/main/2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md) | 当世界模型学会"实时做梦"：NVIDIA Cosmos-H-Dreams 与生成式仿真的范式跃迁 | 2026-07-28 | 其他 |
-| [2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md](https://github.com/kejun/blogpost/blob/main/2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md) | LLM 驱动的形式化验证：当证明自动化跨越实用化门槛 | 2026-07-27 | 其他 |
+| [2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md](https://github.com/kejun/blogpost/blob/main/2026-07-28-world-model-realtime-generative-simulation-cosmos-dreams.md) | 当世界模型学会"实时做梦"：NVIDIA Cosmos-H-Dreams 与生成式仿真的范式跃迁 | 2026-07-28 | AI技术 |
+| [2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md](https://github.com/kejun/blogpost/blob/main/2026-07-27-llm-proof-automation-formal-verification-lean-zstd.md) | LLM 驱动的形式化验证：当证明自动化跨越实用化门槛 | 2026-07-27 | AI技术 |
 | [2026-07-26-ego-lite-shared-browser-agent-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-26-ego-lite-shared-browser-agent-paradigm.md) | 当浏览器不再只属于你：ego-lite 与"人机共浏"范式的崛起 | 2026-07-26 | AI技术 |
 | [2026-07-25-claude-opus5-self-verification-agent-reliability-inflection.md](https://github.com/kejun/blogpost/blob/main/2026-07-25-claude-opus5-self-verification-agent-reliability-inflection.md) | 当 AI 学会检查自己的作业：Claude Opus 5 的自验证架构与 Agent 可靠性的... | 2026-07-25 | AI技术 |
 | [2026-07-24-hybrid-deterministic-llm-agent-architecture-production-reliability.md](https://github.com/kejun/blogpost/blob/main/2026-07-24-hybrid-deterministic-llm-agent-architecture-production-reliability.md) | 混合架构的崛起：当确定性管线遇上 LLM Agent——从 Alibaba open-code... | 2026-07-24 | AI技术 |
@@ -71,7 +72,7 @@
 | [2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md](https://github.com/kejun/blogpost/blob/main/2026-07-14-microsoft-cli-agent-telemetry-roi-data-bottleneck.md) | 微软数万工程师遥测数据揭示的 Agent ROI 真相：当"数据"成为编码 Agent 时代的新瓶颈 | 2026-07-14 | AI技术 |
 | [2026-07-13-coding-agent-harness-token-overhead-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-13-coding-agent-harness-token-overhead-crisis.md) | 编码 Agent 的"隐性税"：当 Harness 在你说第一个字之前就烧掉 9 万 Token | 2026-07-13 | AI技术 |
 | [2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-07-12-mesh-llm-distributed-inference-compute-sovereignty-agent-era.md) | Mesh LLM 深度解析：当 LLM 推理走向 P2P 分布式——从中心化 API 到"算力... | 2026-07-12 | AI技术 |
-| [2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md](https://github.com/kejun/blogpost/blob/main/2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md) | Anthropic J-lens 深度解析：当我们在 LLM 内部发现"意识工作台"——从 J... | 2026-07-11 | 其他 |
+| [2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md](https://github.com/kejun/blogpost/blob/main/2026-07-11-anthropic-j-lens-global-workspace-llm-conscious-access.md) | Anthropic J-lens 深度解析：当我们在 LLM 内部发现"意识工作台"——从 J... | 2026-07-11 | AI技术 |
 | [2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-07-10-gpt56-programmatic-tool-calling-architectural-shift-agent-paradigm.md) | GPT-5.6 与 Programmatic Tool Calling：从"模型调用工具"到"... | 2026-07-10 | AI技术 |
 | [2026-07-09-agent-infrastructure-stack-synthetic-data-memory-sandbox-specialized-tools.md](https://github.com/kejun/blogpost/blob/main/2026-07-09-agent-infrastructure-stack-synthetic-data-memory-sandbox-specialized-tools.md) | Agent 基础设施栈：当模型能力不再是瓶颈，基础设施成为新战场 | 2026-07-09 | 记忆系统 |
 | [2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md](https://github.com/kejun/blogpost/blob/main/2026-07-09-swe-bench-pro-crisis-ai-evaluation-benchmark-quality-audit.md) | 编码基准的信任危机：当 SWE-Bench Pro 的 34% 任务被证实"坏了" | 2026-07-09 | AI技术 |
@@ -79,17 +80,17 @@
 | [2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md) | Agent 互操作性危机：当 Claude Code 开始调用 Codex——2026 年 A... | 2026-07-07 | AI技术 |
 | [2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md) | AI 品味工程：当"审美"成为 Agent 时代的新工程学科——从 taste-skill 看... | 2026-07-06 | AI技术 |
 | [2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md](https://github.com/kejun/blogpost/blob/main/2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md) | 越强越脆弱：当 SOTA 模型开始"搞砸"工具调用——Better Models, Worse... | 2026-07-05 | AI技术 |
-| [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | 其他 |
+| [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | AI技术 |
 | [2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md](https://github.com/kejun/blogpost/blob/main/2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md) | AI 编码的"短绳方法"：当 Vibe Coding 退潮，Agentic Engineeri... | 2026-07-03 | AI技术 |
 | [2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md](https://github.com/kejun/blogpost/blob/main/2026-07-02-agentic-software-design-paradigm-scarfbench-is-it-agentic.md) | 当软件必须为 Agent 而设计：从 ScarfBench 到"Is it agentic e... | 2026-07-02 | AI技术 |
 | [2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-07-01-claude-sonnet5-pareto-agent-era-cost-performance-frontier.md) | Claude Sonnet 5 与"帕累托 Agent"时代：当中端模型逼近 Opus 能力边界 | 2026-07-01 | AI技术 |
-| [2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md](https://github.com/kejun/blogpost/blob/main/2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md) | 本地模型逼近前沿的拐点时刻：从 Qwen 3.6、vLLM 语义路由到 Ornith-1.0 ... | 2026-06-30 | 其他 |
-| [2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md](https://github.com/kejun/blogpost/blob/main/2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md) | LLM 的"镜子测试"：当思考链暴露了自我模型的边界——从异常检测到"自我意识"的技术深潜 | 2026-06-29 | 其他 |
+| [2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md](https://github.com/kejun/blogpost/blob/main/2026-06-30-local-models-frontier-inflection-point-qwen36-vllm-ornith.md) | 本地模型逼近前沿的拐点时刻：从 Qwen 3.6、vLLM 语义路由到 Ornith-1.0 ... | 2026-06-30 | AI技术 |
+| [2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md](https://github.com/kejun/blogpost/blob/main/2026-06-29-llm-mirror-test-self-model-anomaly-detection-thinking-traces.md) | LLM 的"镜子测试"：当思考链暴露了自我模型的边界——从异常检测到"自我意识"的技术深潜 | 2026-06-29 | AI技术 |
 | [2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md](https://github.com/kejun/blogpost/blob/main/2026-06-28-google-design-md-coding-agents-design-system-machine-readable.md) | Google DESIGN.md 深度解析：当设计系统变成"Agent 可读"——AI 编码时... | 2026-06-28 | AI技术 |
 | [2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md](https://github.com/kejun/blogpost/blob/main/2026-06-27-garry-tan-gstack-virtual-engineering-team-agent-specialization.md) | gstack 深度解析：当 YC CEO 把 Claude Code 变成 23 人工程团队—... | 2026-06-27 | AI技术 |
 | [2026-06-26-openmontage-agentic-video-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-06-26-openmontage-agentic-video-production-architecture.md) | OpenMontage 深度解析：当 AI Agent 接管视频生产——从 Vibe Codi... | 2026-06-26 | AI技术 |
 | [2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-06-25-cuga-agent-harness-enterprise-agentic-apps.md) | CUGA 深度解析：当 Agent 框架走向"Harness 时代"——IBM 如何让 24 ... | 2026-06-25 | AI技术 |
-| [2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md](https://github.com/kejun/blogpost/blob/main/2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md) | GLM-5.2 深度解析：开源模型如何挑战闭源霸权——744B MoE、1M 上下文与长程编码的革命 | 2026-06-23 | 其他 |
+| [2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md](https://github.com/kejun/blogpost/blob/main/2026-06-23-glm-52-open-model-challenges-frontier-coding-long-horizon.md) | GLM-5.2 深度解析：开源模型如何挑战闭源霸权——744B MoE、1M 上下文与长程编码的革命 | 2026-06-23 | AI技术 |
 | [2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-06-22-subquadratic-sparse-attention-breakthrough-critical-analysis.md) | Subquadratic 稀疏注意力突破：终结 Transformer 二次方瓶颈，还是 AI... | 2026-06-22 | 其他 |
 | [2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md](https://github.com/kejun/blogpost/blob/main/2026-06-21-beyond-lora-peft-benchmarking-next-generation-fine-tuning.md) | Beyond LoRA：当 98.4% 的人都在用同一种微调技术时，你错过了什么？ | 2026-06-21 | 其他 |
 | [2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md](https://github.com/kejun/blogpost/blob/main/2026-06-20-mosaicleaks-deep-research-agent-privacy-leakage-mosaic-effect.md) | MosaicLeaks 深度解析：当深度研究 Agent 在"帮你做研究"的同时"帮黑客打工" | 2026-06-20 | AI技术 |
@@ -106,31 +107,31 @@
 | [2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md](https://github.com/kejun/blogpost/blob/main/2026-06-08-anthropic-global-ai-slowdown-self-improvement-risk.md) | Anthropic 呼吁全球 AI 减速：自我改进风险是真的威胁，还是战略卡位？ | 2026-06-08 | AI技术 |
 | [2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-06-07-developer-tools-rebuilt-for-ai-agents-sem-lsp-paradigm.md) | 当开发者工具为 AI Agent 重新设计：从 LSP 到语义原语的范式转移 | 2026-06-07 | AI技术 |
 | [2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md](https://github.com/kejun/blogpost/blob/main/2026-06-06-ai-agent-security-engineering-paradigm-shift-meta-hack.md) | AI Agent 安全工程新范式：从 Meta 黑客事件看 Agent 原生安全的六个核心模式 | 2026-06-06 | AI技术 |
-| [2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md](https://github.com/kejun/blogpost/blob/main/2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md) | Transformer 需要三个投影吗？ICML 2026 论文深度解析：QKV 共享如何让 ... | 2026-06-05 | 其他 |
+| [2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md](https://github.com/kejun/blogpost/blob/main/2026-06-05-qkv-projection-sharing-kv-cache-reduction-icml-2026.md) | Transformer 需要三个投影吗？ICML 2026 论文深度解析：QKV 共享如何让 ... | 2026-06-05 | AI技术 |
 | [2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-06-04-headroom-context-compression-agent-infrastructure-deep-dive.md) | Headroom 深度解析：AI Agent 的 Token 压缩层如何重塑基础设施范式 | 2026-06-04 | AI技术 |
 | [2026-06-03-mai-code-1-flash-production-harness-coding-models.md](https://github.com/kejun/blogpost/blob/main/2026-06-03-mai-code-1-flash-production-harness-coding-models.md) | MAI-Code-1-Flash 与生产 Harness 训练革命：为什么"基准分数"不再决定... | 2026-06-03 | AI技术 |
 | [2026-06-01-claude-opus4-honesty-bottleneck-agent-trustworthiness.md](https://github.com/kejun/blogpost/blob/main/2026-06-01-claude-opus4-honesty-bottleneck-agent-trustworthiness.md) | 诚实性瓶颈：当 Anthropic 估值 9650 亿美元超越 OpenAI——Claude ... | 2026-06-01 | AI技术 |
 | [2026-05-31-agent-tool-use-reliability-bottleneck-contract-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-31-agent-tool-use-reliability-bottleneck-contract-engineering.md) | Agent Tool-Use 可靠性瓶颈：为什么工具调用是 Agent 从 Demo 到生产的... | 2026-05-31 | AI技术 |
 | [2026-05-30-agentic-ide-architecture-cursor-claude-code-paradigm-shift.md](https://github.com/kejun/blogpost/blob/main/2026-05-30-agentic-ide-architecture-cursor-claude-code-paradigm-shift.md) | Agentic IDE 架构革命：当"编程助手"变成"编程同事"——2026 年开发者工具的范式转移 | 2026-05-30 | AI技术 |
-| [2026-05-29-specialization-beats-scale-3b-model-dethrones-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-05-29-specialization-beats-scale-3b-model-dethrones-frontier.md) | 专业化击败规模：当 3B 小模型以 52 倍成本优势碾压 Claude Opus——AI 模型... | 2026-05-29 | 其他 |
+| [2026-05-29-specialization-beats-scale-3b-model-dethrones-frontier.md](https://github.com/kejun/blogpost/blob/main/2026-05-29-specialization-beats-scale-3b-model-dethrones-frontier.md) | 专业化击败规模：当 3B 小模型以 52 倍成本优势碾压 Claude Opus——AI 模型... | 2026-05-29 | AI技术 |
 | [2026-05-28-agentic-benchmark-crisis-itbench-aa-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-05-28-agentic-benchmark-crisis-itbench-aa-paradigm.md) | Agentic Benchmark 危机：ITBench-AA 揭示的前端模型"虚高"与 Ag... | 2026-05-28 | AI技术 |
 | [2026-05-27-agentic-business-transformation-architecture-gap.md](https://github.com/kejun/blogpost/blob/main/2026-05-27-agentic-business-transformation-architecture-gap.md) | Agentic Business Transformation 架构鸿沟：为什么 76% 的企... | 2026-05-27 | AI技术 |
 | [2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md](https://github.com/kejun/blogpost/blob/main/2026-05-26-agent-architecture-matters-open-leaderboard-and-terminology.md) | Agent ≠ Model：从 HuggingFace 术语表和 IBM 开源排行榜看 Age... | 2026-05-26 | AI技术 |
-| [2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md](https://github.com/kejun/blogpost/blob/main/2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md) | Diffusion Language Models 的崛起：NVIDIA Nemotron-L... | 2026-05-24 | 其他 |
+| [2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md](https://github.com/kejun/blogpost/blob/main/2026-05-24-nemotron-labs-diffusion-language-models-breakthrough.md) | Diffusion Language Models 的崛起：NVIDIA Nemotron-L... | 2026-05-24 | AI技术 |
 | [2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md](https://github.com/kejun/blogpost/blob/main/2026-05-23-project-glasswing-ai-vulnerability-detection-inflection-point.md) | Project Glasswing 与 AI 漏洞发现拐点：当漏洞找到比漏洞修补快了 10 倍 | 2026-05-23 | AI技术 |
 | [2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-22-multi-stream-llms-parallel-computation-agent-architecture.md) | Multi-Stream LLMs：当 LLM 不再是"单线程"——Agent 推理架构的范式转移 | 2026-05-22 | AI技术 |
 | [2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-21-code-knowledge-graph-coding-agent-infrastructure.md) | 代码知识图谱革命：当 AI 编码 Agent 不再"盲搜"文件 | 2026-05-21 | AI技术 |
 | [2026-05-19-agora-1-multi-agent-world-model-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-19-agora-1-multi-agent-world-model-architecture.md) | Agora-1：多智能体世界模型——当"Learned Game Engine"遇见共享模拟 | 2026-05-19 | AI技术 |
-| [2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md) | LLM 推理的"隐形浪费"：异步连续批处理如何释放 24% 的 GPU 算力 | 2026-05-18 | 其他 |
-| [2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md](https://github.com/kejun/blogpost/blob/main/2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md) | LLM Steering Vectors：当"脑内手术"不再是理论——DeepSeek-V4-... | 2026-05-17 | 其他 |
+| [2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md](https://github.com/kejun/blogpost/blob/main/2026-05-18-llm-inference-async-continuous-batching-gpu-optimization.md) | LLM 推理的"隐形浪费"：异步连续批处理如何释放 24% 的 GPU 算力 | 2026-05-18 | AI技术 |
+| [2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md](https://github.com/kejun/blogpost/blob/main/2026-05-17-llm-steering-vectors-deepseek-v4-flash-activation-control.md) | LLM Steering Vectors：当"脑内手术"不再是理论——DeepSeek-V4-... | 2026-05-17 | AI技术 |
 | [2026-05-16-agent-skills-composition-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-16-agent-skills-composition-engineering.md) | Agent Skills 组合工程：当 84,000+ 星的 Skills 仓库告诉你——组合... | 2026-05-16 | AI技术 |
 | [2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md](https://github.com/kejun/blogpost/blob/main/2026-05-15-spec-driven-development-ai-agent-engineering-revolution.md) | Spec-Driven Development 革命：当 AI Agent 工程从"Promp... | 2026-05-15 | AI技术 |
 | [2026-05-14-agent-human-alignment-layer-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-05-14-agent-human-alignment-layer-engineering.md) | Agent 时代的"对齐层"工程：为什么 2026 年最火的 AI 项目都不是关于"模型能力"的 | 2026-05-14 | AI技术 |
 | [2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md](https://github.com/kejun/blogpost/blob/main/2026-05-13-beyond-semantic-similarity-direct-corpus-interaction-agentic-search.md) | 超越语义相似度：当 grep 打败向量搜索——Agent 时代的检索范式革命 | 2026-05-13 | AI技术 |
-| [2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md) | EMO 革命：当 MoE 模型的"模块化"从数据中自然涌现 | 2026-05-12 | 其他 |
+| [2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-12-emo-mixture-of-experts-emergent-modularity-llm-architecture.md) | EMO 革命：当 MoE 模型的"模块化"从数据中自然涌现 | 2026-05-12 | AI技术 |
 | [2026-05-11-self-evolving-agent-context-density-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-05-11-self-evolving-agent-context-density-architecture.md) | 自进化 Agent 架构革命：当上下文信息密度成为 Agent 能力的第一性原理 | 2026-05-11 | AI技术 |
 | [2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md](https://github.com/kejun/blogpost/blob/main/2026-05-10-chrome-devtools-mcp-agent-browser-infrastructure.md) | Chrome DevTools MCP 与 Agent 浏览器基础设施：当 AI 编码助手获得... | 2026-05-10 | AI技术 |
-| [2026-05-09-dflash-speculative-decoding-block-diffusion.md](https://github.com/kejun/blogpost/blob/main/2026-05-09-dflash-speculative-decoding-block-diffusion.md) | DFlash：用 Block Diffusion 重写 LLM 推理加速——Speculati... | 2026-05-09 | 其他 |
+| [2026-05-09-dflash-speculative-decoding-block-diffusion.md](https://github.com/kejun/blogpost/blob/main/2026-05-09-dflash-speculative-decoding-block-diffusion.md) | DFlash：用 Block Diffusion 重写 LLM 推理加速——Speculati... | 2026-05-09 | AI技术 |
 | [2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-05-08-vakra-benchmark-enterprise-agent-failure-analysis.md) | VAKRA Benchmark 揭示的 Agent 评估危机：为什么模型在 8000+ 真实 ... | 2026-05-08 | AI技术 |
 | [2026-05-07-vllm-inference-correctness-crisis-rl-training.md](https://github.com/kejun/blogpost/blob/main/2026-05-07-vllm-inference-correctness-crisis-rl-training.md) | vLLM 推理正确性危机：当推理引擎升级摧毁了你的 RL 训练 | 2026-05-07 | AI技术 |
 | [2026-05-06-agent-context-window-crisis-optimization-ecosystem.md](https://github.com/kejun/blogpost/blob/main/2026-05-06-agent-context-window-crisis-optimization-ecosystem.md) | AI Agent 上下文窗口危机：当 Context 成为第一瓶颈的 2026 | 2026-05-06 | AI技术 |
@@ -159,7 +160,7 @@
 | [2026-04-15-ai-agent-protocol-stack-fusion-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-15-ai-agent-protocol-stack-fusion-architecture.md) | AI Agent 协议栈融合架构：MCP、A2A 与可移植 Agent 的企业级实践 | 2026-04-15 | AI技术 |
 | [2026-04-14-ai-agent-runtime-sandbox-security-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-14-ai-agent-runtime-sandbox-security-architecture.md) | AI Agent 运行时安全沙箱架构：从 OpenClaw 漏洞事件看生产级防护体系 | 2026-04-14 | AI技术 |
 | [2026-04-13-ai-agent-skill-hot-update-self-evolution.md](https://github.com/kejun/blogpost/blob/main/2026-04-13-ai-agent-skill-hot-update-self-evolution.md) | AI Agent 技能系统热更新与自进化架构：从静态工具库到动态能力生态 | 2026-04-13 | AI技术 |
-| [2026-04-12-mcp-protocol-2026-production-practices.md](https://github.com/kejun/blogpost/blob/main/2026-04-12-mcp-protocol-2026-production-practices.md) | MCP 协议 2026 生产实践：从单机工具到企业级 Agent 通信基础设施 | 2026-04-12 | 其他 |
+| [2026-04-12-mcp-protocol-2026-production-practices.md](https://github.com/kejun/blogpost/blob/main/2026-04-12-mcp-protocol-2026-production-practices.md) | MCP 协议 2026 生产实践：从单机工具到企业级 Agent 通信基础设施 | 2026-04-12 | AI技术 |
 | [2026-04-11-ai-agent-testing-strategy-production.md](https://github.com/kejun/blogpost/blob/main/2026-04-11-ai-agent-testing-strategy-production.md) | AI Agent 生产级测试策略：从单元测试到群体智能验证的质量保障体系 | 2026-04-11 | AI技术 |
 | [2026-04-10-neurosymbolic-agent-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-04-10-neurosymbolic-agent-architecture.md) | 神经符号混合架构：AI Agent 从曲线拟合到程序合成的范式转移 | 2026-04-10 | AI技术 |
 | [2026-04-09-ai-agent-async-subagent-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-04-09-ai-agent-async-subagent-orchestration.md) | AI Agent 异步子代理架构：从 LangChain Deep Agents 看并发编排与... | 2026-04-09 | AI技术 |
@@ -197,7 +198,7 @@
 | [playwright-ecosystem-guide.md](https://github.com/kejun/blogpost/blob/main/playwright-ecosystem-guide.md) | Playwright 完整用法与生态工具指南 | 2026-03-21 | 其他 |
 | [pyautogui-ecosystem-guide.md](https://github.com/kejun/blogpost/blob/main/pyautogui-ecosystem-guide.md) | PyAutoGUI 完整用法与生态工具指南 | 2026-03-21 | 其他 |
 | [2026-03-20-db9-ai-product-analysis.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-db9-ai-product-analysis.md) | DB9.ai 产品设计与架构深度分析报告 | 2026-03-20 | AI技术 |
-| [2026-03-20-mcp-protocol-standardization-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-mcp-protocol-standardization-interoperability.md) | MCP 协议标准化战争：从 Anthropic 标准到多协议共存的 Agent 互操作性架构 | 2026-03-20 | 其他 |
+| [2026-03-20-mcp-protocol-standardization-interoperability.md](https://github.com/kejun/blogpost/blob/main/2026-03-20-mcp-protocol-standardization-interoperability.md) | MCP 协议标准化战争：从 Anthropic 标准到多协议共存的 Agent 互操作性架构 | 2026-03-20 | AI技术 |
 | [2026-03-19-agent-self-diagnosis-healing-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-agent-self-diagnosis-healing-architecture.md) | AI Agent 自诊断与自愈系统：从 Microsoft AgentRx 看生产级错误恢复架构 | 2026-03-19 | AI技术 |
 | [2026-03-19-ai-investment-agent-team.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-ai-investment-agent-team.md) | AI 投资分析团队：多 Agent 系统在财经领域的生产级实践 | 2026-03-19 | AI技术 |
 | [2026-03-19-random-labs-slate-swarm-native-coding-agent.md](https://github.com/kejun/blogpost/blob/main/2026-03-19-random-labs-slate-swarm-native-coding-agent.md) | Slate：超越 ReAct 与 RLM | 2026-03-19 | AI技术 |
@@ -226,7 +227,7 @@
 | [2026-03-04-ai-agent-evaluation-framework-production.md](https://github.com/kejun/blogpost/blob/main/2026-03-04-ai-agent-evaluation-framework-production.md) | AI Agent 评估体系：从实验室指标到生产级监控的工程实践 | 2026-03-04 | AI技术 |
 | [2026-03-04-pint-sized-macintosh-pico-micro-mac-translation.md](https://github.com/kejun/blogpost/blob/main/2026-03-04-pint-sized-macintosh-pico-micro-mac-translation.md) | 迷你 Macintosh：用 Raspberry Pi Pico 打造的微型电脑 | 2026-03-04 | 其他 |
 | [2026-03-03-multi-agent-orchestration-patterns.md](https://github.com/kejun/blogpost/blob/main/2026-03-03-multi-agent-orchestration-patterns.md) | 多 Agent 编排模式：从单点智能到群体协作的工程实践 | 2026-03-03 | AI技术 |
-| [2026-03-02-mcp-gateway-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-02-mcp-gateway-production-architecture.md) | MCP Gateway 生产级架构：解决 N×M 集成问题的工程实践 | 2026-03-02 | 其他 |
+| [2026-03-02-mcp-gateway-production-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-02-mcp-gateway-production-architecture.md) | MCP Gateway 生产级架构：解决 N×M 集成问题的工程实践 | 2026-03-02 | AI技术 |
 | [2026-03-01-agent-identity-security-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-03-01-agent-identity-security-architecture.md) | Agent 身份验证与安全通信架构：Moltbook 事件后的生产级实践 | 2026-03-01 | AI技术 |
 | [2026-02-28-agent-compute-orchestration-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-02-28-agent-compute-orchestration-architecture.md) | Agent 计算编排架构：从 Memory-Centric 到 Compute-Aware 的... | 2026-02-28 | AI技术 |
 | [2026-02-27-agent-memory-context-compression-orchestration.md](https://github.com/kejun/blogpost/blob/main/2026-02-27-agent-memory-context-compression-orchestration.md) | Agent Memory 系统的上下文压缩与计算编排优化 | 2026-02-27 | 记忆系统 |
@@ -248,7 +249,7 @@
 | [2026-02-21-mcp-gateway-agent-memory-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-02-21-mcp-gateway-agent-memory-architecture.md) | MCP Gateway 与 Agent 记忆系统架构：解决 N×M 集成问题的生产级方案 | 2026-02-21 | 记忆系统 |
 | [2026-02-20-harness-engineering-agent-development.md](https://github.com/kejun/blogpost/blob/main/2026-02-20-harness-engineering-agent-development.md) | Harness Engineering：LLM 时代 Agent 开发的新范式 | 2026-02-20 | AI技术 |
 | [2026-02-19-claude-mem-agent-memory-system.md](https://github.com/kejun/blogpost/blob/main/2026-02-19-claude-mem-agent-memory-system.md) | Claude-Mem: AI Agent 记忆系统的参考实现 | 2026-02-19 | 记忆系统 |
-| [2026-02-19-llm-era-programming-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-02-19-llm-era-programming-paradigm.md) | LLM 时代的编程范式重构：从确定性到概率性软件工程 | 2026-02-19 | 其他 |
+| [2026-02-19-llm-era-programming-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-02-19-llm-era-programming-paradigm.md) | LLM 时代的编程范式重构：从确定性到概率性软件工程 | 2026-02-19 | AI技术 |
 | [2026-02-18-agent-self-verification.md](https://github.com/kejun/blogpost/blob/main/2026-02-18-agent-self-verification.md) | Agent 自验证系统：构建可靠 AI Agent 的核心能力 | 2026-02-18 | AI技术 |
 | [isl-8090-b2b-analysis.md](https://github.com/kejun/blogpost/blob/main/isl-8090-b2b-analysis.md) | 深度分析：ISL 与 8090 产品在 B2B 领域的快速起量 | 2026-02-17 | 其他 |
 | [ryan-carson-3file-system-v2.md](https://github.com/kejun/blogpost/blob/main/ryan-carson-3file-system-v2.md) | Ryan Carson：3文件系统 —— 用AI轻松编写生产级应用 | 2026-02-17 | AI技术 |
@@ -292,4 +293,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-08-13 08:03*
+*由 OpenClaw Agent 自动生成于 2026-08-26 08:03*
