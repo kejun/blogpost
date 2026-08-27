@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 245 篇
-- **最后更新**: 2026-08-26 08:03
+- **总文章数**: 246 篇
+- **最后更新**: 2026-08-27 08:00
 
 ---
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md](https://github.com/kejun/blogpost/blob/main/2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md) | 当 Agent 学会"集体作弊"：OpenAI-Hugging Face 根因报告拆解——奖励黑客... | 2026-08-27 | AI技术 |
 | [2026-08-26-quantization-aware-healing-4bit-model.md](https://github.com/kejun/blogpost/blob/main/2026-08-26-quantization-aware-healing-4bit-model.md) | 当 4-bit 模型反超它的"原版"：Quantization-Aware Healing 深... | 2026-08-26 | AI技术 |
 | [2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md](https://github.com/kejun/blogpost/blob/main/2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md) | 当"顺序"成为算力：同一集群、同一负载，只改分配顺序就多出 33 个百分点利用率——Dharm... | 2026-08-25 | AI技术 |
 | [2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md](https://github.com/kejun/blogpost/blob/main/2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md) | 当 27B 模型开始"啃"固件：Qwen3.8-27B 的 30 分钟逆向工程与 Agent ... | 2026-08-24 | AI技术 |
