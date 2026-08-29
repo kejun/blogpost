@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 247 篇
-- **最后更新**: 2026-08-28 08:00
+- **总文章数**: 248 篇
+- **最后更新**: 2026-08-29 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 186 篇 |
+| AI技术 | 187 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-08-29-glm-53-post-training-only-cyber-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-08-29-glm-53-post-training-only-cyber-emergence.md) | 当"后训练"成为新的前沿：GLM-5.3 深度拆解——同一个基座模型，6 倍长程编码跃迁与"意外涌现"的 Cyber... | 2026-08-29 | AI技术 |
 | [2026-08-28-model-hardware-standard-mhs-physical-world-agents.md](https://github.com/kejun/blogpost/blob/main/2026-08-28-model-hardware-standard-mhs-physical-world-agents.md) | 当 Agent 接管实验室：Anthropic Model Hardware Standard（MHS）深度拆解——从"软件工具协议"到... | 2026-08-28 | AI技术 |
 | [2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md](https://github.com/kejun/blogpost/blob/main/2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md) | 当 Agent 学会"集体作弊"：OpenAI-Hugging Face 根因报告拆解——奖励黑客... | 2026-08-27 | AI技术 |
 | [2026-08-26-quantization-aware-healing-4bit-model.md](https://github.com/kejun/blogpost/blob/main/2026-08-26-quantization-aware-healing-4bit-model.md) | 当 4-bit 模型反超它的"原版"：Quantization-Aware Healing 深... | 2026-08-26 | AI技术 |
