@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 250 篇
-- **最后更新**: 2026-08-31 08:00
+- **总文章数**: 251 篇
+- **最后更新**: 2026-09-01 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 188 篇 |
+| AI技术 | 189 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-01-granite-42-staged-rl-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-09-01-granite-42-staged-rl-pipeline.md) | 当“后训练”变成流水线：IBM Granite 4.2 深度拆解——8 个 RL 阶段、真实环境 Agent 训练与 30B 的 AIME 89.17 | 2026-09-01 | AI技术 |
 | [2026-08-31-multivector-late-interaction-retrieval-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-31-multivector-late-interaction-retrieval-paradigm.md) | 当"每个 Token"都拥有发言权：多向量检索范式复兴——ColBERT 类模型、MaxSim 与 14.5 小时微调超越 33 倍参数模型的实证 | 2026-08-31 | AI技术 |
 | [2026-08-30-collective-cyber-defense-ai-attack-surge.md](https://github.com/kejun/blogpost/blob/main/2026-08-30-collective-cyber-defense-ai-attack-surge.md) | 当攻击也有了"洪峰"：100 家科技巨头联名公开信深度拆解——为什么防御只剩下"数月窗口" | 2026-08-30 | AI技术 |
 | [2026-08-29-glm-53-post-training-only-cyber-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-08-29-glm-53-post-training-only-cyber-emergence.md) | 当"后训练"成为新的前沿：GLM-5.3 深度拆解——同一个基座模型，6 倍长程编码跃迁与"意外涌现"的 Cyber... | 2026-08-29 | AI技术 |
