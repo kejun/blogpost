@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 251 篇
-- **最后更新**: 2026-09-01 08:00
+- **总文章数**: 252 篇
+- **最后更新**: 2026-09-02 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 189 篇 |
+| AI技术 | 190 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md](https://github.com/kejun/blogpost/blob/main/2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md) | 当安全成为部署参数：Claude Fable 5.1 / Mythos 5.1 与"能力-安全解耦"新范式——同一权重双护栏、缓存读取降价 45% 与 Astra 的 Critical 时刻 | 2026-09-02 | AI技术 |
 | [2026-09-01-granite-42-staged-rl-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-09-01-granite-42-staged-rl-pipeline.md) | 当“后训练”变成流水线：IBM Granite 4.2 深度拆解——8 个 RL 阶段、真实环境 Agent 训练与 30B 的 AIME 89.17 | 2026-09-01 | AI技术 |
 | [2026-08-31-multivector-late-interaction-retrieval-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-31-multivector-late-interaction-retrieval-paradigm.md) | 当"每个 Token"都拥有发言权：多向量检索范式复兴——ColBERT 类模型、MaxSim 与 14.5 小时微调超越 33 倍参数模型的实证 | 2026-08-31 | AI技术 |
 | [2026-08-30-collective-cyber-defense-ai-attack-surge.md](https://github.com/kejun/blogpost/blob/main/2026-08-30-collective-cyber-defense-ai-attack-surge.md) | 当攻击也有了"洪峰"：100 家科技巨头联名公开信深度拆解——为什么防御只剩下"数月窗口" | 2026-08-30 | AI技术 |
