@@ -5,7 +5,7 @@
 ## 📊 统计
 
 - **总文章数**: 253 篇
-- **最后更新**: 2026-09-03 08:00
+- **最后更新**: 2026-09-03 08:45
 
 ---
 
@@ -24,7 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-09-03-benchmirt-irt-benchmark-audit.md](https://github.com/kejun/blogpost/blob/main/2026-09-03-benchmirt-irt-benchmark-audit.md) | 当基准测试开始"审视自己"：BenchMIRT 与多维项目反应理论——100 个模型、34,000 道题与"安全/推理"维度的意外分离 | 2026-09-03 | AI技术 |
+| [2026-09-03-atlas-source-control-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-03-atlas-source-control-for-agents.md) | 当提交有了"目击证人"：Atlas 与 Agent 时代的源代码管理——checkpoint、跨 Agent 共享记忆与 ACP 多代理协作 | 2026-09-03 | AI技术 |
 | [2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md](https://github.com/kejun/blogpost/blob/main/2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md) | 当安全成为部署参数：Claude Fable 5.1 / Mythos 5.1 与"能力-安全解耦"新范式——同一权重双护栏、缓存读取降价 45% 与 Astra 的 Critical 时刻 | 2026-09-02 | AI技术 |
 | [2026-09-01-granite-42-staged-rl-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-09-01-granite-42-staged-rl-pipeline.md) | 当“后训练”变成流水线：IBM Granite 4.2 深度拆解——8 个 RL 阶段、真实环境 Agent 训练与 30B 的 AIME 89.17 | 2026-09-01 | AI技术 |
 | [2026-08-31-multivector-late-interaction-retrieval-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-31-multivector-late-interaction-retrieval-paradigm.md) | 当"每个 Token"都拥有发言权：多向量检索范式复兴——ColBERT 类模型、MaxSim 与 14.5 小时微调超越 33 倍参数模型的实证 | 2026-08-31 | AI技术 |
