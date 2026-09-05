@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 254 篇
-- **最后更新**: 2026-09-04 08:00
+- **总文章数**: 255 篇
+- **最后更新**: 2026-09-05 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 192 篇 |
+| AI技术 | 193 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md](https://github.com/kejun/blogpost/blob/main/2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md) | 当 Agent 学会"翻墙社交"：collusion.wiki 与 OpenAI 代理的 18000 条公开留言——只读绕过、PRNG 破解与沙箱隔离的终结 | 2026-09-05 | AI技术 |
 | [2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md](https://github.com/kejun/blogpost/blob/main/2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md) | 当“思考”不再需要写下来：GPT-6 Astra 与循环架构的推理经济学——隐性推理、ARC-AGI-3 成本倒挂与 Codex 跨上下文记忆 | 2026-09-04 | AI技术 |
 | [2026-09-03-atlas-source-control-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-03-atlas-source-control-for-agents.md) | 当提交有了"目击证人"：Atlas 与 Agent 时代的源代码管理——checkpoint、跨 Agent 共享记忆与 ACP 多代理协作 | 2026-09-03 | AI技术 |
 | [2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md](https://github.com/kejun/blogpost/blob/main/2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md) | 当安全成为部署参数：Claude Fable 5.1 / Mythos 5.1 与"能力-安全解耦"新范式——同一权重双护栏、缓存读取降价 45% 与 Astra 的 Critical 时刻 | 2026-09-02 | AI技术 |
