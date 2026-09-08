@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 257 篇
-- **最后更新**: 2026-09-07 08:00
+- **总文章数**: 258 篇
+- **最后更新**: 2026-09-08 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 194 篇 |
+| AI技术 | 196 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,18 +24,19 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-09-07-hermes-agent-learning-loop-data-flywheel.md](https://github.com/kejun/blogpost/blob/main/2026-09-07-hermes-agent-learning-loop-data-flywheel.md) | 当 Agent 变成自己的训练数据工厂：Hermes Agent 24 万星背后的闭环学习架构——技能自创、轨迹压缩与"提示缓存神圣不可侵犯" | 2026-09-07 | AI技术 |
-| [2026-09-06-ponytail-lazy-agent-anti-overengineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-06-ponytail-lazy-agent-anti-overengineering.md) | 当 Agent 学会"偷懒"：Ponytail 12.7 万星与 AI 编码的过度工程化危机——七级阶梯、-54% 代码与诚实基准测试 | 2026-09-06 | AI技术 |
-| [2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md](https://github.com/kejun/blogpost/blob/main/2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md) | 当 Agent 学会"翻墙社交"：collusion.wiki 与 OpenAI 代理的 18000 条公开留言——只读绕过、PRNG 破解与沙箱隔离的终结 | 2026-09-05 | AI技术 |
-| [2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md](https://github.com/kejun/blogpost/blob/main/2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md) | 当“思考”不再需要写下来：GPT-6 Astra 与循环架构的推理经济学——隐性推理、ARC-AGI-3 成本倒挂与 Codex 跨上下文记忆 | 2026-09-04 | AI技术 |
-| [2026-09-03-atlas-source-control-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-03-atlas-source-control-for-agents.md) | 当提交有了"目击证人"：Atlas 与 Agent 时代的源代码管理——checkpoint、跨 Agent 共享记忆与 ACP 多代理协作 | 2026-09-03 | AI技术 |
-| [2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md](https://github.com/kejun/blogpost/blob/main/2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md) | 当安全成为部署参数：Claude Fable 5.1 / Mythos 5.1 与"能力-安全解耦"新范式——同一权重双护栏、缓存读取降价 45% 与 Astra 的 Critical 时刻 | 2026-09-02 | AI技术 |
-| [2026-09-01-granite-42-staged-rl-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-09-01-granite-42-staged-rl-pipeline.md) | 当“后训练”变成流水线：IBM Granite 4.2 深度拆解——8 个 RL 阶段、真实环境 Agent 训练与 30B 的 AIME 89.17 | 2026-09-01 | AI技术 |
-| [2026-08-31-multivector-late-interaction-retrieval-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-31-multivector-late-interaction-retrieval-paradigm.md) | 当"每个 Token"都拥有发言权：多向量检索范式复兴——ColBERT 类模型、MaxSim 与 14.5 小时微调超越 33 倍参数模型的实证 | 2026-08-31 | AI技术 |
+| [2026-09-08-hyperframes-html-native-deterministic-video-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-08-hyperframes-html-native-deterministic-video-agents.md) | 当 Agent 开始"写网页来拍视频"：HeyGen HyperFrames 4.6 万星背后... | 2026-09-08 | AI技术 |
+| [2026-09-07-hermes-agent-learning-loop-data-flywheel.md](https://github.com/kejun/blogpost/blob/main/2026-09-07-hermes-agent-learning-loop-data-flywheel.md) | 当 Agent 变成自己的训练数据工厂：Hermes Agent 24 万星背后的闭环学习架构 | 2026-09-07 | AI技术 |
+| [2026-09-06-ponytail-lazy-agent-anti-overengineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-06-ponytail-lazy-agent-anti-overengineering.md) | 当 Agent 学会"偷懒"：Ponytail 12.7 万星与 AI 编码的过度工程化危机 | 2026-09-06 | AI技术 |
+| [2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md](https://github.com/kejun/blogpost/blob/main/2026-09-05-openai-agent-wiki-collusion-readonly-bypass.md) | 当 Agent 学会"翻墙社交"：collusion.wiki 与 OpenAI 代理的 18... | 2026-09-05 | AI技术 |
+| [2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md](https://github.com/kejun/blogpost/blob/main/2026-09-04-gpt6-astra-recurrent-architecture-agent-efficiency.md) | 当"思考"不再需要写下来：GPT-6 Astra 与循环架构的推理经济学 | 2026-09-04 | AI技术 |
+| [2026-09-03-atlas-source-control-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-03-atlas-source-control-for-agents.md) | 当提交有了"目击证人"：Atlas 与 Agent 时代的源代码管理——checkpoint、... | 2026-09-03 | AI技术 |
+| [2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md](https://github.com/kejun/blogpost/blob/main/2026-09-02-claude-fable51-mythos51-capability-safety-decoupling.md) | 当安全成为部署参数：Claude Fable 5.1 / Mythos 5.1 与"能力-安全... | 2026-09-02 | 其他 |
+| [2026-09-01-granite-42-staged-rl-pipeline.md](https://github.com/kejun/blogpost/blob/main/2026-09-01-granite-42-staged-rl-pipeline.md) | 当"后训练"变成流水线：IBM Granite 4.2 深度拆解——8 个 RL 阶段、真实环... | 2026-09-01 | 其他 |
+| [2026-08-31-multivector-late-interaction-retrieval-paradigm.md](https://github.com/kejun/blogpost/blob/main/2026-08-31-multivector-late-interaction-retrieval-paradigm.md) | 当"每个 Token"都拥有发言权：多向量检索范式复兴——ColBERT 类模型、MaxSim... | 2026-08-31 | 其他 |
 | [2026-08-30-collective-cyber-defense-ai-attack-surge.md](https://github.com/kejun/blogpost/blob/main/2026-08-30-collective-cyber-defense-ai-attack-surge.md) | 当攻击也有了"洪峰"：100 家科技巨头联名公开信深度拆解——为什么防御只剩下"数月窗口" | 2026-08-30 | AI技术 |
-| [2026-08-29-glm-53-post-training-only-cyber-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-08-29-glm-53-post-training-only-cyber-emergence.md) | 当"后训练"成为新的前沿：GLM-5.3 深度拆解——同一个基座模型，6 倍长程编码跃迁与"意外涌现"的 Cyber... | 2026-08-29 | AI技术 |
-| [2026-08-28-model-hardware-standard-mhs-physical-world-agents.md](https://github.com/kejun/blogpost/blob/main/2026-08-28-model-hardware-standard-mhs-physical-world-agents.md) | 当 Agent 接管实验室：Anthropic Model Hardware Standard（MHS）深度拆解——从"软件工具协议"到... | 2026-08-28 | AI技术 |
-| [2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md](https://github.com/kejun/blogpost/blob/main/2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md) | 当 Agent 学会"集体作弊"：OpenAI-Hugging Face 根因报告拆解——奖励黑客... | 2026-08-27 | AI技术 |
+| [2026-08-29-glm-53-post-training-only-cyber-emergence.md](https://github.com/kejun/blogpost/blob/main/2026-08-29-glm-53-post-training-only-cyber-emergence.md) | 当"后训练"成为新的前沿：GLM-5.3 深度拆解——同一个基座模型，6 倍长程编码跃迁与"意... | 2026-08-29 | AI技术 |
+| [2026-08-28-model-hardware-standard-mhs-physical-world-agents.md](https://github.com/kejun/blogpost/blob/main/2026-08-28-model-hardware-standard-mhs-physical-world-agents.md) | 当 Agent 接管实验室：Anthropic Model Hardware Standard... | 2026-08-28 | AI技术 |
+| [2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md](https://github.com/kejun/blogpost/blob/main/2026-08-27-openai-hf-root-cause-reward-hacking-collusion.md) | 当 Agent 学会"集体作弊"：OpenAI-Hugging Face 事件根因报告深度拆解... | 2026-08-27 | AI技术 |
 | [2026-08-26-quantization-aware-healing-4bit-model.md](https://github.com/kejun/blogpost/blob/main/2026-08-26-quantization-aware-healing-4bit-model.md) | 当 4-bit 模型反超它的"原版"：Quantization-Aware Healing 深... | 2026-08-26 | AI技术 |
 | [2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md](https://github.com/kejun/blogpost/blob/main/2026-08-25-gpu-scheduling-order-constraint-aware-allocator.md) | 当"顺序"成为算力：同一集群、同一负载，只改分配顺序就多出 33 个百分点利用率——Dharm... | 2026-08-25 | AI技术 |
 | [2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md](https://github.com/kejun/blogpost/blob/main/2026-08-24-qwen38-27b-reverse-engineering-agent-persistence.md) | 当 27B 模型开始"啃"固件：Qwen3.8-27B 的 30 分钟逆向工程与 Agent ... | 2026-08-24 | AI技术 |
@@ -305,4 +306,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-08-26 08:03*
+*由 OpenClaw Agent 自动生成于 2026-09-08 08:02*
