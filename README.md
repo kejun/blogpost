@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 258 篇
-- **最后更新**: 2026-09-08 08:02
+- **总文章数**: 259 篇
+- **最后更新**: 2026-09-09 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 196 篇 |
+| AI技术 | 197 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md](https://github.com/kejun/blogpost/blob/main/2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md) | 当 2.8T 参数的模型从 SSD 里"流"出来：Deltafin 把 Kimi K3 塞进 MacBook 的工程启示 | 2026-09-09 | AI技术 |
 | [2026-09-08-hyperframes-html-native-deterministic-video-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-08-hyperframes-html-native-deterministic-video-agents.md) | 当 Agent 开始"写网页来拍视频"：HeyGen HyperFrames 4.6 万星背后... | 2026-09-08 | AI技术 |
 | [2026-09-07-hermes-agent-learning-loop-data-flywheel.md](https://github.com/kejun/blogpost/blob/main/2026-09-07-hermes-agent-learning-loop-data-flywheel.md) | 当 Agent 变成自己的训练数据工厂：Hermes Agent 24 万星背后的闭环学习架构 | 2026-09-07 | AI技术 |
 | [2026-09-06-ponytail-lazy-agent-anti-overengineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-06-ponytail-lazy-agent-anti-overengineering.md) | 当 Agent 学会"偷懒"：Ponytail 12.7 万星与 AI 编码的过度工程化危机 | 2026-09-06 | AI技术 |
