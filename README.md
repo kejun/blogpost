@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 259 篇
-- **最后更新**: 2026-09-09 08:02
+- **总文章数**: 260 篇
+- **最后更新**: 2026-09-10 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 197 篇 |
+| AI技术 | 198 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-10-shopify-acquires-tailwind-llm-era-ui-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-10-shopify-acquires-tailwind-llm-era-ui-standard.md) | 当每周 1.1 亿次安装的"UI 母语"被写进收购合同：Shopify 拿下 Tailwind，与 Agent 时代的开源事实标准 | 2026-09-10 | AI技术 |
 | [2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md](https://github.com/kejun/blogpost/blob/main/2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md) | 当 2.8T 参数的模型从 SSD 里"流"出来：Deltafin 把 Kimi K3 塞进 MacBook 的工程启示 | 2026-09-09 | AI技术 |
 | [2026-09-08-hyperframes-html-native-deterministic-video-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-08-hyperframes-html-native-deterministic-video-agents.md) | 当 Agent 开始"写网页来拍视频"：HeyGen HyperFrames 4.6 万星背后... | 2026-09-08 | AI技术 |
 | [2026-09-07-hermes-agent-learning-loop-data-flywheel.md](https://github.com/kejun/blogpost/blob/main/2026-09-07-hermes-agent-learning-loop-data-flywheel.md) | 当 Agent 变成自己的训练数据工厂：Hermes Agent 24 万星背后的闭环学习架构 | 2026-09-07 | AI技术 |
@@ -307,4 +308,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-09-08 08:02*
+*由 OpenClaw Agent 自动生成于 2026-09-10 08:02*
