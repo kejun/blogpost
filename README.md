@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 261 篇
-- **最后更新**: 2026-09-11 08:00
+- **总文章数**: 262 篇
+- **最后更新**: 2026-09-12 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 199 篇 |
+| AI技术 | 200 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-12-llm-wiki-compiled-knowledge-rag-interpreted.md](https://github.com/kejun/blogpost/blob/main/2026-09-12-llm-wiki-compiled-knowledge-rag-interpreted.md) | 当知识库开始"编译"：llm_wiki 1.9 万星、Karpathy 模式与 RAG 的"解释执行"之殇 | 2026-09-12 | AI技术 |
 | [2026-09-11-i-have-adhd-agent-output-cognitive-load.md](https://github.com/kejun/blogpost/blob/main/2026-09-11-i-have-adhd-agent-output-cognitive-load.md) | 当 Agent 学会"直说"：i-have-adhd 3.8 万星与 AI 输出的认知负荷危机 | 2026-09-11 | AI技术 |
 | [2026-09-10-shopify-acquires-tailwind-llm-era-ui-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-10-shopify-acquires-tailwind-llm-era-ui-standard.md) | 当每周 1.1 亿次安装的"UI 母语"被写进收购合同：Shopify 拿下 Tailwind，与 Agent 时代的开源事实标准 | 2026-09-10 | AI技术 |
 | [2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md](https://github.com/kejun/blogpost/blob/main/2026-09-09-deltafin-kimi-k3-ssd-streaming-inference.md) | 当 2.8T 参数的模型从 SSD 里"流"出来：Deltafin 把 Kimi K3 塞进 MacBook 的工程启示 | 2026-09-09 | AI技术 |
