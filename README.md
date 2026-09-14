@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 264 篇
-- **最后更新**: 2026-09-14 08:02
+- **总文章数**: 265 篇
+- **最后更新**: 2026-09-14 10:24
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 201 篇 |
+| AI技术 | 202 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-14-agent-control-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-agent-control-engineering.md) | 从 Coding 到 Control：Agent 时代真正的工程对象变了 | 2026-09-14 | AI技术 |
 | [2026-09-14-system-prompt-leaks-frontier-source-code.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-system-prompt-leaks-frontier-source-code.md) | 当"系统提示词"成为前沿模型的源代码：system_prompts_leaks 6.6 万星与... | 2026-09-14 | 其他 |
 | [2026-09-13-gods-eye-view-spatial-intelligence-voice-agent-globe.md](https://github.com/kejun/blogpost/blob/main/2026-09-13-gods-eye-view-spatial-intelligence-voice-agent-globe.md) | 当"上帝视角"变成开源软件：God's Eye View 近 3 万星背后——真实空间数据、语... | 2026-09-13 | AI技术 |
 | [2026-09-12-llm-wiki-compiled-knowledge-rag-interpreted.md](https://github.com/kejun/blogpost/blob/main/2026-09-12-llm-wiki-compiled-knowledge-rag-interpreted.md) | 当知识库开始"编译"：llm_wiki 1.9 万星、Karpathy 模式与 RAG 的"解... | 2026-09-12 | AI技术 |
@@ -312,4 +313,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-09-14 08:02*
+*由 OpenClaw Agent 自动生成于 2026-09-14 10:24*
