@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 266 篇
-- **最后更新**: 2026-09-15 08:00
+- **总文章数**: 267 篇
+- **最后更新**: 2026-09-16 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 203 篇 |
+| AI技术 | 204 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-16-system-one-models-jev-typed-decisions.md](https://github.com/kejun/blogpost/blob/main/2026-09-16-system-one-models-jev-typed-decisions.md) | 当模型放弃"说话"：TypeSafe System One Models 与 Jev 深度拆解——70ms 的决策、免费的输出与"不可能"的幻觉 | 2026-09-16 | AI技术 |
 | [2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md](https://github.com/kejun/blogpost/blob/main/2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md) | 当代码审查变成"确定性工程 × Agent"的混合体：Alibaba open-code-review 2.5 万星深度拆解——1/9 的 token、线级定位与"召回率让位精确率"的设计哲学 | 2026-09-15 | AI技术 |
 | [2026-09-14-agent-control-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-agent-control-engineering.md) | 从 Coding 到 Control：Agent 时代真正的工程对象变了 | 2026-09-14 | AI技术 |
 | [2026-09-14-system-prompt-leaks-frontier-source-code.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-system-prompt-leaks-frontier-source-code.md) | 当"系统提示词"成为前沿模型的源代码：system_prompts_leaks 6.6 万星与... | 2026-09-14 | 其他 |
