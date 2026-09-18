@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 269 篇
-- **最后更新**: 2026-09-18 07:15
+- **总文章数**: 270 篇
+- **最后更新**: 2026-09-18 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 206 篇 |
+| AI技术 | 207 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-18-openai-astra-for-law-legal-agent-foundation.md](https://github.com/kejun/blogpost/blob/main/2026-09-18-openai-astra-for-law-legal-agent-foundation.md) | 当 OpenAI 决定"懂法"：Astra for Law 深度拆解——2.3 亿 URL 的检索基座、54% 对 38.7% 的基准真相与"没有编译器的专业领域" | 2026-09-18 | AI技术 |
 | [2026-09-17-jev-system-one-ai-decision-layer-ecosystem.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-jev-system-one-ai-decision-layer-ecosystem.md) | Jev 的 400 多个社区实验，揭示了 AI 应用的另一种架构 | 2026-09-17 | AI技术 |
 | [2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md) | 当安全审计变成"六阶段流水线"：Cloudflare security-audit-skill 深度拆解——对抗性验证、"发现者不验证"与 Agent 时代的审计方法论 | 2026-09-17 | AI技术 |
 | [2026-09-16-system-one-models-jev-typed-decisions.md](https://github.com/kejun/blogpost/blob/main/2026-09-16-system-one-models-jev-typed-decisions.md) | 当模型放弃"说话"：TypeSafe System One Models 与 Jev 深度拆解——70ms 的决策、免费的输出与"不可能"的幻觉 | 2026-09-16 | AI技术 |
