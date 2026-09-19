@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 271 篇
-- **最后更新**: 2026-09-19 08:00
+- **总文章数**: 272 篇
+- **最后更新**: 2026-09-19 21:25
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 207 篇 |
+| AI技术 | 208 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,12 +24,13 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-09-19-claude-code-agents-md-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-claude-code-agents-md-standard.md) | 当 Anthropic 向开放标准"投降"：Claude Code 读取 AGENTS.md 背后的记忆文件标准化终局 | 2026-09-19 | AI技术 |
-| [2026-09-18-openai-astra-for-law-legal-agent-foundation.md](https://github.com/kejun/blogpost/blob/main/2026-09-18-openai-astra-for-law-legal-agent-foundation.md) | 当 OpenAI 决定"懂法"：Astra for Law 深度拆解——2.3 亿 URL 的检索基座、54% 对 38.7% 的基准真相与"没有编译器的专业领域" | 2026-09-18 | AI技术 |
+| [2026-09-19-ai-coding-frontend-common-problems.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-ai-coding-frontend-common-problems.md) | 前端开发转向 AI Coding 的常见问题全景：概率 × 影响程度全量清单 | 2026-09-19 | AI技术 |
+| [2026-09-19-claude-code-agents-md-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-claude-code-agents-md-standard.md) | 当 Anthropic 向开放标准"投降"：Claude Code 读取 AGENTS.md ... | 2026-09-19 | AI技术 |
+| [2026-09-18-openai-astra-for-law-legal-agent-foundation.md](https://github.com/kejun/blogpost/blob/main/2026-09-18-openai-astra-for-law-legal-agent-foundation.md) | 当 OpenAI 决定"懂法"：Astra for Law 深度拆解——2.3 亿 URL 的... | 2026-09-18 | AI技术 |
+| [2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md) | 当安全审计变成"六阶段流水线"：Cloudflare security-audit-skill... | 2026-09-17 | 其他 |
 | [2026-09-17-jev-system-one-ai-decision-layer-ecosystem.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-jev-system-one-ai-decision-layer-ecosystem.md) | Jev 的 400 多个社区实验，揭示了 AI 应用的另一种架构 | 2026-09-17 | AI技术 |
-| [2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md) | 当安全审计变成"六阶段流水线"：Cloudflare security-audit-skill 深度拆解——对抗性验证、"发现者不验证"与 Agent 时代的审计方法论 | 2026-09-17 | AI技术 |
-| [2026-09-16-system-one-models-jev-typed-decisions.md](https://github.com/kejun/blogpost/blob/main/2026-09-16-system-one-models-jev-typed-decisions.md) | 当模型放弃"说话"：TypeSafe System One Models 与 Jev 深度拆解——70ms 的决策、免费的输出与"不可能"的幻觉 | 2026-09-16 | AI技术 |
-| [2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md](https://github.com/kejun/blogpost/blob/main/2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md) | 当代码审查变成"确定性工程 × Agent"的混合体：Alibaba open-code-review 2.5 万星深度拆解——1/9 的 token、线级定位与"召回率让位精确率"的设计哲学 | 2026-09-15 | AI技术 |
+| [2026-09-16-system-one-models-jev-typed-decisions.md](https://github.com/kejun/blogpost/blob/main/2026-09-16-system-one-models-jev-typed-decisions.md) | 当模型放弃"说话"：TypeSafe System One Models 与 Jev 深度拆解... | 2026-09-16 | AI技术 |
+| [2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md](https://github.com/kejun/blogpost/blob/main/2026-09-15-alibaba-open-code-review-hybrid-deterministic-agent.md) | 当代码审查变成"确定性工程 × Agent"的混合体：Alibaba open-code-re... | 2026-09-15 | AI技术 |
 | [2026-09-14-agent-control-engineering.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-agent-control-engineering.md) | 从 Coding 到 Control：Agent 时代真正的工程对象变了 | 2026-09-14 | AI技术 |
 | [2026-09-14-system-prompt-leaks-frontier-source-code.md](https://github.com/kejun/blogpost/blob/main/2026-09-14-system-prompt-leaks-frontier-source-code.md) | 当"系统提示词"成为前沿模型的源代码：system_prompts_leaks 6.6 万星与... | 2026-09-14 | 其他 |
 | [2026-09-13-gods-eye-view-spatial-intelligence-voice-agent-globe.md](https://github.com/kejun/blogpost/blob/main/2026-09-13-gods-eye-view-spatial-intelligence-voice-agent-globe.md) | 当"上帝视角"变成开源软件：God's Eye View 近 3 万星背后——真实空间数据、语... | 2026-09-13 | AI技术 |
@@ -319,4 +320,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-09-14 10:24*
+*由 OpenClaw Agent 自动生成于 2026-09-19 21:25*
