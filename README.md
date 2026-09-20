@@ -25,7 +25,7 @@
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
 | [2026-09-20-needle3-automation-foundation-model-tiny-devices.md](https://github.com/kejun/blogpost/blob/main/2026-09-20-needle3-automation-foundation-model-tiny-devices.md) | 当 29MB 的模型开始"操控"你的家：Needle 3 与自动化基础模型的微型化突围 | 2026-09-20 | AI技术 |
-| [2026-09-19-ai-coding-frontend-common-problems.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-ai-coding-frontend-common-problems.md) | 前端开发转向 AI Coding 的常见问题全景：概率 × 影响程度全量清单 | 2026-09-19 | AI技术 |
+| [2026-09-19-ai-coding-frontend-common-problems.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-ai-coding-frontend-common-problems.md) | 前端开发转向 AI Coding 的常见问题全景：研究证据、风险分层与验收清单 | 2026-09-19 | AI技术 |
 | [2026-09-19-claude-code-agents-md-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-claude-code-agents-md-standard.md) | 当 Anthropic 向开放标准"投降"：Claude Code 读取 AGENTS.md ... | 2026-09-19 | AI技术 |
 | [2026-09-18-openai-astra-for-law-legal-agent-foundation.md](https://github.com/kejun/blogpost/blob/main/2026-09-18-openai-astra-for-law-legal-agent-foundation.md) | 当 OpenAI 决定"懂法"：Astra for Law 深度拆解——2.3 亿 URL 的... | 2026-09-18 | AI技术 |
 | [2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md](https://github.com/kejun/blogpost/blob/main/2026-09-17-cloudflare-security-audit-skill-adversarial-validation.md) | 当安全审计变成"六阶段流水线"：Cloudflare security-audit-skill... | 2026-09-17 | 其他 |
