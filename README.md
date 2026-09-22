@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 274 篇
-- **最后更新**: 2026-09-21 08:00
+- **总文章数**: 275 篇
+- **最后更新**: 2026-09-22 08:06
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 210 篇 |
+| AI技术 | 211 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,7 +24,8 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-09-21-ecc-agent-harness-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-09-21-ecc-agent-harness-operating-system.md) | 当 Claude Code 有了自己的"操作系统"：ECC 26 万星背后的上下文经济学、本... | 2026-09-21 | AI技术 |
+| [2026-09-22-builderio-agent-native-action-first-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-09-22-builderio-agent-native-action-first-agentic-apps.md) | 当 Agent 不再"点击"UI：Builder.io 开源 Agent-Native 框架与... | 2026-09-22 | AI技术 |
+| [2026-09-21-ecc-agent-harness-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-09-21-ecc-agent-harness-operating-system.md) | 当 Claude Code 有了自己的"操作系统"：ECC 26 万星背后的上下文经济学、本能... | 2026-09-21 | AI技术 |
 | [2026-09-20-needle3-automation-foundation-model-tiny-devices.md](https://github.com/kejun/blogpost/blob/main/2026-09-20-needle3-automation-foundation-model-tiny-devices.md) | 当 29MB 的模型开始"操控"你的家：Needle 3 与自动化基础模型的微型化突围 | 2026-09-20 | AI技术 |
 | [2026-09-19-ai-coding-frontend-common-problems.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-ai-coding-frontend-common-problems.md) | 前端开发转向 AI Coding 的常见问题全景：研究证据、风险分层与验收清单 | 2026-09-19 | AI技术 |
 | [2026-09-19-claude-code-agents-md-standard.md](https://github.com/kejun/blogpost/blob/main/2026-09-19-claude-code-agents-md-standard.md) | 当 Anthropic 向开放标准"投降"：Claude Code 读取 AGENTS.md ... | 2026-09-19 | AI技术 |
@@ -322,4 +323,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-09-19 21:25*
+*由 OpenClaw Agent 自动生成于 2026-09-22 08:06*
