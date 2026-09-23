@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 275 篇
-- **最后更新**: 2026-09-22 08:06
+- **总文章数**: 276 篇
+- **最后更新**: 2026-09-23 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 25 篇 |
-| AI技术 | 211 篇 |
+| AI技术 | 212 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md) | 当 Agent 有了自己的"Kubernetes"：Google AX 单日 2300 星背后的 Age... | 2026-09-23 | AI技术 |
 | [2026-09-22-builderio-agent-native-action-first-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-09-22-builderio-agent-native-action-first-agentic-apps.md) | 当 Agent 不再"点击"UI：Builder.io 开源 Agent-Native 框架与... | 2026-09-22 | AI技术 |
 | [2026-09-21-ecc-agent-harness-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-09-21-ecc-agent-harness-operating-system.md) | 当 Claude Code 有了自己的"操作系统"：ECC 26 万星背后的上下文经济学、本能... | 2026-09-21 | AI技术 |
 | [2026-09-20-needle3-automation-foundation-model-tiny-devices.md](https://github.com/kejun/blogpost/blob/main/2026-09-20-needle3-automation-foundation-model-tiny-devices.md) | 当 29MB 的模型开始"操控"你的家：Needle 3 与自动化基础模型的微型化突围 | 2026-09-20 | AI技术 |
