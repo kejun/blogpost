@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 277 篇
-- **最后更新**: 2026-09-24 08:00
+- **总文章数**: 278 篇
+- **最后更新**: 2026-09-25 08:00
 
 ---
 
@@ -13,7 +13,7 @@
 
 | 类别 | 文章数 |
 |------|--------|
-| 记忆系统 | 25 篇 |
+| 记忆系统 | 26 篇 |
 | AI技术 | 213 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md](https://github.com/kejun/blogpost/blob/main/2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md) | 当记忆开始"学习"：Hindsight 2.7 万星背后——从榜单中游到 91.4% 的 Agent 记忆... | 2026-09-25 | 记忆系统 |
 | [2026-09-24-impeccable-ai-slop-design-detector.md](https://github.com/kejun/blogpost/blob/main/2026-09-24-impeccable-ai-slop-design-detector.md) | 当"AI 味"成为工程问题：Impeccable 7 万星背后——模型掷不出自己的骰子，61... | 2026-09-24 | AI技术 |
 | [2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md) | 当 Agent 有了自己的"Kubernetes"：Google AX 单日 2300 星背后的 Age... | 2026-09-23 | AI技术 |
 | [2026-09-22-builderio-agent-native-action-first-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-09-22-builderio-agent-native-action-first-agentic-apps.md) | 当 Agent 不再"点击"UI：Builder.io 开源 Agent-Native 框架与... | 2026-09-22 | AI技术 |
