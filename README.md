@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 280 篇
-- **最后更新**: 2026-09-27 08:00
+- **总文章数**: 281 篇
+- **最后更新**: 2026-09-28 16:05
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 215 篇 |
+| AI技术 | 216 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-09-28-vercel-scriptc-typescript-to-native-compiler.md](https://github.com/kejun/blogpost/blob/main/2026-09-28-vercel-scriptc-typescript-to-native-compiler.md) | 当 TypeScript 决定"抛弃"V8：Vercel scriptc 深度拆解——320KB 原生二进制、三层显式静态性... | 2026-09-28 | AI技术 |
 | [2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md](https://github.com/kejun/blogpost/blob/main/2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md) | 当 transformers 开始"说 llama.cpp 的语言"：GGUF 原生推理深度拆解——追平 C++ 的 98%... | 2026-09-27 | AI技术 |
 | [2026-09-26-paperclip-agent-company-control-plane.md](https://github.com/kejun/blogpost/blob/main/2026-09-26-paperclip-agent-company-control-plane.md) | 当 Agent 开始"上班"：Paperclip 8.5 万星背后——从"零人类公司"到 Agent 管理控制平面... | 2026-09-26 | AI技术 |
 | [2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md](https://github.com/kejun/blogpost/blob/main/2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md) | 当记忆开始"学习"：Hindsight 2.7 万星背后——从榜单中游到 91.4% 的 Agent 记忆... | 2026-09-25 | 记忆系统 |
