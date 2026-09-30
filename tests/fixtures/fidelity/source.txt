@@ -1,0 +1,4 @@
+# Synthetic interview (test data, not a real quotation)
+Alice: If there are at least 10 samples, the device may work. This is not a guarantee.
+Bob: For example, we tested two small sensors in May 2026, not a production fleet.
+Caption: Two small sensors on a bench; no image supplied.
