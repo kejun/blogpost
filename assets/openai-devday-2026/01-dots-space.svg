@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">Dots + Space：从问答到协作</title><desc id="desc">人提出目标并设置权限，Dots汇集上下文并执行、测试、交付；人审查和反馈，Dots持续跟进。Space承载人与智能体的共享页面和产物。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#006AFF" stroke-width="1.7"/></marker></defs>
+<g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif">
+<rect x="0" y="0" width="1200" height="1200" rx="0" fill="#FFFFFF"/>
+<rect x="56" y="54" width="9" height="28" rx="4" fill="#006AFF"/>
+<text x="82" y="77" font-size="22" font-weight="700" fill="#006AFF" text-anchor="start">OPENAI DEVDAY 2026</text>
+<text x="1144" y="78" font-size="22" font-weight="500" fill="#48627F" text-anchor="end">01 / 03</text>
+<text x="56" y="152" font-size="51" font-weight="700" fill="#082B59" text-anchor="start">Dots + Space：从问答到协作</text>
+<text x="56" y="201" font-size="27" font-weight="400" fill="#48627F" text-anchor="start">把责任交给智能体，把目标、边界与重要决定留给人。</text>
+<path d="M56 233H1144" fill="none" stroke="#D6E8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="56" y="267" width="1088" height="152" rx="22" fill="#082B59"/>
+<text x="90" y="313" font-size="33" font-weight="700" fill="#FFFFFF" text-anchor="start">人：定义目标与边界</text>
+<text x="90" y="361" font-size="29" font-weight="400" fill="#FFFFFF" text-anchor="start">委派任务  ·  授权访问  ·  审查结果  ·  反馈与决策</text>
+<text x="90" y="393" font-size="23" font-weight="400" fill="#D6E8FF" text-anchor="start">示例：在旧 API 停用之前，完成应用迁移。</text>
+<path d="M600 422V469" fill="none" stroke="#006AFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="56" y="493" width="254" height="220" rx="20" fill="#F2F7FF"/>
+<rect x="78" y="513" width="58" height="42" rx="21" fill="#F2F7FF"/><text x="107.0" y="542" font-size="21" font-weight="600" fill="#006AFF" text-anchor="middle">01</text>
+<text x="78" y="595" font-size="31" font-weight="700" fill="#082B59" text-anchor="start">理解上下文</text>
+<text x="78" y="643" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">消息、会议记录</text>
+<text x="78" y="681" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">设计与代码依赖</text>
+<path d="M314 600H329" fill="none" stroke="#006AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="334" y="493" width="254" height="220" rx="20" fill="#F2F7FF"/>
+<rect x="356" y="513" width="58" height="42" rx="21" fill="#F2F7FF"/><text x="385.0" y="542" font-size="21" font-weight="600" fill="#006AFF" text-anchor="middle">02</text>
+<text x="356" y="595" font-size="31" font-weight="700" fill="#082B59" text-anchor="start">执行任务</text>
+<text x="356" y="643" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">调用工具与 Codex</text>
+<text x="356" y="681" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">编写代码、运行测试</text>
+<path d="M592 600H607" fill="none" stroke="#006AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="612" y="493" width="254" height="220" rx="20" fill="#F2F7FF"/>
+<rect x="634" y="513" width="58" height="42" rx="21" fill="#F2F7FF"/><text x="663.0" y="542" font-size="21" font-weight="600" fill="#006AFF" text-anchor="middle">03</text>
+<text x="634" y="595" font-size="31" font-weight="700" fill="#082B59" text-anchor="start">交付结果</text>
+<text x="634" y="643" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">提交 PR 和预览</text>
+<text x="634" y="681" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">汇报变化与待决事项</text>
+<path d="M870 600H885" fill="none" stroke="#006AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="890" y="493" width="254" height="220" rx="20" fill="#F2F7FF"/>
+<rect x="912" y="513" width="58" height="42" rx="21" fill="#F2F7FF"/><text x="941.0" y="542" font-size="21" font-weight="600" fill="#006AFF" text-anchor="middle">04</text>
+<text x="912" y="595" font-size="31" font-weight="700" fill="#082B59" text-anchor="start">持续跟进</text>
+<text x="912" y="643" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">吸收反馈再推进</text>
+<text x="912" y="681" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">保持团队同步</text>
+<path d="M1032 718V751H170V719" fill="none" stroke="#006AFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)" stroke-dasharray="8 8"/>
+<rect x="436" y="733" width="328" height="38" rx="0" fill="#FFFFFF"/>
+<text x="600" y="760" font-size="23" font-weight="500" fill="#006AFF" text-anchor="middle">审查反馈 → 下一轮工作</text>
+<rect x="56" y="802" width="1088" height="238" rx="22" fill="#FFFFFF" stroke="#D6E8FF" stroke-width="2"/>
+<text x="88" y="852" font-size="35" font-weight="700" fill="#082B59" text-anchor="start">ChatGPT Space</text>
+<text x="88" y="897" font-size="29" font-weight="600" fill="#006AFF" text-anchor="start">你 + 同事 + 各自的 Dots</text>
+<text x="88" y="943" font-size="26" font-weight="400" fill="#48627F" text-anchor="start">在同一页面讨论、编辑、更新与交接</text>
+<rect x="88" y="974" width="228" height="43" rx="10" fill="#F2F7FF"/>
+<text x="202" y="1004" font-size="23" font-weight="500" fill="#082B59" text-anchor="middle">共享页面</text>
+<rect x="340" y="974" width="228" height="43" rx="10" fill="#F2F7FF"/>
+<text x="454" y="1004" font-size="23" font-weight="500" fill="#082B59" text-anchor="middle">动态图表</text>
+<rect x="592" y="974" width="228" height="43" rx="10" fill="#F2F7FF"/>
+<text x="706" y="1004" font-size="23" font-weight="500" fill="#082B59" text-anchor="middle">文件与原型</text>
+<rect x="844" y="974" width="228" height="43" rx="10" fill="#F2F7FF"/>
+<text x="958" y="1004" font-size="23" font-weight="500" fill="#082B59" text-anchor="middle">评论中 @Dot</text>
+<text x="56" y="1081" font-size="27" font-weight="600" fill="#082B59" text-anchor="start">Dots 承担持续工作；Space 承载人与智能体的共同协作。</text>
+<path d="M56 1108H1144" fill="none" stroke="#D6E8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="1147" font-size="21" font-weight="400" fill="#48627F" text-anchor="start">根据录音整理稿绘制 · 非官方产品图</text>
+<text x="56" y="1177" font-size="19" font-weight="400" fill="#48627F" text-anchor="start">产品状态与数据口径请参见正文及文末校订说明。</text>
+</g></svg>

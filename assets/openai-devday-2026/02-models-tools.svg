@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+<title id="title">开发者平台：模型与执行工具</title><desc id="desc">Astra用于复杂任务，GPT-6.1 Sol强调成本与能力平衡，Luna经Decisions API在预定义选项中快速选择。Ultrafast是加速模式。执行工具包括Codex harness、Agents API、云端Codex、电脑操作，以及安全与隐私能力。</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M1 1L8 5L1 9" fill="none" stroke="#006AFF" stroke-width="1.7"/></marker></defs>
+<g font-family="'Noto Sans CJK SC','PingFang SC','Microsoft YaHei',sans-serif">
+<rect x="0" y="0" width="1200" height="1200" rx="0" fill="#FFFFFF"/>
+<rect x="56" y="54" width="9" height="28" rx="4" fill="#006AFF"/>
+<text x="82" y="77" font-size="22" font-weight="700" fill="#006AFF" text-anchor="start">OPENAI DEVDAY 2026</text>
+<text x="1144" y="78" font-size="22" font-weight="500" fill="#48627F" text-anchor="end">02 / 03</text>
+<text x="56" y="152" font-size="51" font-weight="700" fill="#082B59" text-anchor="start">开发者平台：模型与执行工具</text>
+<text x="56" y="201" font-size="27" font-weight="400" fill="#48627F" text-anchor="start">模型提供能力；运行框架、云端环境与工具负责把任务做完。</text>
+<path d="M56 233H1144" fill="none" stroke="#D6E8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="281" font-size="28" font-weight="700" fill="#082B59" text-anchor="start">01  选择模型能力</text>
+<rect x="56" y="311" width="348" height="206" rx="20" fill="#F2F7FF"/>
+<text x="82" y="361" font-size="32" font-weight="700" fill="#082B59" text-anchor="start">Astra</text>
+<text x="82" y="400" font-size="25" font-weight="600" fill="#006AFF" text-anchor="start">复杂任务</text>
+<text x="82" y="449" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">推理、编程</text><text x="82" y="486" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">视觉与电脑操作</text>
+<rect x="426" y="311" width="348" height="206" rx="20" fill="#F2F7FF"/>
+<text x="452" y="361" font-size="32" font-weight="700" fill="#082B59" text-anchor="start">GPT-6.1 Sol</text>
+<text x="452" y="400" font-size="25" font-weight="600" fill="#006AFF" text-anchor="start">日常主力</text>
+<text x="452" y="449" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">接近 Astra 的能力</text><text x="452" y="486" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">强调更低使用成本</text>
+<rect x="796" y="311" width="348" height="206" rx="20" fill="#F2F7FF"/>
+<text x="822" y="361" font-size="32" font-weight="700" fill="#082B59" text-anchor="start">Luna</text>
+<text x="822" y="400" font-size="25" font-weight="600" fill="#006AFF" text-anchor="start">快速决策</text>
+<text x="822" y="449" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">通过 Decisions API</text><text x="822" y="486" font-size="24" font-weight="400" fill="#48627F" text-anchor="start">从预定义选项中选择</text>
+<rect x="56" y="541" width="1088" height="77" rx="15" fill="#082B59"/>
+<text x="83" y="591" font-size="31" font-weight="700" fill="#FFFFFF" text-anchor="start">Ultrafast</text>
+<text x="286" y="591" font-size="28" font-weight="400" fill="#FFFFFF" text-anchor="start">加速模式，而不是另一款模型</text>
+<text x="56" y="676" font-size="28" font-weight="700" fill="#082B59" text-anchor="start">02  让智能体执行与持续运行</text>
+<rect x="56" y="704" width="532" height="143" rx="15" fill="#FFFFFF" stroke="#D6E8FF" stroke-width="2"/>
+<rect x="56" y="704" width="6" height="143" rx="3" fill="#006AFF"/>
+<text x="82" y="747" font-size="29" font-weight="700" fill="#082B59" text-anchor="start">Codex harness</text>
+<text x="82" y="789" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">开源运行框架</text><text x="82" y="823" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">支撑 Codex、Work 与 Dots</text>
+<rect x="612" y="704" width="532" height="143" rx="15" fill="#FFFFFF" stroke="#D6E8FF" stroke-width="2"/>
+<rect x="612" y="704" width="6" height="143" rx="3" fill="#006AFF"/>
+<text x="638" y="747" font-size="29" font-weight="700" fill="#082B59" text-anchor="start">Agents API</text>
+<text x="638" y="789" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">运行框架、托管、记忆</text><text x="638" y="823" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">多智能体控制与电脑操作</text>
+<rect x="56" y="870" width="532" height="143" rx="15" fill="#FFFFFF" stroke="#D6E8FF" stroke-width="2"/>
+<rect x="56" y="870" width="6" height="143" rx="3" fill="#006AFF"/>
+<text x="82" y="913" font-size="29" font-weight="700" fill="#082B59" text-anchor="start">云端 Codex</text>
+<text x="82" y="955" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">跨手机、浏览器和桌面续接</text><text x="82" y="989" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">关闭笔记本，任务仍能继续</text>
+<rect x="612" y="870" width="532" height="143" rx="15" fill="#FFFFFF" stroke="#D6E8FF" stroke-width="2"/>
+<rect x="612" y="870" width="6" height="143" rx="3" fill="#006AFF"/>
+<text x="638" y="913" font-size="29" font-weight="700" fill="#082B59" text-anchor="start">Computer use</text>
+<text x="638" y="955" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">操作浏览器与桌面应用</text><text x="638" y="989" font-size="23" font-weight="400" fill="#48627F" text-anchor="start">点击、导航、测试用户流程</text>
+<text x="56" y="1071" font-size="25" font-weight="600" fill="#082B59" text-anchor="start">安全与隐私：Security Cloud  ·  ZDR  ·  Private Inference</text>
+<path d="M56 1108H1144" fill="none" stroke="#D6E8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="56" y="1147" font-size="21" font-weight="400" fill="#48627F" text-anchor="start">根据录音整理稿绘制 · 非官方产品图</text>
+<text x="56" y="1177" font-size="19" font-weight="400" fill="#48627F" text-anchor="start">产品状态与数据口径请参见正文及文末校订说明。</text>
+</g></svg>
