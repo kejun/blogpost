@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 286 篇
-- **最后更新**: 2026-09-30 05:30 UTC
+- **总文章数**: 287 篇
+- **最后更新**: 2026-10-01 01:00 UTC
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 220 篇 |
+| AI技术 | 221 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-01-peter-mattis-distributed-databases-ai-coding.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-peter-mattis-distributed-databases-ai-coding.md) | 从 Gmail 到 CockroachDB：Peter Mattis 如何打造可靠系统，并用 AI 重返编程一线 | 2026-10-01 | AI技术 |
 | [2026-09-30-nvidia-openshell-agent-safety-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-nvidia-openshell-agent-safety-runtime.md) | 当 Agent 的"看守"下沉到内核：NVIDIA OpenShell 深度拆解——一次失败的演示、一个 Z3 证明器... | 2026-09-30 | AI技术 |
 | [2026-09-30-openai-devday-2026-keynote-zh.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-openai-devday-2026-keynote-zh.md) | OpenAI DevDay 2026：从对话助手到全天候 AI 协作伙伴 | 2026-09-30 | AI技术 |
 | [2026-09-29-context-becomes-the-product.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-context-becomes-the-product.md) | 当上下文成为产品：AI 时代，产品团队真正该做什么 | 2026-09-29 | 其他 |
