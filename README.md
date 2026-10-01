@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 287 篇
-- **最后更新**: 2026-10-01 01:00 UTC
+- **总文章数**: 284 篇
+- **最后更新**: 2026-10-02 00:25
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 221 篇 |
+| AI技术 | 219 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,11 +24,9 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-10-01-peter-mattis-distributed-databases-ai-coding.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-peter-mattis-distributed-databases-ai-coding.md) | 从 Gmail 到 CockroachDB：Peter Mattis 如何打造可靠系统，并用 AI 重返编程一线 | 2026-10-01 | AI技术 |
+| [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 token、Fairwind 抢跑... | 2026-10-01 | AI技术 |
+| [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 token、Fairwind 抢跑... | 2026-10-01 | AI技术 |
 | [2026-09-30-nvidia-openshell-agent-safety-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-nvidia-openshell-agent-safety-runtime.md) | 当 Agent 的"看守"下沉到内核：NVIDIA OpenShell 深度拆解——一次失败的演示、一个 Z3 证明器... | 2026-09-30 | AI技术 |
-| [2026-09-30-openai-devday-2026-keynote-zh.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-openai-devday-2026-keynote-zh.md) | OpenAI DevDay 2026：从对话助手到全天候 AI 协作伙伴 | 2026-09-30 | AI技术 |
-| [2026-09-29-context-becomes-the-product.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-context-becomes-the-product.md) | 当上下文成为产品：AI 时代，产品团队真正该做什么 | 2026-09-29 | 其他 |
-| [2026-09-29-instinct-personal-ai-agent-interview.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-instinct-personal-ai-agent-interview.md) | 当 AI 开始替你行动：个人智能体如何重塑软件、商业与日常生活 | 2026-09-29 | AI技术 |
 | [2026-09-29-voicestudio-local-elevenlabs-alternative.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-voicestudio-local-elevenlabs-alternative.md) | 当"配音棚"搬进你家电脑：VoiceStudio 4.4 万星深度拆解——ElevenLabs 的本地平替、16 个引擎的调度战争... | 2026-09-29 | AI技术 |
 | [2026-09-28-vercel-scriptc-typescript-to-native-compiler.md](https://github.com/kejun/blogpost/blob/main/2026-09-28-vercel-scriptc-typescript-to-native-compiler.md) | 当 TypeScript 决定"抛弃"V8：Vercel scriptc 深度拆解——320KB 原生二进制、三层显式静态性... | 2026-09-28 | AI技术 |
 | [2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md](https://github.com/kejun/blogpost/blob/main/2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md) | 当 transformers 开始"说 llama.cpp 的语言"：GGUF 原生推理深度拆解——追平 C++ 的 98%... | 2026-09-27 | AI技术 |
