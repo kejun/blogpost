@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340" role="img" aria-labelledby="title desc">
+<title id="title">从系统构建到可靠性，再到 AI 编程与验证</title>
+<desc id="desc">访谈主线：Gmail 与 Colossus 的系统构建经验，CockroachDB 的可靠性，以及用 Agent 和验证提高编程效率。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#006AFF"/></marker></defs>
+<rect width="800" height="340" rx="20" fill="#FFFFFF"/>
+<g fill="#F2F7FF" stroke="#BBD2ED" stroke-width="2">
+<rect x="24" y="30" width="228" height="280" rx="12"/>
+<rect x="286" y="30" width="228" height="280" rx="12"/>
+<rect x="548" y="30" width="228" height="280" rx="12"/>
+</g>
+<g fill="none" stroke="#006AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+<!-- Storage layers with explicit connections. -->
+<path d="M138 113 V132 M110 153 V174 M166 153 V174"/>
+<rect x="103" y="72" width="70" height="41" rx="7" fill="#FFFFFF"/>
+<path d="M115 86 H161 M115 98 H147"/>
+<rect x="82" y="132" width="112" height="21" rx="5" fill="#D6E8FF"/>
+<rect x="83" y="174" width="54" height="31" rx="5" fill="#FFFFFF"/>
+<rect x="145" y="174" width="48" height="31" rx="5" fill="#FFFFFF"/>
+<!-- Replicated nodes and a verification shield. -->
+<path d="M352 110 H448 L400 194 Z" stroke="#BBD2ED"/>
+<rect x="335" y="92" width="34" height="36" rx="6" fill="#FFFFFF"/>
+<rect x="431" y="92" width="34" height="36" rx="6" fill="#FFFFFF"/>
+<rect x="383" y="177" width="34" height="36" rx="6" fill="#FFFFFF"/>
+<path d="M400 112 L430 124 V148 C430 167 413 179 400 185 C387 179 370 167 370 148 V124 Z" fill="#D6E8FF"/>
+<path d="M385 146 L396 157 L415 135" stroke-width="4"/>
+<!-- Code and a verification loop. -->
+<rect x="608" y="104" width="108" height="70" rx="9" fill="#FFFFFF"/>
+<path d="M639 128 L627 140 L639 152 M685 128 L697 140 L685 152 M668 124 L656 156"/>
+<path d="M607 91 C633 65 686 65 711 92" marker-end="url(#arrow)"/>
+<path d="M716 187 C690 213 637 213 612 186" marker-end="url(#arrow)"/>
+<circle cx="711" cy="170" r="17" fill="#006AFF" stroke="#006AFF"/>
+<path d="M703 170 L709 176 L720 163" stroke="#FFFFFF" stroke-width="3"/>
+<path d="M258 168 H279" marker-end="url(#arrow)"/><path d="M520 168 H541" marker-end="url(#arrow)"/>
+</g>
+<g font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">
+<g font-size="27" font-weight="700" fill="#082B59">
+<text x="138" y="254">构建系统</text><text x="400" y="254">保障可靠性</text><text x="662" y="254">AI 编程</text>
+</g>
+<g font-size="19" fill="#53677B">
+<text x="138" y="286">Gmail · Colossus</text><text x="400" y="286">CockroachDB</text><text x="662" y="286">Agent + 验证</text>
+</g></g></svg>

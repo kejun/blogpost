@@ -1,5 +1,7 @@
 # 从 Gmail 到 CockroachDB：Peter Mattis 如何打造可靠系统，并用 AI 重返编程一线
 
+![访谈概览：构建系统、保障可靠性、AI 编程与验证](assets/peter-mattis-2026/00-overview.svg)
+
 来源：The Pragmatic Engineer  
 访谈：Gergely Orosz × Peter Mattis  
 原始视频：<https://www.youtube.com/watch?v=0GzwuYGvKA4>  
