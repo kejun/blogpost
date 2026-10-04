@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 286 篇
-- **最后更新**: 2026-10-03 08:05
+- **总文章数**: 287 篇
+- **最后更新**: 2026-10-04 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 221 篇 |
+| AI技术 | 222 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 0 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-04-agent-reach-internet-capability-layer.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-agent-reach-internet-capability-layer.md) | 当 Agent 想要"看见整个互联网"：Agent-Reach 9 万星深度拆解——能力层、多后端路由与登录态战争 | 2026-10-04 | AI技术 |
 | [2026-10-03-caveman-token-economics-honest-numbers.md](https://github.com/kejun/blogpost/blob/main/2026-10-03-caveman-token-economics-honest-numbers.md) | 一个笑话如何长成 10 万星基础设施：Caveman 与 Agent Token 经济学的"诚实数字"解剖 | 2026-10-03 | AI技术 |
 | [2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md](https://github.com/kejun/blogpost/blob/main/2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md) | 万亿参数 MoE 的训练图纸，被开源了：Olmo-core 3 深度拆解——专家驻留、token gerrymandering... | 2026-10-02 | AI技术 |
 | [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 token、Fairwind 抢跑... | 2026-10-01 | AI技术 |
