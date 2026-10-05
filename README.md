@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 289 篇
-- **最后更新**: 2026-10-05 08:00
+- **总文章数**: 290 篇
+- **最后更新**: 2026-10-05 16:35
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 223 篇 |
+| AI技术 | 224 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -30,6 +30,7 @@
 | [2026-10-03-caveman-token-economics-honest-numbers.md](https://github.com/kejun/blogpost/blob/main/2026-10-03-caveman-token-economics-honest-numbers.md) | 一个笑话如何长成 10 万星基础设施：Caveman 与 Agent Token 经济学的"诚实数字"解剖 | 2026-10-03 | AI技术 |
 | [2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md](https://github.com/kejun/blogpost/blob/main/2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md) | 万亿参数 MoE 的训练图纸，被开源了：Olmo-core 3 深度拆解——专家驻留、token gerrymandering... | 2026-10-02 | AI技术 |
 | [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 token、Fairwind 抢跑... | 2026-10-01 | AI技术 |
+| [2026-09-30-grok-bot-hire-first-ai-employee.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-grok-bot-hire-first-ai-employee.md) | Grok Bot：如何雇下你的第一个 AI 员工（完整指南） | 2026-09-30 | AI技术 |
 | [2026-09-30-nvidia-openshell-agent-safety-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-nvidia-openshell-agent-safety-runtime.md) | 当 Agent 的"看守"下沉到内核：NVIDIA OpenShell 深度拆解——一次失败的演示、一个 Z3 证明器... | 2026-09-30 | AI技术 |
 | [2026-09-29-voicestudio-local-elevenlabs-alternative.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-voicestudio-local-elevenlabs-alternative.md) | 当"配音棚"搬进你家电脑：VoiceStudio 4.4 万星深度拆解——ElevenLabs 的本地平替、16 个引擎的调度战争... | 2026-09-29 | AI技术 |
 | [2026-09-28-vercel-scriptc-typescript-to-native-compiler.md](https://github.com/kejun/blogpost/blob/main/2026-09-28-vercel-scriptc-typescript-to-native-compiler.md) | 当 TypeScript 决定"抛弃"V8：Vercel scriptc 深度拆解——320KB 原生二进制、三层显式静态性... | 2026-09-28 | AI技术 |
