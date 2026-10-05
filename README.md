@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 290 篇
-- **最后更新**: 2026-10-05 16:35
+- **总文章数**: 291 篇
+- **最后更新**: 2026-10-05 17:52
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 224 篇 |
+| AI技术 | 225 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-05-ai-evals-engineer-15-projects.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-ai-evals-engineer-15-projects.md) | AI 评测工程师的 15 个实践项目：逐项翻译与解读 | 2026-10-05 | AI技术 |
 | [2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md) | 当 125B 模型塞进游戏 PC：Strata 万星深度拆解——专家分层、MTP 投机解码与本地推理的"厨房架构" | 2026-10-05 | AI技术 |
 | [2026-10-04-jim-scharf-agent-swarms-databases.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-jim-scharf-agent-swarms-databases.md) | 智能体成群行动之后：数据库、治理与实时数据的新考验 | 2026-10-04 | 访谈翻译 |
 | [2026-10-04-agent-reach-internet-capability-layer.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-agent-reach-internet-capability-layer.md) | 当 Agent 想要"看见整个互联网"：Agent-Reach 9 万星深度拆解——能力层、多后端路由与登录态战争 | 2026-10-04 | AI技术 |
