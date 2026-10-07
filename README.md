@@ -4,7 +4,7 @@
 
 ## 📊 统计
 
-- **总文章数**: 293 篇
+- **总文章数**: 294 篇
 - **最后更新**: 2026-10-07
 
 ---
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 227 篇 |
+| AI技术 | 228 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-07-matt-pocock-agent-skills-workflow.md](https://github.com/kejun/blogpost/blob/main/2026-10-07-matt-pocock-agent-skills-workflow.md) | Matt Pocock 的 Skills 工作流 从需求澄清到实施与复盘 | 2026-10-07 | AI技术 |
 | [2026-10-06-what-is-codemode.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-what-is-codemode.md) | 什么是 Codemode（What is Codemode） | 2026-10-06 | AI技术 |
 | [2026-10-06-reflection-beam-501b-high-compute-rl.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-reflection-beam-501b-high-compute-rl.md) | 当 RL 开始"按周烧钱"：Reflection Beam 501B 深度拆解——1 亿次 rollout、10500 块 GB300，与西方开源权重阵营的新算学 | 2026-10-06 | AI技术 |
 | [2026-10-05-ai-evals-engineer-15-projects.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-ai-evals-engineer-15-projects.md) | AI 评测工程师的 15 个实践项目：逐项翻译与解读 | 2026-10-05 | AI技术 |
