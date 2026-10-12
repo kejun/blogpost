@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 298 篇
-- **最后更新**: 2026-10-11 08:00
+- **总文章数**: 299 篇
+- **最后更新**: 2026-10-12 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 232 篇 |
+| AI技术 | 233 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md) | 当 2.8 万亿参数挤进 4GB 显存：AirLLM 深度拆解——逐层流式、按专家路由与"不量化"的代价 | 2026-10-12 | AI技术 |
 | [2026-10-11-rea-agent-driven-reverse-engineering-mcp.md](https://github.com/kejun/blogpost/blob/main/2026-10-11-rea-agent-driven-reverse-engineering-mcp.md) | 当逆向工程装上 MCP：REA 一夜 2.5 万星，Agent 如何把"看懂一个程序"变成可验证的流水线 | 2026-10-11 | AI技术 |
 | [2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md](https://github.com/kejun/blogpost/blob/main/2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md) | 当 Node.js 之父第二次"关停"自己的运行时：Cloudflare 收购 Deno 深度拆解——从 IRC 演示到分布式单例的二十年轮回 | 2026-10-10 | AI技术 |
 | [2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md](https://github.com/kejun/blogpost/blob/main/2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md) | 一个 16.9 MB 的文件，把语音识别和工具调用塞进了同一颗 CPU 内核：Whistle 深度拆解 | 2026-10-09 | AI技术 |
