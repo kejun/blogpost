@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 300 篇
-- **最后更新**: 2026-10-12 17:10
+- **总文章数**: 301 篇
+- **最后更新**: 2026-10-13 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 233 篇 |
+| AI技术 | 234 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-13-codex-cli-persistent-self-updating-daemon.md](https://github.com/kejun/blogpost/blob/main/2026-10-13-codex-cli-persistent-self-updating-daemon.md) | 当一个 CLI 开始偷偷自我更新：Codex CLI 0.157 常驻守护进程深度拆解——包管理器、代理环境与"看不见的后台" | 2026-10-13 | AI技术 |
 | [2026-10-12-martin-luk-pullback-buying-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-martin-luk-pullback-buying-system.md) | 一年 +969%：交易冠军 Martin Luk 的回调买入体系 | 2026-10-12 | 其他 |
 | [2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md) | 当 2.8 万亿参数挤进 4GB 显存：AirLLM 深度拆解——逐层流式、按专家路由与"不量化"的代价 | 2026-10-12 | AI技术 |
 | [2026-10-11-rea-agent-driven-reverse-engineering-mcp.md](https://github.com/kejun/blogpost/blob/main/2026-10-11-rea-agent-driven-reverse-engineering-mcp.md) | 当逆向工程装上 MCP：REA 一夜 2.5 万星，Agent 如何把"看懂一个程序"变成可验证的流水线 | 2026-10-11 | AI技术 |
