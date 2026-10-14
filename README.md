@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 302 篇
-- **最后更新**: 2026-10-14 08:00
+- **总文章数**: 303 篇
+- **最后更新**: 2026-10-14
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 235 篇 |
+| AI技术 | 236 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-14-agentic-loops-and-software-factories.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-agentic-loops-and-software-factories.md) | 从使用 AI 智能体到建设软件工厂：未来工作的变化与完整实践 | 2026-10-14 | AI技术 |
 | [2026-10-14-anthropic-scion-agent-scale-source-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-anthropic-scion-agent-scale-source-control.md) | 当 git 成为瓶颈：Anthropic 自研 Scion 深度拆解——7 个人、5 个月，为"永远在线"的 Agent 重造版本控制 | 2026-10-14 | AI技术 |
 | [2026-10-13-codex-cli-persistent-self-updating-daemon.md](https://github.com/kejun/blogpost/blob/main/2026-10-13-codex-cli-persistent-self-updating-daemon.md) | 当一个 CLI 开始偷偷自我更新：Codex CLI 0.157 常驻守护进程深度拆解——包管理器、代理环境与"看不见的后台" | 2026-10-13 | AI技术 |
 | [2026-10-12-martin-luk-pullback-buying-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-martin-luk-pullback-buying-system.md) | 一年 +969%：交易冠军 Martin Luk 的回调买入体系 | 2026-10-12 | 其他 |
