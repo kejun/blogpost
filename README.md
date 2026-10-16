@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 304 篇
-- **最后更新**: 2026-10-15 08:00
+- **总文章数**: 305 篇
+- **最后更新**: 2026-10-16 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 237 篇 |
+| AI技术 | 238 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-16-voicestudio-local-voice-ai-stack.md](https://github.com/kejun/blogpost/blob/main/2026-10-16-voicestudio-local-voice-ai-stack.md) | 本地优先的语音 AI 栈：VoiceStudio 如何把「ElevenLabs」压缩成一条 curl 命令 | 2026-10-16 | AI技术 |
 | [2026-10-15-opencode-2-coding-agent-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-15-opencode-2-coding-agent-operating-system.md) | 当编码 Agent 变成一个操作系统：OpenCode 2.0 深度拆解——常驻服务、Code Mode 与 80+ 内部插件 | 2026-10-15 | AI技术 |
 | [2026-10-14-agentic-loops-and-software-factories.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-agentic-loops-and-software-factories.md) | 从使用 AI 智能体到建设软件工厂：未来工作的变化与完整实践 | 2026-10-14 | AI技术 |
 | [2026-10-14-anthropic-scion-agent-scale-source-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-anthropic-scion-agent-scale-source-control.md) | 当 git 成为瓶颈：Anthropic 自研 Scion 深度拆解——7 个人、5 个月，为"永远在线"的 Agent 重造版本控制 | 2026-10-14 | AI技术 |
