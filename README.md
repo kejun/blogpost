@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 306 篇
-- **最后更新**: 2026-10-17 08:00
+- **总文章数**: 307 篇
+- **最后更新**: 2026-10-18 09:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 239 篇 |
+| AI技术 | 240 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md](https://github.com/kejun/blogpost/blob/main/2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md) | 当 KV 缓存成为新瓶颈：DeepSeek-V4.1-Flash-1017 深度拆解——890 字节/token、prefill 减半与「数据工程 > 算法创新」 | 2026-10-18 | AI技术 |
 | [2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md](https://github.com/kejun/blogpost/blob/main/2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md) | 当 Agent 开始有自己的 App Store：Claude Code 官方插件目录与 Cursor 插件仓库深度拆解 | 2026-10-17 | AI技术 |
 | [2026-10-16-voicestudio-local-voice-ai-stack.md](https://github.com/kejun/blogpost/blob/main/2026-10-16-voicestudio-local-voice-ai-stack.md) | 本地优先的语音 AI 栈：VoiceStudio 如何把「ElevenLabs」压缩成一条 curl 命令 | 2026-10-16 | AI技术 |
 | [2026-10-15-opencode-2-coding-agent-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-15-opencode-2-coding-agent-operating-system.md) | 当编码 Agent 变成一个操作系统：OpenCode 2.0 深度拆解——常驻服务、Code Mode 与 80+ 内部插件 | 2026-10-15 | AI技术 |
