@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 308 篇
-- **最后更新**: 2026-10-19 09:00
+- **总文章数**: 309 篇
+- **最后更新**: 2026-10-20 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 241 篇 |
+| AI技术 | 242 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-20-gitai-agent-scale-version-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-20-gitai-agent-scale-version-control.md) | 当 50 个 Agent 同时往一个分支提交：gitai 深度拆解——Scion 的开源实现与「合并吞吐」 | 2026-10-20 | AI技术 |
 | [2026-10-19-deepseek-search-api-agent-retrieval-economics.md](https://github.com/kejun/blogpost/blob/main/2026-10-19-deepseek-search-api-agent-retrieval-economics.md) | 当搜索变成 0.75 美元/千次：DeepSeek Search & Fetch 深度拆解，以及 Agent 检索层的成本重构 | 2026-10-19 | AI技术 |
 | [2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md](https://github.com/kejun/blogpost/blob/main/2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md) | 当 KV 缓存成为新瓶颈：DeepSeek-V4.1-Flash-1017 深度拆解——890 字节/token、prefill 减半与「数据工程 > 算法创新」 | 2026-10-18 | AI技术 |
 | [2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md](https://github.com/kejun/blogpost/blob/main/2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md) | 当 Agent 开始有自己的 App Store：Claude Code 官方插件目录与 Cursor 插件仓库深度拆解 | 2026-10-17 | AI技术 |
