@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 312 篇
-- **最后更新**: 2026-10-23 08:00
+- **总文章数**: 313 篇
+- **最后更新**: 2026-10-24 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 244 篇 |
+| AI技术 | 245 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-24-kimi-k3-1-pro-post-training-scaling.md](https://github.com/kejun/blogpost/blob/main/2026-10-24-kimi-k3-1-pro-post-training-scaling.md) | 当开源模型的进步只剩「后训练」：Kimi K3.1 Pro 深度拆解——3T 参数、1M 上下文与一次可测量的「能力削减」 | 2026-10-24 | AI技术 |
 | [2026-10-23-cloudflare-security-audit-skill-agent-harness.md](https://github.com/kejun/blogpost/blob/main/2026-10-23-cloudflare-security-audit-skill-agent-harness.md) | 当安全审计变成一个 Skill：Cloudflare security-audit-skill 深度拆解——3.9 万星、六阶段流水线与「AI 找洞、AI 证伪」 | 2026-10-23 | AI技术 |
 | [2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md](https://github.com/kejun/blogpost/blob/main/2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md) | 当 DuckDB 决定"不再是那个嵌入式库"：2.0.0 LTS 深度拆解——Quack 协议、异步 I/O、VARIANT 与 Agent Mode | 2026-10-22 | 数据库 |
 | [2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md) | 当推理框架自己开源：DeepInfer 深度拆解——5 天 1.2 万星、DSpark 投机解码与 DeepSeek 的生产级 Serving 栈 | 2026-10-21 | AI技术 |
