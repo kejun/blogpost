@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 315 篇
-- **最后更新**: 2026-10-26 08:00
+- **总文章数**: 316 篇
+- **最后更新**: 2026-10-27 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 247 篇 |
+| AI技术 | 248 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md) | 当类型检查器从 IDE 里被拆出来：Type Server Protocol (TSP) 深度拆解——Pylance × Pyrefly、快照语义与一场关于「协议归属权」的争论 | 2026-10-27 | AI技术 |
 | [2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md](https://github.com/kejun/blogpost/blob/main/2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md) | 当 IDE 开始围着 Agent 重写：JetBrains ThinkRail 深度拆解——git worktree 工作区、SPEC.md 图谱与「薄壳」哲学的代价 | 2026-10-26 | AI技术 |
 | [2026-10-25-uv-ty-integration-uv-check-pep723.md](https://github.com/kejun/blogpost/blob/main/2026-10-25-uv-ty-integration-uv-check-pep723.md) | 当包管理器开始做类型检查：uv × ty 深度拆解——`uv check`、PEP 723 与「工具链收敛」的代价 | 2026-10-25 | AI技术 |
 | [2026-10-24-kimi-k3-1-pro-post-training-scaling.md](https://github.com/kejun/blogpost/blob/main/2026-10-24-kimi-k3-1-pro-post-training-scaling.md) | 当开源模型的进步只剩「后训练」：Kimi K3.1 Pro 深度拆解——3T 参数、1M 上下文与一次可测量的「能力削减」 | 2026-10-24 | AI技术 |
