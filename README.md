@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 318 篇
-- **最后更新**: 2026-10-28 08:10
+- **总文章数**: 319 篇
+- **最后更新**: 2026-10-29 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 250 篇 |
+| AI技术 | 251 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-10-29-cursor-agent-sdk-harness-as-code.md](https://github.com/kejun/blogpost/blob/main/2026-10-29-cursor-agent-sdk-harness-as-code.md) | 当 Agent 变成一份可评审的代码库：Cursor Agent SDK 深度拆解——`bot/` 目录约定、Evals 与「harness 商品化」的边界 | 2026-10-29 | AI技术 |
 | [2026-10-28-ghostty-1-4-libghostty-terminal-core.md](https://github.com/kejun/blogpost/blob/main/2026-10-28-ghostty-1-4-libghostty-terminal-core.md) | 当终端变成一个库：Ghostty 1.4 深度拆解——libghostty、100% Kitty 图形与 Agent 时代的终端内核 | 2026-10-28 | AI技术 |
 | [2026-10-27-building-reliable-software-in-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-building-reliable-software-in-agent-era.md) | 在 Agent 时代构建可靠的软件 | 2026-10-27 | AI技术 |
 | [2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md) | 当类型检查器从 IDE 里被拆出来：Type Server Protocol (TSP) 深度拆解——Pylance × Pyrefly、快照语义与一场关于「协议归属权」的争论 | 2026-10-27 | AI技术 |
