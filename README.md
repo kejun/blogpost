@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 322 篇
-- **最后更新**: 2026-10-31 08:00
+- **总文章数**: 323 篇
+- **最后更新**: 2026-11-01 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 254 篇 |
+| AI技术 | 255 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-01-granite-switch-semver-for-models.md](https://github.com/kejun/blogpost/blob/main/2026-11-01-granite-switch-semver-for-models.md) | 当模型开始发补丁版：IBM Granite Switch 4.1.1 深度拆解——冻结的基座、可按需激活的 aLoRA，与「模型即软件」的真实代价 | 2026-11-01 | AI技术 |
 | [2026-10-31-claude-code-vsix-backdoor-supply-chain.md](https://github.com/kejun/blogpost/blob/main/2026-10-31-claude-code-vsix-backdoor-supply-chain.md) | 当官方插件在加载瞬间就变成后门：Claude Code VS Code 扩展投毒事件全链路拆解——一个 IDE 插件如何等价于一台无堡垒机 | 2026-10-31 | AI技术 |
 | [2026-10-31-proton-ai-engineering-manifesto-zh-cn.md](https://github.com/kejun/blogpost/blob/main/2026-10-31-proton-ai-engineering-manifesto-zh-cn.md) | AI 在 Proton：工程宣言 | 2026-10-31 | AI技术 |
 | [2026-10-30-mistral-large-4-open-weights-trillion-moe.md](https://github.com/kejun/blogpost/blob/main/2026-10-30-mistral-large-4-open-weights-trillion-moe.md) | 当一万亿参数被放进下载列表：Mistral Large 4 深度拆解——49B 激活、三种推理档位与「token 效率」成为一等公民 | 2026-10-30 | AI技术 |
