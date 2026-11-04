@@ -379,13 +379,3 @@ Daniel T. Willingham 是美国弗吉尼亚大学认知心理学教授，著有�
 - 基于中国民间故事的谜题原文：http://www.aft.org/pubs-reports/american_educator/issues/summer07/folktale.htm
 - 作者早前的专栏《学生记住的……是他们思考过的东西》：www.aft.org/pubs-reports/american_educator/summer2003/cogsci.html
 
----
-
-## 译注（译者补充说明，非原文内容）
-
-1. 原 PDF 共 13 页：第 1 页为期刊下载封面页，第 2–11 页为正文与附录，第 12 页为 ProQuest 说明，第 13 页为一则公益广告。后三页与文章内容无关，故未翻译。
-2. 原文多处使用破折号连接的长句，为便于中文阅读，译文按语义拆分为若干短句，未改变原意。
-3. 关键术语的英文原文在首次出现时以括号标注，便于对照查证：表面结构（surface structure）、深层结构（deep structure）、元认知（metacognition）、条件概率（conditional probability）、合理性（plausibility）、控制变量（controlling variables）。
-4. "blicket" 是发展心理学实验中虚构的无意义词，用来指"能让探测器发声的物体"，中文无通行译名，故保留原文。
-5. 文中《糖果屋》即格林童话 *Hansel and Gretel*（又译《韩塞尔与格蕾特》），故事里孩子们沿路撒面包屑/石子做记号以便回家。
-6. 原文附录 B 提到的一些课程方案名称（*Instrumental Enrichment*、*Productive Thinking*、CoRT、*Philosophy for Children*）为专有产品名，译文给出中文通译并保留英文原名。
