@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 326 篇
-- **最后更新**: 2026-11-03 08:00
+- **总文章数**: 327 篇
+- **最后更新**: 2026-11-04 08:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 258 篇 |
+| AI技术 | 259 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-04-agent-desktop-accessibility-tree-computer-use.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md) | 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 | 2026-11-04 | AI技术 |
 | [2026-11-03-freetoken-edge-moe-serving.md](https://github.com/kejun/blogpost/blob/main/2026-11-03-freetoken-edge-moe-serving.md) | 把 284B 塞进一台游戏主机：FreeToken 与边缘 MoE 推理的「带宽调度术」 | 2026-11-03 | AI技术 |
 | [2026-11-02-ai-native-sdlc-playbook-zh-cn.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-native-sdlc-playbook-zh-cn.md) | AI 原生软件研发：把自动写代码变成可靠交付 | 2026-11-02 | AI技术 |
 | [2026-11-02-lightpanda-headless-browser-no-rendering.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-lightpanda-headless-browser-no-rendering.md) | 当一个浏览器决定不再画画：Lightpanda 1.0 深度拆解——Zig 重写、无渲染引擎，与 AI Agent 的浏览器成本账 | 2026-11-02 | AI技术 |
