@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 328 篇
-- **最后更新**: 2026-11-04 10:50
+- **总文章数**: 329 篇
+- **最后更新**: 2026-11-05 08:05
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 259 篇 |
+| AI技术 | 260 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md) | 当插上电源反而更慢：NVIDIA RTX Spark 的加密功耗表，与「你买到的算力」的边界 | 2026-11-05 | AI技术 |
 | [2026-11-04-critical-thinking-why-so-hard-to-teach.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-critical-thinking-why-so-hard-to-teach.md) | 批判性思维：为什么这么难教？ | 2026-11-04 | 其他 |
 | [2026-11-04-agent-desktop-accessibility-tree-computer-use.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md) | 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 | 2026-11-04 | AI技术 |
 | [2026-11-03-freetoken-edge-moe-serving.md](https://github.com/kejun/blogpost/blob/main/2026-11-03-freetoken-edge-moe-serving.md) | 把 284B 塞进一台游戏主机：FreeToken 与边缘 MoE 推理的「带宽调度术」 | 2026-11-03 | AI技术 |
