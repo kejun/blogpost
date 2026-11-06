@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 331 篇
-- **最后更新**: 2026-11-06 08:20
+- **总文章数**: 332 篇
+- **最后更新**: 2026-11-06 09:45
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 261 篇 |
+| AI技术 | 262 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -165,6 +165,7 @@
 | [2026-07-08-agent-ready-api-design-benchmarking-libraries-for-ai-agents.md](https://github.com/kejun/blogpost/blob/main/2026-07-08-agent-ready-api-design-benchmarking-libraries-for-ai-agents.md) | Agent-Ready API：当你的软件库有了第一个「非人类用户」 | 2026-07-08 | AI技术 |
 | [2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md) | Agent 互操作性危机：当 Claude Code 开始调用 Codex——2026 年 A... | 2026-07-07 | AI技术 |
 | [2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md) | AI 品味工程：当"审美"成为 Agent 时代的新工程学科——从 taste-skill 看... | 2026-07-06 | AI技术 |
+| [2026-07-06-edge-cases-skill-missed-edge-cases-zh.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-edge-cases-skill-missed-edge-cases-zh.md) | /edge-cases：一个专抓「漏掉的边界情况」的简单 skill | 2026-07-06 | AI技术 |
 | [2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md](https://github.com/kejun/blogpost/blob/main/2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md) | 越强越脆弱：当 SOTA 模型开始"搞砸"工具调用——Better Models, Worse... | 2026-07-05 | AI技术 |
 | [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | AI技术 |
 | [2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md](https://github.com/kejun/blogpost/blob/main/2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md) | AI 编码的"短绳方法"：当 Vibe Coding 退潮，Agentic Engineeri... | 2026-07-03 | AI技术 |
