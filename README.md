@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 330 篇
-- **最后更新**: 2026-11-05 09:11
+- **总文章数**: 331 篇
+- **最后更新**: 2026-11-06 08:20
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 260 篇 |
+| AI技术 | 261 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-06-worktrunk-parallel-agent-isolation-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-06-worktrunk-parallel-agent-isolation-economics.md) | 十个 Agent 同时改一个仓库：Worktrunk 与「并行开发的隔离经济学」 | 2026-11-06 | AI技术 |
 | [2026-11-05-jane-street-data-warehouse-interview.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-jane-street-data-warehouse-interview.md) | Jane Street 如何从零构建数据仓库：与 Jacob Baskin 对谈 | 2026-11-05 | 访谈翻译 |
 | [2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md) | 当插上电源反而更慢：NVIDIA RTX Spark 的加密功耗表，与「你买到的算力」的边界 | 2026-11-05 | AI技术 |
 | [2026-11-04-critical-thinking-why-so-hard-to-teach.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-critical-thinking-why-so-hard-to-teach.md) | 批判性思维：为什么这么难教？ | 2026-11-04 | 其他 |
