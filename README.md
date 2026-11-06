@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 332 篇
-- **最后更新**: 2026-11-06 09:45
+- **总文章数**: 333 篇
+- **最后更新**: 2026-11-06 19:30
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 262 篇 |
+| AI技术 | 263 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -30,6 +30,7 @@
 | [2026-11-04-critical-thinking-why-so-hard-to-teach.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-critical-thinking-why-so-hard-to-teach.md) | 批判性思维：为什么这么难教？ | 2026-11-04 | 其他 |
 | [2026-11-04-agent-desktop-accessibility-tree-computer-use.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md) | 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 | 2026-11-04 | AI技术 |
 | [2026-11-03-freetoken-edge-moe-serving.md](https://github.com/kejun/blogpost/blob/main/2026-11-03-freetoken-edge-moe-serving.md) | 把 284B 塞进一台游戏主机：FreeToken 与边缘 MoE 推理的「带宽调度术」 | 2026-11-03 | AI技术 |
+| [2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md) | 受监管行业里的 AI 辅助 SDLC：三级闸门、五个人工决策点与完整审计痕迹（Netguru 案例） | 2026-11-02 | AI技术 |
 | [2026-11-02-ai-native-sdlc-playbook-zh-cn.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-native-sdlc-playbook-zh-cn.md) | AI 原生软件研发：把自动写代码变成可靠交付 | 2026-11-02 | AI技术 |
 | [2026-11-02-lightpanda-headless-browser-no-rendering.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-lightpanda-headless-browser-no-rendering.md) | 当一个浏览器决定不再画画：Lightpanda 1.0 深度拆解——Zig 重写、无渲染引擎，与 AI Agent 的浏览器成本账 | 2026-11-02 | AI技术 |
 | [2026-11-01-granite-switch-semver-for-models.md](https://github.com/kejun/blogpost/blob/main/2026-11-01-granite-switch-semver-for-models.md) | 当模型开始发补丁版：IBM Granite Switch 4.1.1 深度拆解——冻结的基座、可按需激活的 aLoRA，与「模型即软件」的真实代价 | 2026-11-01 | AI技术 |
