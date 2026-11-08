@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 335 篇
-- **最后更新**: 2026-11-07 08:10
+- **总文章数**: 336 篇
+- **最后更新**: 2026-11-08 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 265 篇 |
+| AI技术 | 266 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-08-claude-code-dont-ask-again-secret-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-08-claude-code-dont-ask-again-secret-leak.md) | 一次「不再询问」的代价：Claude Code 权限规则如何把 2,539 个真实凭据写进公开 GitHub | 2026-11-08 | AI技术 |
 | [2026-11-07-replit-microvm-sandbox-isolation.md](https://github.com/kejun/blogpost/blob/main/2026-11-07-replit-microvm-sandbox-isolation.md) | 把隔离边界从内核挪到硬件：Replit 沙箱引擎重写，与 microVM 的真实成本 | 2026-11-07 | AI技术 |
 | [2026-11-06-worktrunk-parallel-agent-isolation-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-06-worktrunk-parallel-agent-isolation-economics.md) | 十个 Agent 同时改一个仓库：Worktrunk 与「并行开发的隔离经济学」 | 2026-11-06 | AI技术 |
 | [2026-11-05-xstate-v6-beta-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-xstate-v6-beta-zh.md) | 发布 XState v6 beta：transition 就是函数、schema 取代 types，与「给 agent 写」的状态机 | 2026-11-05 | AI技术 |
