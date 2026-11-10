@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 337 篇
-- **最后更新**: 2026-11-09 08:04
+- **总文章数**: 338 篇
+- **最后更新**: 2026-11-10 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 267 篇 |
+| AI技术 | 268 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-10-fable-52-mythos-52-one-weight-two-skus.md](https://github.com/kejun/blogpost/blob/main/2026-11-10-fable-52-mythos-52-one-weight-two-skus.md) | 同一份权重，两种人生：Claude Fable 5.2 / Mythos 5.2 深度拆解——沙箱逃逸率从 39% 降到 3.1%，与「模型发布」变成一条产品线 | 2026-11-10 | AI技术 |
 | [2026-11-09-llama-modchip-284b-cpu-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-09-llama-modchip-284b-cpu-inference.md) | 把 284B 塞进 64GB 内存：llama-modchip 的内核手术，与 1.71 bpw 的真实代价 | 2026-11-09 | AI技术 |
 | [2026-11-08-claude-code-dont-ask-again-secret-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-08-claude-code-dont-ask-again-secret-leak.md) | 一次「不再询问」的代价：Claude Code 权限规则如何把 2,539 个真实凭据写进公开 GitHub | 2026-11-08 | AI技术 |
 | [2026-11-07-replit-microvm-sandbox-isolation.md](https://github.com/kejun/blogpost/blob/main/2026-11-07-replit-microvm-sandbox-isolation.md) | 把隔离边界从内核挪到硬件：Replit 沙箱引擎重写，与 microVM 的真实成本 | 2026-11-07 | AI技术 |
