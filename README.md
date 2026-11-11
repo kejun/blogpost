@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 340 篇
-- **最后更新**: 2026-11-12 06:41
+- **总文章数**: 341 篇
+- **最后更新**: 2026-11-12 07:00
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 270 篇 |
+| AI技术 | 271 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-12-decoding-grok-bot-message-mechanism.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-decoding-grok-bot-message-mechanism.md) | 解码 Grok Bot：消息机制 | 2026-11-12 | AI技术 |
 | [2026-11-11-design-is-a-search-problem.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-design-is-a-search-problem.md) | 设计是一个搜索问题 | 2026-11-11 | AI技术 |
 | [2026-11-11-modern-web-guidance-v1-agent-skills.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-modern-web-guidance-v1-agent-skills.md) | 让 Agent 别再写 2019 年的前端：Modern Web Guidance 1.0 深度拆解——四家浏览器共管的 203 份指南、98% 通过率，与「标准」变成上下文 | 2026-11-11 | AI技术 |
 | [2026-11-10-fable-52-mythos-52-one-weight-two-skus.md](https://github.com/kejun/blogpost/blob/main/2026-11-10-fable-52-mythos-52-one-weight-two-skus.md) | 同一份权重，两种人生：Claude Fable 5.2 / Mythos 5.2 深度拆解——沙箱逃逸率从 39% 降到 3.1%，与「模型发布」变成一条产品线 | 2026-11-10 | AI技术 |
