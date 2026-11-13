@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 342 篇
-- **最后更新**: 2026-11-12 08:08
+- **总文章数**: 343 篇
+- **最后更新**: 2026-11-13 08:04
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 272 篇 |
+| AI技术 | 273 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md](https://github.com/kejun/blogpost/blob/main/2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md) | 模型路由已死：Gemini 4 Hydrogen 与 Orchestrator 深度拆解——同一条轨迹里，两个模型互相交接 | 2026-11-13 | AI技术 |
 | [2026-11-12-atuin-threads-agent-session-portability.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-atuin-threads-agent-session-portability.md) | 你的 Agent 会话，能不能像 Bash History 一样跟着你走？Atuin Threads 与「会话即日志」的工程真相 | 2026-11-12 | AI技术 |
 | [2026-11-12-decoding-grok-bot-message-mechanism.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-decoding-grok-bot-message-mechanism.md) | 解码 Grok Bot：消息机制 | 2026-11-12 | AI技术 |
 | [2026-11-11-design-is-a-search-problem.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-design-is-a-search-problem.md) | 设计是一个搜索问题 | 2026-11-11 | AI技术 |
