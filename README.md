@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 344 篇
-- **最后更新**: 2026-11-14 08:05
+- **总文章数**: 345 篇
+- **最后更新**: 2026-11-15 08:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 274 篇 |
+| AI技术 | 275 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | AI技术 |
 | [2026-11-14-llamacpp-v1-api-contract.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-llamacpp-v1-api-contract.md) | 13 万颗星之后，llama.cpp 才敢叫 1.0：一次「把 API 当合同」的发布 | 2026-11-14 | AI技术 |
 | [2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md](https://github.com/kejun/blogpost/blob/main/2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md) | 模型路由已死：Gemini 4 Hydrogen 与 Orchestrator 深度拆解——同一条轨迹里，两个模型互相交接 | 2026-11-13 | AI技术 |
 | [2026-11-12-atuin-threads-agent-session-portability.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-atuin-threads-agent-session-portability.md) | 你的 Agent 会话，能不能像 Bash History 一样跟着你走？Atuin Threads 与「会话即日志」的工程真相 | 2026-11-12 | AI技术 |
