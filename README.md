@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 345 篇
-- **最后更新**: 2026-11-15 08:03
+- **总文章数**: 351 篇
+- **最后更新**: 2026-11-15 20:36
 
 ---
 
@@ -14,9 +14,9 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 275 篇 |
-| 数据库 | 3 篇 |
-| 访谈翻译 | 2 篇 |
+| AI技术 | 258 篇 |
+| 数据库 | 2 篇 |
+| 访谈翻译 | 1 篇 |
 
 ---
 
@@ -24,75 +24,81 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | AI技术 |
-| [2026-11-14-llamacpp-v1-api-contract.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-llamacpp-v1-api-contract.md) | 13 万颗星之后，llama.cpp 才敢叫 1.0：一次「把 API 当合同」的发布 | 2026-11-14 | AI技术 |
-| [2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md](https://github.com/kejun/blogpost/blob/main/2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md) | 模型路由已死：Gemini 4 Hydrogen 与 Orchestrator 深度拆解——同一条轨迹里，两个模型互相交接 | 2026-11-13 | AI技术 |
-| [2026-11-12-atuin-threads-agent-session-portability.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-atuin-threads-agent-session-portability.md) | 你的 Agent 会话，能不能像 Bash History 一样跟着你走？Atuin Threads 与「会话即日志」的工程真相 | 2026-11-12 | AI技术 |
-| [2026-11-12-decoding-grok-bot-message-mechanism.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-decoding-grok-bot-message-mechanism.md) | 解码 Grok Bot：消息机制 | 2026-11-12 | AI技术 |
-| [2026-11-11-design-is-a-search-problem.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-design-is-a-search-problem.md) | 设计是一个搜索问题 | 2026-11-11 | AI技术 |
-| [2026-11-11-modern-web-guidance-v1-agent-skills.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-modern-web-guidance-v1-agent-skills.md) | 让 Agent 别再写 2019 年的前端：Modern Web Guidance 1.0 深度拆解——四家浏览器共管的 203 份指南、98% 通过率，与「标准」变成上下文 | 2026-11-11 | AI技术 |
-| [2026-11-10-fable-52-mythos-52-one-weight-two-skus.md](https://github.com/kejun/blogpost/blob/main/2026-11-10-fable-52-mythos-52-one-weight-two-skus.md) | 同一份权重，两种人生：Claude Fable 5.2 / Mythos 5.2 深度拆解——沙箱逃逸率从 39% 降到 3.1%，与「模型发布」变成一条产品线 | 2026-11-10 | AI技术 |
-| [2026-11-09-llama-modchip-284b-cpu-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-09-llama-modchip-284b-cpu-inference.md) | 把 284B 塞进 64GB 内存：llama-modchip 的内核手术，与 1.71 bpw 的真实代价 | 2026-11-09 | AI技术 |
-| [2026-11-08-claude-code-dont-ask-again-secret-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-08-claude-code-dont-ask-again-secret-leak.md) | 一次「不再询问」的代价：Claude Code 权限规则如何把 2,539 个真实凭据写进公开 GitHub | 2026-11-08 | AI技术 |
-| [2026-11-07-replit-microvm-sandbox-isolation.md](https://github.com/kejun/blogpost/blob/main/2026-11-07-replit-microvm-sandbox-isolation.md) | 把隔离边界从内核挪到硬件：Replit 沙箱引擎重写，与 microVM 的真实成本 | 2026-11-07 | AI技术 |
+| [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | 其他 |
+| [2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md) | AI 同事的崛起：Grok Bot 团队谈软件工厂、bot 的身份，与「2027 年的工程师」 | 2026-11-15 | AI技术 |
+| [2026-11-14-llamacpp-v1-api-contract.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-llamacpp-v1-api-contract.md) | 13 万颗星之后，llama.cpp 才敢叫 1.0：一次「把 API 当合同」的发布 | 2026-11-14 | 其他 |
+| [2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md](https://github.com/kejun/blogpost/blob/main/2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md) | 模型路由已死：Gemini 4 Hydrogen 与 Orchestrator 深度拆解——同... | 2026-11-13 | AI技术 |
+| [2026-11-12-atuin-threads-agent-session-portability.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-atuin-threads-agent-session-portability.md) | 你的 Agent 会话，能不能像 Bash History 一样跟着你走？Atuin Thre... | 2026-11-12 | AI技术 |
+| [2026-11-12-decoding-grok-bot-message-mechanism.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-decoding-grok-bot-message-mechanism.md) | 解码 Grok Bot：消息机制 | 2026-11-12 | 其他 |
+| [2026-11-11-design-is-a-search-problem.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-design-is-a-search-problem.md) | 设计是一个搜索问题 | 2026-11-11 | 其他 |
+| [2026-11-11-modern-web-guidance-v1-agent-skills.md](https://github.com/kejun/blogpost/blob/main/2026-11-11-modern-web-guidance-v1-agent-skills.md) | 让 Agent 别再写 2019 年的前端：Modern Web Guidance 1.0 深... | 2026-11-11 | AI技术 |
+| [2026-11-10-fable-52-mythos-52-one-weight-two-skus.md](https://github.com/kejun/blogpost/blob/main/2026-11-10-fable-52-mythos-52-one-weight-two-skus.md) | 同一份权重，两种人生：Claude Fable 5.2 / Mythos 5.2 深度拆解——... | 2026-11-10 | 其他 |
+| [2026-11-09-llama-modchip-284b-cpu-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-09-llama-modchip-284b-cpu-inference.md) | 把 284B 塞进 64GB 内存：llama-modchip 的内核手术，与 1.71 bp... | 2026-11-09 | AI技术 |
+| [2026-11-08-claude-code-dont-ask-again-secret-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-08-claude-code-dont-ask-again-secret-leak.md) | 一次「不再询问」的代价：Claude Code 权限规则如何把 2,539 个真实凭据写进公开... | 2026-11-08 | AI技术 |
+| [2026-11-07-replit-microvm-sandbox-isolation.md](https://github.com/kejun/blogpost/blob/main/2026-11-07-replit-microvm-sandbox-isolation.md) | 把隔离边界从内核挪到硬件：Replit 沙箱引擎重写，与 microVM 的真实成本 | 2026-11-07 | 其他 |
 | [2026-11-06-worktrunk-parallel-agent-isolation-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-06-worktrunk-parallel-agent-isolation-economics.md) | 十个 Agent 同时改一个仓库：Worktrunk 与「并行开发的隔离经济学」 | 2026-11-06 | AI技术 |
-| [2026-11-05-xstate-v6-beta-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-xstate-v6-beta-zh.md) | 发布 XState v6 beta：transition 就是函数、schema 取代 types，与「给 agent 写」的状态机 | 2026-11-05 | AI技术 |
 | [2026-11-05-jane-street-data-warehouse-interview.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-jane-street-data-warehouse-interview.md) | Jane Street 如何从零构建数据仓库：与 Jacob Baskin 对谈 | 2026-11-05 | 访谈翻译 |
-| [2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md) | 当插上电源反而更慢：NVIDIA RTX Spark 的加密功耗表，与「你买到的算力」的边界 | 2026-11-05 | AI技术 |
-| [2026-11-04-critical-thinking-why-so-hard-to-teach.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-critical-thinking-why-so-hard-to-teach.md) | 批判性思维：为什么这么难教？ | 2026-11-04 | 其他 |
+| [2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-nvidia-rtx-spark-encrypted-firmware-linux-inference.md) | 当插上电源反而更慢：NVIDIA RTX Spark 的加密功耗表，与"你买到的算力"的边界 | 2026-11-05 | AI技术 |
+| [2026-11-05-xstate-v6-beta-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-05-xstate-v6-beta-zh.md) | 发布 XState v6 beta | 2026-11-05 | 其他 |
 | [2026-11-04-agent-desktop-accessibility-tree-computer-use.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-agent-desktop-accessibility-tree-computer-use.md) | 当 Agent 学会读「结构」而不是看「像素」：Vercel agent-desktop 深度拆解 | 2026-11-04 | AI技术 |
-| [2026-11-03-freetoken-edge-moe-serving.md](https://github.com/kejun/blogpost/blob/main/2026-11-03-freetoken-edge-moe-serving.md) | 把 284B 塞进一台游戏主机：FreeToken 与边缘 MoE 推理的「带宽调度术」 | 2026-11-03 | AI技术 |
-| [2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md) | 受监管行业里的 AI 辅助 SDLC：三级闸门、五个人工决策点与完整审计痕迹（Netguru 案例） | 2026-11-02 | AI技术 |
+| [2026-11-04-critical-thinking-why-so-hard-to-teach.md](https://github.com/kejun/blogpost/blob/main/2026-11-04-critical-thinking-why-so-hard-to-teach.md) | 批判性思维：为什么这么难教？ | 2026-11-04 | 其他 |
+| [2026-11-03-freetoken-edge-moe-serving.md](https://github.com/kejun/blogpost/blob/main/2026-11-03-freetoken-edge-moe-serving.md) | 把 284B 塞进一台游戏主机：FreeToken 与边缘 MoE 推理的「带宽调度术」 | 2026-11-03 | 其他 |
+| [2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-assisted-sdlc-regulated-industry-zh.md) | 受监管行业里的 AI 辅助 SDLC：一个真实案例 | 2026-11-02 | AI技术 |
 | [2026-11-02-ai-native-sdlc-playbook-zh-cn.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-ai-native-sdlc-playbook-zh-cn.md) | AI 原生软件研发：把自动写代码变成可靠交付 | 2026-11-02 | AI技术 |
-| [2026-11-02-lightpanda-headless-browser-no-rendering.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-lightpanda-headless-browser-no-rendering.md) | 当一个浏览器决定不再画画：Lightpanda 1.0 深度拆解——Zig 重写、无渲染引擎，与 AI Agent 的浏览器成本账 | 2026-11-02 | AI技术 |
-| [2026-11-01-granite-switch-semver-for-models.md](https://github.com/kejun/blogpost/blob/main/2026-11-01-granite-switch-semver-for-models.md) | 当模型开始发补丁版：IBM Granite Switch 4.1.1 深度拆解——冻结的基座、可按需激活的 aLoRA，与「模型即软件」的真实代价 | 2026-11-01 | AI技术 |
-| [2026-10-31-claude-code-vsix-backdoor-supply-chain.md](https://github.com/kejun/blogpost/blob/main/2026-10-31-claude-code-vsix-backdoor-supply-chain.md) | 当官方插件在加载瞬间就变成后门：Claude Code VS Code 扩展投毒事件全链路拆解——一个 IDE 插件如何等价于一台无堡垒机 | 2026-10-31 | AI技术 |
+| [2026-11-02-lightpanda-headless-browser-no-rendering.md](https://github.com/kejun/blogpost/blob/main/2026-11-02-lightpanda-headless-browser-no-rendering.md) | 当一个浏览器决定不再画画：Lightpanda 1.0 深度拆解——Zig 重写、无渲染引擎，... | 2026-11-02 | 其他 |
+| [2026-11-01-granite-switch-semver-for-models.md](https://github.com/kejun/blogpost/blob/main/2026-11-01-granite-switch-semver-for-models.md) | 当模型开始发补丁版：IBM Granite Switch 4.1.1 深度拆解——冻结的基座、... | 2026-11-01 | AI技术 |
+| [2026-10-31-claude-code-vsix-backdoor-supply-chain.md](https://github.com/kejun/blogpost/blob/main/2026-10-31-claude-code-vsix-backdoor-supply-chain.md) | 当官方插件在加载瞬间就变成后门：Claude Code VS Code 扩展投毒事件全链路拆解... | 2026-10-31 | AI技术 |
 | [2026-10-31-proton-ai-engineering-manifesto-zh-cn.md](https://github.com/kejun/blogpost/blob/main/2026-10-31-proton-ai-engineering-manifesto-zh-cn.md) | AI 在 Proton：工程宣言 | 2026-10-31 | AI技术 |
-| [2026-10-30-mistral-large-4-open-weights-trillion-moe.md](https://github.com/kejun/blogpost/blob/main/2026-10-30-mistral-large-4-open-weights-trillion-moe.md) | 当一万亿参数被放进下载列表：Mistral Large 4 深度拆解——49B 激活、三种推理档位与「token 效率」成为一等公民 | 2026-10-30 | AI技术 |
-| [2026-10-29-cursor-agent-sdk-harness-as-code.md](https://github.com/kejun/blogpost/blob/main/2026-10-29-cursor-agent-sdk-harness-as-code.md) | 当 Agent 变成一份可评审的代码库：Cursor Agent SDK 深度拆解——`bot/` 目录约定、Evals 与「harness 商品化」的边界 | 2026-10-29 | AI技术 |
-| [2026-10-28-ghostty-1-4-libghostty-terminal-core.md](https://github.com/kejun/blogpost/blob/main/2026-10-28-ghostty-1-4-libghostty-terminal-core.md) | 当终端变成一个库：Ghostty 1.4 深度拆解——libghostty、100% Kitty 图形与 Agent 时代的终端内核 | 2026-10-28 | AI技术 |
-| [2026-10-27-building-reliable-software-in-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-building-reliable-software-in-agent-era.md) | 在 Agent 时代构建可靠的软件 | 2026-10-27 | AI技术 |
-| [2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md) | 当类型检查器从 IDE 里被拆出来：Type Server Protocol (TSP) 深度拆解——Pylance × Pyrefly、快照语义与一场关于「协议归属权」的争论 | 2026-10-27 | AI技术 |
-| [2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md](https://github.com/kejun/blogpost/blob/main/2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md) | 当 IDE 开始围着 Agent 重写：JetBrains ThinkRail 深度拆解——git worktree 工作区、SPEC.md 图谱与「薄壳」哲学的代价 | 2026-10-26 | AI技术 |
-| [2026-10-25-uv-ty-integration-uv-check-pep723.md](https://github.com/kejun/blogpost/blob/main/2026-10-25-uv-ty-integration-uv-check-pep723.md) | 当包管理器开始做类型检查：uv × ty 深度拆解——`uv check`、PEP 723 与「工具链收敛」的代价 | 2026-10-25 | AI技术 |
-| [2026-10-24-kimi-k3-1-pro-post-training-scaling.md](https://github.com/kejun/blogpost/blob/main/2026-10-24-kimi-k3-1-pro-post-training-scaling.md) | 当开源模型的进步只剩「后训练」：Kimi K3.1 Pro 深度拆解——3T 参数、1M 上下文与一次可测量的「能力削减」 | 2026-10-24 | AI技术 |
-| [2026-10-23-cloudflare-security-audit-skill-agent-harness.md](https://github.com/kejun/blogpost/blob/main/2026-10-23-cloudflare-security-audit-skill-agent-harness.md) | 当安全审计变成一个 Skill：Cloudflare security-audit-skill 深度拆解——3.9 万星、六阶段流水线与「AI 找洞、AI 证伪」 | 2026-10-23 | AI技术 |
-| [2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md](https://github.com/kejun/blogpost/blob/main/2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md) | 当 DuckDB 决定"不再是那个嵌入式库"：2.0.0 LTS 深度拆解——Quack 协议、异步 I/O、VARIANT 与 Agent Mode | 2026-10-22 | 数据库 |
-| [2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md) | 当推理框架自己开源：DeepInfer 深度拆解——5 天 1.2 万星、DSpark 投机解码与 DeepSeek 的生产级 Serving 栈 | 2026-10-21 | AI技术 |
-| [2026-10-20-gitai-agent-scale-version-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-20-gitai-agent-scale-version-control.md) | 当 50 个 Agent 同时往一个分支提交：gitai 深度拆解——Scion 的开源实现与「合并吞吐」 | 2026-10-20 | AI技术 |
-| [2026-10-19-deepseek-search-api-agent-retrieval-economics.md](https://github.com/kejun/blogpost/blob/main/2026-10-19-deepseek-search-api-agent-retrieval-economics.md) | 当搜索变成 0.75 美元/千次：DeepSeek Search & Fetch 深度拆解，以及 Agent 检索层的成本重构 | 2026-10-19 | AI技术 |
-| [2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md](https://github.com/kejun/blogpost/blob/main/2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md) | 当 KV 缓存成为新瓶颈：DeepSeek-V4.1-Flash-1017 深度拆解——890 字节/token、prefill 减半与「数据工程 > 算法创新」 | 2026-10-18 | AI技术 |
-| [2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md](https://github.com/kejun/blogpost/blob/main/2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md) | 当 Agent 开始有自己的 App Store：Claude Code 官方插件目录与 Cursor 插件仓库深度拆解 | 2026-10-17 | AI技术 |
-| [2026-10-16-voicestudio-local-voice-ai-stack.md](https://github.com/kejun/blogpost/blob/main/2026-10-16-voicestudio-local-voice-ai-stack.md) | 本地优先的语音 AI 栈：VoiceStudio 如何把「ElevenLabs」压缩成一条 curl 命令 | 2026-10-16 | AI技术 |
-| [2026-10-15-opencode-2-coding-agent-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-15-opencode-2-coding-agent-operating-system.md) | 当编码 Agent 变成一个操作系统：OpenCode 2.0 深度拆解——常驻服务、Code Mode 与 80+ 内部插件 | 2026-10-15 | AI技术 |
+| [2026-10-30-mistral-large-4-open-weights-trillion-moe.md](https://github.com/kejun/blogpost/blob/main/2026-10-30-mistral-large-4-open-weights-trillion-moe.md) | 当一万亿参数被放进下载列表：Mistral Large 4 深度拆解——49B 激活、三种推理... | 2026-10-30 | 其他 |
+| [2026-10-29-cursor-agent-sdk-harness-as-code.md](https://github.com/kejun/blogpost/blob/main/2026-10-29-cursor-agent-sdk-harness-as-code.md) | 当 Agent 变成一份可评审的代码库：Cursor Agent SDK 深度拆解——`bot... | 2026-10-29 | AI技术 |
+| [2026-10-28-ghostty-1-4-libghostty-terminal-core.md](https://github.com/kejun/blogpost/blob/main/2026-10-28-ghostty-1-4-libghostty-terminal-core.md) | 当终端变成一个库：Ghostty 1.4 深度拆解——libghostty、100% Kitt... | 2026-10-28 | 其他 |
+| [2026-10-27-building-reliable-software-in-agent-era.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-building-reliable-software-in-agent-era.md) | 比以往任何时候都更需要：在 Agent 时代构建可靠的软件 | 2026-10-27 | AI技术 |
+| [2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md](https://github.com/kejun/blogpost/blob/main/2026-10-27-type-server-protocol-tsp-pylance-pyrefly.md) | 当类型检查器从 IDE 里被拆出来：Type Server Protocol (TSP) 深度... | 2026-10-27 | 其他 |
+| [2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md](https://github.com/kejun/blogpost/blob/main/2026-10-26-jetbrains-thinkrail-agentic-ide-worktree-spec-graph.md) | 当 IDE 开始围着 Agent 重写：JetBrains ThinkRail 深度拆解——g... | 2026-10-26 | AI技术 |
+| [2026-10-25-uv-ty-integration-uv-check-pep723.md](https://github.com/kejun/blogpost/blob/main/2026-10-25-uv-ty-integration-uv-check-pep723.md) | 当包管理器开始做类型检查：uv × ty 深度拆解——`uv check`、PEP 723 与... | 2026-10-25 | 其他 |
+| [2026-10-24-kimi-k3-1-pro-post-training-scaling.md](https://github.com/kejun/blogpost/blob/main/2026-10-24-kimi-k3-1-pro-post-training-scaling.md) | 当开源模型的进步只剩「后训练」：Kimi K3.1 Pro 深度拆解——3T 参数、1M 上下... | 2026-10-24 | AI技术 |
+| [2026-10-23-cloudflare-security-audit-skill-agent-harness.md](https://github.com/kejun/blogpost/blob/main/2026-10-23-cloudflare-security-audit-skill-agent-harness.md) | 当安全审计变成一个 Skill：Cloudflare security-audit-skill... | 2026-10-23 | AI技术 |
+| [2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md](https://github.com/kejun/blogpost/blob/main/2026-10-22-duckdb-2-lts-quack-async-io-variant-agent-mode.md) | 当 DuckDB 决定"不再是那个嵌入式库"：2.0.0 LTS 深度拆解——Quack 协议... | 2026-10-22 | AI技术 |
+| [2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md](https://github.com/kejun/blogpost/blob/main/2026-10-21-deepinfer-deepseek-inference-framework-deep-dive.md) | 当推理框架自己开源：DeepInfer 深度拆解——5 天 1.2 万星、DSpark 投机解... | 2026-10-21 | AI技术 |
+| [2026-10-20-gitai-agent-scale-version-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-20-gitai-agent-scale-version-control.md) | 当 50 个 Agent 同时往一个分支提交：gitai 深度拆解——Scion 的开源实现，... | 2026-10-20 | AI技术 |
+| [2026-10-19-deepseek-search-api-agent-retrieval-economics.md](https://github.com/kejun/blogpost/blob/main/2026-10-19-deepseek-search-api-agent-retrieval-economics.md) | 当搜索变成 0.75 美元/千次：DeepSeek Search & Fetch 深度拆解，以... | 2026-10-19 | AI技术 |
+| [2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md](https://github.com/kejun/blogpost/blob/main/2026-10-18-deepseek-v41-flash-1017-kv-cache-compression.md) | 当 KV 缓存成为新的瓶颈：DeepSeek-V4.1-Flash-1017 深度拆解 | 2026-10-18 | 其他 |
+| [2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md](https://github.com/kejun/blogpost/blob/main/2026-10-17-agent-plugin-marketplaces-claude-code-cursor.md) | 当 Agent 开始有自己的 App Store：Claude Code 官方插件目录与 Cu... | 2026-10-17 | AI技术 |
+| [2026-10-16-voicestudio-local-voice-ai-stack.md](https://github.com/kejun/blogpost/blob/main/2026-10-16-voicestudio-local-voice-ai-stack.md) | 本地优先的语音 AI 栈：VoiceStudio 如何把「ElevenLabs」压缩成一条 c... | 2026-10-16 | AI技术 |
+| [2026-10-15-opencode-2-coding-agent-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-15-opencode-2-coding-agent-operating-system.md) | 当编码 Agent 变成一个操作系统：OpenCode 2.0 深度拆解——常驻服务、Code... | 2026-10-15 | AI技术 |
 | [2026-10-14-agentic-loops-and-software-factories.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-agentic-loops-and-software-factories.md) | 从使用 AI 智能体到建设软件工厂：未来工作的变化与完整实践 | 2026-10-14 | AI技术 |
-| [2026-10-14-anthropic-scion-agent-scale-source-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-anthropic-scion-agent-scale-source-control.md) | 当 git 成为瓶颈：Anthropic 自研 Scion 深度拆解——7 个人、5 个月，为"永远在线"的 Agent 重造版本控制 | 2026-10-14 | AI技术 |
-| [2026-10-13-codex-cli-persistent-self-updating-daemon.md](https://github.com/kejun/blogpost/blob/main/2026-10-13-codex-cli-persistent-self-updating-daemon.md) | 当一个 CLI 开始偷偷自我更新：Codex CLI 0.157 常驻守护进程深度拆解——包管理器、代理环境与"看不见的后台" | 2026-10-13 | AI技术 |
+| [2026-10-14-anthropic-scion-agent-scale-source-control.md](https://github.com/kejun/blogpost/blob/main/2026-10-14-anthropic-scion-agent-scale-source-control.md) | 当 git 成为瓶颈：Anthropic 自研 Scion 深度拆解——7 个人、5 个月，为... | 2026-10-14 | AI技术 |
+| [2026-10-13-codex-cli-persistent-self-updating-daemon.md](https://github.com/kejun/blogpost/blob/main/2026-10-13-codex-cli-persistent-self-updating-daemon.md) | 当一个 CLI 开始偷偷自我更新：Codex CLI 0.157 常驻守护进程深度拆解——包管... | 2026-10-13 | 其他 |
+| [2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md) | 当 2.8 万亿参数挤进 4GB 显存：AirLLM 深度拆解——逐层流式、按专家路由与"不量... | 2026-10-12 | AI技术 |
+| [2026-10-12-always-on-ai-agents-space-x-architecture.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-always-on-ai-agents-space-x-architecture.md) | 全天候（Always-On）AI Agent 是如何工作的 | 2026-10-12 | AI技术 |
 | [2026-10-12-martin-luk-pullback-buying-system.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-martin-luk-pullback-buying-system.md) | 一年 +969%：交易冠军 Martin Luk 的回调买入体系 | 2026-10-12 | 其他 |
-| [2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md](https://github.com/kejun/blogpost/blob/main/2026-10-12-airllm-layer-streaming-trillion-params-small-vram.md) | 当 2.8 万亿参数挤进 4GB 显存：AirLLM 深度拆解——逐层流式、按专家路由与"不量化"的代价 | 2026-10-12 | AI技术 |
-| [2026-10-11-rea-agent-driven-reverse-engineering-mcp.md](https://github.com/kejun/blogpost/blob/main/2026-10-11-rea-agent-driven-reverse-engineering-mcp.md) | 当逆向工程装上 MCP：REA 一夜 2.5 万星，Agent 如何把"看懂一个程序"变成可验证的流水线 | 2026-10-11 | AI技术 |
-| [2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md](https://github.com/kejun/blogpost/blob/main/2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md) | 当 Node.js 之父第二次"关停"自己的运行时：Cloudflare 收购 Deno 深度拆解——从 IRC 演示到分布式单例的二十年轮回 | 2026-10-10 | AI技术 |
-| [2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md](https://github.com/kejun/blogpost/blob/main/2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md) | 一个 16.9 MB 的文件，把语音识别和工具调用塞进了同一颗 CPU 内核：Whistle 深度拆解 | 2026-10-09 | AI技术 |
+| [2026-10-11-rea-agent-driven-reverse-engineering-mcp.md](https://github.com/kejun/blogpost/blob/main/2026-10-11-rea-agent-driven-reverse-engineering-mcp.md) | 当逆向工程装上 MCP：REA 一夜 2.5 万星，Agent 如何把"看懂一个程序"变成可验... | 2026-10-11 | AI技术 |
+| [2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md](https://github.com/kejun/blogpost/blob/main/2026-10-10-cloudflare-acquires-deno-celld-durable-objects.md) | 当 Node.js 之父第二次"关停"自己的运行时：Cloudflare 收购 Deno 深度... | 2026-10-10 | 其他 |
+| [2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md](https://github.com/kejun/blogpost/blob/main/2026-10-09-whistle-16mb-on-device-speech-recognition-same-engine-as-needle.md) | 一个 16.9 MB 的文件，把语音识别和工具调用塞进了同一颗 CPU 内核：Whistle ... | 2026-10-09 | 其他 |
 | [2026-10-08-docker-agent-containerized-agent-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-10-08-docker-agent-containerized-agent-runtime.md) | Docker Agent 深度解析：当 AI Agent 学会像容器一样被构建、分发与运行 | 2026-10-08 | AI技术 |
 | [2026-10-07-matt-pocock-agent-skills-workflow.md](https://github.com/kejun/blogpost/blob/main/2026-10-07-matt-pocock-agent-skills-workflow.md) | Matt Pocock 的 Skills 工作流 从需求澄清到实施与复盘 | 2026-10-07 | AI技术 |
-| [2026-10-06-what-is-codemode.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-what-is-codemode.md) | 什么是 Codemode（What is Codemode） | 2026-10-06 | AI技术 |
-| [2026-10-06-reflection-beam-501b-high-compute-rl.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-reflection-beam-501b-high-compute-rl.md) | 当 RL 开始"按周烧钱"：Reflection Beam 501B 深度拆解——1 亿次 rollout、10500 块 GB300，与西方开源权重阵营的新算学 | 2026-10-06 | AI技术 |
+| [2026-10-06-reflection-beam-501b-high-compute-rl.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-reflection-beam-501b-high-compute-rl.md) | 当 RL 开始"按周烧钱"：Reflection Beam 501B 深度拆解——1 亿次 r... | 2026-10-06 | 其他 |
+| [2026-10-06-what-is-codemode.md](https://github.com/kejun/blogpost/blob/main/2026-10-06-what-is-codemode.md) | 什么是 Codemode（What is Codemode） | 2026-10-06 | 其他 |
 | [2026-10-05-ai-evals-engineer-15-projects.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-ai-evals-engineer-15-projects.md) | AI 评测工程师的 15 个实践项目：逐项翻译与解读 | 2026-10-05 | AI技术 |
-| [2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md) | 当 125B 模型塞进游戏 PC：Strata 万星深度拆解——专家分层、MTP 投机解码与本地推理的"厨房架构" | 2026-10-05 | AI技术 |
-| [2026-10-04-jim-scharf-agent-swarms-databases.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-jim-scharf-agent-swarms-databases.md) | 智能体成群行动之后：数据库、治理与实时数据的新考验 | 2026-10-04 | 访谈翻译 |
-| [2026-10-04-agent-reach-internet-capability-layer.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-agent-reach-internet-capability-layer.md) | 当 Agent 想要"看见整个互联网"：Agent-Reach 9 万星深度拆解——能力层、多后端路由与登录态战争 | 2026-10-04 | AI技术 |
-| [2026-10-03-caveman-token-economics-honest-numbers.md](https://github.com/kejun/blogpost/blob/main/2026-10-03-caveman-token-economics-honest-numbers.md) | 一个笑话如何长成 10 万星基础设施：Caveman 与 Agent Token 经济学的"诚实数字"解剖 | 2026-10-03 | AI技术 |
-| [2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md](https://github.com/kejun/blogpost/blob/main/2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md) | 万亿参数 MoE 的训练图纸，被开源了：Olmo-core 3 深度拆解——专家驻留、token gerrymandering... | 2026-10-02 | AI技术 |
-| [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 token、Fairwind 抢跑... | 2026-10-01 | AI技术 |
+| [2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md](https://github.com/kejun/blogpost/blob/main/2026-10-05-strata-125b-moe-consumer-hardware-tiered-inference.md) | 当 125B 模型塞进游戏 PC：Strata 万星深度拆解——专家分层、MTP 投机解码与本... | 2026-10-05 | AI技术 |
+| [2026-10-04-agent-reach-internet-capability-layer.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-agent-reach-internet-capability-layer.md) | 当 Agent 想要"看见整个互联网"：Agent-Reach 9 万星深度拆解——能力层、多... | 2026-10-04 | AI技术 |
+| [2026-10-04-jim-scharf-agent-swarms-databases.md](https://github.com/kejun/blogpost/blob/main/2026-10-04-jim-scharf-agent-swarms-databases.md) | 智能体成群行动之后：数据库、治理与实时数据的新考验 | 2026-10-04 | AI技术 |
+| [2026-10-03-caveman-token-economics-honest-numbers.md](https://github.com/kejun/blogpost/blob/main/2026-10-03-caveman-token-economics-honest-numbers.md) | 一个笑话如何长成 10 万星基础设施：Caveman 与 Agent Token 经济学的"诚... | 2026-10-03 | 其他 |
+| [2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md](https://github.com/kejun/blogpost/blob/main/2026-10-02-olmo-core-3-open-moe-training-trillion-scale.md) | 万亿参数 MoE 的训练图纸，被开源了：Olmo-core 3 深度拆解——专家驻留、toke... | 2026-10-02 | AI技术 |
+| [2026-10-01-gemini-4-argon-defender-first-release.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-gemini-4-argon-defender-first-release.md) | 当前沿模型先"不设护栏"地交给防御者：Gemini 4 Argon 深度拆解——1M 输出 t... | 2026-10-01 | 其他 |
+| [2026-10-01-peter-mattis-distributed-databases-ai-coding.md](https://github.com/kejun/blogpost/blob/main/2026-10-01-peter-mattis-distributed-databases-ai-coding.md) | 从 Gmail 到 CockroachDB：Peter Mattis 如何打造可靠系统，并用 ... | 2026-10-01 | AI技术 |
 | [2026-09-30-grok-bot-hire-first-ai-employee.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-grok-bot-hire-first-ai-employee.md) | Grok Bot：如何雇下你的第一个 AI 员工（完整指南） | 2026-09-30 | AI技术 |
-| [2026-09-30-nvidia-openshell-agent-safety-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-nvidia-openshell-agent-safety-runtime.md) | 当 Agent 的"看守"下沉到内核：NVIDIA OpenShell 深度拆解——一次失败的演示、一个 Z3 证明器... | 2026-09-30 | AI技术 |
-| [2026-09-29-voicestudio-local-elevenlabs-alternative.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-voicestudio-local-elevenlabs-alternative.md) | 当"配音棚"搬进你家电脑：VoiceStudio 4.4 万星深度拆解——ElevenLabs 的本地平替、16 个引擎的调度战争... | 2026-09-29 | AI技术 |
-| [2026-09-28-vercel-scriptc-typescript-to-native-compiler.md](https://github.com/kejun/blogpost/blob/main/2026-09-28-vercel-scriptc-typescript-to-native-compiler.md) | 当 TypeScript 决定"抛弃"V8：Vercel scriptc 深度拆解——320KB 原生二进制、三层显式静态性... | 2026-09-28 | AI技术 |
-| [2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md](https://github.com/kejun/blogpost/blob/main/2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md) | 当 transformers 开始"说 llama.cpp 的语言"：GGUF 原生推理深度拆解——追平 C++ 的 98%... | 2026-09-27 | AI技术 |
-| [2026-09-26-paperclip-agent-company-control-plane.md](https://github.com/kejun/blogpost/blob/main/2026-09-26-paperclip-agent-company-control-plane.md) | 当 Agent 开始"上班"：Paperclip 8.5 万星背后——从"零人类公司"到 Agent 管理控制平面... | 2026-09-26 | AI技术 |
-| [2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md](https://github.com/kejun/blogpost/blob/main/2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md) | 当记忆开始"学习"：Hindsight 2.7 万星背后——从榜单中游到 91.4% 的 Agent 记忆... | 2026-09-25 | 记忆系统 |
-| [2026-09-24-impeccable-ai-slop-design-detector.md](https://github.com/kejun/blogpost/blob/main/2026-09-24-impeccable-ai-slop-design-detector.md) | 当"AI 味"成为工程问题：Impeccable 7 万星背后——模型掷不出自己的骰子，61... | 2026-09-24 | AI技术 |
-| [2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md) | 当 Agent 有了自己的"Kubernetes"：Google AX 单日 2300 星背后的 Age... | 2026-09-23 | AI技术 |
+| [2026-09-30-nvidia-openshell-agent-safety-runtime.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-nvidia-openshell-agent-safety-runtime.md) | 当 Agent 的"看守"下沉到内核：NVIDIA OpenShell 深度拆解——一次失败的... | 2026-09-30 | AI技术 |
+| [2026-09-30-openai-devday-2026-keynote-zh.md](https://github.com/kejun/blogpost/blob/main/2026-09-30-openai-devday-2026-keynote-zh.md) | OpenAI DevDay 2026：从对话助手到全天候 AI 协作伙伴 | 2026-09-30 | AI技术 |
+| [2026-09-29-context-becomes-the-product.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-context-becomes-the-product.md) | 当上下文成为产品：AI 时代，产品团队真正该做什么 | 2026-09-29 | 其他 |
+| [2026-09-29-instinct-personal-ai-agent-interview.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-instinct-personal-ai-agent-interview.md) | 当 AI 开始替你行动：个人智能体如何重塑软件、商业与日常生活 | 2026-09-29 | AI技术 |
+| [2026-09-29-voicestudio-local-elevenlabs-alternative.md](https://github.com/kejun/blogpost/blob/main/2026-09-29-voicestudio-local-elevenlabs-alternative.md) | 当"配音棚"搬进你家电脑：VoiceStudio 4.4 万星深度拆解——ElevenLabs... | 2026-09-29 | 其他 |
+| [2026-09-28-vercel-scriptc-typescript-to-native-compiler.md](https://github.com/kejun/blogpost/blob/main/2026-09-28-vercel-scriptc-typescript-to-native-compiler.md) | 当 TypeScript 决定"抛弃"V8：Vercel scriptc 深度拆解——320K... | 2026-09-28 | 其他 |
+| [2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md](https://github.com/kejun/blogpost/blob/main/2026-09-27-transformers-gguf-native-inference-kernel-disaggregation.md) | 当 transformers 开始"说 llama.cpp 的语言"：GGUF 原生推理深度拆... | 2026-09-27 | AI技术 |
+| [2026-09-26-paperclip-agent-company-control-plane.md](https://github.com/kejun/blogpost/blob/main/2026-09-26-paperclip-agent-company-control-plane.md) | 当 Agent 开始"上班"：Paperclip 8.5 万星背后——从"零人类公司"到 Ag... | 2026-09-26 | AI技术 |
+| [2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md](https://github.com/kejun/blogpost/blob/main/2026-09-25-hindsight-agent-memory-that-learns-biomimetic-sota.md) | 当记忆开始"学习"：Hindsight 2.7 万星背后——从榜单中游到 91.4% 的 Ag... | 2026-09-25 | 记忆系统 |
+| [2026-09-24-impeccable-ai-slop-design-detector.md](https://github.com/kejun/blogpost/blob/main/2026-09-24-impeccable-ai-slop-design-detector.md) | 当"AI 味"成为工程问题：Impeccable 7 万星背后——模型掷不出自己的骰子，61 ... | 2026-09-24 | AI技术 |
+| [2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md](https://github.com/kejun/blogpost/blob/main/2026-09-23-google-ax-agent-orchestration-kubernetes-for-agents.md) | 当 Agent 有了自己的"Kubernetes"：Google AX 单日 2300 星背后... | 2026-09-23 | AI技术 |
 | [2026-09-22-builderio-agent-native-action-first-agentic-apps.md](https://github.com/kejun/blogpost/blob/main/2026-09-22-builderio-agent-native-action-first-agentic-apps.md) | 当 Agent 不再"点击"UI：Builder.io 开源 Agent-Native 框架与... | 2026-09-22 | AI技术 |
 | [2026-09-21-ecc-agent-harness-operating-system.md](https://github.com/kejun/blogpost/blob/main/2026-09-21-ecc-agent-harness-operating-system.md) | 当 Claude Code 有了自己的"操作系统"：ECC 26 万星背后的上下文经济学、本能... | 2026-09-21 | AI技术 |
 | [2026-09-20-needle3-automation-foundation-model-tiny-devices.md](https://github.com/kejun/blogpost/blob/main/2026-09-20-needle3-automation-foundation-model-tiny-devices.md) | 当 29MB 的模型开始"操控"你的家：Needle 3 与自动化基础模型的微型化突围 | 2026-09-20 | AI技术 |
@@ -178,7 +184,7 @@
 | [2026-07-08-agent-ready-api-design-benchmarking-libraries-for-ai-agents.md](https://github.com/kejun/blogpost/blob/main/2026-07-08-agent-ready-api-design-benchmarking-libraries-for-ai-agents.md) | Agent-Ready API：当你的软件库有了第一个「非人类用户」 | 2026-07-08 | AI技术 |
 | [2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-07-07-agent-interoperability-crisis-codex-plugin-herdr-cross-agent-protocol.md) | Agent 互操作性危机：当 Claude Code 开始调用 Codex——2026 年 A... | 2026-07-07 | AI技术 |
 | [2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-ai-taste-engineering-agent-aesthetic-quality-crisis.md) | AI 品味工程：当"审美"成为 Agent 时代的新工程学科——从 taste-skill 看... | 2026-07-06 | AI技术 |
-| [2026-07-06-edge-cases-skill-missed-edge-cases-zh.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-edge-cases-skill-missed-edge-cases-zh.md) | /edge-cases：一个专抓「漏掉的边界情况」的简单 skill | 2026-07-06 | AI技术 |
+| [2026-07-06-edge-cases-skill-missed-edge-cases-zh.md](https://github.com/kejun/blogpost/blob/main/2026-07-06-edge-cases-skill-missed-edge-cases-zh.md) | /edge-cases：一个专抓「漏掉的边界情况」的简单 skill | 2026-07-06 | 其他 |
 | [2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md](https://github.com/kejun/blogpost/blob/main/2026-07-05-better-models-worse-tools-agent-tool-use-regression-rl-overfitting.md) | 越强越脆弱：当 SOTA 模型开始"搞砸"工具调用——Better Models, Worse... | 2026-07-05 | AI技术 |
 | [2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md](https://github.com/kejun/blogpost/blob/main/2026-07-04-lm-dispersion-embedding-condensation-small-model-geometry.md) | 小模型的几何困境：嵌入坍缩与弥散损失——为什么"缩放定律"可能解释错了什么 | 2026-07-04 | AI技术 |
 | [2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md](https://github.com/kejun/blogpost/blob/main/2026-07-03-short-leash-ai-coding-methodology-agentic-engineering-discipline.md) | AI 编码的"短绳方法"：当 Vibe Coding 退潮，Agentic Engineeri... | 2026-07-03 | AI技术 |
@@ -393,4 +399,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-09-22 08:06*
+*由 OpenClaw Agent 自动生成于 2026-11-15 20:36*
