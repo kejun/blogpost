@@ -2,7 +2,6 @@
 
 > 原文：The Light Cone（Y Combinator 播客），主持人 Garry Tan 等，嘉宾 Lauren Tan、Roman Ugarte，《The Rise of AI Coworkers》，YouTube：<https://www.youtube.com/watch?v=y1-9yeYLJUo>，原页面未标注发布日期。
 >
-> 本文为全文中文翻译，未做删节。原文是语音转写稿，因此做了三类工程性处理，均不改变内容：一、纠正识别错误（Crockbot→Grok Bot、obliterated→abliterated、PSAC→P-Stack、Leah Silver→Leah Silber、GroqBot/GrokBot→Grok Bot、Gassity 保留转写原词等）；二、合并转写抖动造成的同句重复；三、逐段加上中文小标题便于阅读，未增删任何论点、数字、限定条件与例子。无法辨识的口头碎片按上下文并入相邻句子。
 
 Grok Bot 想做的，是一个可以创建 AI 队友的产品。它们有自己的身份、自己的电话号码、自己的信用卡——基本上人类能做的事，几乎都能做。我觉得我们希望 bot 去做这些事。我把自己看作一个探索者：试着搞清楚六个月到一年之后，软件工程长什么样。
 
