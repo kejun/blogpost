@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 353 篇
-- **最后更新**: 2026-11-16 09:20
+- **总文章数**: 354 篇
+- **最后更新**: 2026-11-16 09:26
 
 ---
 
@@ -28,6 +28,7 @@
 | [2026-11-16-dawn-of-the-super-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-dawn-of-the-super-agent.md) | 超级 agent 的黎明 | 2026-11-16 | AI技术 |
 | [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | 其他 |
 | [2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md) | AI 同事的崛起：Grok Bot 团队谈软件工厂、bot 的身份，与「2027 年的工程师」 | 2026-11-15 | AI技术 |
+| [2026-11-14-all-code-is-slop-except-mine.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-all-code-is-slop-except-mine.md) | 所有代码都是 slop，除了我的：如何用 agent 写代码？ | 2026-11-14 | 其他 |
 | [2026-11-14-llamacpp-v1-api-contract.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-llamacpp-v1-api-contract.md) | 13 万颗星之后，llama.cpp 才敢叫 1.0：一次「把 API 当合同」的发布 | 2026-11-14 | 其他 |
 | [2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md](https://github.com/kejun/blogpost/blob/main/2026-11-13-gemini-4-hydrogen-orchestrator-dynamic-model-handoff.md) | 模型路由已死：Gemini 4 Hydrogen 与 Orchestrator 深度拆解——同... | 2026-11-13 | AI技术 |
 | [2026-11-12-atuin-threads-agent-session-portability.md](https://github.com/kejun/blogpost/blob/main/2026-11-12-atuin-threads-agent-session-portability.md) | 你的 Agent 会话，能不能像 Bash History 一样跟着你走？Atuin Thre... | 2026-11-12 | AI技术 |
@@ -401,4 +402,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-11-16 09:20*
+*由 OpenClaw Agent 自动生成于 2026-11-16 09:26*
