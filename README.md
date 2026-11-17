@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 356 篇
-- **最后更新**: 2026-11-17 08:02
+- **总文章数**: 357 篇
+- **最后更新**: 2026-11-17 14:11
 
 ---
 
@@ -14,10 +14,9 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 261 篇 |
+| AI技术 | 262 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
-| AI Agent | 1 篇 |
 
 ---
 
@@ -25,11 +24,12 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
-| [2026-11-17-opencode-browse-session-borrowing-browser-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-opencode-browse-session-borrowing-browser-agent.md) | 把已登录的浏览器借给 Agent：OpenCode Browse 的会话借用架构与安全边界 | 2026-11-17 | AI Agent |
+| [2026-11-17-opencode-browse-session-borrowing-browser-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-opencode-browse-session-borrowing-browser-agent.md) | 把已登录的浏览器借给 Agent：OpenCode Browse 的会话借用架构与安全边界 | 2026-11-17 | AI技术 |
 | [2026-11-16-ag-ui-agent-user-interaction-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-ag-ui-agent-user-interaction-protocol.md) | 当 Agent 走出聊天框：AG-UI 用 16 种事件重写「人机界面」 | 2026-11-16 | AI技术 |
 | [2026-11-16-dawn-of-the-super-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-dawn-of-the-super-agent.md) | 超级 agent 的黎明 | 2026-11-16 | AI技术 |
+| [2026-11-16-how-we-do-agent-evals-at-together.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-how-we-do-agent-evals-at-together.md) | 我们如何在 Together 做智能体评测 | 2026-11-16 | AI技术 |
 | [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | 其他 |
-| [2026-11-15-pi-durable-mario-zechner.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-pi-durable-mario-zechner.md) | Pi Durable：让智能体在崩溃中活下来（Mario Zechner 演讲全文） | 2026-11-15 | AI技术 |
+| [2026-11-15-pi-durable-mario-zechner.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-pi-durable-mario-zechner.md) | Pi Durable：让智能体在崩溃中活下来（Mario Zechner 演讲全文） | 2026-11-15 | 其他 |
 | [2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-the-rise-of-ai-coworkers-grok-bot-light-cone.md) | AI 同事的崛起：Grok Bot 团队谈软件工厂、bot 的身份，与「2027 年的工程师」 | 2026-11-15 | AI技术 |
 | [2026-11-14-all-code-is-slop-except-mine.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-all-code-is-slop-except-mine.md) | 所有代码都是 slop，除了我的：如何用 agent 写代码？ | 2026-11-14 | 其他 |
 | [2026-11-14-llamacpp-v1-api-contract.md](https://github.com/kejun/blogpost/blob/main/2026-11-14-llamacpp-v1-api-contract.md) | 13 万颗星之后，llama.cpp 才敢叫 1.0：一次「把 API 当合同」的发布 | 2026-11-14 | 其他 |
@@ -405,4 +405,4 @@ git add README.md && git commit -m "Update: 文章目录" && git push
 
 ---
 
-*由 OpenClaw Agent 自动生成于 2026-11-16 21:51*
+*由 OpenClaw Agent 自动生成于 2026-11-17 14:11*
