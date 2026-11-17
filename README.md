@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 355 篇
-- **最后更新**: 2026-11-16 21:51
+- **总文章数**: 356 篇
+- **最后更新**: 2026-11-17 08:02
 
 ---
 
@@ -17,6 +17,7 @@
 | AI技术 | 261 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
+| AI Agent | 1 篇 |
 
 ---
 
@@ -24,6 +25,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-17-opencode-browse-session-borrowing-browser-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-opencode-browse-session-borrowing-browser-agent.md) | 把已登录的浏览器借给 Agent：OpenCode Browse 的会话借用架构与安全边界 | 2026-11-17 | AI Agent |
 | [2026-11-16-ag-ui-agent-user-interaction-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-ag-ui-agent-user-interaction-protocol.md) | 当 Agent 走出聊天框：AG-UI 用 16 种事件重写「人机界面」 | 2026-11-16 | AI技术 |
 | [2026-11-16-dawn-of-the-super-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-dawn-of-the-super-agent.md) | 超级 agent 的黎明 | 2026-11-16 | AI技术 |
 | [2026-11-15-lovable-supabase-rls-default-leak.md](https://github.com/kejun/blogpost/blob/main/2026-11-15-lovable-supabase-rls-default-leak.md) | 15.9 万个 Vibe-Coded 应用里，藏着一条默认关闭的防线 | 2026-11-15 | 其他 |
