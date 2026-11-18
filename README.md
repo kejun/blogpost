@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 358 篇
-- **最后更新**: 2026-11-17 19:20
+- **总文章数**: 359 篇
+- **最后更新**: 2026-11-18 08:02
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 263 篇 |
+| AI技术 | 264 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md) | GPT-6.2 Astra / Sol：前沿模型的竞争，正在从「多强」变成「每任务多少钱」 | 2026-11-18 | AI技术 |
 | [2026-11-17-claude-code-team-verification.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-claude-code-team-verification.md) | Claude Code 团队是怎么看待「验证」的：3 类测试，与一套让 90% 代码由 AI 写的流程 | 2026-11-17 | AI技术 |
 | [2026-11-17-opencode-browse-session-borrowing-browser-agent.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-opencode-browse-session-borrowing-browser-agent.md) | 把已登录的浏览器借给 Agent：OpenCode Browse 的会话借用架构与安全边界 | 2026-11-17 | AI技术 |
 | [2026-11-16-ag-ui-agent-user-interaction-protocol.md](https://github.com/kejun/blogpost/blob/main/2026-11-16-ag-ui-agent-user-interaction-protocol.md) | 当 Agent 走出聊天框：AG-UI 用 16 种事件重写「人机界面」 | 2026-11-16 | AI技术 |
