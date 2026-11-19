@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 360 篇
-- **最后更新**: 2026-11-18 22:25
+- **总文章数**: 361 篇
+- **最后更新**: 2026-11-19 08:01
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 265 篇 |
+| AI技术 | 266 篇 |
 | 数据库 | 2 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-19-claude-bughunter-skill-bundles.md](https://github.com/kejun/blogpost/blob/main/2026-11-19-claude-bughunter-skill-bundles.md) | 681 份漏洞报告，83 个技能：Claude-BugHunter 与「技能包」的工程化时刻 | 2026-11-19 | AI技术 |
 | [2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md) | GPT-6.2 Astra / Sol：前沿模型的竞争，正在从「多强」变成「每任务多少钱」 | 2026-11-18 | AI技术 |
 | [2026-11-17-studios-over-factories.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-studios-over-factories.md) | 要工作室，不要工厂：AI 接管生产之后，创作工具该变成什么样 | 2026-11-17 | AI技术 |
 | [2026-11-17-claude-code-team-verification.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-claude-code-team-verification.md) | Claude Code 团队是怎么看待「验证」的：3 类测试，与一套让 90% 代码由 AI 写的流程 | 2026-11-17 | AI技术 |
