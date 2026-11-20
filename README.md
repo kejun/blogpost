@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 361 篇
-- **最后更新**: 2026-11-19 08:01
+- **总文章数**: 362 篇
+- **最后更新**: 2026-11-20 08:02
 
 ---
 
@@ -15,7 +15,7 @@
 |------|--------|
 | 记忆系统 | 26 篇 |
 | AI技术 | 266 篇 |
-| 数据库 | 2 篇 |
+| 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
 ---
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-20-blobasaur-sqlite-distributed-blob-store.md](https://github.com/kejun/blogpost/blob/main/2026-11-20-blobasaur-sqlite-distributed-blob-store.md) | 一个 SQLite 文件撑起每秒 2.5 万次写：Blobasaur 与反常识的存储选型 | 2026-11-20 | 数据库 |
 | [2026-11-19-claude-bughunter-skill-bundles.md](https://github.com/kejun/blogpost/blob/main/2026-11-19-claude-bughunter-skill-bundles.md) | 681 份漏洞报告，83 个技能：Claude-BugHunter 与「技能包」的工程化时刻 | 2026-11-19 | AI技术 |
 | [2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md](https://github.com/kejun/blogpost/blob/main/2026-11-18-gpt-6-2-astra-sol-cost-per-task-frontier-economics.md) | GPT-6.2 Astra / Sol：前沿模型的竞争，正在从「多强」变成「每任务多少钱」 | 2026-11-18 | AI技术 |
 | [2026-11-17-studios-over-factories.md](https://github.com/kejun/blogpost/blob/main/2026-11-17-studios-over-factories.md) | 要工作室，不要工厂：AI 接管生产之后，创作工具该变成什么样 | 2026-11-17 | AI技术 |
