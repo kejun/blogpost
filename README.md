@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 363 篇
-- **最后更新**: 2026-11-21 08:02
+- **总文章数**: 364 篇
+- **最后更新**: 2026-11-22 08:03
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 267 篇 |
+| AI技术 | 268 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -24,6 +24,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-22-inkling-2-mini-looped-transformer.md](https://github.com/kejun/blogpost/blob/main/2026-11-22-inkling-2-mini-looped-transformer.md) | Inkling 2 Mini 深度拆解：24 层跑 48 层，20GB 跑出 79.2% SWE-bench | 2026-11-22 | AI技术 |
 | [2026-11-21-cli-anything-agent-native-software.md](https://github.com/kejun/blogpost/blob/main/2026-11-21-cli-anything-agent-native-software.md) | 让所有软件变成 Agent 原生：CLI-Anything 的六万星实验与 GUI Agent 路线之争 | 2026-11-21 | AI技术 |
 | [2026-11-20-blobasaur-sqlite-distributed-blob-store.md](https://github.com/kejun/blogpost/blob/main/2026-11-20-blobasaur-sqlite-distributed-blob-store.md) | 一个 SQLite 文件撑起每秒 2.5 万次写：Blobasaur 与反常识的存储选型 | 2026-11-20 | 数据库 |
 | [2026-11-19-claude-bughunter-skill-bundles.md](https://github.com/kejun/blogpost/blob/main/2026-11-19-claude-bughunter-skill-bundles.md) | 681 份漏洞报告，83 个技能：Claude-BugHunter 与「技能包」的工程化时刻 | 2026-11-19 | AI技术 |
