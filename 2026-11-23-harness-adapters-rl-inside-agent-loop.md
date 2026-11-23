@@ -14,9 +14,9 @@ Hugging Face 今天发布的 harness adapters 工作，把这个假设掀了一�
 | Hermes Agent | 29.4% | 43.1% | +13.7 |
 | OpenCode | 35.3% | 51.0% | +15.7 |
 
-Terminal-Bench 2.1 全量 89 题上，pi 提升 +16.3 点（16 题新解、2 题丢失，p = 0.001），Hermes +14.1（p = 0.03），OpenCode 整体 +6.0，但在 66 道"没有参与挑选 checkpoint"的题上是 +13.6（p = 0.035）。
+Terminal-Bench 2.1 的完整套件有 89 题。关闭 thinking 时，pi 在基座和 adapter 均有评分的 86 题上，单次尝试通过率（pass@1）从 39.5% 升到 55.8%，提升 16.3 个百分点（新解 16 题、丢掉 2 题，p = 0.0013）。Hermes 提升 14.1 个百分点（p = 0.03）；OpenCode 整体提升 6.0 个百分点，在未用于挑选 checkpoint 的 66 题上提升 13.6 个百分点（p = 0.035）。
 
-更扎眼的是效率：在两者都能解出的任务上，adapters 的**工具调用次数少了 56%–72%**（SWE-bench Pro）和 53%–70%（Terminal-Bench）。官方开头给的那组算术更直观——同一个模型在 pi 上从 39% 到 55% pass@1，平均 token 从 2.9K 降到 1.5K。
+更扎眼的是效率：在基座和 adapter 都能解出的任务上，adapters 的**工具调用次数少了 56%–72%**（SWE-bench Pro）和 53%–70%（Terminal-Bench）。[pi 模型卡](https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted#results) 还给出了一组更具体的数据：在双方都解出的 32 道 Terminal-Bench 2.1 题上，每题生成 token 数的中位数从 2.9K 降到 1.5K。这只衡量这些共同解出题目的模型输出，不是全套评测的平均用量，也不是账单成本。
 
 这不是"小模型追平大模型"的故事，也不是"新架构"的故事。它是一个关于**训练环境**的故事：模型缺的往往不是知识，而是"在这个 harness 里第一次就把事做对"的习惯。
 
@@ -140,9 +140,9 @@ HF 借的是 OpenEnv 的 Harbor 集成和 TRL 的 OpenEnv 指南：**把目标 h
 
 这带来一个很尖锐的方法论问题：**你测到的提升，有多少来自"更会做事"，多少来自"偷偷开始思考"？**
 
-作者的回应是坦诚且技术上站得住的：在完全相同的条件下（固定 token 预算、同样 thinking off），adapter 仍然远超基座非思考版，并且匹配 thinking 版的水平，同时 token 效率高得多。也就是说，即便把"泄漏的思考"算进去，账还是划算的。但他们也明确说这需要后续工作：对纯 thinking 模型重跑同一套流程、研究 hybrid thinking 的训练策略。
+在相同预算下，关闭 thinking 的 adapter 明显优于同样关闭 thinking 的基座；但能否追平开启 thinking 的基座，要分基准看。[pi 模型卡](https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted#thinking-vs-no-thinking) 显示：在 Terminal-Bench 2.1 四组均有评分的 83 题上，关闭 thinking 的 adapter 得分 56.6%，开启 `xhigh` thinking 的基座得分 54.2%；在 SWE-bench Pro 最难的 51 题上，两者分别是 64.7% 和 74.5%。后一项差异在该样本中未达统计显著（p = 0.33），但这不等于证明两者等效。作者仍把在纯 thinking 模型上重跑流程、研究混合 thinking 策略列为后续工作。
 
-我给这件事的解读是：**Agent RL 的"能力提升"里，有一部分其实是"推理预算的重新分配"。** 模型没有被教得更聪明，它被教会在哪里花 token。这在工程上完全有价值——1.5K token 干完 2.9K token 的活，就是实打实的成本下降——但它不是"能力"的同义词。任何把这类结果包装成"模型变强了 X%"的说法，都应该补上这半句。
+我给这件事的解读是：**Agent RL 的一部分收益，可能来自推理预算的重新分配。** 在两种模型都关闭 thinking 的那组对照中，adapter 在双方都解出的题上通常能用更少的输出完成任务。这有工程价值，但不能据此推断整套任务的账单成本，更不能把它等同于通用能力提升。
 
 ## 八、如果你要复现：一份务实的清单
 
