@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 367 篇
-- **最后更新**: 2026-11-24 08:02
+- **总文章数**: 368 篇
+- **最后更新**: 2026-11-24 19:32
 
 ---
 
@@ -14,7 +14,7 @@
 | 类别 | 文章数 |
 |------|--------|
 | 记忆系统 | 26 篇 |
-| AI技术 | 271 篇 |
+| AI技术 | 272 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 1 篇 |
 
@@ -25,6 +25,7 @@
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
 | [2026-11-24-nariq-sub3bit-agentic-quantization.md](https://github.com/kejun/blogpost/blob/main/2026-11-24-nariq-sub3bit-agentic-quantization.md) | 27B 模型压到 10GB 还不掉 Agent 分数：NariQ 把量化的标尺换成模型自己写的 token | 2026-11-24 | AI技术 |
+| [2026-11-23-software-factories-vs-agent-teams.md](https://github.com/kejun/blogpost/blob/main/2026-11-23-software-factories-vs-agent-teams.md) | 软件工厂 vs. agent 团队 | 2026-11-23 | AI技术 |
 | [2026-11-23-harness-adapters-rl-inside-agent-loop.md](https://github.com/kejun/blogpost/blob/main/2026-11-23-harness-adapters-rl-inside-agent-loop.md) | 把 Harness 当成训练环境：HF 用三个 LoRA 把 Qwen3.8-27B 的 SWE-bench Pro 从 39% 拉到 65% | 2026-11-23 | AI技术 |
 | [2026-11-22-superintelligence-is-arriving.md](https://github.com/kejun/blogpost/blob/main/2026-11-22-superintelligence-is-arriving.md) | 超级智能正在到来 | 2026-11-22 | AI技术 |
 | [2026-11-22-inkling-2-mini-looped-transformer.md](https://github.com/kejun/blogpost/blob/main/2026-11-22-inkling-2-mini-looped-transformer.md) | Inkling 2 Mini 深度拆解：24 层跑 48 层，20GB 跑出 79.2% SWE-bench | 2026-11-22 | AI技术 |
