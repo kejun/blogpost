@@ -1,6 +1,6 @@
 # 一个 plugin.json，装下所有 Agent 客户端：Agent Plugins 1.0 拆解，与它故意没写的权限模型
 
-11 月 24 日，Cursor 的官方插件仓库 [`cursor/plugins`](https://github.com/cursor/plugins) 又合并了一批提交。这个仓库今年 1 月 23 日创建，到写这篇文章时是 **19,194 星**，最新一次提交是 11 月 24 日 15:17（太平洋时间）的 `41e4009`。仓库里躺着 **159 个 `plugin.json` 清单、175 个 `SKILL.md`、16 个 agent 定义、142 个第三方插件目录**，整个仓库 31 MB。
+11 月 24 日，Cursor 的官方插件仓库 [`cursor/plugins`](https://github.com/cursor/plugins) 又合并了一批提交。这个仓库今年 1 月 23 日创建，到写这篇文章时是 **19,194 星**，最新一次提交是 11 月 24 日 15:17（太平洋时间）的 `41e4009`。仓库里躺着 **159 个 `.cursor-plugin/plugin.json` 清单（另有 5 个非 Cursor 格式清单）、175 个 `SKILL.md`、16 个 agent 定义、142 个第三方插件目录**，整个仓库 31 MB。
 
 单看这些数字，它像是一个"官方插件合集"。但真正值得写的是它旁边那份文档：Cursor 现在把插件格式分成了两种——自己的 `.cursor-plugin/plugin.json`，和一份**厂商中立的开放标准** [Agent Plugins](https://agent-plugins.org)。后者 1.0.0 已发布，1.1.0 还在草案阶段，技术指导委员会（TSC）的初始核心维护者来自 **Amazon、Cursor、Microsoft、OpenAI、Vercel**。
 
@@ -101,7 +101,7 @@ Agent Plugins 的定位非常克制：它只标准化**能跨客户端复用的�
 
 ## 三、仓库实证：一个仓库，两套清单，N 个客户端
 
-理论说完，看真实仓库。`cursor/plugins` 的顶层有 21 个目录，其中 `third_party/` 下 142 个集成方；根目录同时存在 `.cursor-plugin/` 和 `.claude-plugin/` 两个清单目录。后者是 Claude Code 生态的 marketplace 约定，前者是 Cursor 私有格式。
+理论说完，看真实仓库。`cursor/plugins` 的顶层有 21 个不带点的目录（另有 `.cursor-plugin/`、`.claude-plugin/` 两个隐藏清单目录），其中 `third_party/` 下 142 个集成方。根目录同时存在这两套 marketplace 清单：后者是 Claude Code 生态的 marketplace 约定，前者是 Cursor 私有格式。
 
 这不是"历史遗留"。打开两个文件能看到明显的分工：
 
@@ -115,7 +115,7 @@ Agent Plugins 的定位非常克制：它只标准化**能跨客户端复用的�
 
 `.claude-plugin/marketplace.json` 用的是一套精简得多的字段：`name`、`owner`、`plugins[].name/source/description`。两者的 plugin 条目几乎一一对应，`source` 指向同一个目录。这说明作者在维护**一份资产、多份发布元数据**——正是 Agent Plugins 想消灭的那种重复，只不过这里用脚本和目录约定把成本压到了最低。
 
-### 3.1 159 个清单里藏着三种插件形态
+### 3.1 159 个 Cursor 清单里藏着三种插件形态
 
 按组件构成分类，仓库里的插件大致是三类，这个分类对理解"插件到底是什么"很有帮助：
 
@@ -254,7 +254,7 @@ Agent Plugins 1.0.0 的 `FUTURE_CONSIDERATIONS.md` 里有五段"v1.0.0 不定义
 - **底层"可移植包"**：1 个 `plugin.json` + skills + `mcp.json`，能进所有客户端，但表达力弱；
 - **上层"客户端增强包"**：`.cursor-plugin/plugin.json` 里再加 rules/agents/hooks/commands，只有 Cursor 用户拿得到完整体验。
 
-`cursor/plugins` 仓库就是这个结构的活样本：根目录同时维护两套 marketplace 清单，159 个 `plugin.json` 里有相当一部分是 `.cursor-plugin/` 格式。这不是过渡期的混乱，而很可能是**长期稳态**——因为客户端永远有动力做差异化，而作者永远有动力只维护一份。
+`cursor/plugins` 仓库就是这个结构的活样本：根目录同时维护两套 marketplace 清单，而 164 个 `plugin.json` 里有 159 个是 `.cursor-plugin/` 格式，另外 5 个是非 `.cursor-plugin/` 路径的清单，分布在 `origin-apps/`、`pstack/` 与 `harness/pstack/claude-code/` 下（含标准格式与 Claude Code 格式）。这不是过渡期的混乱，而很可能是**长期稳态**——因为客户端永远有动力做差异化，而作者永远有动力只维护一份。
 
 ## 五、工程建议：把插件当供应链，而不是当配置
 
@@ -294,7 +294,7 @@ Agent Plugins 1.0 是一份克制得近乎冷淡的规范。它只做四件事�
 
 **资料来源**
 
-- `cursor/plugins` 仓库：GitHub API 与本地 clone（19,194 stars，159 个 `plugin.json`，175 个 `SKILL.md`，16 个 agent 定义，142 个 `third_party/` 目录，最新提交 `41e4009`，2026-11-24）
+- `cursor/plugins` 仓库：GitHub API 与本地 clone（19,194 stars，159 个 `.cursor-plugin/plugin.json`，175 个 `SKILL.md`，16 个 agent 定义，142 个 `third_party/` 目录，最新提交 `41e4009`，2026-11-24）
 - Cursor 文档：Plugins 概览与 Plugins reference（两种格式、组件对照、marketplace 审核、team marketplace 安装模式、`${PLUGIN_ROOT}` 不展开的说明）
 - Agent Plugins：agent-plugins.org 与 `agentplugins/agent-plugins-spec` 仓库（1.0.0 规范正文、`FUTURE_CONSIDERATIONS.md`、1.1.0 草案状态、TSC 初始成员）
 - 案例：`thermos`、`cursor-team-kit`、`third_party/gmail`、`third_party/tesla` 的清单与 `SKILL.md` 原文
