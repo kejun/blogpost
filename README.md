@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 371 篇
-- **最后更新**: 2026-11-26 12:09
+- **总文章数**: 372 篇
+- **最后更新**: 2026-11-27 08:02
 
 ---
 
@@ -17,7 +17,7 @@
 | AI技术 | 273 篇 |
 | 数据库 | 3 篇 |
 | 访谈翻译 | 2 篇 |
-| AI基础设施 | 1 篇 |
+| AI基础设施 | 2 篇 |
 
 ---
 
@@ -25,6 +25,7 @@
 
 | 文件名 | 标题 | 日期 | 分类 |
 |--------|------|------|------|
+| [2026-11-27-amd-llamacpp-rdna-boosts-purity.md](https://github.com/kejun/blogpost/blob/main/2026-11-27-amd-llamacpp-rdna-boosts-purity.md) | 同一份模型，35 → 55 t/s：AMD 本地推理的「纯净加速」路线 | 2026-11-27 | AI基础设施 |
 | [2026-11-26-sqlite-richard-hipp-interview.md](https://github.com/kejun/blogpost/blob/main/2026-11-26-sqlite-richard-hipp-interview.md) | SQLite 如何成为基础设施 | 2026-11-26 | 访谈翻译 |
 | [2026-11-26-model-fingerprinting-via-latency.md](https://github.com/kejun/blogpost/blob/main/2026-11-26-model-fingerprinting-via-latency.md) | 延迟不会说谎：从毫秒级时间戳里"挖"出一个闭源模型的底座 | 2026-11-26 | AI基础设施 |
 | [2026-11-25-agent-plugins-1-0-plugin-spec.md](https://github.com/kejun/blogpost/blob/main/2026-11-25-agent-plugins-1-0-plugin-spec.md) | 一个 plugin.json 装下所有 Agent 客户端：Agent Plugins 1.0 拆解，与它故意没写的权限模型 | 2026-11-25 | AI技术 |
