@@ -331,9 +331,11 @@ Agent Bridge 可以设置 allow 回调，逐步批准或拒绝 Agent 的动作�
 
 还要注意：
 
-- snapshot 和 query 的内容可能包含用户输入，必须视为不可信数据。
-- act 是可能产生实际后果的操作，应该按动作风险配置权限。
-- 敏感字段应避免暴露给 Agent；UI SDK 对标记为敏感的字段有脱敏处理。
+- snapshot 和 query 会返回页面标签、文案和用户输入；官方工具注解将这些结果标记为不可信内容，Agent 不应把它们当成系统指令。
+- 没有配置 allow 时，Bridge 会接受支持的动作；应用应显式设置 allow 白名单。注册 WebMCP 工具时还必须提供独立的 allow，不能只依赖页面内 Bridge 的权限回调。
+- data-agent-hidden 会让区域从 snapshot 和 query 中完全隐藏；data-agent-secret 会保留组件，但把已填写的值显示为 [redacted]。密码、银行卡和一次性验证码字段默认按 secret 处理。
+- data-agent-confirm 用来标记必须由用户确认的动作。确认文案会进入 Agent 可见的组件信息，Agent 需要请求用户批准后才能继续。
+- act 按步骤顺序执行；如果后续步骤失败，前面已经完成的动作不会自动回滚。多步写操作应设计幂等性、审计和补偿机制。
 - 高风险操作应保留人工确认、审计和撤销能力。
 
 因此，Agent Bridge 不只是「让 Agent 点击更快」，也是把 UI 操作纳入明确的权限边界。
@@ -591,6 +593,7 @@ UI SDK 目前仍在 Beta，但它提出的问题值得整个 UI 工具链认真�
 - [Testing](https://ui-sdk.dev/docs/core/testing)
 - [Built for Agents](https://ui-sdk.dev/docs/agents)
 - [WebMCP](https://ui-sdk.dev/docs/agents/connect-an-agent/webmcp)
+- [Permissions](https://ui-sdk.dev/docs/agents/connect-an-agent/permissions)
 - [UI SDK GitHub 仓库](https://github.com/vercel-labs/ui)
 - [UI SDK 测试说明](https://github.com/vercel-labs/ui/blob/main/tests/README.md)
 
