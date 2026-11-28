@@ -4,8 +4,8 @@
 
 ## 📊 统计
 
-- **总文章数**: 373 篇
-- **最后更新**: 2026-11-28 08:03
+- **总文章数**: 374 篇
+- **最后更新**: 2026-11-28
 
 ---
 
@@ -24,6 +24,7 @@
 ## 📑 文章列表
 
 | 文件名 | 标题 | 日期 | 分类 |
+| [2026-11-28-sara-du-conformal-gate-proactive-agents.md](https://github.com/kejun/blogpost/blob/main/2026-11-28-sara-du-conformal-gate-proactive-agents.md) | 让 Agent 学会什么时候保持沉默：Conformal Gate 如何把云端判断压缩到微秒级 | 2026-11-28 | AI技术 |
 |--------|------|------|------|
 | [2026-11-28-superpowers-process-as-code.md](https://github.com/kejun/blogpost/blob/main/2026-11-28-superpowers-process-as-code.md) | 32.8 万星之后：Superpowers 把「软件工程方法论」写成了 Agent 的执行程序 | 2026-11-28 | AI技术 |
 | [2026-11-27-amd-llamacpp-rdna-boosts-purity.md](https://github.com/kejun/blogpost/blob/main/2026-11-27-amd-llamacpp-rdna-boosts-purity.md) | 同一份模型，35 → 55 t/s：AMD 本地推理的「纯净加速」路线 | 2026-11-27 | AI基础设施 |
